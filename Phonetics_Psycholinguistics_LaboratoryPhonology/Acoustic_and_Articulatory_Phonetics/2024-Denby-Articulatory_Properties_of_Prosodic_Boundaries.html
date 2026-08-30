@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Denby &amp; Goldrick (2021) — Causal inference in phonotactic adaptation</title>
+<style>
+  :root{
+    --ink:#1c1c1c; --mut:#6b6b6b; --rule:#e0e0e0; --accent:#7a2e2e; --paper:#fdfcfa;
+    --code:#f2efe9; --hl:#f7f2e7;
+  }
+  *{box-sizing:border-box}
+  body{font:17px/1.65 Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);
+       max-width:46rem;margin:0 auto;padding:3rem 1.5rem 6rem;}
+  h1{font-size:1.7rem;line-height:1.3;margin:0 0 .4rem;font-weight:600}
+  h2{font-size:1.15rem;margin:2.6rem 0 .6rem;font-weight:600;letter-spacing:.02em;
+     text-transform:uppercase;color:var(--accent)}
+  h3{font-size:1rem;margin:1.4rem 0 .4rem;font-weight:600}
+  .cite{color:var(--mut);font-size:.95rem;margin-bottom:2rem}
+  p{margin:.55rem 0}
+  ul,ol{margin:.5rem 0 .9rem;padding-left:1.4rem}
+  li{margin:.25rem 0}
+  blockquote{border-left:3px solid var(--rule);margin:1.1rem 0;padding:.2rem 0 .2rem 1.1rem;
+             color:#333;font-style:italic}
+  .gist{background:var(--hl);border:1px solid var(--rule);border-radius:4px;
+        padding:1.1rem 1.3rem;margin:1.4rem 0}
+  .gist ul{margin:.3rem 0 0}
+  .gist strong{font-variant:small-caps;letter-spacing:.04em}
+  code{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:.85em;
+       background:var(--code);padding:.1em .35em;border-radius:3px}
+  .tag{display:inline-block;font:600 .7rem/1.6 ui-monospace,monospace;letter-spacing:.08em;
+       text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+       border-radius:999px;padding:0 .6rem;margin:0 .3rem .3rem 0}
+  hr{border:0;border-top:1px solid var(--rule);margin:2.5rem 0}
+  .foot{font-size:.85rem;color:var(--mut)}
+  a{color:var(--accent)}
+  .nav{font-size:.85rem;margin-bottom:2rem}
+  .nav a{margin-right:.8rem}
+</style>
+</head>
+<body>
+
+<nav class="nav"><a href="synthesis.html">← Consolidated synthesis</a></nav>
+
+<h1>The voice of experience: Causal inference in phonotactic adaptation</h1>
+<div class="cite">Thomas Denby &amp; Matthew Goldrick — <em>Laboratory Phonology: Journal of the Association for Laboratory Phonology</em>, 12(1), 5, 1–28 (2021). DOI: <a href="https://doi.org/10.5334/labphon.267">10.5334/labphon.267</a></div>
+
+<div class="gist">
+<strong>The gist.</strong> Listeners rapidly adapt to novel <em>phonotactic</em> constraints (which sounds may appear where in syllables), but the degree of adaptation depends on <em>causal inference about the talker</em>: when two speakers plausibly speak <em>different languages</em> (English vs French, or Hindi vs Hungarian), listeners generalise each speaker's constraint strongly; when speakers plausibly share a language (two native English speakers), adaptation is weak. Across three experiments (640+ listeners), the pooled effect is ~2×: a ~18.7% "legality advantage" for different-language talker pairs vs ~9.9% for same-language pairs. This supports the <em>rational learner framework</em> (Kleinschmidt &amp; Jaeger 2015): prior experience with the structure of variation — languages differ in phonotactics, individuals within a dialect mostly don't — constrains what you learn from whom.
+</div>
+
+<h2>What the paper does</h2>
+<p>Three preregistered experiments using a <strong>recognition-memory phonotactic-learning paradigm</strong> (Bernard 2015): listeners hear syllable sequences from two "talkers," each subject to a different constraint (e.g. Talker A's codas are fricatives, Talker B's are stops), then must judge whether novel syllables were heard before. A "legality advantage" (higher false-alarm rate on constraint-following novel items) indicates the constraint was learned. The twist: the two talkers' <em>language backgrounds</em> are manipulated — same native language, same non-native language, or different languages, with weak vs strong phonetic cues to background.</p>
+
+<h2>Key findings</h2>
+<ul>
+  <li><strong>Different backgrounds → strong adaptation; shared backgrounds → weak adaptation.</strong> English listeners adapted more to talker-specific constraints when the talkers were (perceived as) speakers of different languages — even two <em>non-native</em> languages (Hindi vs Hungarian) — showing fine-grained distinctions among non-native grammars, not just native-vs-foreign.</li>
+  <li><strong>Cue strength to language background mattered less than expected</strong> (weak [u] vs strong [y] French vowel cues produced the same adaptation) — any reliable signal of "different languages" sufficed.</li>
+  <li><strong>Surprising mid-case:</strong> two French (non-native, shared) talkers produced moderate adaptation — listeners are less sure two non-native speakers share a grammar than two natives do, because their knowledge of the non-native phonetics is sparser.</li>
+  <li><strong>L2 experience didn't matter:</strong> self-reported bilingualism/early-L2 did not modulate the effects — even modest exposure teaches the "different languages have different phonotactics" prior.</li>
+  <li>Learning still occurred in same-language conditions (weaker), showing bottom-up pattern evidence can partially override the prior (contra Onishi et al. 2002).</li>
+</ul>
+
+<h2>Interpretation &amp; caveats</h2>
+<p>The authors situate the work in the rational-learner/hierarchical-indexical account of adaptation: variation is attributed to sources (language → dialect → speaker) on the basis of prior structure, and adaptation targets the attributed source. Caveats: individual talker idiosyncrasies mattered (one anomalous talker shifted results), the weak/strong cue manipulation used a narrow phonetic contrast, and explicit beliefs about talkers were never probed.</p>
+
+<h2>Relevance to Calliope-TS</h2>
+<p>This is a learning/cognition paper, not a prosody paper — but it speaks to three things a poetry-scansion toolkit quietly depends on: <strong>how much to trust per-speaker or per-dialect regularity</strong>, <strong>how gradient phonotactic knowledge interacts with categorical grammar</strong>, and <strong>the epistemological status of "lab languages"</strong>:</p>
+<ul>
+  <li><strong>Insight: prior structure controls generalization.</strong> For Calliope's <em>language detection and per-language defaults</em>, this is a direct argument for modelling "Englishness" as a graded prior rather than a fixed grammar: the tool's English rules should be strongest exactly where variation across Englishes is smallest (core phonotactics), and weakest where dialectal variation is real (focus prosody — cf. the Kim &amp; Arnhold paper in this set).</li>
+  <li><strong>Insight: dictionary-vs-rule decisions are attribution problems.</strong> When Calliope assigns stress to an out-of-vocabulary word, it is implicitly asking "is this variance lexical (store it) or systematic (rule it)?" The rational-learner framing suggests a principled answer: rules for variance shared across speakers (phonotactics, stress windows), lexicon for variance that is word-specific — which is exactly Calliope's current architecture (CMU lexicon + OOV rules), now with a cognitive justification.</li>
+  <li><strong>Insight: analogy for corpus tuning.</strong> The "lab language" finding (Warker 2013: experimental constraints persist across a week of real English) has an engineering echo: a scansion tool tuned on a poetry corpus is learning a "lab language"; adaptation to it should be <em>slow and source-aware</em> — a caution against overfitting rule systems to one poet's/corpus's statistics (very much in the spirit of Calliope's standing law that no categorical rule may rest on broad POS/lemma classes).</li>
+  <li><strong>Insight: probabilistic weighting beats categorical flags.</strong> The legality-advantage methodology is a clean template for <em>evaluating</em> whether a candidate constraint (e.g. a new clash-resolution rule) is genuinely learned/generalised by a system across contexts, not just applied to the items it was written for.</li>
+</ul>
+
+<h2>Key named insights</h2>
+<ol>
+  <li><strong>Attribution-before-adaptation:</strong> learning is gated by whom you think the variation belongs to — a general principle for any system that tunes itself to a corpus or dialect.</li>
+  <li><strong>Shared-grammar prior:</strong> same-dialect talkers are assumed to share a grammar unless the signal says otherwise; the prior is weaker for non-native pairs.</li>
+  <li><strong>Phonotactics as the deep layer:</strong> cross-language phonotactic variation is large and systematic; within-dialect variation is minimal — the ideal substrate for source-attribution heuristics.</li>
+  <li><strong>Legality-advantage as an evaluation metric:</strong> a behavioural assay for whether a constraint was abstracted (generalised to novel items) vs memorised.</li>
+</ol>
+
+<hr>
+<p class="foot"><strong>Citation:</strong> Denby, T., &amp; Goldrick, M. (2021). The voice of experience: Causal inference in phonotactic adaptation. <em>Laboratory Phonology: Journal of the Association for Laboratory Phonology</em>, 12(1), 5, 1–28. <a href="https://doi.org/10.5334/labphon.267">https://doi.org/10.5334/labphon.267</a></p>
+<p class="foot"><strong>Key references inside:</strong> Kleinschmidt &amp; Jaeger (2015); Bernard (2015); Denby, Schecter, Arn, Dimov &amp; Goldrick (2018); Onishi, Chambers &amp; Fisher (2002); Kraljic, Samuel &amp; Brennan (2008); Liu &amp; Jaeger (2018); Warker (2013); Massaro &amp; Cohen (1983). OSF: <a href="https://osf.io/a6pjv/">osf.io/a6pjv</a>.</p>
+
+</body>
+</html>

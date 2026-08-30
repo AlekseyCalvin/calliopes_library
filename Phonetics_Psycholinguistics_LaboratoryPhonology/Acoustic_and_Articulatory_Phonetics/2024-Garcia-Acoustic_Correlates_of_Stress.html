@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garcia &amp; Goad (2024) — Weight effects and the role of the foot: English vs Portuguese</title>
+<style>
+  :root{
+    --ink:#1c1c1c; --mut:#6b6b6b; --rule:#e0e0e0; --accent:#7a2e2e; --paper:#fdfcfa;
+    --code:#f2efe9; --hl:#f7f2e7;
+  }
+  *{box-sizing:border-box}
+  body{font:17px/1.65 Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);
+       max-width:46rem;margin:0 auto;padding:3rem 1.5rem 6rem;}
+  h1{font-size:1.7rem;line-height:1.3;margin:0 0 .4rem;font-weight:600}
+  h2{font-size:1.15rem;margin:2.6rem 0 .6rem;font-weight:600;letter-spacing:.02em;
+     text-transform:uppercase;color:var(--accent)}
+  h3{font-size:1rem;margin:1.4rem 0 .4rem;font-weight:600}
+  .cite{color:var(--mut);font-size:.95rem;margin-bottom:2rem}
+  p{margin:.55rem 0}
+  ul,ol{margin:.5rem 0 .9rem;padding-left:1.4rem}
+  li{margin:.25rem 0}
+  blockquote{border-left:3px solid var(--rule);margin:1.1rem 0;padding:.2rem 0 .2rem 1.1rem;
+             color:#333;font-style:italic}
+  .gist{background:var(--hl);border:1px solid var(--rule);border-radius:4px;
+        padding:1.1rem 1.3rem;margin:1.4rem 0}
+  .gist ul{margin:.3rem 0 0}
+  .gist strong{font-variant:small-caps;letter-spacing:.04em}
+  code{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:.85em;
+       background:var(--code);padding:.1em .35em;border-radius:3px}
+  .tag{display:inline-block;font:600 .7rem/1.6 ui-monospace,monospace;letter-spacing:.08em;
+       text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+       border-radius:999px;padding:0 .6rem;margin:0 .3rem .3rem 0}
+  hr{border:0;border-top:1px solid var(--rule);margin:2.5rem 0}
+  .foot{font-size:.85rem;color:var(--mut)}
+  a{color:var(--accent)}
+  .nav{font-size:.85rem;margin-bottom:2rem}
+  .nav a{margin-right:.8rem}
+</style>
+</head>
+<body>
+
+<nav class="nav"><a href="synthesis.html">← Consolidated synthesis</a></nav>
+
+<h1>Weight effects and the role of the foot: English versus Portuguese</h1>
+<div class="cite">Guilherme D. Garcia &amp; Heather Goad — <em>Laboratory Phonology: Journal of the Association for Laboratory Phonology</em>, 15(1), 1–37 (2024). DOI: <a href="https://doi.org/10.16995/labphon.6420">10.16995/labphon.6420</a></div>
+
+<div class="gist">
+<strong>The gist.</strong> English and Brazilian Portuguese look like they have nearly identical stress systems (weight-sensitive, final/penult/antepenult windows), but this paper argues they are <em>formally different</em>: English is genuinely foot-based (binary moraic trochees), Portuguese may not build feet at all. Three converging arguments: (1) <strong>experimental</strong> — in forced-choice stress-preference tasks on nonce words, English speakers show a <em>neutral</em> weight effect in antepenultimate position (a heavy antepenult neither attracts nor repels stress), exactly as a moraic-trochee grammar predicts, while Portuguese speakers show a <em>positive</em> weight effect there (heavy antepenult attracts stress), which no foot-based parse can produce cleanly; (2) <strong>sonority</strong> — sonorant-vs-obstruent coda effects appear in Portuguese antepenults but not English; (3) <strong>word minimality</strong> — English lexical words, truncations, and hypocoristics are never monomoraic (bee, bit ok; *bɪ banned), while Portuguese freely tolerates subminimal CV words and monomoraic hypocoristics (Fé from Fernanda). Conclusion: the foot is not a universal prosodic constituent; lexical stress and foot structure are formally independent.
+</div>
+
+<h2>What the paper does</h2>
+<p>Two forced-choice nonce-word judgment tasks (26 Portuguese, 25 English speakers; minimal pairs differing only in stress location) crossing weight profile (LLL, HLL, LHL) with stress position (antepenult vs penult), plus a lexicon/minimality survey of CV words, truncation, and hypocorisation in both languages. Bayesian hierarchical logistic regressions (brms) with ROPE-based null-effect assessment.</p>
+
+<h2>Key findings</h2>
+<ul>
+  <li><strong>Antepenultimate weight:</strong> English β(HLL) ≈ −0.09 (95% CrI includes 0 — null effect, as predicted by moraic trochees + final extrametricality); Portuguese β(HLL) = +0.34 (credibly positive — heavy antepenults <em>attract</em> stress, which the foot-based parse cannot accommodate without marked unparsed syllables or uneven trochees).</li>
+  <li><strong>Penultimate weight:</strong> positive in both languages (heavy penult attracts stress) — the surface similarity.</li>
+  <li><strong>Sonority:</strong> coda sonority modulated Portuguese antepenultimate preferences (β = 0.40) but not English ones — a fine-grained reflex of the same split.</li>
+  <li><strong>Minimality:</strong> English bans monomoraic lexical words and monomoraic truncations/hypocoristics (foot binarity); Portuguese allows them productively — its minimal-word condition references the syllable (CV), not the foot.</li>
+  <li>Portuguese truncation/hypocorisation produces both iambs and trochees unpredictably, further weakening foot-based analyses.</li>
+</ul>
+
+<h2>Interpretation &amp; caveats</h2>
+<p>The authors propose a two-parameter typology: foot present/absent × lexical stress present/absent (English: foot+stress; Portuguese: stress, foot?; Québec French: foot, no stress; Turkish: neither). For footless languages, stress windows can be captured by anti-lapse/grid constraints (Gordon 2002) — with learnability rescuing the "midpoint pathology" problem (Stanton 2016). They adopt weighted (HG/MaxEnt-style) constraints rather than strict rankings. Caveats: nonce-word judgments, limited coda set, no articulation data; the Portuguese-footless claim is offered as the best interpretation of a challenging dataset, not a settled result.</p>
+
+<h2>Relevance to Calliope-TS</h2>
+<p>This paper is a direct theoretical probe of the load-bearing assumptions in Calliope's lexical-stress and OOV stages, which build on Hayes-style English stress (quantity-sensitive, extrametricality, moraic trochees) and on the CMU dictionary's weight columns:</p>
+<ul>
+  <li><strong>Insight: weight effects are positionally gated in foot-based languages.</strong> Calliope's English OOV stress rule already implements exactly this shape (heavy penult attracts; antepenult default otherwise; pre-stressing suffixes). This paper provides clean experimental confirmation that the <em>gating</em> (weight works in penult, not antepenult) is the signature of footing — and that adding "weight attracts stress everywhere" (as in Portuguese) would be a different, non-foot grammar. The kit's English rules are on the right side of this divide; the Portuguese observation matters if Calliope ever gains a Romance language.</li>
+  <li><strong>Insight: weight ≠ feet ≠ stress.</strong> The paper's three-way decoupling (foot / lexical stress / minimality) maps onto Calliope's separable stages: lexical contour (dictionary), foot-level meter fitting (DP over metrical templates), and word-minimality constraints (relevant to truncation/hypocorisation handling in poetic diction and to "minimal word" judgments in rhyme/composition tools).</li>
+  <li><strong>Insight: gradient/weighted constraints over ranked ones.</strong> The authors' preference for weighted constraints (Goldwater &amp; Johnson 2003 MaxEnt lineage) is precisely Calliope's own MaxEnt meter-fitting architecture — mutual reinforcement that weighted, learnable constraint systems are the right computational frame.</li>
+  <li><strong>Insight: sonority is real, and language-specific.</strong> Coda-sonority effects on stress preference (Portuguese) vs none (English) argue for keeping sonority-weighted rules out of the English default while retaining the hooks for other languages.</li>
+  <li><strong>Note for the web app's meter-identification:</strong> the paper's nonce-word methodology is a template for testing whether the kit's own stress rules generalise — the same "does the grammar generalise the right way to novel forms?" question Calliope's OOV fallback must answer.</li>
+</ul>
+
+<h2>Key named insights</h2>
+<ol>
+  <li><strong>Positional weight-gating:</strong> foot-based English shows weight effects in penultimate but not antepenultimate position — a diagnostic signature, experimentally confirmed.</li>
+  <li><strong>Foot-independence:</strong> lexical stress can exist without feet (Portuguese), and feet without lexical stress (Québec French); the foot is not universal.</li>
+  <li><strong>Syllable-vs-foot minimality:</strong> minimal-word constraints can reference the syllable (Portuguese CV) rather than the foot (English bimoraic) — diagnostic of the underlying prosodic inventory.</li>
+  <li><strong>Weighted-constraint frame:</strong> gradient HG/MaxEnt constraint weights capture the Portuguese pattern better than ranked OT — validation of the MaxEnt approach Calliope already uses.</li>
+</ol>
+
+<hr>
+<p class="foot"><strong>Citation:</strong> Garcia, G. D., &amp; Goad, H. (2024). Weight effects and the role of the foot: English versus Portuguese. <em>Laboratory Phonology: Journal of the Association for Laboratory Phonology</em>, 15(1), 1–37. <a href="https://doi.org/10.16995/labphon.6420">https://doi.org/10.16995/labphon.6420</a></p>
+<p class="foot"><strong>Key references inside:</strong> Hayes (1982, 1995); Chomsky &amp; Halle (1968); Liberman &amp; Prince (1977); Gordon (2002); Kager (2012); Stanton (2016); McCarthy &amp; Prince (1995); Garcia (2017b, 2019); Goldwater &amp; Johnson (2003); Pater (2009). OSF: <a href="https://osf.io/3cvrm/">osf.io/3cvrm</a>.</p>
+
+</body>
+</html>

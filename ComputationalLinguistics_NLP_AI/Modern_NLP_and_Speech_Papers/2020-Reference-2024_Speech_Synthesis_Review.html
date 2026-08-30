@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Consolidated synthesis — LabPhon corpus for Calliope-TS</title>
+<style>
+  :root{
+    --ink:#1c1c1c; --mut:#6b6b6b; --rule:#e0e0e0; --accent:#7a2e2e; --paper:#fdfcfa;
+    --code:#f2efe9; --hl:#f7f2e7; --t1:#7a2e2e; --t2:#8a5a1e; --t3:#3a5a3a;
+  }
+  *{box-sizing:border-box}
+  body{font:17px/1.65 Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);
+       max-width:50rem;margin:0 auto;padding:3rem 1.5rem 6rem;}
+  h1{font-size:1.8rem;line-height:1.3;margin:0 0 .4rem;font-weight:600}
+  h2{font-size:1.2rem;margin:3rem 0 .6rem;font-weight:600;letter-spacing:.02em;
+     text-transform:uppercase;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:.3rem}
+  h3{font-size:1.02rem;margin:1.5rem 0 .4rem;font-weight:600}
+  .cite{color:var(--mut);font-size:.95rem;margin-bottom:2rem}
+  p{margin:.55rem 0}
+  ul,ol{margin:.5rem 0 .9rem;padding-left:1.4rem}
+  li{margin:.3rem 0}
+  blockquote{border-left:3px solid var(--rule);margin:1.1rem 0;padding:.2rem 0 .2rem 1.1rem;
+             color:#333;font-style:italic}
+  table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.92rem}
+  th,td{border:1px solid var(--rule);padding:.45rem .6rem;text-align:left;vertical-align:top}
+  th{background:var(--hl);font-weight:600}
+  code{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:.85em;
+       background:var(--code);padding:.1em .35em;border-radius:3px}
+  .tier{display:inline-block;font:600 .72rem/1.7 ui-monospace,monospace;letter-spacing:.06em;
+       border-radius:3px;padding:0 .5rem;color:#fff;margin-right:.3rem}
+  .t1{background:var(--t1)} .t2{background:var(--t2)} .t3{background:var(--t3)}
+  .box{background:var(--hl);border:1px solid var(--rule);border-radius:4px;padding:1rem 1.2rem;margin:1.2rem 0}
+  .box ul{margin:.3rem 0 0}
+  .nav{font-size:.85rem;margin-bottom:2rem}
+  .nav a{margin-right:.8rem}
+  a{color:var(--accent)}
+  .foot{font-size:.85rem;color:var(--mut)}
+  hr{border:0;border-top:1px solid var(--rule);margin:2.5rem 0}
+</style>
+</head>
+<body>
+
+<nav class="nav"><span>Individual summaries: </span>
+  <a href="moghisehSondereggerWagner.html">Moghiseh et al.</a>
+  <a href="labphon-9704-zhang.html">Zhang/Clayards/Wagner</a>
+  <a href="labphon-18927-calhoun.html">Calhoun</a>
+  <a href="labphon-17571-hawkins.html">Hawkins et al.</a>
+  <a href="labphon-6420-garcia.html">Garcia &amp; Goad</a>
+  <a href="labphon-7681-popescu.html">Popescu &amp; Chitoran</a>
+  <a href="labphon-9573-moore-cantwell.html">Moore-Cantwell et al.</a>
+  <a href="labphon-6294-rathcke.html">Rathcke et al.</a>
+  <a href="labphon-18702-mitterer.html">Mitterer</a>
+  <a href="labphon-9437-cole.html">Cole et al.</a>
+  <a href="labphon-9316-kim.html">Kim &amp; Arnhold</a>
+  <a href="labphon-6452-franich.html">Franich</a>
+  <a href="labphon-6288-denby.html">Denby &amp; Goldrick</a>
+  <a href="labphon-18470-zhang.html">Zhang et al. (2026)</a>
+</nav>
+
+<h1>Phonetics &amp; Phonology for Phonological Scansion</h1>
+<div class="cite">A consolidated reading of 14 papers (13 <em>Laboratory Phonology</em> articles + Moghiseh/Sonderegger/Wagner 2023), synthesised for the development of the Calliope-TS poetry-scansion toolkit. August 2026.</div>
+
+<div class="box">
+<strong>The one-paragraph takeaway.</strong> The most useful idea in this corpus — independently reached by several papers — is that <strong>prosody is built from two orthogonal evidence streams</strong>: <em>prominence</em> (which syllable/word is strongest) and <em>grouping</em> (where units begin and end). The Iambic-Trochaic Law collapses into these two dimensions (Moghiseh/Sonderegger/Wagner); focus and phrasing are additive, not interfering (Zhang/Clayards/Wagner); listeners entrain to vowel-anchored beats that recover metrical strength (Rathcke et al.); even the phonetic signature of morphological structure (prefixes) is a "heavier beat" implemented through the same two channels (Hawkins et al.). Calliope-TS's existing architecture — integer phrase stress + a κ/ϕ/ι hierarchy + key stresses at unit right edges + a DP meter fitter — is already a two-stream system. The corpus's main practical payload is therefore <em>refinement, not redesign</em>: make the prominence stream expectation-relative (focus = deviation from default), keep grouping evidence (edges, lengthening, boundaries) strictly separate from prominence evidence in the scorer, weight duration heavily, and let metre emerge as the derived conjunction the perceptual evidence says it is.
+</div>
+
+<h2>1. The corpus at a glance</h2>
+<table>
+<tr><th>Paper</th><th>Topic</th><th>Tier for Calliope</th><th>Headline insight</th></tr>
+<tr><td>Moghiseh, Sonderegger &amp; Wagner (2023)</td><td>Iambic-Trochaic Law as grouping+prominence parsing</td><td><span class="tier t1">1</span></td><td>No cues to foot type; duration⇒final+stressed, intensity⇒initial+stressed; ITL is an extreme-cue artefact; prominent⇒initial bias</td></tr>
+<tr><td>Zhang, Clayards &amp; Wagner (2024)</td><td>Focus × constituency, Mandarin vs English</td><td><span class="tier t1">1</span></td><td>Focus does not erase post-focal phrasing; prominence and phrasing additive; language cue-weighting is gradient</td></tr>
+<tr><td>Calhoun (2026)</td><td>Focus processing &amp; cues across languages</td><td><span class="tier t1">1</span></td><td>Focus = attentional tool activating alternative sets; prominence = deviation from expectation; cue weights differ by language; default object-focus bias</td></tr>
+<tr><td>Hawkins et al. (2026)</td><td>Prefix phonetics in 4 dialects</td><td><span class="tier t1">1</span></td><td>Morphology audible in spontaneous speech; vowel duration the robust prefix cue; gradient affixedness; dialect-specific cue solutions</td></tr>
+<tr><td>Garcia &amp; Goad (2024)</td><td>Foot vs footless stress (EN vs PT)</td><td><span class="tier t2">2</span></td><td>Positional weight-gating diagnostic of feet; weight ≠ feet ≠ stress; weighted (MaxEnt) constraints</td></tr>
+<tr><td>Popescu &amp; Chitoran (2022)</td><td>Sesquisyllables (fire, feel) — syllable counting</td><td><span class="tier t2">2</span></td><td>Tri-vocalic rimes ⇒ 1.5-syllable intuitions; duration is a symptom, not the cause; German lacks the class</td></tr>
+<tr><td>Moore-Cantwell et al. (2024)</td><td>Stress priming in nonwords</td><td><span class="tier t2">2</span></td><td>Segment-free abstract stress representations; stress primes like syntax (choices, not RTs); probabilistic lexicon statistics</td></tr>
+<tr><td>Rathcke et al. (2021)</td><td>Tapping to speech; rhythm perception</td><td><span class="tier t2">2</span></td><td>Vowel onsets anchor beats; language entrains movement; accent &gt; stress &gt; weak hierarchy recoverable from signal</td></tr>
+<tr><td>Mitterer (2026)</td><td>The glottal stop as a weak phoneme</td><td><span class="tier t2">2</span></td><td>Glottal stops never constrain lexical access like oral stops; orthography ≠ implicit phonology; segmental cues drive prosodic parsing</td></tr>
+<tr><td>Cole et al. (2023)</td><td>Nuclear tunes in AM English</td><td><span class="tier t2">2</span></td><td>8-way AM contrast collapses to High-Rising vs non-rising; phrase accents not contrastive; shape over targets</td></tr>
+<tr><td>Kim &amp; Arnhold (2024)</td><td>Focus in Canadian English</td><td><span class="tier t3">3</span></td><td>Focus marking is variety-specific; weakening of neighbours may beat enhancement; accent presence &gt; type</td></tr>
+<tr><td>Franich (2022)</td><td>Coupling to a beat → phonetic enhancement</td><td><span class="tier t3">3</span></td><td>In-phase coordination alone produces stress-like lengthening/F1; coordinative roots of stress</td></tr>
+<tr><td>Denby &amp; Goldrick (2021)</td><td>Causal inference in phonotactic learning</td><td><span class="tier t3">3</span></td><td>Adaptation is gated by attributed source of variation; same-dialect = shared-grammar prior</td></tr>
+<tr><td>Zhang et al. (2026)</td><td>L2 allophone→phoneme mapping</td><td><span class="tier t3">3</span></td><td>Phonetic intact, lexical fuzzy; allophones are the mappable unit; lexicon feeds phonology</td></tr>
+</table>
+
+<h2>2. Theme I — The two-stream theory of parsing: grouping and prominence</h2>
+<p>The strongest conceptual thread runs through Moghiseh/Sonderegger/Wagner (2023), Zhang/Clayards/Wagner (2024), Rathcke et al. (2021), and Franich (2022).</p>
+<ul>
+  <li><strong>Grouping and prominence are orthogonal dimensions with anti-correlating cues.</strong> In production, intensity and duration <em>correlate</em> to mark prominence (stressed syllables are longer and louder) and <em>anti-correlate</em> to mark grouping (final syllables are longer but softer; initial syllables louder but shorter). The perceptual consequence is that any single-cue reading is ambiguous — "longer" could mean "final" or "stressed" — and listeners resolve it probabilistically (Moghiseh et al.: the longer syllable was heard as prominent only ~64% of the time).</li>
+  <li><strong>Foot type is a derived conjunction, not a primitive.</strong> The canonical ITL result (louder→trochees, longer→iambs) only appears with cue manipulations far beyond natural speech (+12 dB, +160 ms). For a scansion engine this is liberating: the meter label is an annotation over (grouping × prominence), and no direct acoustic voting for "iambic" is licensed.</li>
+  <li><strong>The "prominent ⇒ initial" bias.</strong> Asking about prominence first increases trochee responses — the perceptual system infers word-initiality from prominence, not vice versa. This is the perceptual counterpart of English's trochaic lexical default and, plausibly, of iambic-pentameter priors in the toolkit: priors toward initial prominence in a unit are real perceptual facts, not statistical artefacts.</li>
+  <li><strong>Vowels anchor the beat.</strong> Tapping experiments show entrainment to vowel onsets (not syllable onsets) and to metrically strong/accented vowels in a hierarchy accent &gt; stress &gt; weak. English speech rhythm, though not isochronous, is entrainable, and the information Calliope computes from text is recoverable from the raw acoustics by naive listeners — a validation of the phonological-scansion premise.</li>
+  <li><strong>Coordination itself creates enhancement.</strong> Franich's metronome study shows in-phase coupling alone produces the classic stress cues (lengthening, F1 raising) in a tone language with no phonetic stress — suggesting enhancement has motor roots that languages grammaticalise differently. Duration emerges again as the primitive, most robust stress correlate.</li>
+</ul>
+
+<h2>3. Theme II — Focus and information structure: expectedness and cue weighting</h2>
+<p>Calhoun (2026), Kim &amp; Arnhold (2024), and Zhang/Clayards/Wagner (2024) converge on a modern, listener-oriented picture of focus:</p>
+<ul>
+  <li><strong>Prominence is expectedness.</strong> A word is prominent insofar as it is "more highlighted than expected" given all cues (phonetics, syntax, semantics, gesture, discourse). The default expectations — nuclear prominence on the rightmost argument (object focus default), subject focus as marked — are exactly the biases built into Wagner-style NSR/CSR machinery. The upgrade for Calliope: compute a <em>default-prominence prior</em> per phrase and treat the phrase-stress integers as deviations from it; focus interpretation then falls out of the deviation.</li>
+  <li><strong>Focus activates alternatives.</strong> Psycholinguistic evidence (priming, eye-tracking, memory) shows focus-marking activates the focused constituent's alternative set. For a poetry tool this is a semantic affordance: the kit's <code>focusAssociateOf</code> and contrastive-focus machinery could feed an alternative-set report (rhyme-fellows, coordinate partners, repeated lemmas) in the synopsis layer.</li>
+  <li><strong>Cue weights are language- and speaker-specific.</strong> English balances prominence and syntactic clefting; Samoan favours syntax; Mandarin favours prominence; L2 learners re-weight toward the L1 pattern. Gradient, parameterised cue weights beat fixed decision tables. This directly supports a "cue-weight profile" parameter in Calliope's phrasal stage.</li>
+  <li><strong>Focus does not destroy phrasing.</strong> Post-focal phrasing distinctions survive in both English and Mandarin (Zhang et al.) — the "orthogonality" result that justifies Calliope's separate prominence and hierarchy stages and its additive combination. Also: focus-adjacent <em>weakening</em> (Kim &amp; Arnhold) may be the most reliable focus signature in at least one variety — de-accenting is not a side effect but possibly the primary cue.</li>
+</ul>
+
+<h2>4. Theme III — Lexical stress, weight, and the lexicon</h2>
+<p>Garcia &amp; Goad (2024), Popescu &amp; Chitoran (2022), Moore-Cantwell et al. (2024), Hawkins et al. (2026), and Mitterer (2026) together sharpen the toolkit's lexical and OOV stages:</p>
+<ul>
+  <li><strong>Weight is positionally gated in foot-based languages.</strong> English shows weight effects in the penult but (experimentally) a null effect in the antepenult — the signature of moraic-trochee footing. Calliope's English Stress Rule already encodes this shape; the paper is confirmation and a warning against "weight attracts stress everywhere" generalisations.</li>
+  <li><strong>Foot, stress, and minimality decouple.</strong> English has feet and stress; Portuguese stress without clear feet; Québec French feet without lexical stress. The toolkit's separable stages (lexical contour; footed meter; word-minimality in composition tools) are principled.</li>
+  <li><strong>Sesquisyllables are real and systematic.</strong> The <em>fire/feel/liar</em> class (tense vowel/diphthong + liquid coda) yields genuine 1.5-syllable intuitions driven by tri-vocalic rime structure, not duration. Poetic diction is full of these words; the kit's elision/synaeresis handling and its syllable counts should be sesquisyllable-aware, and the web app could flag the class as systematically metrically ambiguous (matching the fitter's near-tie outputs).</li>
+  <li><strong>Stress is abstract and contextually sticky.</strong> Production priming shows segment-free stress representations that persist across items — and strengthen with segmental overlap. The kit's stanza-consensus/continuity passes are, functionally, metrical priming; the overlap-boost finding suggests rhyme/alliteration-coupled lines may cohere metrically more than disjoint ones.</li>
+  <li><strong>Morphology is phonetically audible — and gradient.</strong> Prefixes carry a heavier beat than identical non-prefix syllables (longer vowels, dialect-specific cue solutions), and felt-prefixedness grades the phonetics continuously. The kit's OOV morphology should weight transparent affix parses more than opaque spellings, and (optionally) add a small morpheme-boundary prominence bonus.</li>
+  <li><strong>Weak segments are weak phonemes.</strong> Glottal stops (Mitterer) and schwa constrain lexical access weakly even where phonemic — the x-tier's "never a beat" treatment of clitics is on the right side of this, and any weak-segment handling should keep low constraint weight by nature.</li>
+</ul>
+
+<h2>5. Theme IV — Rhythm, metre, and the accentual layer</h2>
+<ul>
+  <li>Rathcke et al.: beat perception locks onto vowels and recovers a three-level prominence hierarchy; inter-beat (vocalic) intervals are the period — supporting the ictus-interval design of the dolnik/taktovik layer.</li>
+  <li>Franich: stressed syllables are text-setting anchors because both speech and music coordinate movement; lyric/song handling in the kit is grounded in the same coupling principle.</li>
+  <li>Cole et al.: intonational contrasts are hierarchical (High-Rising vs non-rising categorical; final-f0 scaling gradient) — the "beginnings free, endings strict" principle has a perceptual structure of its own, and coarse, shape-based tune classes are the useful resolution for any intonation-adjacent module.</li>
+  <li>Moghiseh et al.: the trochee-bias is prominence-driven — stanza-level metre (a "priming regime") genuinely biases line parsing, so the kit's stanza consensus is modelling a real effect, and its strength is defensible.</li>
+</ul>
+
+<h2>6. Theme V — Learning, adaptation, and the epistemology of tuning</h2>
+<ul>
+  <li>Denby &amp; Goldrick: learning is attributed to sources; same-dialect talkers inherit a shared-grammar prior. For the kit: rules for systematic, shared variance; lexicon for word-specific variance — an architecture, not an accident. And "lab languages" (corpus-tuned systems) adapt slowly and source-consciously: a caution against overfitting rule sets to single corpora or poets.</li>
+  <li>Zhang et al. (2026): phonetic vs lexical dissociation — a system can "perceive" fine and still encode fuzzily; evaluate distinctiveness at both levels. The vocabulary-size effect (lexicon feeds phonology) justifies confidence weighting: high-frequency words trust the lexicon; rare poetic forms need excellent rules.</li>
+  <li>Moore-Cantwell et al.: observed production probabilities are not pure grammar — priming contaminates them. Any corpus-derived constraint weight in the kit is similarly contaminated by context; weight-learning should be robust to this (MaxEnt with many items across partitions, as the kit's meter.fit already does).</li>
+</ul>
+
+<h2>7. Online follow-ups — the freshest, most pertinent sources</h2>
+<p>Several citations recurred across this corpus as the living frontier. Abstracts retrieved (August 2026):</p>
+
+<h3>7.1 Wagner (2022) — the theoretical keystone</h3>
+<blockquote>Wagner, M. (2022). Two-dimensional parsing of the acoustic stream explains the Iambic–Trochaic Law. <em>Psychological Review</em>, 129(2), 268–288. DOI: <a href="https://doi.org/10.1037/rev0000302">10.1037/rev0000302</a></blockquote>
+<p>"In a sequence of otherwise equal sounds, listeners tend to hear a series of trochees when every other sound is louder; they tend to hear iambs when every other sound is longer. The article presents evidence that this so-called 'Iambic-Trochaic Law' is a consequence of the way listeners parse the signal along two orthogonal dimensions, grouping and prominence. A production experiment shows that in speech, intensity and duration <em>correlate</em> when encoding prominence, but <em>anticorrelate</em> when encoding grouping. A model of the production data shows that the ITL emerges from the cue distribution based on a listener's predicted decisions about prominence and grouping respectively… intensity and duration are excellent cues for grouping and prominence, but poor cues for the distinction between iamb and trochee per se."</p>
+<p><strong>Why it matters:</strong> this is the published parent of Moghiseh et al. and the deepest theoretical anchor in the corpus. For Calliope it is the licence for the "metre is an annotation over contour" doctrine already in the project's charter (the stress keys are the product; the footed meter annotates them). Worth treating as required reading for anyone touching the scorer.</p>
+
+<h3>7.2 Wagner &amp; McAuliffe (2019) — focus and phrasing at the phrasal level</h3>
+<blockquote>Wagner, M., &amp; McAuliffe, M. (2019). The effect of focus prominence on phrasing. <em>Journal of Phonetics</em>, 77, 100930. DOI: <a href="https://doi.org/10.1016/j.wocn.2019.100930">10.1016/j.wocn.2019.100930</a></blockquote>
+<p>"Prosody simultaneously encodes… the type of speech act… syntactic constituent structure (mainly phrasing)… and semantic focus (mainly relative prosodic prominence). The syntactic and semantic functional dimensions are orthogonal to each other, but to which extent their prosodic correlates are remains controversial… results provide evidence that interactions are more limited than many current theories predict, and support a theory that keeps different prosodic dimensions representationally separate."</p>
+<p><strong>Why it matters:</strong> the phrase-level companion to the ITL papers, and the direct source of the coordinate-structure methodology reused by Zhang et al. (2024). It is the paper the project's EXTRA_CONTEXT already builds on; the newer corpus confirms and extends it cross-linguistically.</p>
+
+<h3>7.3 Ladd &amp; Arvaniti (2023) — the state of prominence theory</h3>
+<blockquote>Ladd, D. R., &amp; Arvaniti, A. (2023). Prosodic prominence across languages. <em>Annual Review of Linguistics</em>, 9, 171–193. DOI: <a href="https://doi.org/10.1146/annurev-linguistics-031120-101954">10.1146/annurev-linguistics-031120-101954</a> (33 citations)</blockquote>
+<p>"Early findings emphasized the role of intonational pitch movements; more recent research demonstrates the importance of other phonetic cues, categorical differences between pitch movement types, and nonphonetic factors like word frequency. However, the definition of prominence itself remains informal… Recent findings point to important differences between languages. These might be accommodated in a more comprehensive theory of word and sentence stress that treats both as manifestations of a hierarchical prosodic structure… while allowing for significant differences of prosodic typology."</p>
+<p><strong>Why it matters:</strong> the authoritative current survey of prominence — the exact concept Calliope's five-tier ladder operationalises. It validates the hierarchical-structure view the kit implements (metrical phonology lineage) while flagging that prominence definitions remain informal and typologically varied — i.e., the kit's tier semantics (x/w/n/m/s) are a defensible operationalisation, but should be documented as such.</p>
+
+<h3>7.4 Yan, Calhoun &amp; Warren (2023) — focus alternatives in Mandarin</h3>
+<blockquote>Yan, M., Calhoun, S., &amp; Warren, P. (2023). The role of prominence in activating focused words and their alternatives in Mandarin: Evidence from lexical priming and recognition memory. <em>Language and Speech</em>, 66(3), 678–705. DOI: <a href="https://doi.org/10.1177/00238309221126108">10.1177/00238309221126108</a></blockquote>
+<p>"When a sentence is produced with contrastive prosodic prominence, the word that carries the prominence becomes more salient, and alternatives to that word are usually implied. In processing, this implies that focused words and their alternatives should be more strongly activated… Prosodic prominence was effective in activating focused words and their alternatives… sheds light on whether, when, and how listeners use prosodic prominence to identify important information and to evoke alternatives during sentence comprehension."</p>
+<p><strong>Why it matters:</strong> extends the alternative-set story to a register-prominence (tone) language — directly relevant to Calliope's Russian/Mandarin ambitions and to any semantics-informed synopsis feature.</p>
+
+<h3>7.5 Further leads worth pulling (cited within the corpus)</h3>
+<ul>
+  <li><strong>Steffman (2023)</strong>, "Vowel-initial glottalization as a prominence cue," <em>LabPhon</em> 14(1) — glottalisation as prominence marking in English perception; pairs with Mitterer (2026).</li>
+  <li><strong>Calhoun, Yan &amp; White (2025)</strong>, "Examining focus and alternative priming," <em>JML</em> 140, 104580 — the flagship English alternative-priming study (grammatical-role asymmetries).</li>
+  <li><strong>Crowhurst (2019)</strong>, "The iambic/trochaic law: Nature or nurture?," <em>Language and Linguistics Compass</em> 14 — the authoritative review of the ITL debate this corpus's keystone papers overturn.</li>
+  <li><strong>Mitterer, Kim &amp; Cho (2024)</strong>, "Use of segmental detail as a cue to prosodic structure," <em>JPhon</em> 103 — segmental cues to focus/prosody in German; cited by both Mitterer and Calhoun.</li>
+  <li><strong>Türk &amp; Calhoun (2024)</strong>, "Phrasal synchronization of gesture with prosody and information structure," <em>Language and Speech</em> — multimodal focus cues.</li>
+  <li><strong>Zuraw et al. (2021)</strong> — VOT/prefix phonetics; and <strong>Clayards et al. (2021)</strong> — listeners use prefix phonetic detail online (both cited by Hawkins et al.).</li>
+  <li><strong>Wagner (2022)</strong> (above) plus his <strong>Wagner et al. (2021)</strong> cross-linguistic six-language ITL perception study — the typological extension of 7.1.</li>
+  <li><strong>Stein (2023)</strong> and <strong>Plag &amp; Ben Hedia (2018)</strong> — morphological-phonetic effects at scale (English), the empirical foundation Hawkins et al. extend to spontaneous speech.</li>
+</ul>
+
+<h2>8. Concrete recommendations for Calliope-TS (prioritised)</h2>
+<ol>
+  <li><strong>Make the phrasal stage expectation-relative.</strong> Compute a default-prominence prior per ϕ (rightmost argument / object-final default; subject focus marked) and expose <em>deviation from default</em> as the focus signal (Calhoun 2026; Moghiseh et al. 2023). This is a small, high-value change to the relstress/bracketing layer, not a redesign.</li>
+  <li><strong>Keep the prominence and grouping evidence streams separate in the scorer.</strong> Audit the meter scorer so that no single cue (esp. duration) directly votes for a foot label; confirm that key-stress/right-edge evidence is treated as grouping evidence and tier evidence as prominence evidence, combined additively (Moghiseh et al.; Zhang et al. 2024; Wagner &amp; McAuliffe 2019).</li>
+  <li><strong>Parameterise cue weights per language/variety.</strong> Add a small cue-weight profile (prominence-vs-syntax weight; duration-vs-pitch weight) to the engine config — English balanced, Mandarin f0-heavy, Russian accentology-based — used by combineDecision/relstress (Calhoun 2026; Zhang et al. 2024; Kim &amp; Arnhold 2024).</li>
+  <li><strong>Add sesquisyllable awareness.</strong> Flag the tense-vowel/diphthong + liquid-coda class (fire, hour, desire, world…) as systematically ambiguous in syllable count; expose the ambiguity in Line View (Popescu &amp; Chitoran 2022).</li>
+  <li><strong>Add a morpheme-boundary prominence hint.</strong> Small, principled boost for transparent prefix/stem boundaries (mis-, dis-, un- + free stem) in the weak-syllable tier logic; weight transparent morphological parses over opaque spellings in OOV decomposition (Hawkins et al. 2026).</li>
+  <li><strong>Strengthen givenness demotion and document the object-focus default.</strong> Given words are the most reliably de-accented class (Kim &amp; Arnhold 2024); make discourseGiven/demoteGivenNuclei slightly stronger and cite this corpus; document that rightmost-argument nuclear is the information-structural default (Calhoun 2026).</li>
+  <li><strong>Ground the accentual/dolnik layer in vowel-anchored ictus intervals.</strong> Where the ictus profile computes intervals, note that the perceptual period is inter-vocalic; consider vowel-anchored interval measurement (Rathcke et al. 2021).</li>
+  <li><strong>Add stanza-metre-priming as an explicit, tunable term.</strong> The continuity-rename pass is metrical priming; make its strength configurable and cite Moore-Cantwell et al. (2024) — the overlap-boost suggests lines sharing rhyme words may warrant slightly stronger consensus.</li>
+  <li><strong>Weighting audit via feature-importance analysis.</strong> Adopt random-forest-style feature-importance diagnostics (Zhang et al. 2024's method) as a developer tool for auditing which constraints actually carry the meter decision — a "which cues matter" report for the fitter.</li>
+  <li><strong>Document the tier semantics against the modern prominence literature.</strong> Use Ladd &amp; Arvaniti (2023) + Cole et al. (2023) in the docs: the x/w/n/m/s ladder is an operationalisation of a still-informal concept, and the coarse, hierarchy-first treatment of intonational contrasts is empirically supported.</li>
+</ol>
+
+<h2>9. Papers most clearly worth remembering</h2>
+<p>If the corpus is a shelf, three books should be dog-eared:</p>
+<ol>
+  <li><strong>Moghiseh, Sonderegger &amp; Wagner (2023)</strong> + its published parent Wagner (2022) — the theoretical frame for the whole toolkit: two-dimensional parsing, no foot primitives, prominence-driven trochee bias. <em>(Remember: this is the kit's own theoretical DNA.)</em></li>
+  <li><strong>Zhang, Clayards &amp; Wagner (2024)</strong> — the cross-linguistic validation of additive prominence+phrasing, with cue-weighting evidence directly parameterisable in the engine.</li>
+  <li><strong>Calhoun (2026)</strong> — the listener-side view that turns focus machinery into an alternative-set semantics with language-specific cue weights: the most forward-looking paper for the kit's semantic/synopsis ambitions.</li>
+</ol>
+<p>Secondary shelf: Hawkins et al. (2026) for morphology→phonetics (upgrade the OOV stage); Popescu &amp; Chitoran (2022) for sesquisyllables (upgrade syllable counting); Rathcke et al. (2021) for the accentual layer's perceptual grounding; Garcia &amp; Goad (2024) for the lexical-stress/OOV weight rules.</p>
+
+<h2>10. How the corpus maps onto the pipeline</h2>
+<table>
+<tr><th>Pipeline stage</th><th>Evidence from this corpus</th></tr>
+<tr><td>UDPipe parse / POS &amp; dependency repair</td><td>Denby &amp; Goldrick (2021) — attribution logic for rule-vs-lexicon repair; Hawkins et al. (2026) — gradient morphology needs confidence-weighted parses</td></tr>
+<tr><td>Lexical stress (CMU + OOV rules)</td><td>Garcia &amp; Goad (2024) — positional weight-gating confirmed; Popescu &amp; Chitoran (2022) — sesquisyllable class; Moore-Cantwell et al. (2024) — abstract stress, probabilistic assignment; Hawkins et al. (2026) — prefix-boundary prominence</td></tr>
+<tr><td>Prosodic hierarchy (κ/ϕ/ι)</td><td>Moghiseh et al. (2023) — grouping stream; Zhang et al. (2024) — post-focal phrasing survives; Rathcke et al. (2021) — vowel-anchored grouping</td></tr>
+<tr><td>Phrase stress (CSR/NSR + focus)</td><td>Calhoun (2026) — expectedness, cue weights, object-focus default; Kim &amp; Arnhold (2024) — weakening signature, presence&gt;type; Moghiseh et al. (2023) — prominence stream</td></tr>
+<tr><td>Relative stress (x/w/n/m/s)</td><td>Cole et al. (2023) — coarse hierarchical contrasts; Mitterer (2026) — weak-segment semantics; Ladd &amp; Arvaniti (2023) — prominence concept review</td></tr>
+<tr><td>Key stresses &amp; meter fitting</td><td>Moghiseh et al. (2023) — no foot primitives, derived conjunction; Rathcke et al. (2021) — beat anchors; Franich (2022) — duration primacy, text-setting</td></tr>
+<tr><td>Stanza/poem context &amp; accentual layer</td><td>Moore-Cantwell et al. (2024) — metrical priming; Rathcke et al. (2021) — ictus intervals at vowels; Calhoun (2026) — discourse context as focus prior</td></tr>
+<tr><td>Rhyme &amp; form layer</td><td>Popescu &amp; Chitoran (2022) — rhyme-word weight/ambiguity; Mitterer (2026) — orthography ≠ phonology in implicit processing; Hawkins et al. (2026) — frequency vs morphology</td></tr>
+<tr><td>Web app / reading aid</td><td>Rathcke et al. (2021) — recitation/entrainment validity of stress keys; Cole et al. (2023) — hierarchy-first display; Calhoun (2026) — alternative-set synopsis</td></tr>
+</table>
+
+<hr>
+<p class="foot"><strong>Compiled</strong> August 2026 for the development of Calliope-TS (English/Russian phonological scansion). Each of the 14 papers has its own summary page linked in the nav above, with full citations, jargon clarification, and per-paper relevance sections. All quoted abstracts in §7 were retrieved from publisher/aggregator records (APA PsycNet via Semantic Scholar; Annual Reviews; Journal of Phonetics; Language and Speech) in August 2026; DOIs are given throughout for verification.</p>
+
+</body>
+</html>

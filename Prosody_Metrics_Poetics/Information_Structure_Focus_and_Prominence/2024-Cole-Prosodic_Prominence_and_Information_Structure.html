@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cole, Steffman, Shattuck-Hufnagel &amp; Tilsen (2023) — Nuclear tunes in American English</title>
+<style>
+  :root{
+    --ink:#1c1c1c; --mut:#6b6b6b; --rule:#e0e0e0; --accent:#7a2e2e; --paper:#fdfcfa;
+    --code:#f2efe9; --hl:#f7f2e7;
+  }
+  *{box-sizing:border-box}
+  body{font:17px/1.65 Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);
+       max-width:46rem;margin:0 auto;padding:3rem 1.5rem 6rem;}
+  h1{font-size:1.7rem;line-height:1.3;margin:0 0 .4rem;font-weight:600}
+  h2{font-size:1.15rem;margin:2.6rem 0 .6rem;font-weight:600;letter-spacing:.02em;
+     text-transform:uppercase;color:var(--accent)}
+  h3{font-size:1rem;margin:1.4rem 0 .4rem;font-weight:600}
+  .cite{color:var(--mut);font-size:.95rem;margin-bottom:2rem}
+  p{margin:.55rem 0}
+  ul,ol{margin:.5rem 0 .9rem;padding-left:1.4rem}
+  li{margin:.25rem 0}
+  blockquote{border-left:3px solid var(--rule);margin:1.1rem 0;padding:.2rem 0 .2rem 1.1rem;
+             color:#333;font-style:italic}
+  .gist{background:var(--hl);border:1px solid var(--rule);border-radius:4px;
+        padding:1.1rem 1.3rem;margin:1.4rem 0}
+  .gist ul{margin:.3rem 0 0}
+  .gist strong{font-variant:small-caps;letter-spacing:.04em}
+  code{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:.85em;
+       background:var(--code);padding:.1em .35em;border-radius:3px}
+  .tag{display:inline-block;font:600 .7rem/1.6 ui-monospace,monospace;letter-spacing:.08em;
+       text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+       border-radius:999px;padding:0 .6rem;margin:0 .3rem .3rem 0}
+  hr{border:0;border-top:1px solid var(--rule);margin:2.5rem 0}
+  .foot{font-size:.85rem;color:var(--mut)}
+  a{color:var(--accent)}
+  .nav{font-size:.85rem;margin-bottom:2rem}
+  .nav a{margin-right:.8rem}
+</style>
+</head>
+<body>
+
+<nav class="nav"><a href="synthesis.html">← Consolidated synthesis</a></nav>
+
+<h1>Hierarchical distinctions in the production and perception of nuclear tunes in American English</h1>
+<div class="cite">Jennifer Cole, Jeremy Steffman, Stefanie Shattuck-Hufnagel &amp; Sam Tilsen — <em>Laboratory Phonology: Journal of the Association for Laboratory Phonology</em>, 14(1), 1–51 (2023). DOI: <a href="https://doi.org/10.16995/labphon.9437">10.16995/labphon.9437</a></div>
+
+<div class="gist">
+<strong>The gist.</strong> The Autosegmental-Metrical (AM) model of intonation predicts 8 phonologically distinct phrase-final "nuclear tunes" from combining 2 pitch accents (H*, L*) × 2 phrase accents (H-, L-) × 2 boundary tones (H%, L%). Using imitation (production) and AX discrimination (perception) experiments, this paper shows that the full 8-way contrast does <em>not</em> hold up: speakers and listeners robustly distinguish only a <strong>High-Rising vs Non-High-Rising</strong> dichotomy, with ~5 emergent tune classes, and the "lost" distinctions (e.g. HHH vs HHL) differ only in final-f0 scaling that is barely discriminable. The data support a binary {H*, L*} accent contrast and at most a ternary {H%, M%, L%} boundary contrast — and <em>no</em> independent role for the phrase accent (H-/L-). Tune shapes are organised hierarchically, not as an unordered inventory.
+</div>
+
+<h2>What the paper does</h2>
+<p>The AM framework (Pierrehumbert 1980; Ladd 2008) is the standard model behind ToBI annotation. It claims phrase-final pitch contours are built compositionally from three tonal components, giving 2×2×2 = 8 "basic" nuclear tunes (HHH, HHL, HLH, HLL, LHH, LHL, LLH, LLL). This paper is the first large-scale, multi-method test of whether all 8 are real categories.</p>
+<p>Method: <strong>Production</strong> — 30 American English speakers imitated resynthesised model tunes (3 trisyllabic names × 2 speakers) by transposing each melody onto a new sentence; f0 trajectories analysed with (a) RMSD accuracy/distance measures, (b) bottom-up k-means clustering over unlabelled trajectories, (c) a bidirectional-LSTM neural-net classifier trained on labelled imitations, (d) GAMM smooths and turning-point alignment. <strong>Perception</strong> — a separate 30 listeners did AX same/different discrimination on all 64 ordered tune pairs.</p>
+
+<h2>Key findings</h2>
+<ul>
+  <li><strong>Five emergent clusters</strong>, three of which merge a predicted tune pair: A = low-to-mid rising {LHL, LLH}; B = rise-fall {HLH, HLL}; C = high-rising {HHH, HHL}; D = low-to-high rising {LHH}; E = low-fall {LLL}. The neural net (65% accuracy, chance 12.5%) confused exactly the same pairs that clustered together.</li>
+  <li><strong>The primary distinction is High-Rising vs Non-High-Rising</strong> — 27–29 of 30 speakers partitioned their data this way, and perception was near-ceiling exactly when one member of a pair was high-rising. Secondary distinctions among non-rising tunes were speaker-variable and weakly perceived.</li>
+  <li><strong>Fine-grained differences persist</strong>: GAMMs found small but real final-f0 differences within merged pairs, plus a <em>domed vs scooped</em> rise-shape difference (HHH vs HHL) that AM target-and-interpolation cannot predict — better handled by Tonal Center of Gravity (Barnes et al. 2012, 2021).</li>
+  <li><strong>Phrase accent vs boundary tone do not behave as separate contrastive units</strong>: tunes differing only in phrase accent or only in boundary tone were the ones that collapsed (e.g. {HHH,HHL} differ only in boundary tone; {HLH,HLL} only in phrase accent).</li>
+  <li><strong>Imitation is not parroting</strong>: accuracy differed by model gender and speakers didn't reproduce the models' pairwise distances — they transduced categorical structure, not raw pitch detail.</li>
+</ul>
+
+<h2>Interpretation &amp; caveats</h2>
+<p>The authors propose a hierarchy of tune distinctiveness with "attractor" tunes (Roessig, Mücke &amp; Grice 2019): robust distinctions are context-independent; finer ones may need discourse support. Caveats they flag: resynthesised stimuli (no discourse context, identical preambles, only f0 varied — no duration/amplitude/voice-quality cues), stress-initial trisyllabic nuclear words only, and no natural-production dataset exists yet to validate the resynthesis.</p>
+
+<h2>Relevance to Calliope-TS</h2>
+<p>Calliope works from text, not acoustics, but its prosodic assumptions descend directly from the AM tradition, and its pipeline claims specific things about phrase-final structure ("beginnings free, endings strict"; IU/PP right-edge key stresses; caesura at strong boundaries):</p>
+<ul>
+  <li><strong>Insight: right-edge evidence should be graded hierarchically.</strong> The empirical finding that a High-Rising/Non-High-Rising contrast is categorical while final-f0 scaling is gradient maps beautifully onto Calliope's key-stress weights (IU=3, PP=2, PW=1) — some right-edge events are simply worth more than others, and the hierarchy is not flat.</li>
+  <li><strong>Insight: not every ToBI distinction is worth modelling.</strong> A text-based scansion tool cannot (and need not) reconstruct L-/H- vs L%/H% distinctions; this paper gives principled cover for collapsing them, and suggests the useful output space is roughly: rising vs falling vs low-flat tune class at phrase end.</li>
+  <li><strong>Insight: tune-shape &gt; tone-strings.</strong> The domed-vs-scooped finding supports holistic, shape-based representations of intonation (cf. the "attractor" view) rather than concatenative tone targets — a caution for any future acoustic/intonation module in the kit (e.g. TTS-driven stress verification).</li>
+  <li><strong>Caution for rhyme/caesura logic:</strong> if phrase-final pitch patterns are coarser than the AM model claims, then basing caesura strength on boundary-tone identity is over-confident; positional (foot-edge) and durational evidence should carry more weight — which is exactly what Calliope's caesura module already does (foot-boundary alignment is mandatory).</li>
+  <li><strong>Methodological echo:</strong> the paper's "imitation as transduction" design is a nice model for how a scansion tool could be <em>evaluated</em> — check that outputs recover category structure, not exact acoustic detail.</li>
+</ul>
+
+<h2>Key named insights</h2>
+<ol>
+  <li><strong>The High-Rising Attractor:</strong> the most robust intonational contrast in American English is categorical (high-rising vs not), everything else is a gradient within it.</li>
+  <li><strong>The Collapse of Phrase Accents:</strong> H-/L- distinctions are not independently contrastive in production or perception — a direct empirical challenge to part of the AM inventory.</li>
+  <li><strong>Shape Over Targets:</strong> domed/scooped rise shapes implicate Tonal Center of Gravity — dynamic, non-linear representations — over target-and-interpolation models.</li>
+  <li><strong>Hierarchy of Distinctiveness:</strong> tune systems are organised as a two-level hierarchy, not an 8-way flat contrast; gradient detail exists but is perceptually secondary.</li>
+</ol>
+
+<hr>
+<p class="foot"><strong>Citation:</strong> Cole, J., Steffman, J., Shattuck-Hufnagel, S., &amp; Tilsen, S. (2023). Hierarchical distinctions in the production and perception of nuclear tunes in American English. <em>Laboratory Phonology: Journal of the Association for Laboratory Phonology</em>, 14(1), 1–51. <a href="https://doi.org/10.16995/labphon.9437">https://doi.org/10.16995/labphon.9437</a></p>
+<p class="foot"><strong>Key references inside:</strong> Pierrehumbert (1980); Ladd (2008); Pierrehumbert &amp; Hirschberg (1990); Braun, Kochanski, Grabe &amp; Rosner (2006); Chodroff &amp; Cole (2019); Barnes, Veilleux, Brugos &amp; Shattuck-Hufnagel (2012, 2021); Roessig, Mücke &amp; Grice (2019); Cole, Tilsen &amp; Steffman (2022). Data/OSF: <a href="https://osf.io/zgvnp/">osf.io/zgvnp</a>; interactive: <a href="https://prosodylab.shinyapps.io/nuctunes-basic8/">prosodylab.shinyapps.io/nuctunes-basic8</a>.</p>
+
+</body>
+</html>

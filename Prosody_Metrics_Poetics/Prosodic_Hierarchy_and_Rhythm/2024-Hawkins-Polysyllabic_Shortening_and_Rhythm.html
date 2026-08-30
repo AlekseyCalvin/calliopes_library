@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hawkins et al. (2026) — Phonetic correlates of prefixedness in four varieties of English</title>
+<style>
+  :root{
+    --ink:#1c1c1c; --mut:#6b6b6b; --rule:#e0e0e0; --accent:#7a2e2e; --paper:#fdfcfa;
+    --code:#f2efe9; --hl:#f7f2e7;
+  }
+  *{box-sizing:border-box}
+  body{font:17px/1.65 Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);
+       max-width:46rem;margin:0 auto;padding:3rem 1.5rem 6rem;}
+  h1{font-size:1.7rem;line-height:1.3;margin:0 0 .4rem;font-weight:600}
+  h2{font-size:1.15rem;margin:2.6rem 0 .6rem;font-weight:600;letter-spacing:.02em;
+     text-transform:uppercase;color:var(--accent)}
+  h3{font-size:1rem;margin:1.4rem 0 .4rem;font-weight:600}
+  .cite{color:var(--mut);font-size:.95rem;margin-bottom:2rem}
+  p{margin:.55rem 0}
+  ul,ol{margin:.5rem 0 .9rem;padding-left:1.4rem}
+  li{margin:.25rem 0}
+  blockquote{border-left:3px solid var(--rule);margin:1.1rem 0;padding:.2rem 0 .2rem 1.1rem;
+             color:#333;font-style:italic}
+  .gist{background:var(--hl);border:1px solid var(--rule);border-radius:4px;
+        padding:1.1rem 1.3rem;margin:1.4rem 0}
+  .gist ul{margin:.3rem 0 0}
+  .gist strong{font-variant:small-caps;letter-spacing:.04em}
+  code{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:.85em;
+       background:var(--code);padding:.1em .35em;border-radius:3px}
+  .tag{display:inline-block;font:600 .7rem/1.6 ui-monospace,monospace;letter-spacing:.08em;
+       text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+       border-radius:999px;padding:0 .6rem;margin:0 .3rem .3rem 0}
+  hr{border:0;border-top:1px solid var(--rule);margin:2.5rem 0}
+  .foot{font-size:.85rem;color:var(--mut)}
+  a{color:var(--accent)}
+  .nav{font-size:.85rem;margin-bottom:2rem}
+  .nav a{margin-right:.8rem}
+</style>
+</head>
+<body>
+
+<nav class="nav"><a href="synthesis.html">← Consolidated synthesis</a></nav>
+
+<h1>Phonetic correlates of prefixedness in four varieties of English</h1>
+<div class="cite">Sarah Hawkins, Jen Hay, Rachel Smith, Jennifer Stuart-Smith &amp; Robert Fromont — <em>Laboratory Phonology: Journal of the Association for Laboratory Phonology</em>, 17(1), 1–64 (2026). DOI: <a href="https://doi.org/10.16995/labphon.17571">10.16995/labphon.17571</a></div>
+
+<div class="gist">
+<strong>The gist.</strong> Does morphology leak into phonetics in spontaneous speech, across dialects? Yes. Using 1002 tokens of <em>dis-</em>/<em>mis-</em> words from conversational corpora in four varieties (New Zealand, Ohio US, Glasgow, Liverpool), 14 acoustic measures were reduced via PCA to five dimensions ([s] duration/peakiness, [s] spectral balance, vowel duration, vowel quality/F2−F1, [s] low-frequency cutoff). Every dialect marks prefix status with at least one dimension; <strong>vowel duration is the most robust and generalisable cue</strong> (prefixes have longer vowels in NZ, US, and Liverpool — but not Glasgow, whose KIT-vowel phonology constrains it); and the effect is <strong>not a word-frequency artefact</strong>. The binary prefix/nonprefix distinction dominates, but within prefixes, <em>gradient</em> "felt prefixedness" (from an online rating task, highly consistent across dialect groups, rs ≈ .9–.94) predicts vowel quality and [s] cutoff — morphology is gradient in production, and each dialect "solves" the prefix cue in its own way, tied to its dialect-specific reduction patterns and KIT-vowel quality.
+</div>
+
+<h2>What the paper does</h2>
+<p>Corpus phonetics: forced-aligned conversational speech (Buckeye US; NZ archives; Glasgow; Liverpool), words beginning with /dɪs/ or /mɪs/ classified as prefixed (388) or unprefixed (614) by semantic criteria (free stem + transparent relation + consistent prefix meaning); 78 online raters provided continuous "how prefixed?" judgments for 214 word types; 14 acoustic measures per token → permutation-tested PCA (5 components, 74% variance) → mixed-effects regressions with binary PrefixStatus and gradient Rating, controlling word frequency, stress position, boundary type (4th phoneme stop = coda possible), mis/dis, corpus.</p>
+
+<h2>Key findings</h2>
+<ul>
+  <li><strong>All five PCs show a significant binary prefixedness effect</strong> (in isolation or interaction). PC3 (vowel duration) is the most robust: prefixes longer in US/NZ/Liverpool, not Glasgow; stronger when the following phoneme is a stop (CodaPossible). PC1 ([s] duration/peakiness) differentiates only in NZ; PC2 ([s] spectral balance) interacts with stress; PC4 (vowel quality) differentiates in CodaPossible words (more canonical KIT for prefixes — <em>toward schwa-like [ɪ] in NZ/Glasgow, toward [ɪ] in Ohio</em>); PC5 ([s] cutoff) shows the only main effect independent of other predictors.</li>
+  <li><strong>Not frequency:</strong> word frequency affected vowel duration, but prefix status survived frequency as a controlled factor everywhere — confirming Smith et al. (2012) in messy real speech.</li>
+  <li><strong>Binary dominates; gradience exists within prefixes:</strong> ratings were bimodal (strongly categorical), but within the prefixed class, higher felt-prefixedness predicted more canonical vowel quality (PC4) and higher [s] cutoff (PC5). Morphologically "ambiguous" words (e.g. <em>misnomer</em>) sat in the middle of the rating scale, and the acoustics followed the gradient.</li>
+  <li><strong>Dialectal solutions differ:</strong> each variety uses a different combination of dimensions — the effect is real everywhere, but its phonetic "solution" is tied to the dialect's reduction phonology and KIT quality (Glasgow's vowel duration is constrained by other morphophonological factors — Rathcke &amp; Stuart-Smith 2016).</li>
+</ul>
+
+<h2>Interpretation &amp; caveats</h2>
+<p>The prefix carries "a heavier beat" than the identical nonprefix syllable (Raffelsiefen 1999's prosodic-word boundary) — and dialects implement "heavier beat" via whatever their reduction system affords. The authors connect this to the communicative function (prefixes carry negation/reversal meaning; listeners use the first-syllable detail online to predict word identity — Clayards et al. 2021) and to a Linear Discriminative Learning (LDL) frame where form-meaning patterns are learned probabilistically. Caveats: forced-alignment noise (hand-correction didn't change results), unequal corpora sizes, mostly NZ-heavy token counts, speech-style differences across corpora.</p>
+
+<h2>Relevance to Calliope-TS</h2>
+<p>Morphology is everywhere in poetry — and prefixes are the exact stratum where Calliope's lexical (CMU) stage, POS/parse stage, and stress machinery interact:</p>
+<ul>
+  <li><strong>Insight: morphological structure should modulate stress keys.</strong> The paper shows prefix vs nonprefix affects syllable prominence-phonetics systematically (<em>discolour</em> vs <em>discover</em> differ in vowel duration and quality). Calliope's tier system could encode this as a small, principled prominence bonus for morpheme-boundary syllables (a "prefix boundary ⇒ slightly stronger weak syllable" effect) — exactly the kind of morphology→phonology mapping the toolkit's <em>morphology</em> column in Nounsing-Pro already hints at (suffixType/prefixType), and a natural companion to the existing <code>NOMD</code>/compound logic.</li>
+  <li><strong>Insight: gradient morphology = gradient phonetics.</strong> Felt-prefixedness (transparency, stem freedom) varies continuously and the acoustics follow. For Calliope's OOV morphology (decomposeStress, suffix/prefix tables), this argues for <em>confidence-weighted</em> morphological parses: transparent, productive affixation (mis- + free stem) should be trusted more than opaque spellings (mystery, disaster) — a principled way to decide between morphological decomposition and whole-word lexical lookup, which is precisely the decision Calliope's OOV fallback makes today with hard rules.</li>
+  <li><strong>Insight: dialect parameterisation of reduction.</strong> The dialect-specific cue solutions (and the Glasgow exception) are a caution against hard-coding "reduction = centralisation toward schwa" globally — relevant to Calliope's handling of non-US poetry (the user's own corpus work spans British and World English), and to the toolkit's doctrine of not essentialising one dialect's prosody.</li>
+  <li><strong>Insight: frequency ≠ morphology.</strong> The paper cleanly separates word-frequency reduction from morphological enhancement — the same two confounds Calliope faces when choosing between frequency-weighted (Zipf) handling in the lexicon and structural rules; the finding that morphology survives frequency control supports keeping structural rules independent of frequency gating.</li>
+  <li><strong>Insight: first-syllable detail predicts word identity.</strong> Listeners use prefix detail online (Clayards et al. 2021). For the reading/teaching use case of Calliope, this means the tool's <em>morpheme-aware</em> display (e.g. showing the mis-/dis- boundary) is not decoration — it matches the perceptual strategy of real listeners.</li>
+</ul>
+
+<h2>Key named insights</h2>
+<ol>
+  <li><strong>Morphology is audible:</strong> prefix status has systematic phonetic correlates in spontaneous speech, across four very different dialects.</li>
+  <li><strong>Vowel duration as the workhorse:</strong> the most robust prefix cue is vowel duration (with the Glasgow exception) — again duration proves the most reliable prominence-adjacent signal.</li>
+  <li><strong>Gradient affixedness:</strong> within the prefixed class, "felt prefixedness" grades the phonetics continuously — transparency is a gradient with acoustic reflexes.</li>
+  <li><strong>Dialectal cue solutions:</strong> varieties solve the same morphological-prominence problem with different phonetic dimensions, tied to their reduction phonology.</li>
+</ol>
+
+<hr>
+<p class="foot"><strong>Citation:</strong> Hawkins, S., Hay, J., Smith, R., Stuart-Smith, J., &amp; Fromont, R. (2026). Phonetic correlates of prefixedness in four varieties of English. <em>Laboratory Phonology: Journal of the Association for Laboratory Phonology</em>, 17(1), 1–64. <a href="https://doi.org/10.16995/labphon.17571">10.16995/labphon.17571</a></p>
+<p class="foot"><strong>Key references inside:</strong> Raffelsiefen (1999); Smith, Baker &amp; Hawkins (2012); Plag &amp; Ben Hedia (2018); Zuraw et al. (2021); Strycharczuk (2019); Hay (2003); Clayards et al. (2021); Stein (2023); Bybee (1985, 2006); Baayen, Chuang, Shafaei-Bajestan &amp; Blevins (2019, LDL); Rathcke &amp; Stuart-Smith (2016). OSF: <a href="https://osf.io/hq8kr/">osf.io/hq8kr</a>.</p>
+
+</body>
+</html>

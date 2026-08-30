@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Franich (2022) — How we speak when we speak to a beat</title>
+<style>
+  :root{
+    --ink:#1c1c1c; --mut:#6b6b6b; --rule:#e0e0e0; --accent:#7a2e2e; --paper:#fdfcfa;
+    --code:#f2efe9; --hl:#f7f2e7;
+  }
+  *{box-sizing:border-box}
+  body{font:17px/1.65 Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);
+       max-width:46rem;margin:0 auto;padding:3rem 1.5rem 6rem;}
+  h1{font-size:1.7rem;line-height:1.3;margin:0 0 .4rem;font-weight:600}
+  h2{font-size:1.15rem;margin:2.6rem 0 .6rem;font-weight:600;letter-spacing:.02em;
+     text-transform:uppercase;color:var(--accent)}
+  h3{font-size:1rem;margin:1.4rem 0 .4rem;font-weight:600}
+  .cite{color:var(--mut);font-size:.95rem;margin-bottom:2rem}
+  p{margin:.55rem 0}
+  ul,ol{margin:.5rem 0 .9rem;padding-left:1.4rem}
+  li{margin:.25rem 0}
+  blockquote{border-left:3px solid var(--rule);margin:1.1rem 0;padding:.2rem 0 .2rem 1.1rem;
+             color:#333;font-style:italic}
+  .gist{background:var(--hl);border:1px solid var(--rule);border-radius:4px;
+        padding:1.1rem 1.3rem;margin:1.4rem 0}
+  .gist ul{margin:.3rem 0 0}
+  .gist strong{font-variant:small-caps;letter-spacing:.04em}
+  code{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:.85em;
+       background:var(--code);padding:.1em .35em;border-radius:3px}
+  .tag{display:inline-block;font:600 .7rem/1.6 ui-monospace,monospace;letter-spacing:.08em;
+       text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+       border-radius:999px;padding:0 .6rem;margin:0 .3rem .3rem 0}
+  hr{border:0;border-top:1px solid var(--rule);margin:2.5rem 0}
+  .foot{font-size:.85rem;color:var(--mut)}
+  a{color:var(--accent)}
+  .nav{font-size:.85rem;margin-bottom:2rem}
+  .nav a{margin-right:.8rem}
+</style>
+</head>
+<body>
+
+<nav class="nav"><a href="synthesis.html">← Consolidated synthesis</a></nav>
+
+<h1>How we speak when we speak to a beat: The influence of temporal coupling on phonetic enhancement</h1>
+<div class="cite">Kathryn Franich — <em>Laboratory Phonology: Journal of the Association for Laboratory Phonology</em>, 13(1), 1–51 (2022). DOI: <a href="https://doi.org/10.16995/labphon.6452">10.16995/labphon.6452</a></div>
+
+<div class="gist">
+<strong>The gist.</strong> Why are stressed syllables phonetically "enhanced" (longer, more open, louder)? The standard answer is grammatical (prominence ⇒ enhancement rules). Franich tests an alternative: <em>coordination itself causes enhancement</em>. In a metronome synchronisation–continuation task, speakers of English (a stress language) and Medʉmba (a Grassfields Bantu tone language with positional prominence but no phonetic word stress) repeated words in-phase ("onbeat") or out-of-phase ("offbeat") with a beat. In both languages, syllables produced <em>in time with the beat</em> were longer and had higher F1 (more jaw lowering) — two classic stress correlates — while f0 and intensity showed only task-wide, non-coupling effects. The effect is anchored: it hit the syllables aligned with the beat, appeared even vs uncoordinated speech, and scaled like "stress in a syllable-timed language" for Medʉmba (10–13% lengthening vs English's ~40%). The argument: in-phase coordination is more stable (superimposition in coordination dynamics), and stability ⇒ amplitude ⇒ enhancement; diachronically, such coupling-driven lengthening may be the phonetic precursor that languages <em>phonologise</em> into stress.
+</div>
+
+<h2>What the paper does</h2>
+<p>Metronome synchronisation-continuation task: 12 English + 12 Medʉmba speakers repeated 22 words per language (stress-pattern-controlled English; tone-pattern-controlled Medʉmba) to a metronome in onbeat (in-phase) or offbeat (120° phase) alignment, then continued without the beat; an uncoordinated condition served as baseline. Only continuation-phase data were analysed (removing the confound of speaking over the metronome). Measures: vowel duration, f0, intensity, F1, F2, Euclidean distance from vowel-space centre, and metronome-alignment (p-centre-based) distance. Mixed models with phasing × position × stress/tone (+ vowel-height/backness) predictors.</p>
+
+<h2>Key findings</h2>
+<ul>
+  <li><strong>Duration:</strong> onbeat vowels were longer than offbeat — most strongly in word-initial position (English: initial-syllable effect; Medʉmba: overall +3.4ms, larger word-initially). Relative duration (stressed/unstressed ratio, English) was higher onbeat than both offbeat and no-beat — i.e. genuine enhancement, not just rate effects.</li>
+  <li><strong>F1:</strong> higher (more open/central articulation) onbeat in both languages, again localised to beat-aligned syllables and low vowels especially — consistent with greater jaw displacement under stable in-phase coupling.</li>
+  <li><strong>F0 and intensity:</strong> no coupling-specific effects (f0 rose onbeat in English but fell onbeat in Medʉmba — language-specific, not coupling; intensity was generally higher offbeat, arguably effort). These are the cues that <em>don't</em> show the effect — important negative results for the theory.</li>
+  <li><strong>Alignment:</strong> English speakers anchored stressed syllables near the beat (within ~7ms); Medʉmba speakers anchored high tones and prominent stem-initial syllables; variability was lower onbeat (more stable coupling).</li>
+  <li><strong>Cross-linguistic scale:</strong> the coupling-induced lengthening in Medʉmba (10–13%) resembles stress effects in syllable-timed languages (Spanish ~10%), suggesting the effect is a general motor property whose <em>grammaticalisation</em> into stress differs by language.</li>
+</ul>
+
+<h2>Interpretation &amp; caveats</h2>
+<p>Franich interprets the results via coordination dynamics (Kelso; Schwartz et al. 1995): in-phase coupling is the "global attractor"; stability and amplitude covary (Kudo et al. 2006); speech articulators inherit the amplitude boost. Stress enhancement may thus be partially <em>pre-linguistic</em> — a "coordinative root" of stress — with diachronic phonologisation (Hyman 1976) converting the coupling effect into grammatical prominence, possibly amplified later by µT-gesture clock-slowing in stress languages. Caveats: acoustic rather than articulatory evidence for jaw movement; some f0/intensity patterns language-specific and unexplained; a single task type; Medʉmba data limited by small lexicon.</p>
+
+<h2>Relevance to Calliope-TS</h2>
+<p>This paper targets the deepest question underneath any scansion tool — <em>what is stress, and where does it come from?</em> — with several concrete implications:</p>
+<ul>
+  <li><strong>Insight: duration is the primitive stress correlate.</strong> Gordon &amp; Roettger's (2017) survey (cited here) shows duration is the most robust cross-linguistic stress cue (85%); this paper shows it is also the one that emerges from pure coordination. For Calliope, whose meter fitter scores duration-adjacent properties through syllable weight and stress, this justifies the primacy of weight/duration-based cues over pitch in the English default — and explains why the toolkit's stress keys read naturally even without any f0 machinery.</li>
+  <li><strong>Insight: text-setting is not arbitrary.</strong> Calliope's ambition to handle song lyrics and text-setting is directly supported: stressed syllables map to musical strong beats because both are coordination anchors; the tool's meter identification for lyric corpora (e.g. the Beatles examples in the project's own context notes) is grounded in the same coupling principle this paper documents experimentally.</li>
+  <li><strong>Insight: prominence without stress (tone languages).</strong> Medʉmba's stem-initial positional prominence attracts the beat exactly like English stress — support for Calliope's non-essentialising stance on ternary meters and non-English prosodies: the kit's "Worldish" English-translation ambitions should treat beat-attraction (positional/tonal prominence) as a legitimate analog of stress for meter-fitting, which the accentual/dolnik layer already effectively does.</li>
+  <li><strong>Insight: enhancement is anchored, not global.</strong> The localisation of effects to beat-aligned syllables mirrors Calliope's key-stress philosophy (right edges of units as the reliable evidence): enhancement lives at <em>anchored</em> positions; a fitter should concentrate its evidence there — which the key-stress weighting already implements.</li>
+  <li><strong>Insight for the reading/teaching use case:</strong> if "speaking to a beat" naturally produces the cues of stress, then Calliope's reading-aid function (key-stress-coloured output for recitation) is teaching the motor system's own language — the tool's contour output aligns with what a metronome-coordinated reader will actually produce.</li>
+</ul>
+
+<h2>Key named insights</h2>
+<ol>
+  <li><strong>Coordinative roots of stress:</strong> in-phase coupling with a beat produces stress-like phonetic enhancement (duration, F1) in stress and non-stress languages alike.</li>
+  <li><strong>Enhancement is anchored:</strong> only beat-aligned syllables are enhanced — the effect is positional, not global.</li>
+  <li><strong>Duration as the primitive:</strong> the coupling effect shows up exactly in the cue that is most robustly diagnostic of stress cross-linguistically.</li>
+  <li><strong>Phonologisation pathway:</strong> coupling-driven lengthening is a plausible diachronic precursor to grammatical stress (via enhancement under in-phase coordination).</li>
+</ol>
+
+<hr>
+<p class="foot"><strong>Citation:</strong> Franich, K. (2022). How we speak when we speak to a beat: The influence of temporal coupling on phonetic enhancement. <em>Laboratory Phonology: Journal of the Association for Laboratory Phonology</em>, 13(1), 1–51. <a href="https://doi.org/10.16995/labphon.6452">10.16995/labphon.6452</a></p>
+<p class="foot"><strong>Key references inside:</strong> Hayes (1995); Liberman &amp; Prince (1977); Gordon &amp; Roettger (2017); Kelso (1994); Haken, Kelso &amp; Bunz (1985); Schwartz, Amazeen &amp; Turvey (1995); Kudo, Park, Kay &amp; Turvey (2006); Saltzman, Nam, Krivokapić &amp; Goldstein (2008); O'Dell &amp; Nieminen (1999); Byrd &amp; Saltzman (2003); Parrell, Goldstein, Lee &amp; Byrd (2014); Dell &amp; Halle (2009); Temperley &amp; Temperley (2012); Franich &amp; Lendja Ngnemzué (2021); Franich &amp; Keupdjio (2022).</p>
+
+</body>
+</html>

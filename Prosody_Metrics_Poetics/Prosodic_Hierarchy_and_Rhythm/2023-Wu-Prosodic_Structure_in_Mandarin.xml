@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.2/JATS-journalpublishing1.dtd">
+<!--<?xml-stylesheet type="text/xsl" href="article.xsl"?>-->
+<article article-type="research-article" dtd-version="1.2" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<front>
+<journal-meta>
+<journal-id journal-id-type="issn">2397-1835</journal-id>
+<journal-title-group>
+<journal-title>Glossa: a journal of general linguistics</journal-title>
+</journal-title-group>
+<issn pub-type="epub">2397-1835</issn>
+<publisher>
+<publisher-name>Open Library of Humanities</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.16995/glossa.11169</article-id>
+<article-categories>
+<subj-group>
+<subject>Special collection: data-driven analyses of ellipsis (mis)matches</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Elided material is present in prosodic structure</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-8092-9036</contrib-id>
+<name>
+<surname>Wu</surname>
+<given-names>Danfeng</given-names>
+</name>
+<email>danfeng.wu@unige.ch</email>
+<xref ref-type="aff" rid="aff-1">1</xref>
+</contrib>
+</contrib-group>
+<aff id="aff-1"><label>1</label>University of Geneva, CH</aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-12-16">
+<day>16</day>
+<month>12</month>
+<year>2025</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2025</year>
+</pub-date>
+<volume>10</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>49</lpage>
+<permissions>
+<copyright-statement>Copyright: &#x00A9; 2025 The Author(s)</copyright-statement>
+<copyright-year>2025</copyright-year>
+<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International License (CC-BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. See <uri xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</uri>.</license-p>
+</license>
+</permissions>
+<self-uri xlink:href="https://www.glossa-journal.org/articles/10.16995/glossa.11169/"/>
+<abstract>
+<p>Because elided material is silent, we might not expect it to have direct representation in prosodic structure. I argue with experimental evidence that the presence or absence of elided structure does have an effect on prosodic realization. This result suggests that elided material must be present in narrow syntax in order to be mapped onto prosodic structure (e.g. <xref ref-type="bibr" rid="B40">Johnson 2001</xref>; <xref ref-type="bibr" rid="B57">Merchant 2001</xref>; <xref ref-type="bibr" rid="B58">2005</xref>; <xref ref-type="bibr" rid="B78">van Craenenbroeck 2009</xref>). It challenges alternative theories which claim that elided material is not fully present in syntax by assuming that elided material is copied at LF (<xref ref-type="bibr" rid="B8">Chung et al. 1995</xref>), is partially present in syntax as a pronoun (e.g. <xref ref-type="bibr" rid="B51">Landau 2023</xref>), or has an enriched meaning by a discourse rule (<xref ref-type="bibr" rid="B23">Groenendijk &amp; Stokhof 1984</xref>; <xref ref-type="bibr" rid="B21">Ginzburg &amp; Sag 2001</xref>; <xref ref-type="bibr" rid="B38">Jacobson 2016</xref>). Furthermore, this result supports a derivational view of the syntax-prosody mapping with a particular ordering of operations. For example, if ellipsis involves PF-deletion, then elided material has not yet been deleted at the point of creation of the prosodic structure. This experiment also demonstrates the value of experimental methods in understanding theories of ellipsis. Theories make concrete testable predictions about prosody, which are borne out by subtle effects in prosodic boundaries. These boundary effects are so subtle that they may not be detectable impressionistically, but only by phonetic measures such as durations.</p>
+</abstract>
+</article-meta>
+</front>
+<body>
+<sec>
+<title>1 Introduction</title>
+<p>Prosodic structure largely reflects syntactic structure, but there are also mismatches between the two. There is rich literature and debate on syntax-prosody correspondence (e.g., edge-based theory <xref ref-type="bibr" rid="B69">Selkirk 1986</xref>; <xref ref-type="bibr" rid="B70">1995</xref>; Align and Wrap constraints <xref ref-type="bibr" rid="B76">Truckenbrodt 1995</xref>; <xref ref-type="bibr" rid="B77">1999</xref>; Match Theory <xref ref-type="bibr" rid="B72">Selkirk 2009</xref>; <xref ref-type="bibr" rid="B73">2011</xref>; <xref ref-type="bibr" rid="B14">Elfner 2012</xref>; <xref ref-type="bibr" rid="B15">2015</xref>; <xref ref-type="bibr" rid="B35">Ito &amp; Mester 2013</xref>; <xref ref-type="bibr" rid="B36">2015</xref>; <xref ref-type="bibr" rid="B4">Bennett et al. 2016</xref>; embedding-based mapping <xref ref-type="bibr" rid="B80">Wagner 2010</xref>), but it has largely focused on the prosody of <italic>pronounced</italic> syntactic structure. The prosodic literature that does discuss <italic>unpronounced material</italic> often assumes that silent material does not affect prosody at all (e.g. <xref ref-type="bibr" rid="B6">Chen 1987</xref>; <xref ref-type="bibr" rid="B54">Lin 1994</xref>; <xref ref-type="bibr" rid="B77">Truckenbrodt 1999</xref>; <xref ref-type="bibr" rid="B14">Elfner 2012</xref>; <xref ref-type="bibr" rid="B15">2015</xref>; <xref ref-type="bibr" rid="B27">Hamlaoui &amp; Szendr&#337;i 2015</xref>; <xref ref-type="bibr" rid="B28">2017</xref>).</p>
+<p>If we apply this assumption to ellipsis, a paradigmatic type of silence, then we&#8217;d expect elided material to not affect prosody. This seems like a reasonable assumption because elided material has no phonological content. But prosodic effects include not only <italic>prominence effects</italic> on pronounced material, but also effects on <italic>prosodic boundaries</italic> around (pronounced or potentially unpronounced) material.</p>
+<p>This paper presents an experimental production study of the prosodic effects of ellipsis through an investigation of its boundary effects. I study the prosody of ellipsis in a domain with already close syntax-prosody correspondence&#8211;English coordination. Downing (<xref ref-type="bibr" rid="B13">1970</xref>); Wagner (<xref ref-type="bibr" rid="B79">2005</xref>; <xref ref-type="bibr" rid="B80">2010</xref>) and others observed that coordinated clauses are followed by a larger prosodic boundary than coordinated DPs. For example, (1) involves syntactic coordination of two clauses, and (2) coordination of DPs. This syntactic difference is realized prosodically: there is a larger prosodic boundary between <italic>lettuce</italic> and <italic>and</italic> in (1) than in (2).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(1)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Clausal coordination</italic></p></list-item>
+<list-item><p>He ate the lettuce and he ate it with a fork.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(2)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>DP coordination</italic></p></list-item>
+<list-item><p>He ate the lettuce and the bacon.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>I take advantage of this insight, and ask what happens if I put ellipsis in (1) (elided material is struckthrough), as in (3B). I do so by making it the <italic>fragment answer</italic> to a question, an answer that denotes a proposition but nevertheless appears as a subpart of a proposition.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(3)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Clausal coordination with ellipsis</italic></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>A:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>What did John eat?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>B:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><strike>He ate</strike> the lettuce and he ate it with a fork.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Is the prosodic difference between the fully overt structures (1) and (2) still present when one of them contains ellipsis? If we call the difference in the boundary size between (1) and (2) &#916;<sub>1</sub>, and the boundary difference between (3B) and (2) &#916;<sub>2</sub>, then how does &#916;<sub>2</sub> compare with &#916;<sub>1</sub>?<xref ref-type="fn" rid="n1">1</xref></p>
+<p>If elided material has no prosodic representation, because there is less overt structure in (3B) than in (1), we may expect the boundary to be smaller in (3B) than in (1), and thus &#916;<sub>2</sub> to be smaller than &#916;<sub>1</sub>. If on the other hand elided material has prosodic representation just like pronounced material, then &#916;<sub>1</sub> should be roughly equal to &#916;<sub>2</sub>.</p>
+<p>Furthermore, the prosodic investigations of (1)&#8211;(3B) also shed light on the syntactic representation of ellipsis. Let us follow the standard assumption in the literature that syntax affects prosody, and the prosodic difference &#916;<sub>1</sub> between (1) and (2) is due to a difference between their syntactic structures. If &#916;<sub>2</sub> is comparable to &#916;<sub>1</sub>, then this suggests that there is also a syntactic difference between (3B) and (2), even though part of that syntactic structure has been silenced by ellipsis in (3B). This suggests that elided material has syntactic representation, despite being silent.</p>
+<p>The rest of this paper presents an experimental study whose results support the presence of elided material in syntax and prosody. Section 2 lays out my key assumptions about the syntax-prosody mapping. Section 3 presents the background literature on ellipsis, with opposing views on how elided material is represented syntactically and prosodically, and section 4 presents the experimental design to test the predictions of those opposing views. Section 5 presents the methods of the production study, section 6 its results and section 7 the discussion of the results. Section 8 discusses a view that is different from the assumptions laid out in section 2, and shows that it does not affect the interpretation of the results, unless we make an additional assumption that is unlikely. Section 9 presents an auxiliary measure and related results that are consistent with the view that elided material has syntactic and prosodic representation. Section 10 concludes the paper.</p>
+</sec>
+<sec>
+<title>2 Key assumptions</title>
+<p>This section lays out the key assumptions on which the current study is based. Theories on syntax-prosody mapping differ in how much match and mismatch there are between syntactic structure and prosodic structure, and in particular whether the prosodic structure can replicate the recursive nature of syntactic structure. Some theories (e.g., <xref ref-type="bibr" rid="B14">Elfner 2012</xref>; <xref ref-type="bibr" rid="B15">2015</xref>; <xref ref-type="bibr" rid="B80">Wagner 2010</xref>) claim that it can by proposing that a syntactic phrase that dominates another syntactic phrase corresponds to a stronger prosodic phrase than the embedded phrase. Other theories (e.g., <xref ref-type="bibr" rid="B69">Selkirk 1986</xref>) claim that prosodic structure is much flatter than syntactic structure in lacking recursivity.</p>
+<p>This paper follows the former type of theories due to independent evidence suggesting that the prosodic structure can indeed be recursive (e.g. <xref ref-type="bibr" rid="B49">Ladd 1986</xref>; <xref ref-type="bibr" rid="B50">1988</xref>; <xref ref-type="bibr" rid="B46">Kubozono 1989</xref>; <xref ref-type="bibr" rid="B47">1992</xref>; <xref ref-type="bibr" rid="B19">F&#233;ry &amp; Truckenbrodt 2005</xref>; <xref ref-type="bibr" rid="B79">Wagner 2005</xref>; <xref ref-type="bibr" rid="B80">2010</xref>; <xref ref-type="bibr" rid="B32">Ito &amp; Mester 2007</xref>; <xref ref-type="bibr" rid="B33">2010</xref>; <xref ref-type="bibr" rid="B34">2012</xref>; <xref ref-type="bibr" rid="B35">2013</xref>; <xref ref-type="bibr" rid="B72">Selkirk 2009</xref>; <xref ref-type="bibr" rid="B73">2011</xref>; <xref ref-type="bibr" rid="B15">Elfner 2015</xref>; <xref ref-type="bibr" rid="B16">Elordieta 2015</xref>; <xref ref-type="bibr" rid="B74">Selkirk &amp; Lee 2015</xref>; <xref ref-type="bibr" rid="B7">Cheng &amp; Downing 2021</xref>; <xref ref-type="bibr" rid="B3">Bellik et al. 2022</xref>; <xref ref-type="bibr" rid="B37">Jabeen 2022</xref>; <xref ref-type="bibr" rid="B48">K&#252;gler 2022</xref>; <xref ref-type="bibr" rid="B31">Ishihara &amp; Myrberg 2023</xref>; <xref ref-type="bibr" rid="B52">Lee &amp; Riedel 2023</xref>). Furthermore, the former type of theories can easily account for the observed prosodic difference between (1) and (2). In (1) <italic>lettuce</italic> is the rightmost word in a clause (<italic>he ate the lettuce</italic>), while in (2), since <italic>he ate the lettuce</italic> in (2) does not form a constituent, <italic>lettuce</italic> is only the rightmost word in a DP (<italic>the lettuce</italic>). The clause <italic>he ate the lettuce</italic> in (1) dominates more syntactic phrases than the DP <italic>the lettuce</italic> in (2), and should therefore correspond to a stronger prosodic phrase than the DP <italic>the lettuce</italic> in (2), leading to a larger prosodic boundary following <italic>lettuce</italic> in (1) than in (2).</p>
+<p>For concreteness, I illustrate how the prosodic contrast between (1) and (2) can be captured by a specific mapping theory that allows recursive prosodic structure&#8211;Elfner&#8217;s (<xref ref-type="bibr" rid="B15">2015</xref>) version of Match Theory. I will introduce the relevant components of Match Theory, and propose an auxiliary assumption that is necessary for independent reasons. These components together can capture the observed prosodic difference between (1) and (2).</p>
+<sec>
+<title>2.1 Assumptions about syntax-prosody mapping</title>
+<p>Elfner&#8217;s (<xref ref-type="bibr" rid="B15">2015</xref>) version of Match Theory, which is based on Selkirk (<xref ref-type="bibr" rid="B73">2011</xref>) and also appears in Elfner (<xref ref-type="bibr" rid="B14">2012</xref>), posits that prosodic structure replicates the dominance relations in the syntactic structure: a lexical head (e.g. V<sup>0</sup>, N<sup>0</sup>, Adj<sup>0</sup>) is mapped to a prosodic word (&#969;) (Match-Word, (4)), a functional head (e.g. D<sup>0</sup>, P<sup>0</sup>) is mapped to a clitic (Match-Clitic, (5)), and a syntactic maximal projection (XP) is mapped to a phonological phrase (&#966;), and the prosodic structure replicates the dominance relations in the syntactic structure (Match-Phrase, (6)). I also follow Elfner&#8217;s (<xref ref-type="bibr" rid="B15">2015</xref>) assumption that a non-branching constituent that is simultaneously an X<sup>0</sup> and XP is mapped to a &#969;.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(4)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Match-Word</italic></p></list-item>
+<list-item><p>V<sup>0</sup>, N<sup>0</sup>, Adj<sup>0</sup> &#10132; &#969;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(5)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Match-Clitic</italic></p></list-item>
+<list-item><p>D<sup>0</sup>, P<sup>0</sup> &#10132; C</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(6)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Match-Phrase</italic></p></list-item>
+<list-item><p>XP &#10132; &#966;</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8220;For every syntactic phrase (XP) in the syntactic representation that exhaustively dominates a set of one or more terminal nodes &#945;, there must be a prosodic domain (&#981;) in the phonological representation that exhaustively dominates all and only the phonological exponents of the terminal nodes in &#945;.&#8221;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>But not all syntactic constituents are mapped onto prosody. An assumption crucial to the literature on syntax-prosody mapping is that silent material (e.g., phonologically empty heads and their projections, and movement traces) is not mapped onto prosody, based on evidence from Chichewa (<xref ref-type="bibr" rid="B77">Truckenbrodt 1999</xref>), Xiamen Chinese (<xref ref-type="bibr" rid="B6">Chen 1987</xref>; <xref ref-type="bibr" rid="B54">Lin 1994</xref>) and Irish (<xref ref-type="bibr" rid="B14">Elfner 2012</xref>; <xref ref-type="bibr" rid="B15">2015</xref>). The syntactic structures assumed for (1) and (2) are in <xref ref-type="fig" rid="F1">Figure 1</xref> and <xref ref-type="fig" rid="F2">Figure 2</xref> respectively:<xref ref-type="fn" rid="n2">2</xref></p>
+<fig id="F1">
+<label>Figure 1</label>
+<caption>
+<p>Syntactic structure for (1).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g1.png"/>
+</fig>
+<fig id="F2">
+<label>Figure 2</label>
+<caption>
+<p>Syntactic structure for (2).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g2.png"/>
+</fig>
+<p>Following Elfner&#8217;s Match principles and the principle that does not map phonologically empty heads to prosodic structure, (1) and (2) have the prosodic structures in <xref ref-type="fig" rid="F3">Figure 3</xref> and <xref ref-type="fig" rid="F4">Figure 4</xref> respectively.<xref ref-type="fn" rid="n3">3</xref> In all the prosodic structures, the right parenthesis marks the right boundary following <italic>lettuce</italic>&#8211;the right edge of the topmost &#966; in which <italic>lettuce</italic> is the final word.</p>
+<fig id="F3">
+<label>Figure 3</label>
+<caption>
+<p>Prosodic structure for (1).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g3.png"/>
+</fig>
+<fig id="F4">
+<label>Figure 4</label>
+<caption>
+<p>Prosodic structure for (2).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g4.png"/>
+</fig>
+<p>So far I have assumed only one prosodic category above the word level&#8211;phonological phrase (&#966;). All syntactic XPs are mapped to &#966;s, regardless of the type of the XP. This follows Elfner&#8217;s (<xref ref-type="bibr" rid="B15">2015</xref>) analysis of Irish, for which she noted that there was no evidence suggesting that another prosodic category was necessary. But many theories in the prosodic literature posit another prosodic category above the word level&#8211;intonational phrase (&#953;) (e.g. <xref ref-type="bibr" rid="B69">Selkirk 1986</xref>; <xref ref-type="bibr" rid="B70">1995</xref>; <xref ref-type="bibr" rid="B72">2009</xref>; <xref ref-type="bibr" rid="B73">2011</xref>). These theories distinguished between syntactic clauses or assertions (roughly TP or CP) and subclauses (anything smaller than a TP, e.g., a DP), and claimed that clauses or assertions should correspond to &#953;, while subclauses to &#966; (Match-Clause, (7)).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(7)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Match-Clause</italic></p></list-item>
+<list-item><p>TP, CP &#10132; &#953;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Because the first conjunct in (1) <italic>he ate the lettuce</italic> is a clause, but the first conjunct in (2) is just a DP <italic>the lettuce</italic>, Match-Clause would map the former to a different category (&#953;) from the latter (&#966;).</p>
+<p>Instead of Match-Clause, some prosodic theories claim that a speech act or an illocutionary force projection is mapped to an &#953; (Match-Speech-Act; e.g. <xref ref-type="bibr" rid="B24">G&#252;ne&#351; 2014</xref>; <xref ref-type="bibr" rid="B25">2015</xref>; <xref ref-type="bibr" rid="B30">Ishihara 2022</xref>). These theories will not affect the results in this paper unless we say that each of the conjuncts in (1) must be a separate speech act, whereas the conjuncts in (2) are not. I don&#8217;t think the conjuncts in (1) have to necessarily be separate speech acts, but let us assume that they do in order to have a complete survey of all the possible prosodic structures, then Match-Speech-Act would map the first conjunct in (1) to an &#953;, but the first conjunct in (2) to a &#966;.</p>
+<p>Section 8 will address the prosodic structures created by Match-Clause or Match-Speech-Act, and argue that whether a syntactic clause is mapped to an &#953; or a &#966; does not affect the results in this paper, as long as the strength of a prosodic domain depends (at least in part) on the levels of syntactic embedding, a fact with empirical support (e.g. <xref ref-type="bibr" rid="B49">Ladd 1986</xref>; <xref ref-type="bibr" rid="B50">1988</xref>; <xref ref-type="bibr" rid="B46">Kubozono 1989</xref>; <xref ref-type="bibr" rid="B79">Wagner 2005</xref>; <xref ref-type="bibr" rid="B80">2010</xref>). Because Match-Clause and Match-Speech-Act do not make a difference to the results, the rest of the paper will assume that all syntactic phrases are mapped to &#966;s.</p>
+</sec>
+<sec>
+<title>2.2 Auxiliary assumption about the phonetic effects of prosodic structure</title>
+<p>Abstract prosodic structures have phonetic effects that we can hear. We thus need a theory that connects the prosodic structure to gradient phonetic effects in prominence and phrasing, such as effects in duration, pitch and intensity. I therefore add the following assumption to Match Theory: the more levels a node dominates in the prosodic structure, the phonetically &#8220;stronger&#8221; this node is. Phonetic &#8220;strength&#8221; can be reflected by phonetic effects at the left and right edges of this node, such as domain-initial strengthening and domain-final lengthening. By this assumption, a &#966; must be phonetically stronger than its daughter &#966;&#8217; because the mother &#966; dominates one more level of &#966; than the daughter. This has been observed to be the case in Basque, for example: Elordieta (<xref ref-type="bibr" rid="B16">2015</xref>) found that the degree of pitch reset at the left edge of a nonminimal &#966; (i.e. a &#966; that dominates another &#966;) depends on the number of nonminimal &#966;s it embeds, and the more levels of embedding, the stronger the pitch reset.</p>
+<p>Having introduced Match Theory and the auxiliary assumption about mapping from prosodic structure to gradient durational effects, let us apply this framework to (1) and (2). I focus on the highest &#966;s in which the word <italic>lettuce</italic> is final, which is <italic>he ate the lettuce</italic> in (1) and <italic>the lettuce</italic> in (2). The &#966; <italic>he ate the lettuce</italic> in (1) dominates two levels of &#966;, while the &#966; <italic>the lettuce</italic> in (2) dominates no &#966;. The strength of a phrase is reflected at the right edge by pre-boundary lengthening effects: as Wightman et al. (<xref ref-type="bibr" rid="B82">1992</xref>) showed, the final rime of a word is lengthened before a phrase boundary, and the stronger / larger this boundary, the longer the rime. Because the word <italic>lettuce</italic> in (1) is followed by a stronger phrase boundary than in (2), we would thus expect the last rime of <italic>lettuce</italic> in (1) to be longer than that in (2).</p>
+<p>Having shown how Match Theory along with my auxiliary assumption can capture the prosodic difference between (1) and (2), I now present the main research question&#8211;that is, whether elided material has prosodic representation.</p>
+</sec>
+</sec>
+<sec>
+<title>3 Syntactic and prosodic representation of ellipsis</title>
+<p>To answer this question, I put ellipsis in (1) and turn it into (3B) by making it the fragment answer to the question in (3A), repeated in (8A). Assuming that answers to questions denote propositions (e.g., (8B1)), fragment answers are those that nevertheless appear as a subpart of a proposition (e.g., (8B2)).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(8)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>A:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>What did John eat?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>B1:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>He ate the lettuce.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>B2:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>The lettuce.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>A common analysis of fragment answers posits that they are still a full clause, but with clausal ellipsis (e.g., <xref ref-type="bibr" rid="B58">Merchant 2005</xref>). According to this analysis, (3B) involves movement of <italic>the lettuce</italic>, the phrase that survives ellipsis (<italic>the remnant</italic>), to a higher position (e.g., Spec, CP), plus deletion of the clause <italic>he ate t<sub>i</sub></italic> (<xref ref-type="fig" rid="F5">Figure 5</xref>). Not all syntactic analyses of fragment answers posit movement. For example, Griffiths (<xref ref-type="bibr" rid="B22">2019</xref>) claims that the remnants of ellipsis stay in-situ, and ellipsis deletes the non-remnants. This in-situ analysis of ellipsis makes largely the same prosodic predictions as the analysis of ellipsis that involves movement, and section 7 will discuss the in-situ analysis in depth. For now I will assume that ellipsis does involve movement.</p>
+<fig id="F5">
+<label>Figure 5</label>
+<caption>
+<p>Syntactic structure for (3B), if the remnant moves.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g5.png"/>
+</fig>
+<p>The prosodic structure for (3B) depends on two factors: (a) how elided material is represented syntactically; and (b) how elided material is represented prosodically.</p>
+<p>There are mainly two approaches to the syntactic representation of ellipsis. Some argue that it is fully present in narrow syntax but later deleted at PF (e.g., <xref ref-type="bibr" rid="B40">Johnson 2001</xref>; <xref ref-type="bibr" rid="B57">Merchant 2001</xref>; <xref ref-type="bibr" rid="B58">2005</xref>; <xref ref-type="bibr" rid="B78">van Craenenbroeck 2009</xref>). Others argue that elided material is not fully present in syntax by assuming that elided material is copied at LF (<xref ref-type="bibr" rid="B8">Chung et al. 1995</xref>), is partially present in syntax as a pronoun (e.g. <xref ref-type="bibr" rid="B51">Landau 2023</xref>), or has an enriched meaning by a discourse rule (<xref ref-type="bibr" rid="B23">Groenendijk &amp; Stokhof 1984</xref>; <xref ref-type="bibr" rid="B21">Ginzburg &amp; Sag 2001</xref>; <xref ref-type="bibr" rid="B38">Jacobson 2016</xref>).</p>
+<p>If we follow the first approach that elided material is fully present in syntax, then we can further ask how it is mapped onto prosody. There are two possibilities: (a) it is not represented in prosody at all like other phonologically empty material, leading to the prosodic structure in <xref ref-type="fig" rid="F6">Figure 6</xref>, where the relevant &#966; (in bold) dominates no &#966;; or (b) it is represented in prosody despite having no phonological content, leading to <xref ref-type="fig" rid="F7">Figure 7</xref>, where the relevant &#966; dominates a level of &#966;. Approaches that assume elided material is not fully present in syntax in the first place would predict the prosodic structure in <xref ref-type="fig" rid="F6">Figure 6</xref>, and the question of prosodic representation of ellipsis is moot.</p>
+<fig id="F6">
+<label>Figure 6</label>
+<caption>
+<p>Prosodic structure for (3B), if elided material is not represented in syntax or prosody.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g6.png"/>
+</fig>
+<fig id="F7">
+<label>Figure 7</label>
+<caption>
+<p>Prosodic structure for (3B), if elided material is represented in syntax and prosody.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g7.png"/>
+</fig>
+</sec>
+<sec>
+<title>4 Design to test the research question</title>
+<p>I test the prosody of (3B) by putting it into the paradigm introduced in section 1. First, I compare the prosodic difference between sentences with fully overt structures in the first conjunct (<italic>Control Condition</italic>; (9A1&amp;2)). To make sure the difference between the sentences is minimal, I make (9A1&amp;2) answers to double <italic>wh</italic>-questions (9Q1&amp;2).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(9)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Control Condition; Clausal Conjuncts</italic></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>Q1:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>What did John eat and how did he eat it?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>A1:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>[He ate the lettuce] and [with a fork].</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Control Condition; DP Conjuncts</italic></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>Q2:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Which vegetable and which meat did John eat?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>A2:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>He ate [the lettuce] and [the bacon].</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>I make (9Q1&amp;2) double <italic>wh</italic>-questions rather than single <italic>wh</italic>-questions to ensure the answers have the same information structure and focus structure. If the question were a single <italic>wh</italic>-question like <italic>What did John eat?</italic>, (9A1&amp;2) would not have the same information structure and focus structure, which may confound the results. (9A1) would not only answer that single <italic>wh</italic>-question, but also provide additional information on what John ate the lettuce with. In contrast, (9A2) would only answer that single <italic>wh</italic>-question and nothing more. Also, if the leading question were the single <italic>wh</italic>-question <italic>What did John eat?</italic>, (9A1) would put double focus on <italic>the lettuce</italic> and <italic>with a fork</italic>, while (9A2) would only put a single focus on the entire conjunction <italic>the lettuce and the bacon</italic>. But double <italic>wh</italic>-questions do not have these issues because (9A1&amp;2) answer the double <italic>wh</italic>-questions and provide no further information, and they both involve focus on each conjunct.</p>
+<p>It has been shown that both the length of the most recent constituent before the boundary and that of the upcoming constituent following the boundary affect the size of the boundary (e.g., <xref ref-type="bibr" rid="B20">Gee &amp; Grosjean 1983</xref>; <xref ref-type="bibr" rid="B41">Jun 2000</xref>; <xref ref-type="bibr" rid="B42">2003</xref>; <xref ref-type="bibr" rid="B71">Selkirk 2000</xref>; <xref ref-type="bibr" rid="B81">Watson &amp; Gibson 2004</xref>). Therefore, to control for the total number of syllables and make sure that the number of syllables before and after the boundary is the same within the Control Condition (9A1&amp;2) and within the Critical Condition (to be presented in (10A1&amp;2)), I put ellipsis in the second conjunct in (9A1) and (10A1). Because the experiment mainly focuses on the prosodic boundary following the first conjunct (i.e. the right boundary following <italic>lettuce</italic>), all that matters to us here is the syllable count before and after this boundary; whether there is ellipsis in the second conjunct does not matter.</p>
+<p>A reviewer asked whether the left boundary preceding <italic>and</italic> affects the right boundary following <italic>lettuce</italic> (i.e. the boundaries in bold in <italic>He ate the lettuce</italic>) (<italic>and with a fork</italic>): if the left boundary preceding <italic>and</italic> is very strong, will it strengthen the right boundary following <italic>lettuce</italic>? An important consequence of adopting Match Theory that permits a recursive prosodic structure is that it won&#8217;t: adjacent left and right boundaries do not need to match in strength because sisters in a recursive prosodic structure do not need to have the same prosodic category and the same level of embedding. This contrasts with the strict layer hypothesis (e.g. <xref ref-type="bibr" rid="B67">Selkirk 1981</xref>; <xref ref-type="bibr" rid="B68">1984</xref>; <xref ref-type="bibr" rid="B2">Beckman &amp; Pierrehumbert 1986</xref>; <xref ref-type="bibr" rid="B63">Nespor &amp; Vogel 1986</xref>; <xref ref-type="bibr" rid="B65">Pierrehumbert &amp; Beckman 1988</xref>), which does require the right boundary to match the following left boundary in strength because the sisters in the prosodic hierarchy must have the same category and the same level of embedding. Therefore, material in the second conjunct does not affect the boundary following <italic>lettuce</italic>, and neither does material in the first conjunct affect the boundary preceding <italic>and</italic>.</p>
+<p>But the second conjunct does involve ellipsis in clausal coordination but not in DP coordination; can the boundaries around the second conjunct bear on the research question? Section 9 discusses this question and argues that due to the setup of the items, the second conjunct is not a great place to study the research question. But I still measured the prosodic strength of the second conjunct with an auxiliary measure of its left edge, and report the results in section 9.</p>
+<p>I expect a significantly larger prosodic boundary following <italic>lettuce</italic> in (9A1) than in (9A2). In (9A1), the prosodic boundary corresponds to the bolded right &#966;-boundary in <xref ref-type="fig" rid="F3">Figure 3</xref>, which dominates 2 &#966;s (whether the elided material in the second conjunct is represented does not affect that boundary). In (9A2), the prosodic boundary corresponds to the bolded right &#966;-boundary in <xref ref-type="fig" rid="F4">Figure 4</xref>, which dominates no &#966;. I call the difference in this prosodic boundary between (9A1) and (9A2) &#916;<sub>1</sub>, and compare &#916;<sub>1</sub> with the prosodic difference &#916;<sub>2</sub> between a phrase that contains ellipsis (i.e. the first conjunct in (10A1)) and one that doesn&#8217;t (i.e. the first conjunct in (10A2)) (<italic>Critical Condition</italic>). (10A1&amp;2) differ in the location of ellipsis: there is ellipsis inside the first conjunct in (10A1) but outside the first conjunct in (10A2).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(10)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Critical Condition; Clausal Conjuncts</italic></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>Q1:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>What did John eat and how did he eat it?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>A1:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>[<strike>He ate</strike> the lettuce] and [with a fork].</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Critical Condition; DP Conjuncts</italic></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>Q2:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Which vegetable and which meat did John eat?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>A2:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><strike>He ate</strike> [the lettuce] and [the bacon].</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Depending on whether elided material is represented in syntax and prosody or not, the clausal coordination (10A1) would be mapped to the prosodic structure in <xref ref-type="fig" rid="F8">Figure 8</xref> (if elided material has no syntactic or prosodic representation), where the prosodic boundary following <italic>lettuce</italic> dominates no &#966;, or the prosodic structure in <xref ref-type="fig" rid="F9">Figure 9</xref> (if elided material has syntactic and prosodic representation), where the prosodic boundary following <italic>lettuce</italic> dominates 1 &#966;.</p>
+<fig id="F8">
+<label>Figure 8</label>
+<caption>
+<p>Prosodic structure for (10A1), if elided material is not represented in syntax or prosody.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g8.png"/>
+</fig>
+<fig id="F9">
+<label>Figure 9</label>
+<caption>
+<p>Prosodic structure for (10A1), if elided material is represented in syntax and prosody.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g9.png"/>
+</fig>
+<p>The prosodic structure of <italic>the lettuce and the bacon</italic> in (10A2) is <xref ref-type="fig" rid="F10">Figure 10</xref>. I have left out the elided material outside the coordination because it does not affect the prosodic boundary following <italic>lettuce</italic> in (10A2).</p>
+<fig id="F10">
+<label>Figure 10</label>
+<caption>
+<p>Prosodic structure of <italic>the lettuce and the bacon</italic> in (10A2).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g10.png"/>
+</fig>
+<p>If elided material is not represented in syntax or prosody, then we expect there to be no prosodic difference within the Critical Condition (i.e. &#916;<sub>2</sub> = 0), and &#916;<sub>2</sub> should therefore be significantly smaller than &#916;<sub>1</sub>. But if elided material is represented in syntax and prosody, then we expect there to be a significant prosodic difference within the Critical Condition (i.e. &#916;<sub>2</sub> &gt; 0). Since the bolded &#966; dominates 1 &#966; in <xref ref-type="fig" rid="F9">Figure 9</xref> (if elided material has prosodic representation) but no &#966; in <xref ref-type="fig" rid="F10">Figure 10</xref>, their difference in the Critical Condition is 1 &#966;. But within the Control Condition, the bolded &#966; dominates 2 &#966;s in <xref ref-type="fig" rid="F3">Figure 3</xref> but no &#966; in <xref ref-type="fig" rid="F4">Figure 4</xref>, with the difference being 2 &#966;s. We thus expect &#916;<sub>2</sub>, the prosodic difference within the Critical Condition, to be slightly smaller than &#916;<sub>1</sub>, the prosodic difference within the Control Condition, if elided material has prosodic representation.</p>
+</sec>
+<sec>
+<title>5 Methods</title>
+<sec>
+<title>5.1 Materials</title>
+<p>The materials consisted of 20 target sentences (2 conditions x 2 coordination types x 5 sets), with (9A1&amp;2) and (10A1&amp;2) exemplifying a set. The two conditions were Critical and Control, and the two coordination types were clausal and DP. To elicit the intended information structure, each target sentence was shown to the subjects along with a leading context sentence and a <italic>wh</italic>-question. For example, for (10A1), the following materials were presented to the speaker. Every set of items had the same context and question.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(11)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Context: John went to a diner.</p></list-item>
+<list-item><p>Question: What did John eat and how did he eat it?</p></list-item>
+<list-item><p>Answer: The lettuce and with a fork.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>The speaker was to read the context silently, and say the question and the answer in the given order. Every speaker saw all 20 items. There were 104 filler items, which all contained a context, a question and an answer.</p>
+</sec>
+<sec>
+<title>5.2 Participants</title>
+<p>I conducted a production study with eighteen native speakers of North American English (fourteen female, four male, age 19 to 50), who were all university students and working professionals living in Boston, USA or Oxford, UK. They were remunerated a small sum for their time, and granted their written consent to being tested.</p>
+</sec>
+<sec>
+<title>5.3 Data collection</title>
+<p>Recording took place in two events. The first event took place in a sound-attenuated booth at the Massachusetts Institute of Technology for three of the eighteen participants, and the second event took place in a quiet, non-reverberant room at Magdalen College, University of Oxford for the other fifteen participants. In each event, participants were seated in front of a computer, which displayed one context-question-answer trio at a time. The stimuli plus fillers were presented in pseudo-randomized order, and the order of items was different for every participant. Participants were given instructions about the task at the beginning of the experiment, which asked them to first read each trio quietly to themselves, and only proceed to read it out loud when they were ready. They could take as long as they wanted. They were asked to imagine they were playing three different roles in each trio, and to act out the dialogues naturally rather than reading the sentences mechanically. If the participants were not satisfied with their rendition of an item (a common reason was that they stumbled over some words), they were allowed to say it again. If they asked to repeat an item, we only considered the rendition they were happy with, and discarded the previous renditions.</p>
+</sec>
+<sec>
+<title>5.4 Data processing and analysis</title>
+<p>The recordings were aligned with the Montreal Forced Aligner (<xref ref-type="bibr" rid="B55">McAuliffe et al. 2017</xref>), using the pretrained acoustic model English (US) ARPA acoustic model (<xref ref-type="bibr" rid="B56">McAuliffe &amp; Sonderegger 2024</xref>), and duration was calculated with the forced-aligned boundaries. I measured the duration of the last rime of the word immediately before the prosodic boundary (e.g., for (9) &amp; (10), <italic>uce</italic> of <italic>lettuce</italic>), and the pause after that word (e.g., the pause following <italic>lettuce</italic>), if there is such a pause.</p>
+<p>I fitted two linear mixed effects models, whose dependent variables were (a) the duration of the last rime; and (b) the sum of the duration of the last rime and the duration of the pause and whose fixed effects were the same&#8211;coordination (clausal vs. DP) and condition (Critical vs. Control). I chose the sum duration rather than the pause duration as the second measure for two reasons. First, the forced aligner was not always accurate in its alignment, and the pause it aligned often included part of the last rime. Second, because the durations of the last rime and the pause are both correlated with the strength of the boundary of interest, their sum should also be correlated. I calculated p-values using Satterthwaite&#8217;s degrees of freedom method. The models included random intercepts and slopes by speaker and item group where those effects didn&#8217;t result in a singular fit.</p>
+</sec>
+<sec>
+<title>5.5 Predictions</title>
+<p>I expect to replicate the experimental findings by Downing (<xref ref-type="bibr" rid="B13">1970</xref>), Wagner (<xref ref-type="bibr" rid="B79">2005</xref>; <xref ref-type="bibr" rid="B80">2010</xref>) and others with a significant prosodic difference between coordination types in the Control Condition &#916;<sub>1</sub>, which would be realized as a longer rime and pause for clausal coordination (9A1) than for DP coordination (9A2).</p>
+<p>The question is whether there is also a significant prosodic difference within the Critical Condition, and if so, how that difference &#916;<sub>2</sub> compares with the difference within the Control Condition &#916;<sub>1</sub>. If there is no significant difference in the Critical Condition (<xref ref-type="fig" rid="F11">Figure 11</xref>), then elided material may not be present in the prosodic structure.</p>
+<fig id="F11">
+<label>Figure 11</label>
+<caption>
+<p>Predicted data if elided material is not present in the prosodic structure.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g11.png"/>
+</fig>
+<p>If there is a significant prosodic difference between coordination types within the Critical Condition, where the rime and the pause are both significantly longer for clausal coordination (10A1) than for DP coordination (10A2), then we can further ask what is the reason for this difference by comparing it with the difference in the Control Condition. If the difference within the Critical Condition &#916;<sub>2</sub> is slightly smaller than that of the Control Condition &#916;<sub>1</sub> (i.e., the slope in the Critical Condition is slightly less steep than the slope in the Control Condition in <xref ref-type="fig" rid="F12">Figure 12</xref>), then this suggests that elided material is present prosodically.</p>
+<fig id="F12">
+<label>Figure 12</label>
+<caption>
+<p>Predicted data if elided material is present in the prosodic structure.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g12.png"/>
+</fig>
+</sec>
+</sec>
+<sec>
+<title>6 Results</title>
+<p>I begin by discussing the durational results. Within the Control Condition, the final rime before <italic>and</italic> is on average 14.0 ms longer in clausal coordination than in DP coordination (p &lt; 0.05; <xref ref-type="fig" rid="F13">Figure 13</xref>), and the sum of the final rime and the pause before <italic>and</italic> is on average 30.4 ms longer in clausal coordination than in DP coordination (p &lt; 0.01; <xref ref-type="fig" rid="F14">Figure 14</xref>). This is expected and consistent with previous findings that different syntactic structures correspond to different prosodic realizations in coordination (e.g., <xref ref-type="bibr" rid="B79">Wagner 2005</xref>; <xref ref-type="bibr" rid="B80">2010</xref>). The error bars in the figures represent standard errors.</p>
+<fig id="F13">
+<label>Figure 13</label>
+<caption>
+<p>Duration of the final rime before <italic>and</italic>.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g13.png"/>
+</fig>
+<fig id="F14">
+<label>Figure 14</label>
+<caption>
+<p>Duration of the final rime plus the pause before <italic>and</italic>.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g14.png"/>
+</fig>
+<p>Within the Critical Condition, the final rime before <italic>and</italic> is on average 20.2 ms longer in clausal coordination than in DP coordination (p &lt; 0.01), and the sum of the final rime and the pause before <italic>and</italic> is on average 39.5 ms longer in clausal coordination than in DP coordination (p &lt; 0.001). This suggests that the prosodic boundary following that rime is larger in clausal coordination than in DP coordination, even though on the surface the first conjunct of clausal coordination looks the same as the first conjunct of DP coordination due to ellipsis.</p>
+<p>Furthermore, there is no interaction between coordination type and condition type&#8211;that is, the differences in rime duration and the sum of rime and pause duration within the Critical Condition are not significantly different from those within the Control Condition (i.e., no difference between the differences &#916;<sub>1</sub> and &#916;<sub>2</sub>). A post-hoc power analysis showed that the findings of significant main effect of coordination types and the lack of significant interaction effect had 99.7% power.</p>
+</sec>
+<sec>
+<title>7 Discussion</title>
+<p>The durational results indicated that within the Critical Condition, phrases that contain elided material have larger boundaries than phrases that do not contain any elided material, even though these phrases have the same surface structure. This suggests that prosody is sensitive to structural differences between clausal coordination and DP coordination, whether or not the underlying structure contains elided material. This is expected if elided material is present in prosody. The fact that there is no significant difference between the differences &#916;<sub>1</sub> and &#916;<sub>2</sub> may be somewhat surprising because even if elided material has prosodic representation, we expect &#916;<sub>2</sub> to be slightly smaller than &#916;<sub>1</sub>. I suspect this difference, which is only of 1 &#966;, was too small to be detected in this experiment. In any case, the lack of interaction is not consistent with the view that elided material has no prosodic representation, which predicts &#916;<sub>2</sub> to be roughly zero and significantly smaller than &#916;<sub>1</sub>.</p>
+<p>So far I have assumed that fragment answers are derived by syntactic movement, but not all syntactic analyses of fragment answers posit movement. For example, Griffiths (<xref ref-type="bibr" rid="B22">2019</xref>) claims that the remnants of ellipsis stay in-situ, and ellipsis deletes the non-remnants. This in-situ analysis of ellipsis makes the same predictions as an analysis that posits movement, except that it does not predict any difference between &#916;<sub>1</sub> and &#916;<sub>2</sub>, which is fully compatible with the experimental results. The rest of this section discusses the syntactic structures posited by the in-situ analysis and their corresponding prosodic structures. The in-situ analysis of ellipsis would analyze (9A1)&#8211;(9A2), the sentences in the Control Condition as in <xref ref-type="fig" rid="F15">Figure 15</xref> and <xref ref-type="fig" rid="F16">Figure 16</xref>.</p>
+<fig id="F15">
+<label>Figure 15</label>
+<caption>
+<p>Syntactic structure for (9A1), if the remnant stays in-situ.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g15.png"/>
+</fig>
+<fig id="F16">
+<label>Figure 16</label>
+<caption>
+<p>Syntactic structure for (9A2).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g16.png"/>
+</fig>
+<p>Match Theory would map these syntactic structures to the prosodic structures in <xref ref-type="fig" rid="F17">Figure 17</xref> and <xref ref-type="fig" rid="F18">Figure 18</xref>. I do not represent the elided material in the second conjunct of (9A1) in <xref ref-type="fig" rid="F17">Figure 17</xref> because whether or not it is represented does not matter to the prosodic boundary following <italic>lettuce</italic> (as was explained in section 4). Later for the Critical Condition (10A1) we will get to a choice point of whether elided material should be represented in the prosodic structure, and there the elided material in the second conjunct will be treated in the same way as the elided material in the first conjunct. The topmost &#966; in which <italic>lettuce</italic> is the last word (whose right boundary is marked by a right parenthesis in the trees) dominates 2 &#966;s in <xref ref-type="fig" rid="F17">Figure 17</xref> but no &#966; in <xref ref-type="fig" rid="F18">Figure 18</xref>&#8211;leading to a stronger prosodic boundary following <italic>lettuce</italic> in (9A1) than (9A2).</p>
+<fig id="F17">
+<label>Figure 17</label>
+<caption>
+<p>Prosodic structure for (9A1).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g17.png"/>
+</fig>
+<fig id="F18">
+<label>Figure 18</label>
+<caption>
+<p>Prosodic structure for (9A2).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g18.png"/>
+</fig>
+<p>An in-situ analysis of ellipsis would analyze (10A1)&#8211;(10A2), the sentences in the Critical Condition as in <xref ref-type="fig" rid="F19">Figure 19</xref> and <xref ref-type="fig" rid="F20">Figure 20</xref>.</p>
+<fig id="F19">
+<label>Figure 19</label>
+<caption>
+<p>Syntactic structure for (10A1), if the remnant stays in-situ.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g19.png"/>
+</fig>
+<fig id="F20">
+<label>Figure 20</label>
+<caption>
+<p>Syntactic structure for (10A2), if the remnant stays in-situ.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g20.png"/>
+</fig>
+<p>Depending on whether or not elided material is represented in syntax and prosody, the clausal coordination (10A1) would be mapped to the prosodic structure in <xref ref-type="fig" rid="F21">Figure 21</xref> (if elided material has no syntactic or prosodic representation) or <xref ref-type="fig" rid="F22">Figure 22</xref> (if elided material has syntactic and prosodic representation).</p>
+<fig id="F21">
+<label>Figure 21</label>
+<caption>
+<p>Prosodic structure for (10A1), if the remnant stays in-situ, and elided material is not represented in syntax or prosody.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g21.png"/>
+</fig>
+<fig id="F22">
+<label>Figure 22</label>
+<caption>
+<p>Prosodic structure for (10A1), if the remnant stays in-situ, and elided material is represented in syntax and prosody.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g22.png"/>
+</fig>
+<p>The prosodic structure of <italic>the lettuce and the bacon</italic> in (10A2) is in <xref ref-type="fig" rid="F23">Figure 23</xref>. I have left out the elided material because whether or not the elided material is represented in prosody does not matter to the prosodic boundary following <italic>lettuce</italic> in (10A2)&#8211;the relevant phonological phrase only includes overt material anyway.</p>
+<fig id="F23">
+<label>Figure 23</label>
+<caption>
+<p>Prosodic structure of <italic>the lettuce and the bacon</italic> in (10A2), if the remnant stays in-situ.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g23.png"/>
+</fig>
+<p>The topmost &#966; in which <italic>lettuce</italic> is the last word dominates no &#966; in <xref ref-type="fig" rid="F21">Figure 21</xref>, 2 &#966;s in <xref ref-type="fig" rid="F22">Figure 22</xref>, and no &#966; in <xref ref-type="fig" rid="F23">Figure 23</xref>. This means that if elided material has no prosodic representation as in <xref ref-type="fig" rid="F21">Figure 21</xref>, then we expect the prosodic boundary following <italic>lettuce</italic> to be the same in (10A1) and (10A2), contrary to the result of this experiment. If elided material has prosodic representation as in <xref ref-type="fig" rid="F22">Figure 22</xref>, then we expect the prosodic boundary following <italic>lettuce</italic> to stronger in (10A1) than in (10A2), and this prosodic difference should equal the prosodic difference between (9A1) and (9A2) in the Control Condition. The experimental results are fully compatible with this prediction, suggesting that elided material has prosodic representation. Therefore, whether or not ellipsis involves movement, the experimental results are consistent with the syntactic and prosodic representation of elided material.</p>
+</sec>
+<sec>
+<title>8 Theories that distinguish intonational phrases and phonological phrases</title>
+<p>As mentioned in section 2.1, some theories on the syntax-prosody mapping claimed that syntactic clauses should correspond to &#953;, while subclauses correspond to &#966; (e.g. <xref ref-type="bibr" rid="B69">Selkirk 1986</xref>; <xref ref-type="bibr" rid="B70">1995</xref>; <xref ref-type="bibr" rid="B72">2009</xref>; <xref ref-type="bibr" rid="B73">2011</xref>). Other theories claimed that a speech act or an illocutionary force projection is mapped to an &#953; (e.g. <xref ref-type="bibr" rid="B24">G&#252;ne&#351; 2014</xref>; <xref ref-type="bibr" rid="B25">2015</xref>; <xref ref-type="bibr" rid="B30">Ishihara 2022</xref>). Assuming that the conjuncts in clausal coordination are separate speech acts, whereas the conjuncts in DP coordination are not, these theories effectively produce the same prosodic structures&#8211;the conjuncts in clausal coordination should correspond to &#953;s, whereas those in DP coordination should correspond to &#966;s. This section discusses these prosodic structures produced by these theories, and argues that they do not affect the interpretation of the experimental results, unless we make an additional unlikely assumption.</p>
+<p>Before delving into the predictions of these theories, it is crucial to first discuss how this distinction between &#953; and &#966; may lead to gradient phonetic effects such as pre-boundary lengthening. To my knowledge, these theories do not have any explicit proposal about this. There are four logical possibilities I can think of, which I call Approaches I, II, III and IV respectively. Approach I says that the label of the prosodic phrase does not have any effect on lengthening, and the degree of lengthening is only correlated with the number of levels dominated by a node in the prosodic structure, as I proposed in section 2.2. Approach II claims that the levels of embedding matter, but on top of that, an &#953; label boosts the pre-boundary lengthening effects compared to a &#966; label. Approach II would thus predict that an &#953; that embeds the same number of levels as a &#966; should induce more lengthening. Approach III claims that the levels of embedding do not have any effect on pre-boundary lengthening, and all that matters is the label of the prosodic phrase. As an extreme example, Approach III would predict that an &#953; that does not embed any other prosodic phrase (e.g. a one-word fragment answer) should induce more lengthening than a &#966; that dominates other prosodic phrases. Approach IV, which was suggested by a reviewer, claims that the levels of embedding only matter within a prosodic category (i.e. within &#966; and within &#953;), but once we cross prosodic categories from a &#966; to an &#953;, the &#953; should trigger categorically greater pre-boundary lengthening effects, and these effects &#8216;override&#8217; or &#8216;swamp&#8217; the effects of recursive &#966; edges. Like Approach III, Approach IV would predict that an &#953; that does not embed any other &#953; or &#966; should induce more lengthening than a &#966; that dominates other &#966;s. Having laid out these four approaches, I will now discuss their predictions about the target sentences. First, the syntactic structures of the sentences in the Control Condition (9A1-2) are in <xref ref-type="fig" rid="F24">Figure 24</xref> and <xref ref-type="fig" rid="F25">Figure 25</xref>, assuming that ellipsis involves movement of the remnant.</p>
+<fig id="F24">
+<label>Figure 24</label>
+<caption>
+<p>Syntactic structure for (9A1), if the remnant moves.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g24.png"/>
+</fig>
+<fig id="F25">
+<label>Figure 25</label>
+<caption>
+<p>Syntactic structure for (9A2).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g25.png"/>
+</fig>
+<p>Theories that map clauses to &#953;s would map these sentences in the Control Condition (9A1-2) to the prosodic structures in <xref ref-type="fig" rid="F26">Figure 26</xref> and <xref ref-type="fig" rid="F27">Figure 27</xref> respectively. Because the second conjunct in these sentences does not really matter to the prosodic boundary of interest (as was explained in section 4), I have not represented the elided material in the second conjunct in <xref ref-type="fig" rid="F26">Figure 26</xref>.</p>
+<fig id="F26">
+<label>Figure 26</label>
+<caption>
+<p>Prosodic structure for (9A1), if syntactic clauses are mapped to &#953;s.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g26.png"/>
+</fig>
+<fig id="F27">
+<label>Figure 27</label>
+<caption>
+<p>Prosodic structure for (9A2), if syntactic clauses are mapped to &#953;s.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g27.png"/>
+</fig>
+<p>In <xref ref-type="fig" rid="F26">Figure 26</xref> <italic>lettuce</italic> is at the right edge of the &#953; that corresponds to the first clause; this &#953; dominates two &#966;s. In <xref ref-type="fig" rid="F27">Figure 27</xref> <italic>lettuce</italic> is at the right edge of a &#966; which dominates no &#966;. Approaches I, II, III and IV would all predict more lengthening for <italic>lettuce</italic> in <xref ref-type="fig" rid="F26">Figure 26</xref> than <xref ref-type="fig" rid="F27">Figure 27</xref>, but for different reasons. Approach I makes this prediction because the &#953; in <xref ref-type="fig" rid="F26">Figure 26</xref> embeds more levels than the &#966; in <xref ref-type="fig" rid="F27">Figure 27</xref>. Approach II makes this prediction not only because of that, but also because <italic>lettuce</italic> is &#953;-final in <xref ref-type="fig" rid="F26">Figure 26</xref>, but <italic>lettuce</italic> is &#966;-final in <xref ref-type="fig" rid="F27">Figure 27</xref>, and the &#953; label boosts domain-final lengthening. Approaches III and IV make this prediction not because of levels of embedding, but just because <italic>lettuce</italic> is &#953;-final in <xref ref-type="fig" rid="F26">Figure 26</xref> and &#966;-final in <xref ref-type="fig" rid="F27">Figure 27</xref>. Therefore, all four approaches can account for the prosodic difference within the Control Condition.</p>
+<p>These four approaches can also account for the prosodic difference within the Critical Condition, but Approaches I and II make the same predictions as an approach that does not distinguish between &#953;s and &#966;s, while Approaches III and IV manage to predict the experimental results regardless of how elided material is represented. First, the syntactic structures of the sentences in the Critical Condition are in <xref ref-type="fig" rid="F28">Figure 28</xref> and <xref ref-type="fig" rid="F29">Figure 29</xref>.</p>
+<fig id="F28">
+<label>Figure 28</label>
+<caption>
+<p>Syntactic structure for (10A1), if the remnant moves and elided material has syntactic representation.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g28.png"/>
+</fig>
+<fig id="F29">
+<label>Figure 29</label>
+<caption>
+<p>Syntactic structure for (10A2), if the remnant moves and elided material has syntactic representation.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g29.png"/>
+</fig>
+<p>Depending on whether elided material is represented in syntax and prosody or not, all four approaches would map clausal coordination (10A1) to the prosodic structure in <xref ref-type="fig" rid="F30">Figure 30</xref> (if elided material has no syntactic or prosodic representation) or <xref ref-type="fig" rid="F31">Figure 31</xref> (if elided material has syntactic and prosodic representation). It is worth noting that if the syntax-prosody mapping principles ignore elided material, then they will view the first conjunct in (10A1) as both a non-branching CP and a DP simultaneously, leading to the crucial question of whether it should be mapped to an &#953; or a &#966;. Elfner (<xref ref-type="bibr" rid="B15">2015</xref>) ran into a parallel issue in Irish with a constituent that is simultaneously an XP and a X<sup>0</sup>, and claimed that they are always treated like minimal projections and mapped to an &#969;. But if we follow the same principle and map the first conjunct in (10A1) to a &#966;, and as we will see shortly, the first conjunct in (10A2) also corresponds to a &#966;, then none of the four approaches will be able to predict a significant difference within the Critical Condition, and we will be led to the same conclusion as an approach that does not posit &#953;&#8211;that is, elided material does have syntactic and prosodic representation. To give the four approaches that posit &#953; the best chance, I will thus assume that a constituent that is simultaneously a clause and a subclause is mapped to an &#953;.</p>
+<fig id="F30">
+<label>Figure 30</label>
+<caption>
+<p>Prosodic structure for (10A1), if syntactic clauses are mapped to &#953;s, and elided material is not represented in syntax or prosody.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g30.png"/>
+</fig>
+<fig id="F31">
+<label>Figure 31</label>
+<caption>
+<p>Prosodic structure for (10A1), if syntactic clauses are mapped to &#953;s, and elided material is represented in syntax and prosody.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g31.png"/>
+</fig>
+<p>The four approaches would map DP coordination (10A2) to the prosodic structure in <xref ref-type="fig" rid="F32">Figure 32</xref>.</p>
+<fig id="F32">
+<label>Figure 32</label>
+<caption>
+<p>Prosodic structure for (10A2), if syntactic clauses are mapped to &#953;s.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g32.png"/>
+</fig>
+<p>I discuss the predictions of the four approaches. Because Approach I makes essentially the same claim as the auxiliary assumption laid out in section 2.2&#8211;that lengthening effects are correlated with the levels of embedding, but not the label of the prosodic phrase, it makes the same prediction as the predictions I discussed in section 5.5. Thus, according to Approach I, the experimental results suggest that elided material has prosodic representation.</p>
+<p>Approach II also makes the same prediction as those discussed in section 5.5: it predicts a difference within the Critical Condition. If elided material is not represented syntactically or prosodically, Approach II predicts that this difference within the Critical Condition is much smaller than the difference in the Control Condition; if elided material is represented in prosody, Approach II predicts a slightly smaller difference within the Critical Condition than within the Control Condition. Thus, the lack of interaction in the experimental results is consistent with prosodic representation of ellipsis. I explain in detail why Approach II makes these predictions. It predicts a difference within the Critical Condition, specifically more lengthening effects for <italic>lettuce</italic> in <xref ref-type="fig" rid="F30">Figure 30</xref> or <xref ref-type="fig" rid="F31">Figure 31</xref> than in <xref ref-type="fig" rid="F32">Figure 32</xref> because <italic>lettuce</italic> is &#966;-final in <xref ref-type="fig" rid="F32">Figure 32</xref> but &#953;-final in <xref ref-type="fig" rid="F30">Figure 30</xref> and <xref ref-type="fig" rid="F31">Figure 31</xref>. If elided material is not represented syntactically or prosodically as in <xref ref-type="fig" rid="F30">Figure 30</xref>, because the &#953; in <xref ref-type="fig" rid="F30">Figure 30</xref> dominates the same number of levels as the &#966; in <xref ref-type="fig" rid="F32">Figure 32</xref>, the prosodic difference within the Critical Condition is only due to the difference in labels between an &#953; and a &#966;. This should be smaller than the prosodic difference within the Control Condition, which is due to both a difference in labels, and a difference in embeddings. Thus, Approach II would predict a smaller prosodic difference within the Critical Condition than within the Control Condition (i.e. significant interaction), if elided material has no prosodic representation. If elided material has prosodic representation as in <xref ref-type="fig" rid="F31">Figure 31</xref>, then the difference within the Critical Condition is due to both the labels and embeddings, as is the difference within the Control Condition, and thus should predict a slightly smaller difference within the Critical Condition than within the Control Condition.</p>
+<p>Finally, Approaches III and IV predict a difference within the Critical Condition and no interaction (i.e. no difference between that difference and the difference in the Control Condition), regardless of whether elided material has prosodic representation. In <xref ref-type="fig" rid="F30">Figure 30</xref> and <xref ref-type="fig" rid="F31">Figure 31</xref> <italic>lettuce</italic> is &#953;-final, and is thus predicted to be lengthened more than <italic>lettuce</italic> in <xref ref-type="fig" rid="F32">Figure 32</xref>. This difference within the Critical Condition should equal the difference within the Control Condition, which according to Approaches III and IV is also due to a difference between an &#953; and a &#966;. Therefore, Approaches I and II do not change our conclusion that elided material is present in syntax and prosody, but Approaches III and IV make it inconclusive.</p>
+<p>There is a lot of empirical evidence against Approach III. It has been shown that embeddings do lead to gradient phonetic effects such as pre-boundary lengthening (e.g. <xref ref-type="bibr" rid="B49">Ladd 1986</xref>; <xref ref-type="bibr" rid="B50">1988</xref>; <xref ref-type="bibr" rid="B46">Kubozono 1989</xref>; <xref ref-type="bibr" rid="B79">Wagner 2005</xref>; <xref ref-type="bibr" rid="B80">2010</xref>). For example, Wagner (<xref ref-type="bibr" rid="B79">2005</xref>) showed that coordination of three names <italic>Lysander and Demetrius and Hermia</italic> can involve prosodic boundaries with different strengths between the conjuncts. Under the interpretation that Lysander and Demetrius form a group that is then conjoined with Hermia, the prosodic boundary between <italic>Lysander</italic> and <italic>and</italic> is weaker than the boundary between <italic>Demetrius</italic> and <italic>and</italic>. This challenges Approach III because coordination of three DPs should be mapped to a series of &#966;s, but not involve any &#953;, and thus should not differ in boundary strength according to Approach III.</p>
+<p>There is also evidence from perception studies that is inconsistent with Approaches III and IV: it has been shown that listeners don&#8217;t interpret gradient cues as a reflection of specific categories. They can detect relative differences in the strength of boundaries, but cannot categorize boundaries reliably (e.g. <xref ref-type="bibr" rid="B66">Price et al. 1991</xref>; <xref ref-type="bibr" rid="B11">de Pijper &amp; Sanderman 1994</xref>; <xref ref-type="bibr" rid="B45">Krivokapi&#263; 2023</xref>). In a perception study conducted by Krivokapi&#263;, speakers listened to recordings of four types of English sentences that involve a within-&#969;, &#969;, &#966; and &#953; boundary respectively, as specified in the Autosegmental-Metrical Model. They were asked to distinguish among the prosodic boundaries in these sentences. A Gaussian mixture model analysis examined the number of clusters that best fit the observed data without a predetermined number of clusters, and found that three clusters gave the best fit, suggesting there were only three distinguishable categories, and the distinction between &#966; and &#953; was collapsed. This challenges Approach III and IV, which predict a clear distinction in boundary strength between &#966; and &#953;. De Pijper &amp; Sandeman showed that in Dutch, listeners have clear percepts of relative boundary strength, but the boundary strengths as perceived by listeners do not cluster around a limited number of target values. This also challenges Approach III and IV, which predict listeners to make a distinction of exactly two levels of boundary strengths above the word level, contrary to the many relative levels they manage to distinguish between in this experiment.</p>
+<p>A reviewer suggested experimental design to test Approach IV directly, which I present here with some modifications. We can compare a clause with few embeddings with a subclause with many embeddings. For example, <italic>hibernated</italic> in (12a) is at the right edge of a clause that dominates a VP, which should be mapped to a right &#953; edge that dominates a &#966; edge in (13a). In contrast, <italic>lettuce</italic> in (12b) is at the right edge of a DP that dominates two XPs, which should be mapped to three right &#966; edges in (13b). Approach IV would predict more pre-boundary lengthening on <italic>hibernated</italic> than <italic>lettuce</italic>, while the approaches that consider syntactic embeddings would not necessarily make this prediction. I leave to future research the execution of such an experiment.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(12)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>[<sub>TP</sub> Amelia [<sub>VP</sub> hibernated]] and Bill vegetated.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>John saw [<sub>DP</sub> the girl [<sub>PP</sub> with [<sub>DP</sub> the lettuce]]] and the boy with the pears.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(13)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Amelia hibernated <sub>&#966;</sub>)<sub>&#953;</sub>) and Bill vegetated.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>John saw the girl with the lettuce <sub>&#966;</sub>)<sub>&#966;</sub>)<sub>&#966;</sub>) and the boy with the pears.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>To summarize, Approaches I and II, which assume that the levels of embedding can affect the boundary strengths of &#966;s and &#953;s, make the same predictions as those discussed in section 5.5, and therefore lead to the same conclusions. Approach III, which assumes that only the prosodic label can affect the boundary strengths, has met a lot of empirical challenges. A moderated version of Approach III, Approach IV, is not completely consistent with the empirical findings either, but following a reviewer&#8217;s suggestion I have suggested experimental design to directly test it.</p>
+</sec>
+<sec>
+<title>9 Auxiliary measure</title>
+<p>Besides the durational measures examined in the experiment, I had an auxiliary measure&#8211;the vowel quality of the vowel in <italic>and</italic>. This measure does not bear on the boundary of interest (i.e. the right boundary following <italic>lettuce</italic>), but rather on the left boundary before <italic>and</italic>:</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(14)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>He ate the lettuce) <bold>(</bold>and with a fork.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>During the recordings, I observed variable pronunciation of <italic>and</italic>, especially in its vowel: it was sometimes pronounced as [&#230;nd] with a full vowel, sometimes as [&#601;nd] with a schwa, and occasionally fully reduced as [n]. I also observed a tendency: the vowel of <italic>and</italic> seemed more likely to be reduced when <italic>and</italic> is in a weaker prosodic domain. Because <italic>and</italic> is usually phrased with the following material, I assume the vowel reduction in <italic>and</italic> indicates the strength of that phrase&#8211;the one that includes the second conjunct.</p>
+<p>The second conjunct is not a great place to test the research question because the second conjunct always involves ellipsis in clausal coordination, regardless of condition; and the second conjunct does not involve ellipsis in DP coordination, regardless of condition:</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(15)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Control Condition; Clausal Conjuncts</italic></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>Q1:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>What did John eat and how did he eat it?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>A1:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>[He ate the lettuce] and [<strike>he ate it</strike> with a fork].</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Control Condition; DP Conjuncts</italic></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>Q2:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Which vegetable and which meat did John eat?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>A2:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>He ate [the lettuce] and [the bacon].</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(16)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Critical Condition; Clausal Conjuncts</italic></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>Q1:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>What did John eat and how did he eat it?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>A1:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>[<strike>He ate</strike> the lettuce] and [<strike>he ate it</strike> with a fork].</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Critical Condition; DP Conjuncts</italic></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>Q2:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Which vegetable and which meat did John eat?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>A2:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><strike>He ate</strike> [the lettuce] and [the bacon].</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>If elided material is represented syntactically and prosodically, then we expect the left boundary preceding <italic>and</italic> to be stronger in clausal coordination than in DP coordination because the second conjunct of clausal coordination has more levels of embedding than that of DP coordination. If elided material has no syntactic or prosodic representation, then we may expect that left boundary to be roughly the same for clausal and DP coordinations. But because the second conjunct in clausal coordination is different from that in DP coordination in other ways (e.g. it is a PP in clausal coordination but a DP in DP coordination; it has three words in clausal coordination but two in DP coordination), even if we do find a prosodic difference between clausal and DP coordinations, we cannot attribute it to ellipsis definitively, unless we compare that prosodic difference with a difference between structures without ellipsis, as we did with the first conjunct in the experiment.</p>
+<p>But I still report the results about that left boundary before <italic>and</italic> based on the vowel quality for two reasons. First, the results are at least consistent with the hypothesis that elided material has prosodic representation. Second, the results suggest that vowel reduction in <italic>and</italic> can be a measure of boundary strength in coordination.</p>
+<p>I used the vowel reduction in <italic>and</italic> as the auxiliary measure, and used the segmental transcriptions by the Montreal Forced Aligner. <xref ref-type="fig" rid="F33">Figure 33</xref> shows the distribution of the vowel in <italic>and</italic>.</p>
+<fig id="F33">
+<label>Figure 33</label>
+<caption>
+<p>Proportions of utterances that had <italic>and</italic> reduction and those that did not.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g33.png"/>
+</fig>
+<p>I ran a binomial generalized linear mixed effects model on the utterances that produced the vowel in <italic>and</italic>. The dependent variable of this model was binary&#8211;whether the vowel in <italic>and</italic> is [&#230;] or [&#601;], and the fixed variables were coordination and condition. The model included random intercepts and slopes by speaker and item group where those effects didn&#8217;t result in a singular fit.</p>
+<p>Within the Control Condition, the vowel in <italic>and</italic> is 47.4% more likely to be reduced to [&#601;] in DP coordination than in clausal coordination (p &lt; 0.05; <xref ref-type="fig" rid="F34">Figure 34</xref>). Within the Critical Condition, the vowel in <italic>and</italic> is 54.0% more likely to be reduced to [&#601;] in DP coordination than in clausal coordination (p &lt; 0.001; <xref ref-type="fig" rid="F34">Figure 34</xref>). There is no significance in the interaction between coordination type and condition type&#8211;the differences in likelihood of vowel reduction within the Critical Condition are not significantly different from those within the Control Condition (i.e., no difference between the differences &#916;<sub>1</sub> and &#916;<sub>2</sub>).</p>
+<fig id="F34">
+<label>Figure 34</label>
+<caption>
+<p>Probability that the vowel in <italic>and</italic> is reduced to [&#601;].</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-10-11169-g34.png"/>
+</fig>
+<p>The results based on vowel reduction suggested that when the second conjunct contains elided material, it induces a larger prosodic boundary before <italic>and</italic>. This is consistent with the hypothesis that elided material is represented in syntax and prosody. Furthermore, the results suggest that the vowel of <italic>and</italic> is more likely to be reduced when it starts a weaker prosodic domain.</p>
+</sec>
+<sec>
+<title>10 Conclusion</title>
+<p>This paper has argued with experimental results that elided material affects prosody, despite being silent. Elided material may be mapped onto the prosodic structure, and surrounded by prosodic boundaries just like pronounced material.</p>
+<p>Following a derivational view of the syntax-prosody mapping, the findings suggest that elided material must be present in syntactic structure to begin with. Phonological deletion of this material takes place after the creation of prosodic boundaries, so that at the point of prosodification, elided material is still present.</p>
+<p>If previous findings were correct that other silent material does not have prosodic representation (e.g., <xref ref-type="bibr" rid="B63">Nespor &amp; Vogel 1986</xref>; <xref ref-type="bibr" rid="B6">Chen 1987</xref>; <xref ref-type="bibr" rid="B54">Lin 1994</xref>; <xref ref-type="bibr" rid="B77">Truckenbrodt 1999</xref>; <xref ref-type="bibr" rid="B14">Elfner 2012</xref>; <xref ref-type="bibr" rid="B15">2015</xref>; <xref ref-type="bibr" rid="B25">G&#252;ne&#351; 2015</xref>), then my results here suggest a dichotomy of silence, with elided material having prosodic representation on the one hand, and null heads and their projections (and perhaps traces) not having prosodic representation on the other.</p>
+<p>My findings are compatible with the following order of operations: Vocabulary Insertion precedes creation of prosodic structure (as was claimed by the theories in the Distributed Morphology tradition, e.g. Halle &amp; Marantz (<xref ref-type="bibr" rid="B26">1993</xref>); Embick &amp; Noyer (<xref ref-type="bibr" rid="B18">2007</xref>), which then precedes deletion of elided material, so that prosody knows which heads are lexically silent and should be ignored, and at the point of creation of prosodic structure, elided material has not been fully deleted yet. Recent developments in the syntax-prosody mapping have argued for a two-step derivation process: the morphosyntactic output (MSO) is spelled out to the phonological input (PI) following the principles of Vocabulary Insertion and Match Theory; the PI is then subject to further addition of phonologically predictable properties such as prosodic prominence, and reorganization induced by phonological constraints such as size constraints, leading to the phonological output (PO) (<xref ref-type="bibr" rid="B44">Kratzer &amp; Selkirk 2020</xref>; <xref ref-type="bibr" rid="B17">Elordieta &amp; Selkirk 2022</xref>; <xref ref-type="bibr" rid="B53">Lee &amp; Selkirk 2022</xref>). A reviewer suggested that under this elaborated view of the syntax-prosody interface, perhaps elided material gets deleted at the PI-PO interface, and this deletion process follows Vocabulary Insertion and creation of the prosodic structure, which occur at the MSO-PI interface. Since this elaborated view of the syntax-prosody interface puts prominence assignment in the PI-PO interface, I speculate that phonological deletion of elided material occurs at the PI-PO interface because ellipsis is ultimately a type of prominence assignment&#8211;elided material has the most extreme form of prominence deprivation (<xref ref-type="bibr" rid="B75">Tancredi 1992</xref>), to the extent that it cannot have any prominence, even on the syllable-level, leading to its phonological &#8220;deletion&#8221;. This is what sets elided material apart from phonologically null heads and their projections: the former is the result of prominence assignment, while the latter the result of Vocabulary Insertion.</p>
+<p>This study also demonstrates the value of experimental methods in understanding theories of ellipsis. Theories make concrete testable predictions about prosody, which are borne out by subtle effects in prosodic boundaries. These boundary effects are so subtle that they may not be detectable impressionistically, but only by careful phonetic measures such as durations. Furthermore, one of the key effects is an interaction term&#8211;a durational difference between differences&#8211;which can only be tested by measurements in lab settings and statistical analyses.</p>
+</sec>
+<sec>
+<title>Data availability</title>
+<p>You can find the test items for the experiment, including the context, question and answer at this link: <uri>https://doi.org/10.16995/glossa.11169.s1</uri>.</p>
+</sec>
+</body>
+<back>
+<fn-group>
+<fn id="n1"><p>Technically, (1) and (2) are not a strict minimal pair because they have different numbers of syllables. Neither are (3B) and (2) a minimal pair, so we cannot really compare them directly. These examples are used only to introduce and illustrate the research question. The experiment to be presented later controls for factors like this, and compares strict minimal pairs.</p></fn>
+<fn id="n2"><p>There have been many different syntactic analyses of coordination, such as complementation, where the second conjunct is the complement of the coordination head (e.g. <xref ref-type="bibr" rid="B59">Munn 1987</xref>; <xref ref-type="bibr" rid="B9">Collins 1988</xref>; <xref ref-type="bibr" rid="B85">Zoerner 1995</xref>; <xref ref-type="bibr" rid="B39">Johannessen 1998</xref>; <xref ref-type="bibr" rid="B43">Kayne 1998</xref>; <xref ref-type="bibr" rid="B12">de Vries 2005</xref>); or adjunction, where the second conjunct is an adjunct to the first (e.g. <xref ref-type="bibr" rid="B60">Munn 1992</xref>; <xref ref-type="bibr" rid="B61">1993</xref>; <xref ref-type="bibr" rid="B5">Bo&#353;ovi&#263; and Franks 2000</xref>; <xref ref-type="bibr" rid="B29">Hartmann 2000</xref>; <xref ref-type="bibr" rid="B84">Zhang 2010</xref>); or mutual adjunction (e.g. <xref ref-type="bibr" rid="B10">Cormack and Smith 2005</xref>; <xref ref-type="bibr" rid="B64">Philip 2012</xref>; <xref ref-type="bibr" rid="B1">Al Khalaf 2015</xref>; <xref ref-type="bibr" rid="B83">Wu 2022</xref>; <xref ref-type="bibr" rid="B62">Neeleman et al. 2023</xref>). All these syntactic analyses make the same prediction for our purposes because they would all assign the following constituency to coordination: [Conjunct1 [Conj0 Conjunct2]], where the first conjunct crucially is its own XP. For concreteness, this paper follows the complementation approach where the second conjunct is the complement of the Conj0.</p></fn>
+<fn id="n3"><p>Match Theory was actually based on Optimality Theory, a framework in which mapping principles may not be followed if there are higher-ranked constraints. Based on empirical observations, I assume that at least in English coordination, the mapping principles are ranked highly enough that they are always followed, and thus skip the OT ranking exercises for simplicity.</p></fn>
+</fn-group>
+<sec>
+<title>Ethics and consent</title>
+<p>The study was approved by the Committee on the Use of Humans as Experimental Subjects of the Massachusetts Institute of Technology and the Central University Research Ethics Committee (CUREC) of the University of Oxford. The study was performed in accordance with the ethical standards as laid down in the Federal Regulations for the Protection of Human Subjects (45 CFR 46) and its later amendments.</p>
+</sec>
+<sec>
+<title>Acknowledgements</title>
+<p>This paper arises from experimental research funded by the John Fell Oxford University Press (OUP) Research Fund. I would like to thank Athulya Aravind, Edward Flemming, Danny Fox, David Pesetsky, Michael Wagner, participants of the ECBAE Workshop, McGill Syntax &amp; Semantics Reading Group, NELS 49, Stanford Syntax and Morphology Circle, UCSC S-Circle, and &#8216;You&#8217;re on mute&#8217; ellipsis seminar series, as well as the anonymous reviewers, for helpful comments. Thanks are also due to all the participants of the production study. All errors are my own.</p>
+</sec>
+<sec>
+<title>Competing Interests</title>
+<p>The author has no competing interests to declare.</p>
+</sec>
+<ref-list>
+<ref id="B1"><mixed-citation publication-type="thesis"><string-name><surname>Al Khalaf</surname>, <given-names>Eman</given-names></string-name>. <year>2015</year>. <source>Coordination and linear order</source>. <publisher-name>University of Delaware</publisher-name> dissertation. Retrieved from <uri>http://udspace.udel.edu/handle/19716/17494</uri></mixed-citation></ref>
+<ref id="B2"><mixed-citation publication-type="journal"><string-name><surname>Beckman</surname>, <given-names>Mary E.</given-names></string-name> &amp; <string-name><surname>Pierrehumbert</surname>, <given-names>Janet B.</given-names></string-name> <year>1986</year>. <article-title>Intonational structure in Japanese and English</article-title>. <source>Phonology Yearbook</source> <volume>3</volume>. <fpage>255</fpage>&#8211;<lpage>309</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S095267570000066X</pub-id></mixed-citation></ref>
+<ref id="B3"><mixed-citation publication-type="book"><string-name><surname>Bellik</surname>, <given-names>Jennifer</given-names></string-name> &amp; <string-name><surname>Ito</surname>, <given-names>Junko</given-names></string-name> &amp; <string-name><surname>Kalivoda</surname>, <given-names>Nick</given-names></string-name> &amp; <string-name><surname>Mester</surname>, <given-names>Armin</given-names></string-name>. <year>2022</year>. <chapter-title>Matching and alignment</chapter-title>. In <string-name><surname>Kubozono</surname>, <given-names>Haruo</given-names></string-name> &amp; <string-name><surname>Ito</surname>, <given-names>Junko</given-names></string-name> &amp; <string-name><surname>Mester</surname>, <given-names>Armin</given-names></string-name> (eds.), <source>Prosody and prosodic interfaces</source>, <edition>1st</edition> ed., <fpage>457</fpage>&#8211;<lpage>480</lpage>. <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oso/9780198869740.003.0015</pub-id></mixed-citation></ref>
+<ref id="B4"><mixed-citation publication-type="journal"><string-name><surname>Bennett</surname>, <given-names>Ryan</given-names></string-name> &amp; <string-name><surname>Elfner</surname>, <given-names>Emily</given-names></string-name> &amp; <string-name><surname>McCloskey</surname>, <given-names>James</given-names></string-name>. <year>2016</year>. <article-title>Lightest to the right: An apparently anomalous displacement in Irish</article-title>. <source>Linguistic Inquiry</source> <volume>47</volume>(<issue>2</issue>). <fpage>169</fpage>&#8211;<lpage>234</lpage>. DOI: <pub-id pub-id-type="doi">10.1162/LING_a_00209</pub-id></mixed-citation></ref>
+<ref id="B5"><mixed-citation publication-type="journal"><string-name><surname>Bo&#353;ovi&#263;</surname>, <given-names>&#381;eljko</given-names></string-name> &amp; <string-name><surname>Franks</surname>, <given-names>Steven</given-names></string-name>. <year>2000</year>. <article-title>Across-the-board movement and LF</article-title>. <source>Syntax</source> <volume>3</volume>(<issue>2</issue>). <fpage>107</fpage>&#8211;<lpage>128</lpage>. DOI: <pub-id pub-id-type="doi">10.1111/1467-9612.00027</pub-id></mixed-citation></ref>
+<ref id="B6"><mixed-citation publication-type="journal"><string-name><surname>Chen</surname>, <given-names>Matthew Y.</given-names></string-name> <year>1987</year>. <article-title>The syntax of Xiamen tone sandhi</article-title>. <source>Phonology Yearbook</source> <volume>4</volume>(<issue>1</issue>). <fpage>109</fpage>&#8211;<lpage>149</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0952675700000798</pub-id></mixed-citation></ref>
+<ref id="B7"><mixed-citation publication-type="journal"><string-name><surname>Cheng</surname>, <given-names>Lisa Lai-Shen</given-names></string-name> &amp; <string-name><surname>Downing</surname>, <given-names>Laura J.</given-names></string-name> <year>2021</year>. <article-title>Recursion and the definition of universal prosodic categories</article-title>. <source>Languages</source> <volume>6</volume>(<issue>3</issue>). <elocation-id>125</elocation-id>. DOI: <pub-id pub-id-type="doi">10.3390/languages6030125</pub-id></mixed-citation></ref>
+<ref id="B8"><mixed-citation publication-type="journal"><string-name><surname>Chung</surname>, <given-names>Sandra</given-names></string-name> &amp; <string-name><surname>Ladusaw</surname>, <given-names>William A.</given-names></string-name> &amp; <string-name><surname>McCloskey</surname>, <given-names>James</given-names></string-name>. <year>1995</year>. <article-title>Sluicing and logical form</article-title>. <source>Natural Language Semantics</source> <volume>3</volume>(<issue>3</issue>). <fpage>239</fpage>&#8211;<lpage>282</lpage>. DOI: <pub-id pub-id-type="doi">10.1007/BF01248819</pub-id></mixed-citation></ref>
+<ref id="B9"><mixed-citation publication-type="book"><string-name><surname>Collins</surname>, <given-names>Chris</given-names></string-name>. <year>1988</year>. <source>Conjunction adverbs</source>. <publisher-name>MIT</publisher-name>.</mixed-citation></ref>
+<ref id="B10"><mixed-citation publication-type="journal"><string-name><surname>Cormack</surname>, <given-names>Annabel</given-names></string-name> &amp; <string-name><surname>Smith</surname>, <given-names>Neil</given-names></string-name>. <year>2005</year>. <article-title>What is coordination?</article-title> <source>Lingua</source> <volume>115</volume>(<issue>4</issue>). <fpage>395</fpage>&#8211;<lpage>418</lpage>. DOI: <pub-id pub-id-type="doi">10.1016/j.lingua.2003.09.008</pub-id></mixed-citation></ref>
+<ref id="B11"><mixed-citation publication-type="journal"><string-name><surname>de Pijper</surname>, <given-names>Jan Roelof</given-names></string-name> &amp; <string-name><surname>Sanderman</surname>, <given-names>Angelien A.</given-names></string-name> <year>1994</year>. <article-title>On the perceptual strength of prosodic boundaries and its relation to suprasegmental cues</article-title>. <source>The Journal of the Acoustical Society of America</source> <volume>96</volume>(<issue>4</issue>). <fpage>2037</fpage>&#8211;<lpage>2047</lpage>. DOI: <pub-id pub-id-type="doi">10.1121/1.410145</pub-id></mixed-citation></ref>
+<ref id="B12"><mixed-citation publication-type="journal"><string-name><surname>de Vries</surname>, <given-names>Mark</given-names></string-name>. <year>2005</year>. <article-title>Coordination and syntactic hierarchy</article-title>. <source>Studia Linguistica</source> <volume>59</volume>(<issue>1</issue>). <fpage>83</fpage>&#8211;<lpage>105</lpage>. DOI: <pub-id pub-id-type="doi">10.1111/j.1467-9582.2005.00121.x</pub-id></mixed-citation></ref>
+<ref id="B13"><mixed-citation publication-type="thesis"><string-name><surname>Downing</surname>, <given-names>Bruce T.</given-names></string-name> <year>1970</year>. <source>Syntactic structure and phonological phrasing in English</source>. <publisher-name>The University of Texas at Austin</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B14"><mixed-citation publication-type="thesis"><string-name><surname>Elfner</surname>, <given-names>Emily</given-names></string-name>. <year>2012</year>. <source>Syntax-prosody interactions in Irish</source>. <publisher-name>University of Massachusetts</publisher-name>, <publisher-loc>Amherst</publisher-loc> dissertation.</mixed-citation></ref>
+<ref id="B15"><mixed-citation publication-type="journal"><string-name><surname>Elfner</surname>, <given-names>Emily</given-names></string-name>. <year>2015</year>. <article-title>Recursion in prosodic phrasing: evidence from Connemara Irish</article-title>. <source>Natural Language &amp; Linguistic Theory</source> <volume>33</volume>(<issue>4</issue>). <fpage>1169</fpage>&#8211;<lpage>1208</lpage>. DOI: <pub-id pub-id-type="doi">10.1007/s11049-014-9281-5</pub-id></mixed-citation></ref>
+<ref id="B16"><mixed-citation publication-type="journal"><string-name><surname>Elordieta</surname>, <given-names>Gorka</given-names></string-name>. <year>2015</year>. <article-title>Recursive phonological phrasing in Basque</article-title>. <source>Phonology</source> <volume>32</volume>(<issue>1</issue>). <fpage>49</fpage>&#8211;<lpage>78</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0952675715000044</pub-id></mixed-citation></ref>
+<ref id="B17"><mixed-citation publication-type="book"><string-name><surname>Elordieta</surname>, <given-names>Gorka</given-names></string-name> &amp; <string-name><surname>Selkirk</surname>, <given-names>Elisabeth</given-names></string-name>. <year>2022</year>. <chapter-title>Unaccentedness and the formation of prosodic structure in Lekeitio Basque</chapter-title>. In <string-name><surname>Kubozono</surname>, <given-names>Haruo</given-names></string-name> &amp; <string-name><surname>Ito</surname>, <given-names>Junko</given-names></string-name> &amp; <string-name><surname>Mester</surname>, <given-names>Armin</given-names></string-name> (eds.), <source>Prosody and prosodic interfaces</source>, <edition>1st</edition> ed., <fpage>374</fpage>&#8211;<lpage>419</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oso/9780198869740.003.0013</pub-id></mixed-citation></ref>
+<ref id="B18"><mixed-citation publication-type="book"><string-name><surname>Embick</surname>, <given-names>David</given-names></string-name> &amp; <string-name><surname>Noyer</surname>, <given-names>Rolf</given-names></string-name>. <year>2007</year>. <chapter-title>Distributed Morphology and the syntax&#8212;morphology interface</chapter-title>. In <string-name><surname>Ramchand</surname>, <given-names>Gillian</given-names></string-name> &amp; <string-name><surname>Reiss</surname>, <given-names>Charles</given-names></string-name> (eds.), <source>The Oxford handbook of linguistic interfaces</source>, <fpage>289</fpage>&#8211;<lpage>324</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oxfordhb/9780199247455.013.0010</pub-id></mixed-citation></ref>
+<ref id="B19"><mixed-citation publication-type="journal"><string-name><surname>F&#233;ry</surname>, <given-names>Caroline</given-names></string-name> &amp; <string-name><surname>Truckenbrodt</surname>, <given-names>Hubert</given-names></string-name>. <year>2005</year>. <article-title>Sisterhood and tonal scaling</article-title>. <source>Studia Linguistica</source> <volume>59</volume>(<issue>2&#8211;3</issue>). <fpage>223</fpage>&#8211;<lpage>243</lpage>. DOI: <pub-id pub-id-type="doi">10.1111/j.1467-9582.2005.00127.x</pub-id></mixed-citation></ref>
+<ref id="B20"><mixed-citation publication-type="journal"><string-name><surname>Gee</surname>, <given-names>James Paul</given-names></string-name> &amp; <string-name><surname>Grosjean</surname>, <given-names>Fran&#231;ois</given-names></string-name>. <year>1983</year>. <article-title>Performance structures: A psycholinguistic and linguistic appraisal</article-title>. <source>Cognitive Psychology</source> <volume>15</volume>(<issue>4</issue>). <fpage>411</fpage>&#8211;<lpage>458</lpage>. DOI: <pub-id pub-id-type="doi">10.1016/0010-0285(83)90014-2</pub-id></mixed-citation></ref>
+<ref id="B21"><mixed-citation publication-type="book"><string-name><surname>Ginzburg</surname>, <given-names>Jonathan</given-names></string-name> &amp; <string-name><surname>Sag</surname>, <given-names>Ivan A.</given-names></string-name> <year>2001</year>. <source>Interrogative investigations: The form, meaning, and use of English interrogatives</source>. <publisher-loc>Stanford, Calif</publisher-loc>: <publisher-name>CSLI Publications</publisher-name>.</mixed-citation></ref>
+<ref id="B22"><mixed-citation publication-type="journal"><string-name><surname>Griffiths</surname>, <given-names>James</given-names></string-name>. <year>2019</year>. <article-title>A Q-based approach to clausal ellipsis: Deriving the preposition stranding and island sensitivity generalisations without movement</article-title>. <source>Glossa: A Journal of General Linguistics</source> <volume>4</volume>(<issue>1</issue>). DOI: <pub-id pub-id-type="doi">10.5334/gjgl.653</pub-id></mixed-citation></ref>
+<ref id="B23"><mixed-citation publication-type="thesis"><string-name><surname>Groenendijk</surname>, <given-names>Jeroen</given-names></string-name> &amp; <string-name><surname>Stokhof</surname>, <given-names>Martin</given-names></string-name>. <year>1984</year>. <source>Studies on the semantics of questions and the pragmatics of answers</source>. <publisher-name>University of Amsterdam</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B24"><mixed-citation publication-type="journal"><string-name><surname>G&#252;ne&#351;</surname>, <given-names>G&#252;liz</given-names></string-name>. <year>2014</year>. <article-title>Constraints on syntax-prosody correspondence: The case of clausal and subclausal parentheticals in Turkish</article-title>. <source>Lingua</source> <volume>150</volume>. <fpage>278</fpage>&#8211;<lpage>314</lpage>. DOI: <pub-id pub-id-type="doi">10.1016/j.lingua.2014.07.021</pub-id></mixed-citation></ref>
+<ref id="B25"><mixed-citation publication-type="thesis"><string-name><surname>G&#252;ne&#351;</surname>, <given-names>G&#252;liz</given-names></string-name>. <year>2015</year>. <source>Deriving prosodic structures</source>. <publisher-name>University of Groningen</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B26"><mixed-citation publication-type="book"><string-name><surname>Halle</surname>, <given-names>Morris</given-names></string-name> &amp; <string-name><surname>Marantz</surname>, <given-names>Alec</given-names></string-name>. <year>1993</year>. <chapter-title>Distributed morphology and the pieces of inflection</chapter-title>. In <string-name><surname>Hale</surname>, <given-names>Kenneth</given-names></string-name> &amp; <string-name><surname>Keyser</surname>, <given-names>S. Jay</given-names></string-name> (eds.), <source>The view from building 20</source>, <fpage>111</fpage>&#8211;<lpage>176</lpage>. <publisher-name>The MIT Press</publisher-name>.</mixed-citation></ref>
+<ref id="B27"><mixed-citation publication-type="journal"><string-name><surname>Hamlaoui</surname>, <given-names>Fatima</given-names></string-name> &amp; <string-name><surname>Szendr&#337;i</surname>, <given-names>Kriszta</given-names></string-name>. <year>2015</year>. <article-title>A flexible approach to the mapping of intonational phrases</article-title>. <source>Phonology</source> <volume>32</volume>(<issue>1</issue>). <fpage>79</fpage>&#8211;<lpage>110</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0952675715000056</pub-id></mixed-citation></ref>
+<ref id="B28"><mixed-citation publication-type="journal"><string-name><surname>Hamlaoui</surname>, <given-names>Fatima</given-names></string-name> &amp; <string-name><surname>Szendr&#337;i</surname>, <given-names>Kriszta</given-names></string-name>. <year>2017</year>. <article-title>The syntax-phonology mapping of intonational phrases in complex sentences: A flexible approach</article-title>. <source>Glossa: A Journal of General Linguistics</source> <volume>2</volume>(<issue>1</issue>). DOI: <pub-id pub-id-type="doi">10.5334/gjgl.215</pub-id></mixed-citation></ref>
+<ref id="B29"><mixed-citation publication-type="book"><string-name><surname>Hartmann</surname>, <given-names>Katharina</given-names></string-name>. <year>2000</year>. <source>Right node raising and gapping: interface conditions on prosodic deletion</source>. <publisher-loc>Philadelphia, PA</publisher-loc>: <publisher-name>J. Benjamins</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1075/z.106</pub-id></mixed-citation></ref>
+<ref id="B30"><mixed-citation publication-type="book"><string-name><surname>Ishihara</surname>, <given-names>Shinichiro</given-names></string-name>. <year>2022</year>. <chapter-title>On the (lack of) correspondence between syntactic clauses and intonational phrases</chapter-title>. In <string-name><surname>Kubozono</surname>, <given-names>Haruo</given-names></string-name> &amp; <string-name><surname>Ito</surname>, <given-names>Junko</given-names></string-name> &amp; <string-name><surname>Mester</surname>, <given-names>Armin</given-names></string-name> (eds.), <source>Prosody and prosodic interfaces</source>, <edition>1st</edition> ed., <fpage>420</fpage>&#8211;<lpage>456</lpage>. <publisher-loc>Oxford, UK</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oso/9780198869740.003.0014</pub-id></mixed-citation></ref>
+<ref id="B31"><mixed-citation publication-type="journal"><string-name><surname>Ishihara</surname>, <given-names>Shinichiro</given-names></string-name> &amp; <string-name><surname>Myrberg</surname>, <given-names>Sara</given-names></string-name>. <year>2023</year>. <article-title>Match Theory and the Asymmetry Problem: An example from Stockholm Swedish</article-title>. <source>Languages</source> <volume>8</volume>(<issue>2</issue>). <elocation-id>102</elocation-id>. DOI: <pub-id pub-id-type="doi">10.3390/languages8020102</pub-id></mixed-citation></ref>
+<ref id="B32"><mixed-citation publication-type="journal"><string-name><surname>Ito</surname>, <given-names>Junko</given-names></string-name> &amp; <string-name><surname>Mester</surname>, <given-names>Armin</given-names></string-name>. <year>2007</year>. <article-title>Prosodic adjunction in Japanese compounds</article-title>. <source>MIT Working Papers in Linguistics</source> <volume>55</volume>. <fpage>97</fpage>&#8211;<lpage>111</lpage>.</mixed-citation></ref>
+<ref id="B33"><mixed-citation publication-type="book"><string-name><surname>Ito</surname>, <given-names>Junko</given-names></string-name> &amp; <string-name><surname>Mester</surname>, <given-names>Armin</given-names></string-name>. <year>2010</year>. <chapter-title>The onset of the prosodic word</chapter-title>. In <string-name><surname>Parker</surname>, <given-names>Steve</given-names></string-name> (ed.), <source>Phonological argumentation: Essays on evidence and motivation</source>, <fpage>227</fpage>&#8211;<lpage>260</lpage>. <publisher-loc>London</publisher-loc>: <publisher-name>Equinox</publisher-name>. DOI: <pub-id pub-id-type="doi">10.3138/9781845532215.009</pub-id></mixed-citation></ref>
+<ref id="B34"><mixed-citation publication-type="book"><string-name><surname>Ito</surname>, <given-names>Junko</given-names></string-name> &amp; <string-name><surname>Mester</surname>, <given-names>Armin</given-names></string-name>. <year>2012</year>. <chapter-title>Recursive prosodic phrasing in Japanese</chapter-title>. In <string-name><surname>Borowsky</surname>, <given-names>Toni</given-names></string-name> &amp; <string-name><surname>Kawahara</surname>, <given-names>Shigeto</given-names></string-name> &amp; <string-name><surname>Shinya</surname>, <given-names>Takahito</given-names></string-name> &amp; <string-name><surname>Sugahara</surname>, <given-names>Mariko</given-names></string-name> (eds.), <source>Prosody matters: Essays in honor of Elisabeth Selkirk</source>, <fpage>280</fpage>&#8211;<lpage>303</lpage>. <publisher-name>Equinox</publisher-name>. DOI: <pub-id pub-id-type="doi">10.3138/9781845536770.009</pub-id></mixed-citation></ref>
+<ref id="B35"><mixed-citation publication-type="journal"><string-name><surname>Ito</surname>, <given-names>Junko</given-names></string-name> &amp; <string-name><surname>Mester</surname>, <given-names>Armin</given-names></string-name>. <year>2013</year>. <article-title>Prosodic subcategories in Japanese</article-title>. <source>Lingua</source> <volume>124</volume>. <fpage>20</fpage>&#8211;<lpage>40</lpage>. DOI: <pub-id pub-id-type="doi">10.1016/j.lingua.2012.08.016</pub-id></mixed-citation></ref>
+<ref id="B36"><mixed-citation publication-type="journal"><string-name><surname>Ito</surname>, <given-names>Junko</given-names></string-name> &amp; <string-name><surname>Mester</surname>, <given-names>Armin</given-names></string-name>. <year>2015</year>. <article-title>The perfect prosodic word in Danish</article-title>. <source>Nordic Journal of Linguistics</source> <volume>38</volume>(<issue>1</issue>). <fpage>5</fpage>&#8211;<lpage>36</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0332586515000049</pub-id></mixed-citation></ref>
+<ref id="B37"><mixed-citation publication-type="journal"><string-name><surname>Jabeen</surname>, <given-names>Farhat</given-names></string-name>. <year>2022</year>. <article-title>Word order, intonation, and prosodic phrasing: Individual differences in the production and identification of narrow and wide focus in Urdu</article-title>. <source>Languages</source> <volume>7</volume>(<issue>2</issue>). <elocation-id>103</elocation-id>. DOI: <pub-id pub-id-type="doi">10.3390/languages7020103</pub-id></mixed-citation></ref>
+<ref id="B38"><mixed-citation publication-type="journal"><string-name><surname>Jacobson</surname>, <given-names>Pauline</given-names></string-name>. <year>2016</year>. <article-title>The short answer: Implications for direct compositionality (and vice versa)</article-title>. <source>Language</source> <volume>92</volume>(<issue>2</issue>). <fpage>331</fpage>&#8211;<lpage>375</lpage>. DOI: <pub-id pub-id-type="doi">10.1353/lan.2016.0038</pub-id></mixed-citation></ref>
+<ref id="B39"><mixed-citation publication-type="book"><string-name><surname>Johannessen</surname>, <given-names>Janne Bondi</given-names></string-name>. <year>1998</year>. <source>Coordination</source> Reprint. <publisher-loc>New York and Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>.</mixed-citation></ref>
+<ref id="B40"><mixed-citation publication-type="book"><string-name><surname>Johnson</surname>, <given-names>Kyle</given-names></string-name>. <year>2001</year>. <chapter-title>What VP ellipsis can do, and what it can&#8217;t, but not why</chapter-title>. In <string-name><surname>Baltin</surname>, <given-names>Mark</given-names></string-name> &amp; <string-name><surname>Collins</surname>, <given-names>Chris</given-names></string-name> (eds.), <source>The handbook of contemporary syntactic theory</source>, <edition>1st</edition> ed., <fpage>439</fpage>&#8211;<lpage>479</lpage>. <publisher-name>Wiley</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1002/9780470756416.ch14</pub-id></mixed-citation></ref>
+<ref id="B41"><mixed-citation publication-type="journal"><string-name><surname>Jun</surname>, <given-names>Sun-Ah</given-names></string-name>. <year>2000</year>. <article-title>K-ToBI (Korean ToBI) labelling conventions, version 3</article-title>. <source>Speech Sciences</source> <volume>7</volume>. DOI: <pub-id pub-id-type="doi">10.21437/ICSLP.2000-515</pub-id></mixed-citation></ref>
+<ref id="B42"><mixed-citation publication-type="book"><string-name><surname>Jun</surname>, <given-names>Sun-Ah</given-names></string-name>. <year>2003</year>. <chapter-title>The effect of phrase length and speech rate on prosodic phrasing</chapter-title>. In <string-name><surname>Sol&#233;</surname>, <given-names>Maria-Josep</given-names></string-name> &amp; <string-name><surname>Recasens</surname>, <given-names>Daniel</given-names></string-name> &amp; <string-name><surname>Romero</surname>, <given-names>Joaquin</given-names></string-name> (eds.), <source>Proceedings of the 15th International Congress of Phonetic Sciences</source>.</mixed-citation></ref>
+<ref id="B43"><mixed-citation publication-type="book"><string-name><surname>Kayne</surname>, <given-names>Richard S.</given-names></string-name> <year>1998</year>. <source>The antisymmetry of syntax</source>. <publisher-loc>Cambridge, MA</publisher-loc>: <publisher-name>MIT Press</publisher-name>.</mixed-citation></ref>
+<ref id="B44"><mixed-citation publication-type="journal"><string-name><surname>Kratzer</surname>, <given-names>Angelika</given-names></string-name> &amp; <string-name><surname>Selkirk</surname>, <given-names>Elisabeth</given-names></string-name>. <year>2020</year>. <article-title>Deconstructing information structure</article-title>. <source>Glossa: A Journal of General Linguistics</source> <volume>5</volume>(<issue>1</issue>). DOI: <pub-id pub-id-type="doi">10.5334/gjgl.968</pub-id></mixed-citation></ref>
+<ref id="B45"><mixed-citation publication-type="book"><string-name><surname>Krivokapi&#263;</surname>, <given-names>Jelena</given-names></string-name>. <year>2023</year>. <source>The prosodic hierarchy: Structure and performance</source>. Keynote talk presented at the 30mfm, <publisher-loc>Manchester, UK</publisher-loc>.</mixed-citation></ref>
+<ref id="B46"><mixed-citation publication-type="journal"><string-name><surname>Kubozono</surname>, <given-names>Haruo</given-names></string-name>. <year>1989</year>. <article-title>Syntactic and rhythmic effects on downstep in Japanese</article-title>. <source>Phonology</source> <volume>6</volume>(<issue>1</issue>). <fpage>39</fpage>&#8211;<lpage>67</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0952675700000944</pub-id></mixed-citation></ref>
+<ref id="B47"><mixed-citation publication-type="book"><string-name><surname>Kubozono</surname>, <given-names>Haruo</given-names></string-name>. <year>1992</year>. <chapter-title>Modeling syntactic effects on downstep in Japanese</chapter-title>. In <string-name><surname>Docherty</surname>, <given-names>Gerard J.</given-names></string-name> &amp; <string-name><surname>Ladd</surname>, <given-names>D. Robert</given-names></string-name> (eds.), <source>Gesture, segment, prosody</source>, <fpage>368</fpage>&#8211;<lpage>397</lpage>. <publisher-name>Cambridge University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1017/CBO9780511519918.016</pub-id></mixed-citation></ref>
+<ref id="B48"><mixed-citation publication-type="journal"><string-name><surname>K&#252;gler</surname>, <given-names>Frank</given-names></string-name>. <year>2022</year>. <article-title>Phrase-level ATR vowel harmony in Anum&#8212;A case of recursive prosodic phrasing</article-title>. <source>Languages</source> <volume>7</volume>(<issue>4</issue>). <elocation-id>308</elocation-id>. DOI: <pub-id pub-id-type="doi">10.3390/languages7040308</pub-id></mixed-citation></ref>
+<ref id="B49"><mixed-citation publication-type="journal"><string-name><surname>Ladd</surname>, <given-names>D. Robert</given-names></string-name>. <year>1986</year>. <article-title>Intonational phrasing: The case for recursive prosodic structure</article-title>. <source>Phonology Yearbook</source> <volume>3</volume>. <fpage>311</fpage>&#8211;<lpage>340</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0952675700000671</pub-id></mixed-citation></ref>
+<ref id="B50"><mixed-citation publication-type="journal"><string-name><surname>Ladd</surname>, <given-names>D. Robert</given-names></string-name>. <year>1988</year>. <article-title>Declination &#8216;&#8220;reset&#8221;&#8217; and the hierarchical organization of utterances</article-title>. <source>The Journal of the Acoustical Society of America</source> <volume>84</volume>(<issue>2</issue>). <fpage>530</fpage>&#8211;<lpage>544</lpage>. DOI: <pub-id pub-id-type="doi">10.1121/1.396830</pub-id></mixed-citation></ref>
+<ref id="B51"><mixed-citation publication-type="journal"><string-name><surname>Landau</surname>, <given-names>Idan</given-names></string-name>. <year>2023</year>. <article-title>Argument ellipsis as external merge after transfer</article-title>. <source>Natural Language &amp; Linguistic Theory</source> <volume>41</volume>(<issue>2</issue>). <fpage>793</fpage>&#8211;<lpage>845</lpage>. DOI: <pub-id pub-id-type="doi">10.1007/s11049-022-09552-3</pub-id></mixed-citation></ref>
+<ref id="B52"><mixed-citation publication-type="journal"><string-name><surname>Lee</surname>, <given-names>Seunghun J.</given-names></string-name> &amp; <string-name><surname>Riedel</surname>, <given-names>Kristina</given-names></string-name>. <year>2023</year>. <article-title>Recursivity and focus in the prosody of Xitsonga DPs</article-title>. <source>Languages</source> <volume>8</volume>(<issue>2</issue>). <elocation-id>150</elocation-id>. DOI: <pub-id pub-id-type="doi">10.3390/languages8020150</pub-id></mixed-citation></ref>
+<ref id="B53"><mixed-citation publication-type="book"><string-name><surname>Lee</surname>, <given-names>Seunghun J.</given-names></string-name> &amp; <string-name><surname>Selkirk</surname>, <given-names>Elisabeth</given-names></string-name>. <year>2022</year>. <chapter-title>Xitsonga tone: The syntax&#8211;phonology interface</chapter-title>. In <string-name><surname>Kubozono</surname>, <given-names>Haruo</given-names></string-name> &amp; <string-name><surname>Ito</surname>, <given-names>Junko</given-names></string-name> &amp; <string-name><surname>Mester</surname>, <given-names>Armin</given-names></string-name> (eds.), <source>Prosody and prosodic interfaces</source>, <edition>1st</edition> ed., <fpage>337</fpage>&#8211;<lpage>373</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oso/9780198869740.003.0012</pub-id></mixed-citation></ref>
+<ref id="B54"><mixed-citation publication-type="journal"><string-name><surname>Lin</surname>, <given-names>Jo-wang</given-names></string-name>. <year>1994</year>. <article-title>Lexical government and tone group formation in Xiamen Chinese</article-title>. <source>Phonology</source> <volume>11</volume>(<issue>2</issue>). <fpage>237</fpage>&#8211;<lpage>275</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0952675700001962</pub-id></mixed-citation></ref>
+<ref id="B55"><mixed-citation publication-type="book"><string-name><surname>McAuliffe</surname>, <given-names>Michael</given-names></string-name> &amp; <string-name><surname>Socolof</surname>, <given-names>Michaela</given-names></string-name> &amp; <string-name><surname>Mihuc</surname>, <given-names>Sarah</given-names></string-name> &amp; <string-name><surname>Wagner</surname>, <given-names>Michael</given-names></string-name> &amp; <string-name><surname>Sonderegger</surname>, <given-names>Morgan</given-names></string-name>. <year>2017</year>. <chapter-title>Montreal forced aligner: Trainable text-speech alignment using Kaldi</chapter-title>. In <source>Interspeech 2017</source>, <fpage>498</fpage>&#8211;<lpage>502</lpage>. <publisher-name>ISCA</publisher-name>. DOI: <pub-id pub-id-type="doi">10.21437/Interspeech.2017-1386</pub-id></mixed-citation></ref>
+<ref id="B56"><mixed-citation publication-type="webpage"><string-name><surname>McAuliffe</surname>, <given-names>Michael</given-names></string-name> &amp; <string-name><surname>Sonderegger</surname>, <given-names>Morgan</given-names></string-name>. <year>2024</year>. <article-title>English (US) ARPA acoustic model (Version 3.0.0)</article-title>. Retrieved from <uri>https://mfa-models.readthedocs.io/acoustic/English/English(US)ARPAacousticmodelv3_0_0.html</uri></mixed-citation></ref>
+<ref id="B57"><mixed-citation publication-type="book"><string-name><surname>Merchant</surname>, <given-names>Jason</given-names></string-name>. <year>2001</year>. <source>The syntax of silence: Sluicing, islands, and the theory of ellipsis</source>. <publisher-loc>New York and Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oso/9780199243730.001.0001</pub-id></mixed-citation></ref>
+<ref id="B58"><mixed-citation publication-type="journal"><string-name><surname>Merchant</surname>, <given-names>Jason</given-names></string-name>. <year>2005</year>. <article-title>Fragments and ellipsis</article-title>. <source>Linguistics and Philosophy</source> <volume>27</volume>(<issue>6</issue>). <fpage>661</fpage>&#8211;<lpage>738</lpage>. DOI: <pub-id pub-id-type="doi">10.1007/s10988-005-7378-3</pub-id></mixed-citation></ref>
+<ref id="B59"><mixed-citation publication-type="journal"><string-name><surname>Munn</surname>, <given-names>Alan</given-names></string-name>. <year>1987</year>. <article-title>Coordinate structure and X-bar theory</article-title>. <source>McGill Working Papers in Linguistics</source> <volume>4</volume>(<issue>1</issue>). <fpage>121</fpage>&#8211;<lpage>140</lpage>.</mixed-citation></ref>
+<ref id="B60"><mixed-citation publication-type="journal"><string-name><surname>Munn</surname>, <given-names>Alan</given-names></string-name>. <year>1992</year>. <article-title>A null operator analysis of ATB gaps</article-title>. <source>The Linguistic Review</source> <volume>9</volume>(<issue>1</issue>). <fpage>1</fpage>&#8211;<lpage>26</lpage>. DOI: <pub-id pub-id-type="doi">10.1515/tlir.1992.9.1.1</pub-id></mixed-citation></ref>
+<ref id="B61"><mixed-citation publication-type="thesis"><string-name><surname>Munn</surname>, <given-names>Alan</given-names></string-name>. <year>1993</year>. <source>Topics in the syntax and semantics of coordinate structures</source>. <publisher-name>University of Maryland</publisher-name>, <publisher-loc>College Park</publisher-loc> dissertation.</mixed-citation></ref>
+<ref id="B62"><mixed-citation publication-type="journal"><string-name><surname>Neeleman</surname>, <given-names>Ad</given-names></string-name> &amp; <string-name><surname>Philip</surname>, <given-names>Joy</given-names></string-name> &amp; <string-name><surname>Tanaka</surname>, <given-names>Misako</given-names></string-name> &amp; <string-name><surname>van de Koot</surname>, <given-names>Hans</given-names></string-name>. <year>2023</year>. <article-title>Subordination and binary branching</article-title>. <source>Syntax</source> <volume>26</volume>(<issue>1</issue>). <fpage>41</fpage>&#8211;<lpage>84</lpage>. DOI: <pub-id pub-id-type="doi">10.1111/synt.12244</pub-id></mixed-citation></ref>
+<ref id="B63"><mixed-citation publication-type="book"><string-name><surname>Nespor</surname>, <given-names>Marina</given-names></string-name> &amp; <string-name><surname>Vogel</surname>, <given-names>Irene</given-names></string-name>. <year>1986</year>. <source>Prosodic phonology</source>. <publisher-loc>Dordrecht, Holland; Riverton, N.J., U.S.A</publisher-loc>: <publisher-name>Foris</publisher-name>.</mixed-citation></ref>
+<ref id="B64"><mixed-citation publication-type="thesis"><string-name><surname>Philip</surname>, <given-names>Joy</given-names></string-name>. <year>2012</year>. <source>Subordinating and coordinating linkers</source>. <publisher-name>University College London</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B65"><mixed-citation publication-type="book"><string-name><surname>Pierrehumbert</surname>, <given-names>Janet Breckenridge</given-names></string-name> &amp; <string-name><surname>Beckman</surname>, <given-names>Mary E.</given-names></string-name> <year>1988</year>. <source>Japanese tone structure</source>. <publisher-loc>Cambridge, Mass</publisher-loc>: <publisher-name>MIT Press</publisher-name>.</mixed-citation></ref>
+<ref id="B66"><mixed-citation publication-type="journal"><string-name><surname>Price</surname>, <given-names>Patti J.</given-names></string-name> &amp; <string-name><surname>Ostendorf</surname>, <given-names>Mari</given-names></string-name> &amp; <string-name><surname>Shattuck-Hufnagel</surname>, <given-names>Stefanie</given-names></string-name> &amp; <string-name><surname>Fong</surname>, <given-names>Cynthia</given-names></string-name>. <year>1991</year>. <article-title>The use of prosody in syntactic disambiguation</article-title>. <source>The Journal of the Acoustical Society of America</source> <volume>90</volume>(<issue>6</issue>). <fpage>2956</fpage>&#8211;<lpage>2970</lpage>. DOI: <pub-id pub-id-type="doi">10.1121/1.401770</pub-id></mixed-citation></ref>
+<ref id="B67"><mixed-citation publication-type="book"><string-name><surname>Selkirk</surname>, <given-names>Elisabeth</given-names></string-name>. <year>1981</year>. <chapter-title>On prosodic structure and its relation to syntactic structure</chapter-title>. In <string-name><surname>Fretheim</surname>, <given-names>Thorstein</given-names></string-name> (ed.), <source>Nordic prosody</source>, <fpage>111</fpage>&#8211;<lpage>140</lpage>.</mixed-citation></ref>
+<ref id="B68"><mixed-citation publication-type="book"><string-name><surname>Selkirk</surname>, <given-names>Elisabeth</given-names></string-name>. <year>1984</year>. <source>Phonology and syntax: The relation between sound and structure</source>. <publisher-loc>Cambridge (Mass.)</publisher-loc>: <publisher-name>MIT press</publisher-name>.</mixed-citation></ref>
+<ref id="B69"><mixed-citation publication-type="journal"><string-name><surname>Selkirk</surname>, <given-names>Elisabeth</given-names></string-name>. <year>1986</year>. <article-title>On derived domains in sentence phonology</article-title>. <source>Phonology Yearbook</source> <volume>3</volume>. <fpage>371</fpage>&#8211;<lpage>405</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0952675700000695</pub-id></mixed-citation></ref>
+<ref id="B70"><mixed-citation publication-type="book"><string-name><surname>Selkirk</surname>, <given-names>Elisabeth</given-names></string-name>. <year>1995</year>. <chapter-title>The prosodic structure of function words</chapter-title>. In <string-name><surname>Beckman</surname>, <given-names>Jill</given-names></string-name> &amp; <string-name><surname>Dickey</surname>, <given-names>Laura Walsh</given-names></string-name> &amp; <string-name><surname>Urbanczyk</surname>, <given-names>Suzanne</given-names></string-name> (eds.), <source>Papers in Optimality Theory</source>, <fpage>439</fpage>&#8211;<lpage>470</lpage>. <publisher-loc>Amherst, MA</publisher-loc>: <publisher-name>GLSA Publications</publisher-name>.</mixed-citation></ref>
+<ref id="B71"><mixed-citation publication-type="book"><string-name><surname>Selkirk</surname>, <given-names>Elisabeth</given-names></string-name>. <year>2000</year>. <chapter-title>The interaction of constraints on prosodic phrasing</chapter-title>. In <string-name><surname>Horne</surname>, <given-names>Merle</given-names></string-name> (ed.), <source>Prosody: Theory and experiment</source> <volume>14</volume>. <fpage>231</fpage>&#8211;<lpage>261</lpage>. <publisher-loc>Dordrecht</publisher-loc>: <publisher-name>Springer Netherlands</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1007/978-94-015-9413-4_9</pub-id></mixed-citation></ref>
+<ref id="B72"><mixed-citation publication-type="journal"><string-name><surname>Selkirk</surname>, <given-names>Elisabeth</given-names></string-name>. <year>2009</year>. <article-title>On clause and intonational phrase in Japanese: The syntactic grounding of prosodic constituent structure</article-title>. <source>Gengo Kenkyuu</source> <volume>136</volume>. <fpage>35</fpage>&#8211;<lpage>73</lpage>.</mixed-citation></ref>
+<ref id="B73"><mixed-citation publication-type="book"><string-name><surname>Selkirk</surname>, <given-names>Elisabeth</given-names></string-name>. <year>2011</year>. <chapter-title>The syntax-phonology interface</chapter-title>. In <string-name><surname>Goldsmith</surname>, <given-names>John</given-names></string-name> &amp; <string-name><surname>Riggle</surname>, <given-names>Jason</given-names></string-name> &amp; <string-name><surname>Yu</surname>, <given-names>Alan C. L.</given-names></string-name> (eds.), <source>The handbook of phonological theory</source>, <edition>1st</edition> ed., <fpage>435</fpage>&#8211;<lpage>484</lpage>. <publisher-name>Wiley</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1002/9781444343069.ch14</pub-id></mixed-citation></ref>
+<ref id="B74"><mixed-citation publication-type="journal"><string-name><surname>Selkirk</surname>, <given-names>Elisabeth</given-names></string-name> &amp; <string-name><surname>Lee</surname>, <given-names>Seunghun J.</given-names></string-name> <year>2015</year>. <article-title>Constituency in sentence phonology: An introduction</article-title>. <source>Phonology</source> <volume>32</volume>(<issue>1</issue>). <fpage>1</fpage>&#8211;<lpage>18</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0952675715000020</pub-id></mixed-citation></ref>
+<ref id="B75"><mixed-citation publication-type="thesis"><string-name><surname>Tancredi</surname>, <given-names>Christopher</given-names></string-name>. <year>1992</year>. <source>Deletion, deaccenting and presupposition</source>. <publisher-name>Massachusetts Institute of Technology</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B76"><mixed-citation publication-type="thesis"><string-name><surname>Truckenbrodt</surname>, <given-names>Hubert</given-names></string-name>. <year>1995</year>. <source>Phonological phrases: Their relation to syntax, focus, and prominence</source>. <publisher-name>Massachusetts Institute of Technology</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B77"><mixed-citation publication-type="journal"><string-name><surname>Truckenbrodt</surname>, <given-names>Hubert</given-names></string-name>. <year>1999</year>. <article-title>On the relation between syntactic phrases and phonological phrases</article-title>. <source>Linguistic Inquiry</source> <volume>30</volume>(<issue>2</issue>). <fpage>219</fpage>&#8211;<lpage>255</lpage>. DOI: <pub-id pub-id-type="doi">10.1162/002438999554048</pub-id></mixed-citation></ref>
+<ref id="B78"><mixed-citation publication-type="book"><string-name><surname>van Craenenbroeck</surname>, <given-names>Jeroen</given-names></string-name>. <year>2009</year>. <source>The syntax of ellipsis: Evidence from Dutch dialects</source> <edition>1st</edition> ed. <publisher-loc>New York</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/acprof:oso/9780195375640.001.0001</pub-id></mixed-citation></ref>
+<ref id="B79"><mixed-citation publication-type="thesis"><string-name><surname>Wagner</surname>, <given-names>Michael</given-names></string-name>. <year>2005</year>. <source>Prosody and recursion</source>. <publisher-name>Massachusetts Institute of Technology</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B80"><mixed-citation publication-type="journal"><string-name><surname>Wagner</surname>, <given-names>Michael</given-names></string-name>. <year>2010</year>. <article-title>Prosody and recursion in coordinate structures and beyond</article-title>. <source>Natural Language &amp; Linguistic Theory</source> <volume>28</volume>(<issue>1</issue>). <fpage>183</fpage>&#8211;<lpage>237</lpage>. DOI: <pub-id pub-id-type="doi">10.1007/s11049-009-9086-0</pub-id></mixed-citation></ref>
+<ref id="B81"><mixed-citation publication-type="journal"><string-name><surname>Watson</surname>, <given-names>Duane</given-names></string-name> &amp; <string-name><surname>Gibson</surname>, <given-names>Edward</given-names></string-name>. <year>2004</year>. <article-title>The relationship between intonational phrasing and syntactic structure in language production</article-title>. <source>Language and Cognitive Processes</source> <volume>19</volume>(<issue>6</issue>). <fpage>713</fpage>&#8211;<lpage>755</lpage>. DOI: <pub-id pub-id-type="doi">10.1080/01690960444000070</pub-id></mixed-citation></ref>
+<ref id="B82"><mixed-citation publication-type="journal"><string-name><surname>Wightman</surname>, <given-names>Colin W.</given-names></string-name> &amp; <string-name><surname>Shattuck-Hufnagel</surname>, <given-names>Stefanie</given-names></string-name> &amp; <string-name><surname>Ostendorf</surname>, <given-names>Mari</given-names></string-name> &amp; <string-name><surname>Price</surname>, <given-names>Patti J.</given-names></string-name> <year>1992</year>. <article-title>Segmental durations in the vicinity of prosodic phrase boundaries</article-title>. <source>The Journal of the Acoustical Society of America</source> <volume>91</volume>(<issue>3</issue>). <fpage>1707</fpage>&#8211;<lpage>1717</lpage>. DOI: <pub-id pub-id-type="doi">10.1121/1.402450</pub-id></mixed-citation></ref>
+<ref id="B83"><mixed-citation publication-type="thesis"><string-name><surname>Wu</surname>, <given-names>Danfeng</given-names></string-name>. <year>2022</year>. <source>Syntax and prosody of coordination</source>. <publisher-name>Massachusetts Institute of Technology</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B84"><mixed-citation publication-type="book"><string-name><surname>Zhang</surname>, <given-names>Niina Ning</given-names></string-name>. <year>2010</year>. <source>Coordination in syntax</source>. <publisher-loc>Cambridge</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1017/CBO9780511770746</pub-id></mixed-citation></ref>
+<ref id="B85"><mixed-citation publication-type="thesis"><string-name><surname>Zoerner</surname>, <given-names>Cyril Edward</given-names></string-name>. <year>1995</year>. <source>Coordination: The syntax of &amp;P</source>. <publisher-name>University of California, Irvine</publisher-name> dissertation.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

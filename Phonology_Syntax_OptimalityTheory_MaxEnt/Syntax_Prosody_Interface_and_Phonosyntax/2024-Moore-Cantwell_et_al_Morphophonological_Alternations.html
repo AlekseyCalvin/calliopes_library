@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moore-Cantwell et al. (2024) — Production priming of stress in nonwords</title>
+<style>
+  :root{
+    --ink:#1c1c1c; --mut:#6b6b6b; --rule:#e0e0e0; --accent:#7a2e2e; --paper:#fdfcfa;
+    --code:#f2efe9; --hl:#f7f2e7;
+  }
+  *{box-sizing:border-box}
+  body{font:17px/1.65 Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);
+       max-width:46rem;margin:0 auto;padding:3rem 1.5rem 6rem;}
+  h1{font-size:1.7rem;line-height:1.3;margin:0 0 .4rem;font-weight:600}
+  h2{font-size:1.15rem;margin:2.6rem 0 .6rem;font-weight:600;letter-spacing:.02em;
+     text-transform:uppercase;color:var(--accent)}
+  h3{font-size:1rem;margin:1.4rem 0 .4rem;font-weight:600}
+  .cite{color:var(--mut);font-size:.95rem;margin-bottom:2rem}
+  p{margin:.55rem 0}
+  ul,ol{margin:.5rem 0 .9rem;padding-left:1.4rem}
+  li{margin:.25rem 0}
+  blockquote{border-left:3px solid var(--rule);margin:1.1rem 0;padding:.2rem 0 .2rem 1.1rem;
+             color:#333;font-style:italic}
+  .gist{background:var(--hl);border:1px solid var(--rule);border-radius:4px;
+        padding:1.1rem 1.3rem;margin:1.4rem 0}
+  .gist ul{margin:.3rem 0 0}
+  .gist strong{font-variant:small-caps;letter-spacing:.04em}
+  code{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:.85em;
+       background:var(--code);padding:.1em .35em;border-radius:3px}
+  .tag{display:inline-block;font:600 .7rem/1.6 ui-monospace,monospace;letter-spacing:.08em;
+       text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+       border-radius:999px;padding:0 .6rem;margin:0 .3rem .3rem 0}
+  hr{border:0;border-top:1px solid var(--rule);margin:2.5rem 0}
+  .foot{font-size:.85rem;color:var(--mut)}
+  a{color:var(--accent)}
+  .nav{font-size:.85rem;margin-bottom:2rem}
+  .nav a{margin-right:.8rem}
+</style>
+</head>
+<body>
+
+<nav class="nav"><a href="synthesis.html">← Consolidated synthesis</a></nav>
+
+<h1>Production priming of stress in nonwords</h1>
+<div class="cite">Claire Moore-Cantwell, Dana Bosch, Ethan X. Kahn, Christine Kim &amp; Grace Shoemaker — <em>Laboratory Phonology: Journal of the Association for Laboratory Phonology</em>, 15(1), 1–31 (2024). DOI: <a href="https://doi.org/10.16995/labphon.962">10.16995/labphon.962</a></div>
+
+<div class="gist">
+<strong>The gist.</strong> When speakers must <em>choose</em> a stress pattern for a novel word (three syllables spliced from acoustically flat prompts), their choice is influenced by the stress pattern of the <em>immediately preceding</em> nonword — <strong>even when no segmental material overlaps</strong> (29% boost in initial-stress rate after an initial-stressed trial; β=0.46, p&lt;.001). Segmental overlap (same stressed vowel, or even the same unstressed final vowel) boosts the effect further. This is production-to-production <em>structural</em> priming of stress: abstract stress representations (metrical frames/feet) are active and independent of segmental content — a direct counter to the "stress is stored only on the segments" view, and an analogy to syntactic structural priming (where structure choices, not reaction times, show the effect). Lexical statistics also mattered (heavy penult → penultimate stress; final /i/ → initial stress), confirming speakers use probabilistic lexicon knowledge in stress assignment.
+</div>
+
+<h2>What the paper does</h2>
+<p>30 English speakers produced 320 auditorily-presented 3-syllable nonwords (e.g. [ti][spli][mə]) whose syllables were matched for duration/intensity/pitch so no stress was pre-specified; participants "strung the syllables together" as US town names. Stress was transcribed by trained listeners (with acoustic validation: duration, intensity, pitch-excursion ratios, formant centralisation). Mixed-effects logistic regression modelled trial stress choice as a function of previous-trial stress, segmental overlap (stressed-vowel match, final-vowel match), penult weight, and final vowel.</p>
+
+<h2>Key findings</h2>
+<ul>
+  <li><strong>Robust self-priming:</strong> 83% penultimate-stress baseline; initial stress after initial-stress trials rose 29 points vs after penultimate trials. The priming effect survived with zero segmental overlap (β=0.46, p=0.009).</li>
+  <li><strong>Lexical boost analogue:</strong> stressed-vowel overlap (β=0.57, p=0.047) and even final-vowel (never-stressed) overlap (β=0.39, p=0.03) enlarged the effect — paralleling the "lexical boost" in syntactic priming (Pickering &amp; Branigan 1998; Tooley &amp; Traxler 2010), and implying location-linked representations (a stressed vowel is linked to a syllable position, and the frame carries the whole-word pattern).</li>
+  <li><strong>Lexical statistics guide assignment:</strong> heavy penult → penultimate stress (β=2.63); final [i] → initial stress (β=−0.30) — Moore-Cantwell's (2020) probabilistic English stress generalisations replicated.</li>
+  <li><strong>Individual differences:</strong> most participants primed, but some didn't; overall penultimate bias was unusually high (possibly due to the place-name framing), though the relative priming pattern was stable.</li>
+</ul>
+
+<h2>Interpretation &amp; caveats</h2>
+<p>The authors argue for the <strong>Abstract Representation Hypothesis</strong>: metrical frames (Levelt et al. 1999) or feet (Domahs et al. 2008) are activated across trials; stress behaves like syntax in priming — visible in structure choices rather than RTs, which explains why lexical-decision studies (Protopapas et al. 2016; Schiller et al. 2004) fail to find segment-free stress priming. Caveats: the US-map framing may have inflated penultimate stress; priming magnitude varies by participant; the frame-vs-feet distinction is not resolved.</p>
+
+<h2>Relevance to Calliope-TS</h2>
+<p>This paper bears directly on how Calliope assigns stress to out-of-vocabulary words and how it weights metrical candidates — and on the deeper question of whether stress patterns are computed fresh per word or carried contextually:</p>
+<ul>
+  <li><strong>Insight: abstract stress representations are psychologically real and contextually sticky.</strong> Calliope's architecture (lexical contour from CMU + phrasal tier ladder + metrical fitter) already implies abstract, segment-free stress structure. This paper experimentally validates that abstraction, and suggests a subtle modelling refinement: <em>stress-pattern priming</em> — a line's rhythm influences the next line's reading. For poetry this is a genuine (if weak) effect: a poet's stanza-level meter is exactly a "priming regime" that biases each line's stress realisation (cf. Calliope's stanza-consensus and continuity-rename passes — which effectively implement metrical priming at the annotation level).</li>
+  <li><strong>Insight: segmental overlap boosts structural persistence.</strong> The "lexical boost" analogue explains why near-rhyming or alliterative line-pairs may show stronger metrical consistency — useful for Calliope's stanza-consensus weighting: lines sharing end-rhyme or repeated words plausibly cohere metrically more than disjoint lines.</li>
+  <li><strong>Insight: probabilistic stress assignment.</strong> The paper's empirical generalisations (heavy penult → penult; final /i/ → antepenult) match Calliope's OOV English Stress Rule; the weighting/choice framing (gradient probabilities, not categorical rules) matches the MaxEnt philosophy of the kit's meter layer. It also warns that a single OOV decision is noisy — the right target is the distribution over patterns.</li>
+  <li><strong>Insight for evaluation:</strong> the priming paradigm is a novel behavioural assay of whether a system's stress <em>representations</em> are segment-free — a design Calliope's own diagnostics could emulate (e.g. does the fitter exhibit "persistence" across lines of the same stanza?).</li>
+</ul>
+
+<h2>Key named insights</h2>
+<ol>
+  <li><strong>Segment-free stress priming:</strong> production-to-production priming of stress patterns with no segmental overlap — abstract metrical structure is active in online production.</li>
+  <li><strong>Structure-choice over latency:</strong> stress, like syntax, primes choices rather than reaction times — why RT studies missed it.</li>
+  <li><strong>Lexical boost analogue:</strong> segmental overlap (even of unstressed vowels) strengthens structural persistence — representations are location-linked wholes.</li>
+  <li><strong>Probabilistic lexicon statistics:</strong> speakers assign novel-word stress by weighted generalisations over the lexicon, not categorical rules.</li>
+</ol>
+
+<hr>
+<p class="foot"><strong>Citation:</strong> Moore-Cantwell, C., Bosch, D., Kahn, E. X., Kim, C., &amp; Shoemaker, G. (2024). Production priming of stress in nonwords. <em>Laboratory Phonology: Journal of the Association for Laboratory Phonology</em>, 15(1), 1–31. <a href="https://doi.org/10.16995/labphon.962">10.16995/labphon.962</a></p>
+<p class="foot"><strong>Key references inside:</strong> Hayes (1995); Levelt, Roelofs &amp; Meyer (1999); Domahs, Wiese, Bornkessel-Schlesewsky &amp; Schlesewsky (2008); Protopapas et al. (2016); Schiller, Fikkert &amp; Levelt (2004); Shaw (2012, 2013); Colombo &amp; Zevin (2009); Pickering &amp; Branigan (1998); Tooley &amp; Traxler (2010); Moore-Cantwell (2020); Guion et al. (2003); Bock (1986). OSF: <a href="https://osf.io/xnp37/">osf.io/xnp37</a>.</p>
+
+</body>
+</html>

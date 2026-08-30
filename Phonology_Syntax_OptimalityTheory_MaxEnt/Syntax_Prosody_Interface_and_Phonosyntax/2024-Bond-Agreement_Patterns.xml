@@ -1,0 +1,2325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN" "http://jats.nlm.nih.gov/publishing/1.2/JATS-journalpublishing1.dtd">
+<!--<?xml-stylesheet type="text/xsl" href="article.xsl"?>-->
+<article article-type="research-article" dtd-version="1.2" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<front>
+<journal-meta>
+<journal-id journal-id-type="issn">2397-1835</journal-id>
+<journal-title-group>
+<journal-title>Glossa: a journal of general linguistics</journal-title>
+</journal-title-group>
+<issn pub-type="epub">2397-1835</issn>
+<publisher>
+<publisher-name>Open Library of Humanities</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.16995/glossa.16849</article-id>
+<article-categories>
+<subj-group>
+<subject>Research article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Feature sharing in possessor agreement</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-0920-6991</contrib-id>
+<name>
+<surname>Bond</surname>
+<given-names>Oliver</given-names>
+</name>
+<email>o.bond@surrey.ac.uk</email>
+<xref ref-type="aff" rid="aff-1">1</xref>
+</contrib>
+</contrib-group>
+<aff id="aff-1"><label>1</label>University of Surrey</aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-05-26">
+<day>26</day>
+<month>05</month>
+<year>2026</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2026</year>
+</pub-date>
+<volume>11</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>44</lpage>
+<permissions>
+<copyright-statement>Copyright: &#x00A9; 2026 The Author(s)</copyright-statement>
+<copyright-year>2026</copyright-year>
+<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International License (CC-BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. See <uri xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</uri>.</license-p>
+</license>
+</permissions>
+<self-uri xlink:href="https://www.glossa-journal.org/articles/10.16995/glossa.16849/"/>
+<abstract>
+<p>Inalienable possessors that are internal to an NP headed by a possessed noun show evidence in support of <sc>feature sharing</sc> through agreement between a possessor controller and a possessed target in the Arawan language Jarawara. The data indicate that, contrary to the standard view of agreement in Minimalism and LFG, agreement features can be visible in the syntactic locus of the target, as well as that of the controller under certain conditions. As a consequence of feature sharing, an inalienably possessed noun that is otherwise underspecified for gender and number can control subsequent agreement processes. This gives rise to clauses in which internal inalienable possessors superficially appear to control agreement on the verbal predicate.</p>
+<p>Morphomic structures within the agreement paradigms of Jarawara inalienably possessed nouns partly obscure which features participate in possessor agreement. Combining a morphological analysis that accommodates morphomes with a feature sharing account of agreement in inalienable possession constructions provides a robust explanation for the distribution of inalienably possessed nouns in recursive structures, a problem that was unresolved by Dixon&#8217;s (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>) original analysis of the data and Adamson&#8217;s (<xref ref-type="bibr" rid="B2">2024</xref>) recent treatment in Distributed Morphology.</p>
+</abstract>
+</article-meta>
+</front>
+<body>
+<sec>
+<title>1 Introduction</title>
+<p>In some languages, predicate agreement with phrase internal possessors (rather than the syntactic head of their possessive phrase) is possible as a differential argument marking strategy providing certain syntactic and/or discourse-functional circumstances are met (<xref ref-type="bibr" rid="B55">Nikolaeva 2014a</xref>; <xref ref-type="bibr" rid="B51">Meakins &amp; Nordlinger 2017</xref>; <xref ref-type="bibr" rid="B57">Nikolaeva et al. 2019</xref>; papers in <xref ref-type="bibr" rid="B10">B&#225;r&#225;ny et al. 2019</xref>). Possessors with these properties are known as <sc>prominent internal possessors</sc> or PIPs (<xref ref-type="bibr" rid="B57">Nikolaeva et al. 2019</xref>). Possessive phrases with PIPs demonstrate an apparent split in head properties across the possessor and possessed: the possessed noun defines the syntactic category and the main semantic contribution of the phrase, whereas the possessor determines the phrase&#8217;s reference tracking potential as far as processes such as agreement or switch-reference are concerned.<xref ref-type="fn" rid="n1">1</xref> A similar pattern is seen in Jarawara (ISO 639-3:jaa, Glottocode: jama1261, Arawan; Brazil)<xref ref-type="fn" rid="n2">2</xref> where inalienable possessors appear to control gender agreement on verbal predicates. This behaviour leads Dixon (<xref ref-type="bibr" rid="B30">2000: 487</xref>) to argue that, in Jarawara, the inalienable possessor functions as the &#8220;unequivocal head of the NP&#8221;. Dixon&#8217;s analysis is unusual in that the internal possessor is proposed to control agreement because of a &#8216;reversal&#8217; in the otherwise expected syntactic headedness of a possessive construction (see <xref ref-type="bibr" rid="B16">Bond 2017</xref>; <xref ref-type="bibr" rid="B57">Nikolaeva et al. 2019: 29&#8211;31</xref>; <xref ref-type="bibr" rid="B2">Adamson 2024</xref> for discussion). Yet this is not supported by the available syntactic evidence, which suggests the possessed noun &#8211; not the possessor &#8211; is the syntactic head of inalienable possession phrases after all (see &#167;4).</p>
+<p>The basic pattern of predicate agreement in Jarawara is presented in (1)&#8211;(7), adapting Dixon&#8217;s glosses slightly for clarity.<xref ref-type="fn" rid="n3">3</xref> Dixon distinguishes two genders: &#8216;masculine&#8217; and &#8216;feminine&#8217;. These labels reflect the fact that all nouns with human reference are assigned a gender according to the biological sex of the referent. A detailed discussion of gender assignment for non-humans is provided in Dixon (<xref ref-type="bibr" rid="B31">2004: 284&#8211;7</xref>). (1) shows the basic sex-based gender agreement pattern with a masculine agreement controller <italic>Okomobi</italic>, while in (2) the predicate agrees with the feminine controller headed by <italic>jimawa</italic> &#8216;knife&#8217;. Here, agreement with an alienably possessed entity follows a cross-linguistically expected pattern, where the relevant features for agreement are those of the head of the agreement controller.<xref ref-type="fn" rid="n4">4</xref></p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(1)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[Okomobi]<sub>S</sub></p></list-item>
+<list-item><p>Okomobi(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>tafa-ka</p></list-item>
+<list-item><p>eat-<sc>dec.m</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Okomobi is eating.&#8217;</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B30">Dixon 2000: 494</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(2)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[Okomobi</p></list-item>
+<list-item><p>Okomobi(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>kaa</p></list-item>
+<list-item><p><sc>poss</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>jimawa]<sub>S</sub></p></list-item>
+<list-item><p>knife(<sc>f</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>ino-ke</p></list-item>
+<list-item><p>be.sharp-<sc>dec.f</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Okomobi&#8217;s knife is sharp.&#8217;</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B30">Dixon 2000: 488</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Feminine agreement forms of the predicate are used where the gender of the controller is unspecified or ambiguous. For example, when present, all pronouns are cross-referenced on the predicate as feminine, as shown in (3).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(3)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>otaa</p></list-item>
+<list-item><p>1<sc>nsg.excl</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>tafa-ke</p></list-item>
+<list-item><p>eat-<sc>dec.f</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;We are eating.&#8217;</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B31">Dixon 2004: 80</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Dixon (<xref ref-type="bibr" rid="B31">2004: 286</xref>) observes that when the speaker is unsure of the gender of an item in question feminine agreement will be triggered by default, as illustrated by the use of the interrogative <italic>himata</italic> &#8216;what&#8217; in (4).<xref ref-type="fn" rid="n5">5</xref> See Dixon (<xref ref-type="bibr" rid="B31">2004: 80&#8211;81, 286&#8211;87</xref>) and Adamson (<xref ref-type="bibr" rid="B2">2024: 236&#8211;7</xref>) for further discussion and examples.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(4)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>himata</p></list-item>
+<list-item><p>what</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>ama-ri?</p></list-item>
+<list-item><p>be-<sc>cint.f</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;What is it?&#8217;</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B31">Dixon 2004: 286</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Agreement in transitive clauses is sensitive to which argument assumes the role of pivot (see <xref ref-type="bibr" rid="B31">Dixon 2004: 417&#8211;445</xref>; and also <xref ref-type="bibr" rid="B50">Marquardt 2020</xref>; <xref ref-type="bibr" rid="B3">Adamson &amp; Kramer 2025</xref>). In so-called A-constructions, the predicate agrees with the argument in A function, as in (5a), where the verb agrees with the third person singular A. In O-constructions (which are formally indicated with a prefix <italic>hi</italic>- if both arguments are third person), either the predicate agrees with the O argument, the alienably possessed <italic>oko siraba</italic> &#8216;my cangati&#8217; (a type of fish) in (5b), or A and O each control agreement on different targets.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(5)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>Okomobi<sub>A</sub></p></list-item>
+<list-item><p>Okomobi(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>[oko</p></list-item>
+<list-item><p>1<sc>sg.poss</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>siraba]<sub>O</sub></p></list-item>
+<list-item><p>cangati(<sc>f</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>kabe-hino-ka</p></list-item>
+<list-item><p>eat-<sc>ipn.m-dec.m</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Okomobi ate my cangati.&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>([oko</p></list-item>
+<list-item><p>1<sc>sg.poss</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>siraba]<sub>O</sub>)</p></list-item>
+<list-item><p>cangati(<sc>f</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>Okomobi<sub>A</sub></p></list-item>
+<list-item><p>Okomobi(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>hi-kaba-ni-ke</p></list-item>
+<list-item><p>O<sc>c</sc>-eat-<sc>ipn.f-dec.f</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Okomobi ate my cangati.&#8217;</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B31">Dixon 2004: 439</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Crucially, clauses in which the controller of predicate agreement contains an inalienable possessor exhibit different behaviour. Inalienable possessor phrases minimally consist of a possessor, and an inalienably possessed noun (PN). Around 40% of PNs have two different third person singular forms, distinguished for gender agreement (<xref ref-type="bibr" rid="B31">Dixon 2004: 310</xref>). In (6), the form of the PN is determined by the gender of the inalienable possessor.<xref ref-type="fn" rid="n6">6</xref> In (6a), it is in its masculine form <italic>mano</italic> because the proper name <italic>Okomobi</italic> is masculine, while in (6b), the feminine possessor <italic>Manira</italic>, controls the feminine form of the possessed noun <italic>mani</italic>.<xref ref-type="fn" rid="n7">7</xref> In both cases, the predicate agreement pattern is obligatory, not differential.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(6)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[Okomobi</p></list-item>
+<list-item><p>Okomobi(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>mano]<sup>M</sup></p></list-item>
+<list-item><p>arm.<sc>m</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>koma-ka</p></list-item>
+<list-item><p>be.sore-<sc>dec.m</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Okomobi&#8217;s arm is sore.&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[Manira</p></list-item>
+<list-item><p>Manira(<sc>f</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>mani]<sup>F</sup></p></list-item>
+<list-item><p>arm.<sc>f</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>koma-ke</p></list-item>
+<list-item><p>be.sore-<sc>dec.f</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Manira&#8217;s arm is sore.&#8217;</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B30">Dixon 2000: 490</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>When the possessor of an inalienably possessed noun is pronominal, as in (7), gender agreement on the predicate is always feminine, even when the PN occurs in its &#8216;masculine&#8217; form.<xref ref-type="fn" rid="n8">8</xref></p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(7)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[o-mano]<sup>F</sup></p></list-item>
+<list-item><p>1<sc>sg.poss</sc>-arm.<sc>m</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>koma-ke</p></list-item>
+<list-item><p>be.sore-<sc>dec.f</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;My arm is sore.&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[ee</p></list-item>
+<list-item><p>1<sc>nsg.incl</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>mano]<sup>F</sup></p></list-item>
+<list-item><p>arm.<sc>m</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>koma-ke</p></list-item>
+<list-item><p>be.sore-<sc>dec.f</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Our (<sc>incl</sc>) arms are sore.&#8217;</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B30">Dixon 2000: 489</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Using a range of arguments based on predicate agreement, attributive adjective agreement, and possessor agreement in recursive structures (discussed in &#167;2), Dixon proposes that this is because pronouns in Jarawara are inherently feminine (<xref ref-type="bibr" rid="B30">2000: 496</xref>). He concludes that inalienable <italic>possessors</italic>, not inalienably possessed nouns, control gender agreement on the predicate.</p>
+<p>But do internal inalienable possessors really control predicate agreement in Jarawara? A close inspection of Dixon&#8217;s data and the analysis he proposes reveals a number of unresolved issues that cannot be explained using the &#8216;head reversal&#8217; analysis (&#167;2.3). An alternative analysis, whereby the internal inalienable possessor <italic>shares</italic> its feature values with the possessed head provides a promising solution to account for this unusual data, and deal with unresolved issues arising from Dixon&#8217;s general assumptions about syntactic and morphological structure (&#167;2). F<sc>eature sharing</sc> is observed when the features involved in an agreement configuration are available in the syntactic loci of both the controller and the target of agreement, not just in the syntactic locus of the controller (<xref ref-type="bibr" rid="B36">Haug &amp; Nikitina 2016</xref>). While theoretical models of agreement have typically favoured analyses without sharing of features across loci, feature sharing through agreement is of increasing prominence in all major syntactic frameworks (e.g. <xref ref-type="bibr" rid="B40">Kathol 1999</xref>; <xref ref-type="bibr" rid="B1">Ackema &amp; Neeleman 2013</xref>; <xref ref-type="bibr" rid="B36">Haug &amp; Nikitina 2016</xref>). I propose that a similar phenomenon is observed in Jarawara possessive structures (&#167;5): the possessor is the controller of agreement within the nominal domain and feature shares with the nominal head, while predicate agreement is more canonical and lacks feature sharing.</p>
+<p>This paper builds on Dixon&#8217;s (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>) description of Jarawara, using LFG as a formal framework to map out the empirical facts. I argue that possessors which superficially appear to head inalienably possessed phrases in Jarawara actually function as the <italic>complement</italic> of the possessed noun, not the head of the phrase. Through possessor agreement characterised by <sc>feature sharing</sc>, the feature values of a nominal complement (<sc>ncomp</sc>) are shared with the inalienably possessed nouns. In turn, these features are visible to further predicate agreement processes.</p>
+<p>I also show that Jarawara exhibits evidence for morphomic structures within the agreement paradigms of possessed nouns (see &#167;3 and &#167;5.3). Morphomes are observed when there is formal identity between two or more cells in a paradigm that cannot be motivated by reference to natural classes. In such cases, a functionally heterogeneous set of cells in the paradigm arbitrarily share the same stem allomorph (<xref ref-type="bibr" rid="B49">Maiden 2021</xref>). In agreement paradigms of this type, form alone may not unequivocally reveal the agreement feature values associated with an exponent in a cell (&#167;3.2). Acknowledging this &#8211; together with the adoption of feature sharing &#8211; accounts for otherwise unresolved differences in the agreement behaviour of possessed nouns in recursive possessive structures.</p>
+<p>We begin in &#167;2 with an introduction to the basic facts of alienable and inalienable possessive structures in Jarawara, highlighting the unresolved issues in Dixon&#8217;s (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>) analyses. In &#167;3, different inflectional classes of inalienably possessed nouns are established, demonstrating that some possessors are expressed synthetically, while others are expressed by distinct pronouns or phrases. Differences in the syntactic structure of alienable and inalienable possessor phrases are discussed in relation to feature sharing in &#167;4. The consequences of feature sharing in terms of adjective agreement and morphomic agreement patterns in recursive structures are outlined in &#167;5. Conclusions are presented in &#167;6.</p>
+</sec>
+<sec>
+<title>2 Possessor agreement in Jarawara</title>
+<p>The central arguments underlying Dixon&#8217;s (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>) account of clause-level possessor agreement in Jarawara can be illustrated by comparing the two main types of possession in the language, namely alienable possession (&#167;2.1) and inalienable possession (&#167;2.2).</p>
+<sec>
+<title>2.1 Alienable possession constructions</title>
+<p>Alienable possessors in Jarawara precede the possessed entity and are formally identified by the possessive marker <italic>kaa</italic>. The basic structure of inalienable possession phrases is shown in (8).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(8)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>[[POSSESOR <italic>kaa</italic>] POSSESSED]</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Dixon (<xref ref-type="bibr" rid="B31">2004: 35</xref>) describes <italic>kaa</italic> as a postposition that constitutes a distinct phonological word.<xref ref-type="fn" rid="n9">9</xref> A series of singular possessive pronouns involve vestiges of <italic>kaa</italic> (historically <italic>*ka</italic>); the first and second person singular possessive pronouns are proposed to have arisen through univerbation of the pronouns <italic>o</italic>- and <italic>ti</italic>- with *ka, resulting in <italic>oko jobe</italic> &#8216;my house&#8217;, <italic>tika jobe</italic> &#8216;your house&#8217; (<xref ref-type="bibr" rid="B31">Dixon 2004: 47</xref>). There is also a third person singular pronoun <italic>hinaka</italic>, but no independent form <italic>hina</italic> (<xref ref-type="bibr" rid="B31">Dixon 2004: 77, 296</xref>).</p>
+<p>Predicate agreement with alienably possessed phrases follows a pattern consistent with principles of &#8216;canonical&#8217; headedness within the NP. As first illustrated in (2), the gender of the head of the subject NP determines the gender on the predicate: the verb agrees with the gender value of the possessed noun, not the possessor. Similarly, in (9a), where the possessor <italic>Manira</italic> is feminine and the head of the phrase <italic>jomee</italic> &#8216;dog&#8217; is masculine, the auxiliary verb agrees with the features of the head of the S argument, not those of the possessor. The gender of a possessive NP is determined in exactly the same way when the possessor of an alienable entity is pronominal, as in (9b).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(9)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[Manira</p></list-item>
+<list-item><p>Manira(<sc>f</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>kaa</p></list-item>
+<list-item><p><sc>poss</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>jomee]<sup>M</sup></p></list-item>
+<list-item><p>dog(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>habo</p></list-item>
+<list-item><p>bark</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>na-ka</p></list-item>
+<list-item><p><sc>aux-dec.m</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Manira&#8217;s dog is barking.&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[mee</p></list-item>
+<list-item><p>3<sc>nsg</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>kaa</p></list-item>
+<list-item><p><sc>poss</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>jomee]<sup>M</sup></p></list-item>
+<list-item><p>dog(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>habo</p></list-item>
+<list-item><p>bark</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>na-ka</p></list-item>
+<list-item><p><sc>aux-dec.m</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Their dog is barking.&#8217;</p></list-item>
+<list-item><p>(based on <xref ref-type="bibr" rid="B30">Dixon 2000: 488</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>When an alienably possessed noun is a controller, grammatical properties of the possessor play no role in predicate agreement. If it did, one would expect verbal agreement to take a feminine form in (9). Rather, the pattern of agreement we find here is the expected one based on general assumptions about canonical headedness and &#8216;feature percolation&#8217; (<xref ref-type="bibr" rid="B44">Lieber 1980</xref>; <xref ref-type="bibr" rid="B33">Gazdar &amp; Pullum 1982</xref>; <xref ref-type="bibr" rid="B60">Pollard &amp; Sag 1987</xref>; <xref ref-type="bibr" rid="B61">1994</xref>; <xref ref-type="bibr" rid="B58">Norris 2014</xref>; <xref ref-type="bibr" rid="B52">Myler 2016</xref>).</p>
+</sec>
+<sec>
+<title>2.2 Inalienable possession constructions</title>
+<p>A different pattern prevails with inalienably possessed nouns. Jarawara has around 175 inanimate nouns which are inherently possessed, and therefore always understood to be relational (<xref ref-type="bibr" rid="B31">Dixon 2004: 310</xref>).<xref ref-type="fn" rid="n10">10</xref> Dixon (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>) refers to this class as <sc>possessed nouns</sc> (PNs). Items belonging to this class include body parts, parts of plants, indicators of part-whole relations, spatial orientations and a range of other meanings related to sensory input and physical containment (<xref ref-type="bibr" rid="B31">Dixon 2004: 311</xref>).<xref ref-type="fn" rid="n11">11</xref> The possessor always precedes the PN, as in (10).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(10)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>kobaja</p></list-item>
+<list-item><p>peccary(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>ataro</p></list-item>
+<list-item><p>skin.<sc>m</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;peccary skin&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>kore</p></list-item>
+<list-item><p>maharaja.palm(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>mohone</p></list-item>
+<list-item><p>sprout.<sc>m</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;sprouts of a maharaja palm&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>c.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>rako</p></list-item>
+<list-item><p>lake(<sc>f</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>tori</p></list-item>
+<list-item><p>inside.<sc>f</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;middle of the lake&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>d.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>akira</p></list-item>
+<list-item><p>ginger(<sc>f</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>mahi</p></list-item>
+<list-item><p>smell.<sc>f</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;smell of ginger&#8217;</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B31">Dixon 2004: 347, 353, 344, 354</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Based on Dixon&#8217;s (<xref ref-type="bibr" rid="B31">2004</xref>) description, I have been able to determine that PNs belong to at least seven inflectional classes (see &#167;3) showing different patterns of syncretism. They vary in form based on the person, number and (in some cases) gender features of their possessor.<xref ref-type="fn" rid="n12">12</xref> Around 65 PNs (belonging to four of the seven inflection classes) have distinct masculine and feminine agreement forms in the third person singular (<xref ref-type="bibr" rid="B31">Dixon 2004: 310</xref>). These include: <italic>mano/mani</italic> &#8216;arm&#8217;, <italic>teme/tame</italic> &#8216;foot&#8217;, and <italic>maho/mahi</italic> &#8216;smell&#8217;. The remaining 110 or so PNs have syncretic masculine and feminine forms (see &#167;3.1). An example paradigm for <italic>mano/mani</italic> &#8216;arm&#8217;, which belongs to what we will call inflection Class I, is provided in <xref ref-type="table" rid="T1">Table 1</xref>.</p>
+<fig id="T1">
+<label>Table 1</label>
+<caption>
+<p>PN paradigm for <italic>mano</italic> &#8216;arm&#8217; (based on data in <xref ref-type="bibr" rid="B31">Dixon 2004: 315</xref>).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-t1.png"/>
+</fig>
+<p>In Class I, the first and second person singular forms are distinguished internal to the phonological word. Independent pronominal possessors (in parentheses) are required if the possessor is non-singular. The third person singular forms typically co-occur with a nominal possessor (as shown below), but this is not necessarily so if the antecedent is retrievable from discourse (see &#167;4). When they do co-occur, the nominal possessor and possessed entity must share the same gender value, as in (10). For instance, the inalienably possessed noun <italic>mano/mani</italic> &#8216;arm&#8217; has third person singular masculine and feminine agreement forms that co-occur with masculine and feminine nominal possessors respectively, as first shown in (6). Around 35 PNs have associated &#8216;free nouns&#8217; (i.e. non-relational, etymologically related forms) that do have inherent gender, but these belong to a separate nominal category and exhibit some idiosyncratic relationships in form and meaning to the PNs (see <xref ref-type="bibr" rid="B31">Dixon 2004: 310&#8211;4</xref>, <xref ref-type="bibr" rid="B2">Adamson 2024: 239&#8211;40</xref>). While the attested free nouns associated with PNs nearly always control feminine agreement, there is one exception: the masculine free noun <italic>atiwa</italic> (<sc>m</sc>) &#8216;thorn&#8217;. This corresponds to the PN <italic>atine/atine</italic> &#8216;thorn&#8217;, which has syncretic masculine and feminine agreement forms (<xref ref-type="bibr" rid="B31">Dixon 2004: 323</xref>). If we assume (as <xref ref-type="bibr" rid="B31">Dixon 2004</xref> and <xref ref-type="bibr" rid="B2">Adamson 2024</xref> do) that the gender of the PN matches the gender of an associated free noun, PNs can be masculine or feminine. But most PNs do not have an associated free noun. There is no independent way of verifying what the gender of the remaining 140 or so PNs would be. We could indeed extrapolate that they are likely to be feminine, based on the predominant pattern observed where a free noun exists, but it could equally be the case that PNs without &#8216;free nouns&#8217; are all masculine. Given that the inherent gender value of a PN is never manifested through agreement, I propose that PNs simply lack an inherent gender value. See Adamson (<xref ref-type="bibr" rid="B2">2024</xref>) for an analysis in which they have a featurally unmarked gender value, namely feminine.<xref ref-type="fn" rid="n13">13</xref></p>
+<p>Most inalienably possessed nouns in Jarawara do not have distinct masculine and feminine agreement stems, but rather have a single syncretic form, e.g. <italic>tati</italic> &#8216;head&#8217; and <italic>kone</italic> &#8216;hair&#8217; (see &#167;3). In examples like (11) the masculine possessor <italic>Kimi</italic> appears to control agreement on the predicate (the position argued for by <xref ref-type="bibr" rid="B30">Dixon 2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref> and <xref ref-type="bibr" rid="B2">Adamson 2024</xref>) because it is the only element within the noun phrase that clearly has a masculine gender value.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(11)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[Kimi</p></list-item>
+<list-item><p>Kimi(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>tati</p></list-item>
+<list-item><p>head</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>kone]<sup>M</sup></p></list-item>
+<list-item><p>hair</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>wata-ka-ra</p></list-item>
+<list-item><p>exist-<sc>dec.m-neg.m</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Kimi hasn&#8217;t any head hair.&#8217; (lit. &#8216;Kimi&#8217;s head&#8217;s hair doesn&#8217;t exist.&#8217;)</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B31">Dixon 2004: 386</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>In &#167;4 I propose that examples like (11) merely resemble predicate-possessor agreement. Rather, the NP internal agreement between possessors and relational nouns involves feature sharing, which results in the whole NP having the features of the possessor.</p>
+<p>Turning now to pronominal inalienable possessors, Dixon&#8217;s (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>) analyses propose that the third person non-singular pronoun <italic>mee</italic> occurs with a feminine form of the PN, as in (12a), while first and second person pronouns take masculine PNs, as in (12b&#8211;c). Rather than simply being formally syncretic with gender-valued forms, each of the PNs in (12) is analysed by Dixon as having a gender value; in (12a) the PN is considered to be feminine, while in (12b&#8211;c) it is masculine.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(12)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>mee</p></list-item>
+<list-item><p>3<sc>nsg</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>mani</p></list-item>
+<list-item><p>arm.<sc>f</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>koma-ke</p></list-item>
+<list-item><p>be.sore-<sc>dec.f</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Their arms are sore.&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>ee</p></list-item>
+<list-item><p>1<sc>pl.incl</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>mano</p></list-item>
+<list-item><p>arm.<sc>m</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>koma-ke</p></list-item>
+<list-item><p>be.sore-<sc>dec.f</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Our (inclusive) arms are sore.&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>c.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>o-mano</p></list-item>
+<list-item><p>1<sc>sg</sc>-arm.<sc>m</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>koma-ke</p></list-item>
+<list-item><p>be.sore-<sc>dec.f</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;My arm is sore.&#8217;</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B30">Dixon 2000: 489</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>This is a crucial part of Dixon&#8217;s logic: since predicate agreement in these structures is always feminine despite the presence of &#8216;masculine PNs&#8217;, the pronouns, which always control feminine gender when occurring as predicate arguments (<xref ref-type="bibr" rid="B30">Dixon 2000: 488</xref>), must be the controllers of agreement on the verb.<xref ref-type="fn" rid="n14">14</xref> Similar arguments are developed based on modifier agreement. When an inalienably possessed noun has a first or second person non-singular possessor, adjective agreement is feminine, even though the PN is in the same form as when it has a masculine controller.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(13)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[ee</p></list-item>
+<list-item><p>1.<sc>nsg.incl</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>[teme</p></list-item>
+<list-item><p>foot.<sc>m</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>bite/*biti]]</p></list-item>
+<list-item><p>small.<sc>f</sc>/*small.<sc>m</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;our small feet&#8217;</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B30">Dixon 2000: 506</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Dixon concludes that since it is normally the head of an NP which determines its gender, the inalienable possessor must be the head of the NP (<xref ref-type="bibr" rid="B30">Dixon 2000: 490</xref>) and therefore determines the category of its phrase as a whole (<xref ref-type="bibr" rid="B30">Dixon 2000: 487, 489</xref>).</p>
+</sec>
+<sec>
+<title>2.3 Unresolved issues in Dixon&#8217;s analysis</title>
+<p>A close inspection of Dixon&#8217;s arguments reveals that his analysis of possessive agreement in Jarawara is partly dependent on the view that there is a one-to-one correspondence of form and meaning throughout a morphological system. That is to say, form meaning correspondences are consistent and reflect &#8216;natural&#8217; classes. This view of morphology leads to several unwarranted assumptions and unresolved issues which indicate further scrutiny of Jarawara possession constructions is justified. I call these: the feature problem, the adjective problem, and the recursion problem.</p>
+<p><bold>The feature problem</bold>: Dixon&#8217;s (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>) analysis of PNs rests on the assumption that a single form is associated with a single feature profile. For instance, that the stem <italic>mano</italic> is masculine and that <italic>mani</italic> is feminine. He assumes that PNs that are identical in form to those used in agreement with masculine or feminine nominal possessors always have those feature values, regardless of their distribution. No justification other than formal similarity is given by Dixon to support the view that all PNs have a masculine or feminine gender value. I argue throughout the paper, and especially in &#167;3 and &#167;5.3, that a morphomic analysis is essential for understanding Jarawara possessor agreement.</p>
+<p><bold>The adjective problem</bold>: In Dixon&#8217;s analysis, agreeing adjectives that form a constituent with the noun they modify are said to be controlled by a possessor rather than the possessed entity, as in (13). This is highly unusual from a cross-linguistic perspective (but see <xref ref-type="bibr" rid="B53">Nichols 2017: 393</xref> for other possible counter examples). His account of the data rests on the assumption that pronouns have a feminine gender value in Jarawara. An alternative proposal consistent with morphological defaults and the feature sharing approach adopted here is presented in &#167;5.1.</p>
+<p><bold>The recursion problem</bold>: Although Dixon proposes that the possessor is the head of inalienable possession phrases for the purposes of clause-level agreement and adjectival agreement, he is vague about the principles that account for the properties of gender agreement in possessive phrases containing more than one PN. This, in combination with his assumptions about features (the feature problem), leads to issues in accounting for recursive structures like those in (14). If <italic>omano</italic> is masculine (as claimed by <xref ref-type="bibr" rid="B30">Dixon 2000: 489</xref>), and the PN determines the gender of the possessive phrase for NP internal agreement, why does <italic>baki</italic> occur in its feminine form in (14a)? Similarly, if <italic>otaa</italic> controls feminine agreement, and PNs exhibit agreement with their possessors, why does <italic>mano</italic> &#8216;arm&#8217; occur in a masculine form in (14b)?</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(14)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[[o-mano]</p></list-item>
+<list-item><p>1<sc>sg.poss</sc>-arm.<sc>m</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>baki]</p></list-item>
+<list-item><p>inside.<sc>f</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;my arms&#8217; insides&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[[otaa</p></list-item>
+<list-item><p>1<sc>nsg.excl.poss</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>mano]</p></list-item>
+<list-item><p>arm.<sc>m</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>bako]</p></list-item>
+<list-item><p>inside.<sc>m</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;our arms&#8217; insides&#8217;</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B31">Dixon 2004: 315</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>This problem is explicitly identified as unresolved by Dixon (<xref ref-type="bibr" rid="B30">2000: 505</xref>; <xref ref-type="bibr" rid="B31">2004: 316</xref>), but a solution is proposed in &#167;5.3. I argue that all of these apparent problems can be explained through a careful reanalysis of the morphology and syntax of possessive constructions that considers (i) key principles of morphology concerning paradigmatic structure, morphomic distributions and morphological defaults, and (ii) feature sharing through agreement in inalienable possession constructions.</p>
+</sec>
+</sec>
+<sec>
+<title>3 Paradigmatic structure of possessed nouns</title>
+<p>In order to fully understand which features are relevant for agreement in Jarawara, it is necessary to explore evidence for inflectional classes (&#167;3.1) and identify generalisations that can be made across the classes (&#167;3.2). From this point on, I no longer follow the glossing conventions adopted by Dixon, but rather present an alternative analysis of Jarawara inflection, in which gender values play a less central role. I propose that a more comprehensive analysis of the Jarawara data is attainable if properties of inflection within the noun phrase are considered separately from agreement on the predicate.</p>
+<sec>
+<title>3.1 Inflectional classes of possessed nouns</title>
+<p>Inalienably possessed nouns in Jarawara are inflected for the person (1 vs. 2 vs. 3) and number (<sc>sg</sc> vs. <sc>nsg</sc>) of their possessor. Third person singular forms are further distinguished by the gender value of their possessor (masculine vs feminine), but gender is irrelevant elsewhere. Both the current account, and Adamson (<xref ref-type="bibr" rid="B2">2024</xref>) concur that PNs agree with their possessors in person, number and gender. This contrasts with Dixon&#8217;s description, which casts possessor agreement only in terms of gender.</p>
+<p>Jarawara PNs belong to seven main inflectional classes. There are also a number of nouns in flux, characterised by overabundant paradigms which exhibit intermediary stages between these main types (see <xref ref-type="bibr" rid="B31">Dixon 2004: 343&#8211;360</xref> for a detailed and insightful description). Although inflectional classes are not explicitly identified by Dixon (<xref ref-type="bibr" rid="B31">2004</xref>), I have been able to determine the number of classes based on his careful cataloguing of the properties of possessed nouns in the language. The paradigms that follow were constructed from the shorthand listings of the forms of PNs with singular possessors (<xref ref-type="bibr" rid="B31">Dixon 2004: 343&#8211;360</xref>). The non-singular part of the paradigm rests on two important observations (described in <xref ref-type="bibr" rid="B31">Dixon 2004: 314&#8211;5</xref>) that are true of all attested PNs, namely that first and second person non-singular forms are always the same as the third person singular masculine agreement form, while the third plural form is always the same as the third person singular feminine agreement form.</p>
+<sec>
+<title>3.1.1 Class I</title>
+<p>Class I inalienably possessed nouns have four different morphological forms, built using two distinct stems. This can be observed by considering the paradigm for <italic>mano/mani</italic> &#8216;arm&#8217; in <xref ref-type="table" rid="T1">Table 1</xref> and <italic>teme/tame</italic> &#8216;foot&#8217; in <xref ref-type="table" rid="T2">Table 2</xref>. In this class, the third person singular forms make a distinction between masculine and feminine gender. In Class I, the stem used with third person singular masculine possessors (here <italic>teme</italic>) is used as the inflectional base for formation of the first and second synthetic person forms (here <italic>oteme</italic> and <italic>titeme</italic>), as seen in <xref ref-type="table" rid="T2">Table 2</xref>.</p>
+<fig id="T2">
+<caption>
+<p><bold>Table 2:</bold> PN paradigm for <italic>teme</italic> &#8216;foot&#8217; (based on <xref ref-type="bibr" rid="B31">Dixon 2004: 350</xref>).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-t2.png"/>
+</fig>
+<p>Syncretism exists between the third singular forms and those used in the non-singular cells of the paradigm. The third person singular masculine form <italic>teme</italic> &#8216;his foot&#8217; is syncretic with the first and second person non-singular form, while the third person singular feminine form <italic>tame</italic> &#8216;her foot&#8217; is syncretic with the third person non-singular form. As with all classes, pronouns are obligatory controllers of agreement in the non-singular part of the paradigm. The non-singular possessors do not form part of the inflectional paradigm of PNs, but are shown in parentheses to help illustrate the featural distinctions made by controllers. The shape of the paradigm indicates that person, number and gender of the possessor are all relevant for determining which form to use even though values for these features are not expressed directly. If the stem is vowel initial, epenthetic /w/ occurs between the stem and the possessor prefixes e.g. <italic>o-w-ete</italic> &#8216;my forehead&#8217;, <italic>ti-w-ete</italic> &#8216;your forehead&#8217; (<xref ref-type="bibr" rid="B31">Dixon 2004: 66</xref>).</p>
+</sec>
+<sec>
+<title>3.1.2 Class II</title>
+<p>Class II nouns have three different base stems. This can be observed by considering the paradigm for <italic>fanako/fanaki</italic> &#8216;thigh&#8217; in <xref ref-type="table" rid="T3">Table 3</xref>. They differ from Class I, in that the base stem used in the formation of the first and second person singular forms is distinct from the third person singular forms. Note that the first person singular form <italic>ofanoko</italic> &#8216;my thigh&#8217; and second person singular form <italic>tifanoko</italic> &#8216;your (SG) thigh&#8217; make use of the base stem <italic>fanoko</italic>. One possible explanation for this pattern is that the &#8216;masculine&#8217; stem underwent vowel assimilation in the presence of the prefix <italic>o</italic>- and spread by analogy to the second singular cell of the paradigm (<xref ref-type="bibr" rid="B31">Dixon 2004: 48, 65, 343&#8211;360</xref>).</p>
+<fig id="T3">
+<caption>
+<p><bold>Table 3:</bold> PN paradigm for <italic>fanako</italic> &#8216;thigh&#8217; (based on <xref ref-type="bibr" rid="B31">Dixon 2004: 350</xref>).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-t3.png"/>
+</fig>
+</sec>
+<sec>
+<title>3.1.3 Class III</title>
+<p>As with Class I nouns, the stems of Class III nouns are distributed according to the person, number and gender features of their possessor. They differ from Class I nouns only in that the first person singular and second person singular stems are built from forms syncretic with their feminine stem, as exemplified in <xref ref-type="table" rid="T4">Table 4</xref>.</p>
+<fig id="T4">
+<caption>
+<p><bold>Table 4:</bold> PN paradigm for <italic>ifo</italic> &#8216;lower lip&#8217; (based on <xref ref-type="bibr" rid="B31">Dixon 2004: 348</xref>).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-t4.png"/>
+</fig>
+<p>This is a marginal class with only three members: <italic>ifo/ifi</italic> &#8216;lower lip&#8217;, <italic>iso/isi</italic> &#8216;leg&#8217; and <italic>ino/ini</italic> &#8216;tooth, name&#8217;, all of which have bimoraic roots that are <italic>i</italic>-initial. As with vowel initial stems in Class I, an epenthetic /w/ occurs between the stem and the possessive prefix.<xref ref-type="fn" rid="n15">15</xref> In Class III the base stems used with first and second singular possessors are identical, as observed for every inflection class of PNs.</p>
+</sec>
+<sec>
+<title>3.1.4 Class IV</title>
+<p>In Class IV, the loss in the formal distinction between masculine and feminine forms in the singular has resulted in the collapse of a formal distinction between person in the non-singular part of the paradigm. In this class, the same form is used as a stem throughout the whole paradigm, as illustrated in <xref ref-type="table" rid="T5">Table 5</xref>.</p>
+<fig id="T5">
+<caption>
+<p><bold>Table 5:</bold> PN paradigm for <italic>tati</italic> &#8216;head&#8217; (based on <xref ref-type="bibr" rid="B31">Dixon 2004: 347</xref>).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-t5.png"/>
+</fig>
+<p>Evidence for the loss of formal marking of masculine and feminine on stems in this class comes from comparative Arawan data, discussed in detail by Dixon (<xref ref-type="bibr" rid="B31">2004: 316&#8211;328</xref>).</p>
+</sec>
+<sec>
+<title>3.1.5 Class V</title>
+<p>In Class V a distinction between masculine and feminine forms is retained in the singular part of the paradigm. Unlike in Classes I&#8211;IV, first person singular and second person singular cells are expressed periphrastically by combining featurally distinct possessive pronouns with a stem that is syncretic with the masculine stem, as in <xref ref-type="table" rid="T6">Table 6</xref>. The forms of the first person singular and second person singular possessive pronouns in Class V (as well as in Classes VI and VII) are identical to those used in alienable possession phrases (discussed in &#167;2.1). This similarity across alienable and inalienable paradigms is discussed further in &#167;4.1 and &#167;4.2.1. Therein, arguments are presented that the PN stems in these cells are non-agreeing and have a different syntactic structure from the non-singular formations. Note that the possessors <italic>oka</italic> and <italic>tika</italic> are not in parentheses in <xref ref-type="table" rid="T6">Table 6</xref> because, there occurrence is determined by the inflectional class of the PN.</p>
+<fig id="T6">
+<caption>
+<p><bold>Table 6:</bold> PN paradigm for <italic>emene</italic> &#8216;blood&#8217; (based on <xref ref-type="bibr" rid="B31">Dixon 2004: 347</xref>).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-t6.png"/>
+</fig>
+<p>As in Class I, in Class V a stem syncretic with the masculine stem (in this case <italic>emene</italic>) is used widely throughout the paradigm. However, it only realises a gender feature when indexing a third person singular possessor, as argued in &#167;3.2.</p>
+<p>A comparison of the distribution of forms across each of the paradigms presented so far indicates that their structure is not uniform across inflection classes. In Classes I&#8211;IV, the possessor and possessed can be expressed by a single word when the possessor is singular. But in Class V, a separate pronoun is required if the possessor is first person or second person singular. Despite surface parallels between the cells, the singular and non-singular first and second person cells of the Class V paradigm are not predicted by a uniform syntactic analysis. The non-singular cells make use of a &#8216;nominative&#8217; pronoun series that otherwise function as fully fledged NPs, while the singular cells are formed using possessive pronouns, which form DPs and arguably occupy a different structural position (see &#167;4 for discussion of the NP/DP distinction adopted). Since the form and morphological or syntactic status of a possessor is determined by the inflection class it belongs to, selection principles sensitive to purely morphological features are at work. The cells for first and second person singular are expressed synthetically or periphrastically, depending on the inflection class of the PN. In &#167;4, I demonstrate that the structures used for expressing (i) first and second person singular inalienable possession, and (ii) non-singular inalienable possession are different. In &#167;5.3, I lay out the predictions this makes for agreement in recursive possessive structures.</p>
+</sec>
+<sec>
+<title>3.1.6 Class VI</title>
+<p>In Class VI the loss in the formal distinction between masculine and feminine forms in the singular has resulted in the collapse of a distinction between person in the non-singular part of the paradigm. The first and second person singular cells are expressed by combining featurally distinct possessive pronouns with a form syncretic with the third person singular form of the PN, as in <xref ref-type="table" rid="T7">Table 7</xref>.</p>
+<fig id="T7">
+<caption>
+<p><bold>Table 7:</bold> PN paradigm for <italic>boti</italic> &#8216;inside of, deep part&#8217; (based on <xref ref-type="bibr" rid="B31">Dixon 2004: 344</xref>).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-t7.png"/>
+</fig>
+</sec>
+<sec>
+<title>3.1.7 Class VII</title>
+<p>In Class VII, two stems are distinguished. A reduced stem is used with first person singular and second person singular possessors, while a trimoraic stem is used elsewhere, as seen in <xref ref-type="table" rid="T8">Table 8</xref>.</p>
+<p>The items in this class provide further evidence for the periphrastic expression of the first person singular and second person singular forms since the base stem is not the same as any other stem used in the paradigm. See Dixon (<xref ref-type="bibr" rid="B31">2004: 327</xref>) for further examples of stems distinct from the masculine and feminine forms being used with <italic>oko</italic> and <italic>tika</italic>.</p>
+</sec>
+</sec>
+<sec>
+<title>3.2 Stem distribution</title>
+<p>The shape of these seven inflectional classes allows the following generalisations to be made about stem distribution across all (inalienably) possessed nouns. In what follows, (base) stem refers to the form of the PN to which prefixes attach, or which combine with a possessive pronoun to form a possessive phrase:</p>
+<list list-type="roman-lower">
+<list-item><p>The base stems of second person singular PN forms are always syncretic with the base stems of first person singular forms.</p></list-item>
+<list-item><p>The first and second person non-singular PN forms are always syncretic with the third person masculine singular form.</p></list-item>
+<list-item><p>The third person non-singular form of a possessed noun is always syncretic with the form used for the feminine singular form.</p></list-item>
+<list-item><p>The base stem in first person singular and second person singular cells is nearly always syncretic with the third person masculine singular form (as in Classes I, IV, V and VI), but it can be different from this form (as in Classes II, III and VII).</p></list-item>
+<list-item><p>PNs in Classes I, II, III and VI have distinct masculine and feminine forms; elsewhere the feminine is syncretic with the masculine.</p></list-item>
+</list>
+<p>PNs that occur with third person singular possessors or non-singular possessors inflect for the properties of their possessor, which occupies a distinct syntactic node. The form of the PN reflects a morphomic pattern of exponence. That is, the paradigm exhibits a &#8216;systematic morphological syncretism which does not define a (syntactically or semantically) natural class&#8217; (<xref ref-type="bibr" rid="B69">Trommer 2016: 60</xref>). The use of the term <sc>morphome</sc> to refer to such patterns originated in the work of Aronoff (<xref ref-type="bibr" rid="B6">1994</xref>), and the concept has been discussed and adopted in a number of works (<xref ref-type="bibr" rid="B46">Maiden 1992</xref>; <xref ref-type="bibr" rid="B47">2005</xref>; <xref ref-type="bibr" rid="B48">2018</xref>; <xref ref-type="bibr" rid="B62">Round 2011</xref>; <xref ref-type="bibr" rid="B63">2015</xref>; <xref ref-type="bibr" rid="B66">Smith 2013</xref>; <xref ref-type="bibr" rid="B14">Bermu&#769;dez-Otero &amp; Lu&#237;s 2016</xref>; <xref ref-type="bibr" rid="B42">Koontz-Garboden 2016</xref>; <xref ref-type="bibr" rid="B67">Spencer 2016</xref>; <xref ref-type="bibr" rid="B69">Trommer 2016</xref>; <xref ref-type="bibr" rid="B38">Herce 2020</xref>; <xref ref-type="bibr" rid="B39">2023</xref>; among others). For recent overviews of the literature on morphomes see Maiden (<xref ref-type="bibr" rid="B49">2021</xref>) and Herce (<xref ref-type="bibr" rid="B39">2023: 1&#8211;12</xref>). For discussion of what constitutes a natural class see Herce (<xref ref-type="bibr" rid="B39">2023: 25&#8211;33</xref>).</p>
+<p>To illustrate which aspect of the PN paradigms in Jarawara is morphomic, consider the abstraction over the (base) stems used in inflection classes in <xref ref-type="table" rid="T9">Table 9</xref>.</p>
+<fig id="T8">
+<caption>
+<p><bold>Table 8:</bold> PN paradigm for <italic>sowiri</italic> &#8216;penis&#8217; (based on <xref ref-type="bibr" rid="B31">Dixon 2004: 351</xref>).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-t8.png"/>
+</fig>
+<fig id="T9">
+<caption>
+<p><bold>Table 9:</bold> Stem distribution.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-t9.png"/>
+</fig>
+<p>As detailed in &#167;3.1, all inflectional paradigms of PNs adhere to the basic patterns of syncretism in <xref ref-type="table" rid="T9">Table 9</xref>, but they differ as to whether there is identity between the three stems found in the distributions labelled as A, B and C. The distribution of Stem A arises as part of a natural syncretism between first and second person forms. This syncretism is motivated by the <sc>participant</sc> feature in Adamson&#8217;s (<xref ref-type="bibr" rid="B2">2024</xref>) analysis. Stem C arises as part of an intersection between third person feminine and third person plural. This syncretism is considered &#8216;natural&#8217; because each syncretic cell has at least one shared feature value (namely, third person). Conversely, the patten of shared exponence with Stem B is not natural because there is no shared value between the third person singular masculine cell on the left side of the paradigm, and the first and second person (i.e. participant, or non-third person) non-singular cells on the right. This is a metamorphome in the sense of Round (<xref ref-type="bibr" rid="B63">2015</xref>), namely a collection of &#8216;cells that, within the inflectional paradigm of a given lexeme, share exponents or morphological traits despite not constituting a natural class&#8217; (<xref ref-type="bibr" rid="B39">Herce 2023: 121</xref>).<xref ref-type="fn" rid="n16">16</xref></p>
+<p>An alternative analysis of the Stem B pattern in which the masculine cell and first and second person non-singular cells are simply accidentally homophonous rather than the result of a morphologically specified relationship obscures the fact that this pattern is systematic across all PN paradigms regardless of inflection class. Furthermore, metamorphomes themselves may exhibit &#8220;syncretism&#8221;. For instance, where there is no formal distinction in the exponence of masculine and feminine agreement forms this leads to mass syncretism in the paradigm, as in Class VII. This is even more extreme in Classes IV and VI, where all the singular forms are syncretic, leading to no distinctions in the form of the stems. We certainly would not expect so much regularity in an accidental homophony approach, especially given the various ways that the gender distinction is expressed by stems, as illustrated in &#167;3.1.</p>
+<p>Differences in the identity between the three stem distributions in <xref ref-type="table" rid="T9">Table 9</xref> gives rise to the inflectional patterns summarised in <xref ref-type="table" rid="T10">Table 10</xref>. All of the logically possible patterns of identity are attested.</p>
+<fig id="T10">
+<caption>
+<p><bold>Table 10:</bold> Possible stem distribution syncretisms.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-t10.png"/>
+</fig>
+</sec>
+</sec>
+<sec>
+<title>4 Possessive phrase structure</title>
+<p>In order to provide a formal representation of the syntactic analysis underpinning the thesis presented here, I use Lexical Functional Grammar (LFG), a monostratal lexicalist model of grammatical structure (<xref ref-type="bibr" rid="B25">Dalrymple 2001</xref>; <xref ref-type="bibr" rid="B19">Bresnan et al. 2016</xref>; <xref ref-type="bibr" rid="B27">Dalrymple et al. 2019</xref>; <xref ref-type="bibr" rid="B26">Dalrymple 2023</xref>). In doing so, I argue that Jarawara inalienable possessive constructions exhibit evidence in support of feature sharing (<xref ref-type="bibr" rid="B36">Haug &amp; Nikitina 2016</xref>) within the noun phrase, whereby agreement features are present in the syntactic loci of both the controller (the inalienable possessor) and the target (the possessed noun).</p>
+<p>In LFG, there are two levels of syntactic representation which keep phrase structure and functional relations distinct but systematically linked. C-structure (or constituent structure) represents phrase structure with tree nodes and rewrite rules, using category labels typical of X<italic>&#8242;</italic> theory. It specifies linear order and hierarchical dominance relations between constituents. F-structure (or functional structure) represents grammatical functions and morphosyntactic features using attribute&#8211;value matrices (AVMs). Indicative attributes include PRED (that is, the lexical predicate), SUBJ(ect), POSS(essor), TENSE, PERS(on), GEND(er), CASE, etc, which each have a value. This can be an atomic feature value, e.g. 3, M(asculine), GEN(itive), or another nested AVM. C-structure is linked to f-structure by functional annotations which specifying how information from each c-structure node contributes to, or constrains, the overall f-structure. In these equations &#8593; refers to the f-structure associated with the mother (or containing) node, while &#8595; refers to the f-structure associated with the current node. For instance, (&#8593; POSS) = &#8595; indicates that the POSS attribute in the mother&#8217;s f-structure is identified with the f-structure of this daughter node, while (&#8593; CASE) = GEN indicates that the CASE attribute of the mother&#8217;s f-structure must have the value GEN (genitive). For helpful introductions to the fundamental principles of the system, see Dalrymple (<xref ref-type="bibr" rid="B25">2001</xref>) and Belyaev (<xref ref-type="bibr" rid="B12">2023a</xref>, <xref ref-type="bibr" rid="B13">b</xref>).</p>
+<p>An important property of LFG facilitated by this modular approach to syntax is that the maximal nominal category is typically NP, and a DP layer dominating NP is not adopted (see <xref ref-type="bibr" rid="B25">Dalrymple 2001</xref>; <xref ref-type="bibr" rid="B19">Bresnan et al. 2016</xref>). Consequently, within an LFG context, DPs (or DP like projections such as DetP) are usually found inside an NP, not as a projection dominating an NP. For instance, determiners are usually treated as functional dependents of N (expressed as a D node), rather than as the overall head of the phrase, and their contribution to definiteness, specificity, etc. is captured in the NP&#8217;s f-structure. I adopt the convention of analysing noun phrases as NPs throughout this paper, and when discussing DPs, I am explicitly referring to Possessor DPs, headed by a functional element such as genitive case, or a possessive pronoun in the genitive case, which have a different syntactic distribution to NPs headed by nouns, PNs or other independent pronouns.</p>
+<sec>
+<title>4.1 Syntactic constituency of alienably possessed phrases</title>
+<p>Alienable possessors are contained within DPs that occupy the specifier position of an NP headed by the possessed noun. Arguments to support this analysis come in various guises:</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>(i)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>All lexical NPs in Jarawara can be omitted according to Dixon (<xref ref-type="bibr" rid="B31">2004: 42</xref>) as illustrated in the minimal pair in (15).</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(15)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[oko</p></list-item>
+<list-item><p>1<sc>sg.poss</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>jobe</p></list-item>
+<list-item><p>house(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>ni-ma]</p></list-item>
+<list-item><p>exist+<sc>nom</sc>-<sc>similar</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>[Kamo</p></list-item>
+<list-item><p>Kamo(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>kaa</p></list-item>
+<list-item><p><sc>poss</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>jobe]<sup>s</sup></p></list-item>
+<list-item><p>house(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>na-ka</p></list-item>
+<list-item><p>exist-<sc>dec.m</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Kamo&#8217;s house is like my house.&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[oko</p></list-item>
+<list-item><p>1<sc>sg.poss</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>jobe</p></list-item>
+<list-item><p>house(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>ni-ma]</p></list-item>
+<list-item><p>exist+<sc>nom</sc>-<sc>similar</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>na-ka</p></list-item>
+<list-item><p>exist-<sc>dec.m</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;It is like my house.&#8217;</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B31">Dixon 2004: 506</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>(ii)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Alienable possessors precede the possessed, as illustrated in (9) and (15), and they are the first element in the noun phrase (<xref ref-type="bibr" rid="B31">Dixon 2004: 281</xref>); this is consistent with the fact that Jarawara is generally head final, exhibiting verb final clauses (illustrated throughout the paper) and postpositional phrases (e.g. <italic>kanawaa jaa</italic> &#8216;in the canoe&#8217;, <italic>neme jaa</italic> &#8216;in the sky&#8217; (<xref ref-type="bibr" rid="B31">Dixon 2004: 180, 167</xref>)).</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>(iii)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>No other type of element can precede the head within an NP with an alienable possessee (<xref ref-type="bibr" rid="B31">Dixon 2004: 281</xref>) &#8211; all other types of modifiers such as adjectives follow the head (e.g. <italic>wati biti</italic> &#8216;small arrow, <italic>karaboha bite</italic> &#8216;small blowgun&#8217; (<xref ref-type="bibr" rid="B31">Dixon 2004: 79</xref>). Only one alienable possessor is ever attested at a time within an NP. I have not observed any evidence for recursive alienable possession structures in Dixon&#8217;s description. However, possession strategies can be combined (see &#167;4.2 and &#167;5.3), with inalienable possessors occurring between the head and an alienable possessor.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>(iv)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>The possessor phrase can occur without an overt possessed entity (i.e. it can be headless). Dixon (<xref ref-type="bibr" rid="B31">2004: 91</xref>) observes that it is in fact common for alienable possessors to occur without the possessed entity being expressed (e.g. <italic>Okomobi kaa</italic> &#8216;Okomobi&#8217;s thing&#8217;). However, <italic>kaa</italic> (which developed from a postposition) is always adjacent to the possessor NP and cannot occur without it. If the alienable possessor phrase were a complement of the possessed entity, rather than a specifier, its ability to occur in a headless construction would be unexpected.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>(v)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>A branching possessor DP consisting of a D plus its complement can be replaced by a possessive pronominal element (e.g. <italic>oko, tika</italic> and <italic>hinaka</italic>), as in (5). The complement of the D <italic>kaa</italic> can be replaced with an interrogative pronoun (e.g. <italic>hike kaa kanawaa</italic> &#8216;whose canoe&#8217; vs. <italic>Okomobi kaa kanawaa</italic> &#8216;Okomobi&#8217;s canoe&#8217; (<xref ref-type="bibr" rid="B31">Dixon 2004: 406</xref>; 295)).</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>(vi)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Singular pronominal alienable possessors (<italic>oko, tika</italic> and <italic>hinaka</italic>) are formally distinct from other pronominal arguments and thus appear to have a special status in syntax (they constitute a single non-branching D node, while most other pronouns used in possessives are NPs); <italic>hinaka</italic> is only found in alienable possession constructions and <italic>hina</italic> is not attested as a component on its own without <italic>ka</italic> (<xref ref-type="bibr" rid="B31">Dixon 2004: 296&#8211;7</xref>).</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>(vii)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>The possessor can be separated from the possessed nominal in instances where another possessor intervenes. This demonstrates that it is not a sister of the nominal head. See 4.2.2 for illustration and discussion.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Using this evidence, the basic structure of phrases formed with an alienably possessed noun is provided in (16) for a nominal possessor and in (17) for a pronominal possessor. In each case the c(onstituent)-structure of the phrase is illustrated by the tree. The accompanying attribute-value matrix (AVM) details the associated f-(unctional) structure.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(16)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Manira&#8217;s dog&#8217;</p></list-item>
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-g1.png"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(17)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;his/her tapir&#8217;</p></list-item>
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-g2.png"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>The c-structure demonstrates the phrase containing the alienable possessor &#8211; a DP &#8211; is a sister of an intermediate projection (i.e. it is a specifier), rather than a complement of the head. Each of the phrases is head final. Here <italic>kaa</italic> is associated with providing a genitive case feature. An alternative analysis of (17), in which the possessor DP is branching, is possible in an approach that permits lexical sharing (e.g. <xref ref-type="bibr" rid="B45">Lowe 2016</xref>) or the decomposition of lexical items into binary branching trees (e.g. <xref ref-type="bibr" rid="B2">Adamson 2024</xref>), but nothing hinges on this here. I follow Sadler&#8217;s (<xref ref-type="bibr" rid="B64">2000</xref>) proposal for Welsh common nouns in treating possessors as being a non-argument function of Jarawara alienable nouns. This reflects the fact that alienable possessors are optional and is indicated by positioning the <sc>poss</sc> function outside of the argument structure in the lexical entries for <italic>jomee</italic> in (16) and <italic>maone</italic> in (17).</p>
+<p>Within LFG, <sc>index</sc> is the term used to refer to the set of features relevant to indexation of grammatical and discourse functions, namely <sc>gender, number</sc> and <sc>person</sc> (cf. <italic>phi</italic>-features in derivational approaches). These contrast with <sc>concord</sc> features, which are generally assumed to be relevant in the nominal domain (see <xref ref-type="bibr" rid="B71">Wechsler &amp; Zlati&#263; 2003</xref> and <xref ref-type="bibr" rid="B34">Haug 2023</xref> in the LFG tradition, and <xref ref-type="bibr" rid="B58">Norris 2014</xref> for concord in the Minimalist tradition) and sometimes differ from the <sc>index</sc> features of a noun. In the absence of evidence to the contrary, I assume that <sc>index</sc> and <sc>concord</sc> features of a noun or pronoun are always identical in Jarawara, and therefore only provide <sc>index</sc> features in lexical entries, f-structures and c-structure annotations. Note that there is no agreement within the phrases in (16) and (17) and only the <sc>index</sc> features of &#8216;<sc>dog</sc>&#8217; and &#8216;<sc>tapir</sc>&#8217;, not the possessor, are part of the <sc>index</sc> features of their NPs&#8217; f-structures.</p>
+</sec>
+<sec>
+<title>4.2 Syntactic constituency of inalienably possessed phrases</title>
+<p>One of the central lines of argumentation advanced here, is that inalienably possessed phrases in Jarawara do not all have the same structure. The periphrastic first person singular and second person singular cells of the paradigm pattern like alienably possessed phrases &#8211; they are NPs with DP specifiers and do not involve agreement between possessor and possessed. Others occupy a single node in c-structure and likewise do not involve agreement. The remaining possessors (&#167;4.2.2&#8211;4.2.4) exhibit a different structure in which a pronominal or nominal possessor is a sister to a PN. Such structures permit both agreement and feature sharing (&#167;5).</p>
+<sec>
+<title>4.2.1 First and second person singular possessors</title>
+<p>First person singular and second person singular possessors are marked by affixes in Classes I, II, III and IV. Within a lexicalist approach, the prefixal possessors are expressed on the same syntactic node as the inalienably possessed entity. In Classes V, VI and VII the prefixes are bound to a reflex of the postposition <italic>kaa</italic> as in <italic>oko</italic> or <italic>tika</italic> (see &#167;3.1.5&#8211;3.1.7). Since the same cells in other inflectional classes are expressed synthetically, this points to an analysis in which there is periphrastic expression of these cells. Which items behave in this way is lexically specified. The first and second person singular possessors found in periphrastic cells of PN paradigms resemble those found in alienable possessed constructions which <italic>do not</italic> trigger agreement on the possessed entity.</p>
+<p>Each word form that marks its possessor through synthetic morphology or through a stem alternation is treated as a single node in a syntactic phrase in the current analysis (although see <xref ref-type="bibr" rid="B2">Adamson 2024</xref> for a different approach). The square brackets in (18) indicate that the lexical and grammatical information contained within them are associated with a particular cell in the paradigm for that lexeme. Note that neither form is associated with a gender value, and the default agreement value &#8211; feminine &#8211; occurs on the predicate when these PNs occur in grammatical functions that otherwise control clause level agreement, as first seen in (7a).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(18)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>a.</p></list-item>
+<list-item><p>b.</p></list-item>
+<list-item><p>c.</p></list-item>
+<list-item><p>d.</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>[oboko]<sub>NP</sub></p></list-item>
+<list-item><p>[owisi]<sub>NP</sub></p></list-item>
+<list-item><p>[tifanoko]<sub>NP</sub></p></list-item>
+<list-item><p>[tiwifi]<sub>NP</sub></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>[chest.1<sc>sg.poss</sc>]</p></list-item>
+<list-item><p>[leg.1<sc>sg.poss</sc>]</p></list-item>
+<list-item><p>[thigh.2<sc>sg.poss</sc>]</p></list-item>
+<list-item><p>[lower.lip.2<sc>sg.poss</sc>]</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>&#8216;my chest&#8217;</p></list-item>
+<list-item><p>&#8216;my leg&#8217;</p></list-item>
+<list-item><p>&#8216;your (SG) thigh&#8217;</p></list-item>
+<list-item><p>&#8216;your (SG) lower lip&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Note that since PNs are all relational nouns that either specify or require a possessor, this is subcategorised for by the PN. Here we assume that the relevant function is <sc>ncomp</sc>, following Chisarik &amp; Payne&#8217;s (<xref ref-type="bibr" rid="B22">2001</xref>) analysis of possession in English and Hungarian, which each have more than one structurally distinct possessor construction. Reflecting their analysis, I use the <sc>poss</sc> function (which they call <sc>subj</sc>) as the label for the structurally higher possessor (as seen in &#167;4.1), and <sc>ncomp</sc> for the structurally lower possessor (see &#167;4.2.3 for an example containing both simultaneously). Unlike in English and Hungarian, however, which of the two possessive strategies is used is determined by argument structure: only relational nouns in Jarawara (i.e. PNs) license <sc>ncomp</sc>s.<xref ref-type="fn" rid="n17">17</xref></p>
+<p>The lexical entry for (18d) is shown in (19), with the corresponding f-structure in (20).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(19)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>tiwifi</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>N</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>(&#8593;<sc>pred</sc>)=&#8216;<sc>lower lip</sc>&#10216;(<sc>ncomp</sc>)&#10217;&#8217;</p></list-item>
+<list-item><p>(&#8593;<sc>index pers</sc>)=3</p></list-item>
+<list-item><p>(&#8593;<sc>ncomp pred</sc>)=&#8216;<sc>pro</sc>&#8217;</p></list-item>
+<list-item><p>(&#8593;<sc>ncomp index pers</sc>)=2</p></list-item>
+<list-item><p>(&#8593;<sc>ncomp index num</sc>)=<sc>sg</sc></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(20)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-g3.png"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>The inflected form in (19) is treated as a single node in c-structure. When possession is expressed periphrastically, as with the first person and second person singular cells in Classes V&#8211;VII, the possessive NP has a branching structure, even though the whole phrase corresponds to a single cell in the paradigm for that lexeme, as with <italic>oko emene</italic> &#8216;my blood&#8217; in (21). Note that this possessive phrase is not formed from the etymologically related &#8216;free noun&#8217; <italic>ama</italic> &#8216;blood&#8217; used outside of inalienable possessive structures (<xref ref-type="bibr" rid="B31">Dixon 2004: 80</xref>). As argued in &#167;3, these periphrastic structures are not formed using stems with gender values, but rather from non-agreeing base stems which are usually, but not always, syncretic with the masculine agreement stem, as with the Class V PN <italic>emene</italic> in (21).<xref ref-type="fn" rid="n18">18</xref></p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(21)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;my blood&#8217;</p></list-item>
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-g4.png"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>In this construction, the possessor is a specifier, just like in the alienable construction in (16). A prediction from this analysis is that the features of the head of the phrase (the PN), not the possessor, will be relevant for recursive structures (see &#167;5.3). The constraining equation in (22), which forms part of the lexical entry for <italic>emene</italic> in (21) ensures that this stem never co-occurs with the third person singular genitive pronoun <italic>hinaka</italic>, which is only observed in alienable possession (<xref ref-type="bibr" rid="B30">Dixon 2000: 77, 296&#8211;7</xref>).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(22)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>(&#8593;<sc>poss index pers</sc>)&#8800;3</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>The analysis presented here ensures that a construction like <italic>tika oko emene</italic> would be ungrammatical, because the <sc>poss</sc> function would be filled twice. It also suggests that there is no agreement here between the PN and the specifier, since heads of noun phrases do not agree with their specifiers elsewhere. Since there is no agreement, there cannot be feature sharing between the possessor and PN.</p>
+<p>I propose that PNs themselves do not have gender values and thus cannot control agreement on the predicate or on attributive adjectives, resulting in default feminine agreement in both scenarios. In &#167;4.2.2&#8211;4.2.4, I demonstrate that the first and second person singular cells of the paradigm are structurally different to phrases formed using PN stems in other cells of the paradigm, giving rise to a lexical split (<xref ref-type="bibr" rid="B24">Corbett 2015</xref>) within the paradigm (cf. <xref ref-type="bibr" rid="B2">Adamson 2024</xref> for a different route to the same conclusion). This observation will prove particularly important in accounting for patterns of agreement observed in recursive possessive structures (&#167;5.3).</p>
+</sec>
+<sec>
+<title>4.2.2 First and second person non-singular possessors</title>
+<p>Unlike their counterparts with singular possessors, possessive phrases containing PNs with first or second person non-singular possessors participate in agreement. The difference between the two structures is illustrated in (23) and (24) with a second person non-singular possessor (cf. <xref ref-type="bibr" rid="B31">Dixon 2004: 315, 288</xref>). Each phrase constitutes a single constituent, but they differ in that the NP containing the possessor is sister to the PN in (23) while it is a specifier, and thus the sister of an intermediate projection, in (24). <sc>ncomp</sc>s are always NPs, a DP (e.g. an alienable possessor) cannot occupy that role. Conversely, the specifier of an NP can be filled by a DP, but not by an NP. While genitive pronouns, and phrases headed by <italic>kaa</italic> are DPs, independent &#8216;cardinal&#8217; pronouns behave like NPs.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(23)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;your (<sc>nsg</sc>) arm&#8217;</p></list-item>
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-g5.png"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(24)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>&#8216;your (<sc>nsg</sc>) axe&#8217;</p></list-item>
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-g6.png"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>The two types of possessive structure also differ in terms of their f-structures. In (24) the features of the alienable possessor are irrelevant to the <sc>index</sc> features of the head, as in (19) and (21). But in (23), where agreement occurs between the PN and the <sc>ncomp</sc>, the features in the locus of the possessor (the agreement controller) are shared with the PN (the agreement target). Feature sharing is indicated in the f-structure in (23) by the line linking the unspecified features of the PN to the <sc>index</sc> features of the <sc>ncomp</sc>. Feature sharing is specified in the lexical entry of each PN with the equation in (25), based on an equation proposed by Haug &amp; Nikitina (<xref ref-type="bibr" rid="B36">2016: 18</xref>). It differs slightly from the original in that I group the relevant features together as <sc>index</sc> features, while they group them as <sc>agr</sc> features.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(25)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>(&#8593;<sc>index</sc>) = (&#8593;<sc>ncomp index</sc>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Unlike their singular counterparts, the first person non-singular and second person non-singular possessors show no signs of morphological boundedness or syntactically unpredictable behaviour reminiscent of morphology. Similarly, all seven inflectional classes identified in &#167;3 behave in the same way in this regard, thereby indicating that the formation of non-singular forms of the type in (23) is not sensitive to morphological features of the stem.</p>
+</sec>
+<sec>
+<title>4.2.3 Third person singular possessors</title>
+<p>Third person singular inalienable possessors are generally of the type in (26) repeated from (6) in which the possessor is realised by an NP headed by a noun. In such examples, the NP is analysed as fulfilling the <sc>ncomp</sc> function of the relational PN, with the possessor occupying the complement position, as with the second person non-singular pronoun in (23).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(26)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[Okomobi</p></list-item>
+<list-item><p>Okomobi(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>mano]</p></list-item>
+<list-item><p>arm.<sc>m</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>koma-ka</p></list-item>
+<list-item><p>be.sore-<sc>dec.m</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Okomobi&#8217;s arm is sore.&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[Manira</p></list-item>
+<list-item><p>Manira(<sc>f</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>mani]</p></list-item>
+<list-item><p>arm.<sc>f</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>koma-ke</p></list-item>
+<list-item><p>be.sore-<sc>dec.f</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Manira&#8217;s arm is sore.&#8217;</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B30">Dixon 2000: 490</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>However, third person singular PNs can also occur without overt nominal possessors (despite apparent claims to the contrary, see <xref ref-type="bibr" rid="B30">Dixon 2000: 489</xref>). In such instances they are still interpreted as possessed, as illustrated in (27).<xref ref-type="fn" rid="n19">19</xref> It remains unclear what contextual conditions permit the absence of a third person singular possessor NP in inalienable constructions. However, in all the examples I have found, the possessor phrase functions as an object (see <xref ref-type="bibr" rid="B31">Dixon 2004: 127, 368</xref> for additional examples). In (27) the phrase headed by the PN is the object in an O-construction (cf. (5)). Here, the prefix <italic>hi</italic>- indicates that there is an O-pivot, and agreement in gender on the predicate is with the object.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(27)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>warabo</p></list-item>
+<list-item><p>3<sc>sg.m.poss.</sc>ear</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>mete</p></list-item>
+<list-item><p>3<sc>sg.m.poss</sc>.back</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>mee</p></list-item>
+<list-item><p>3<sc>nsg.a</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>wari</p></list-item>
+<list-item><p>twist</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>hi-wahe-mata-monaha-ne</p></list-item>
+<list-item><p>O<sc>c</sc>-next.thing-<sc>fpn.m-rep.m-bkg.m</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>ahi</p></list-item>
+<list-item><p><sc>lead.up</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;the next thing was they are said to have twisted the back of his ear&#8217;</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B31">Dixon 2004: 368</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Inalienable possession phrases all involve a relational structure in which the PN requires a possessor, and this is part of its argument structure. Even when the possessor is not overtly expressed (for instance when an established discourse topic), it is still understood as being part of the relational structure. Alienably possessed nouns, on the other hand, are not inherently relational and licensing of a possessor is optional (&#167;4.1).</p>
+<p>The attested examples of PNs that do not have an overt nominal possessor are all third person singular. It appears as though possessors are always required to be present if the intended interpretation is one in which the possessor is non-singular. The lexical entries in (28) and (29) are for PNs that agree with third person singular masculine and non-masculine possessors. The use of the constraint on gender of the <sc>ncomp</sc> in (30) ensures that the &#8216;feminine&#8217; form of the PN occurs even if the possessor lacks a gender value, while the constraint in (31) indicates that where the <sc>pred</sc> of the <sc>ncomp</sc> is empty, it is interpreted as <sc>pro</sc>, thus allowing structures like those in (27).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(28)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>mano</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>N</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>(&#8593;<sc>pred</sc>)=&#8216;<sc>arm</sc>&#10216;(<sc>ncomp</sc>)&#10217;&#8217;</p></list-item>
+<list-item><p>(&#8593;<sc>index</sc>) = (&#8593;<sc>ncomp index</sc>)</p></list-item>
+<list-item><p>((&#8593;<sc>ncomp pred</sc>)=&#8216;<sc>pro</sc>&#8217;)</p></list-item>
+<list-item><p>(&#8593;<sc>ncomp index pers</sc>)=3</p></list-item>
+<list-item><p>(&#8593;<sc>ncomp index num</sc>)=<sc>sg</sc></p></list-item>
+<list-item><p>(&#8593;<sc>ncomp index gend</sc>)=<sc>m</sc></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(29)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>mani</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>N</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>(&#8593;<sc>pred</sc>)=&#8216;<sc>arm</sc>&#10216;(<sc>ncomp</sc>)&#10217;&#8217;</p></list-item>
+<list-item><p>(&#8593;<sc>index</sc>) = (&#8593;<sc>ncomp index</sc>)</p></list-item>
+<list-item><p>((&#8593;<sc>ncomp pred</sc>)= &#8216;<sc>pro</sc>&#8217;)</p></list-item>
+<list-item><p>(&#8593;<sc>ncomp index pers</sc>)=3</p></list-item>
+<list-item><p>(&#8593;<sc>ncomp index num</sc>)=<sc>sg</sc></p></list-item>
+<list-item><p>(&#8593;<sc>ncomp index gend</sc>)&#8800;<sc>m</sc></p></list-item>
+<list-item><p>(&#8593;<sc>ncomp index gend</sc>)&#8800;<sc>m</sc></p></list-item>
+<list-item><p>((&#8593;<sc>ncomp pred</sc>)=&#8216;<sc>pro</sc>&#8217;)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(30)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>(&#8593;<sc>ncomp index gend</sc>)&#8800;M</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(31)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>((&#8593;<sc>ncomp pred</sc>)=&#8216;<sc>pro</sc>&#8217;)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>As in the f-structure with a second person non-singular possessor, provided in (23), there is feature sharing between the <sc>ncomp</sc> and the PN in (32). Note that the lexical entry for <italic>mano</italic> in (28) still needs to be fully satisfied through feature sharing to receive its <sc>index</sc> features. This is not the case with the f-structure in (19), where there is no feature sharing, as the pronominal possessor has been incorporated into the morphology of the PN.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(32)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-g7.png"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>The approach to feature sharing adopted here predicts that it happens only as a by-product of agreement, so we would not expect to find feature sharing between a possessor and a possessed entity in languages where there is no NP internal agreement controlled by a possessor.<xref ref-type="fn" rid="n20">20</xref> Similarly, the data indicates that feature sharing is not possible where the inalienable possessor is expressed morphologically as a prefix.</p>
+</sec>
+<sec>
+<title>4.2.4 Third person non-singular possessors</title>
+<p>PN forms with third person non-singular inalienable possessors have similar lexical entries to those used for non-third person forms, as illustrated in (33).<xref ref-type="fn" rid="n21">21</xref></p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(33)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>mano</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>N</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>(&#8593;<sc>pred</sc>)=&#8216;<sc>arm</sc>&#10216;(<sc>ncomp</sc>)&#10217;&#8217;</p></list-item>
+<list-item><p>(&#8593;<sc>index</sc>) = (&#8593;<sc>ncomp index</sc>)</p></list-item>
+<list-item><p>(&#8593;<sc>ncomp index pers</sc>) &#8800;3</p></list-item>
+<list-item><p>(&#8593;<sc>ncomp index num</sc>)=<sc>nsg</sc></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(34)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>mani</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>N</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>(&#8593;<sc>pred</sc>)=&#8216;<sc>arm</sc>&#10216;(<sc>ncomp</sc>)&#10217;&#8217;</p></list-item>
+<list-item><p>(&#8593;<sc>index</sc>) = (&#8593;<sc>ncomp index</sc>)</p></list-item>
+<list-item><p>(&#8593;<sc>ncomp index pers</sc>)=3</p></list-item>
+<list-item><p>(&#8593;<sc>ncomp index num</sc>)=<sc>nsg</sc></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Note that there is no constraining equation requiring a pronominal possessor for the third person non-singular entry of <italic>mani</italic>. Non-pronominal NPs are not specified for number in Jarawara and thus could not occur as the <sc>ncomp</sc> without using a third person non-singular pronoun <italic>mee</italic> to provide the number specification, as with <italic>Jara mee ati</italic> &#8216;Brancos&#8217; language&#8217; in (35).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(35)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>ti-wati</p></list-item>
+<list-item><p>2<sc>sg.poss</sc>-language</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>amosa-ke,</p></list-item>
+<list-item><p>be.good-<sc>dec.f</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>[tika</p></list-item>
+<list-item><p>2<sc>sg.poss</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>[Jara</p></list-item>
+<list-item><p>Branco(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>mee</p></list-item>
+<list-item><p>3<sc>nsg</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>ati]]</p></list-item>
+<list-item><p>language.3<sc>nsg.poss</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;your language is good (your command of) the Brancos&#8217; language (i.e. Portuguese)&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>In addition to an <sc>ncomp</sc>, PNs may also occur with a non-selected <sc>poss</sc>. In (35), the NP <italic>Jara mee ati</italic> &#8216;Brancos&#8217; language&#8217; is specified by <italic>tika</italic>. This illustrates that inalienable possessors immediately precede the PN, and that when they combine with a genitive case DP, this occurs at the left edge of the NP, in the specifier position. Note that <italic>tika</italic> is not adjacent to the head of the embedded NP in (35). This sort of structure provides evidence in support of analysing alienable possessors as specifiers and inalienable possessors as complements in Jarawara.</p>
+</sec>
+</sec>
+</sec>
+<sec>
+<title>5 Feature sharing</title>
+<p>The feature sharing analysis presented here provides a formal mechanism to account for the unusual patterns of agreement observed by Dixon (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>) in Jarawara noun phrases with inalienable possessors. In &#167;5.2, I show how the feature sharing approach accounts for attributive adjective agreement, and in &#167;5.3 I show how it accounts for agreement in recursive possessive phrases. A possible explanation for how these patterns arise is provided in &#167;5.4. Throughout the discussion I outline how this contrasts with Adamson&#8217;s (<xref ref-type="bibr" rid="B2">2024</xref>) Distributed Morphology approach, briefly introduced in &#167;5.1.</p>
+<sec>
+<title>5.1 Adamson&#8217;s (<xref ref-type="bibr" rid="B2">2024</xref>) Gender Locality Hypothesis</title>
+<p>Adamson (<xref ref-type="bibr" rid="B2">2024</xref>) uses Jarawara data in support of his Gender Locality Hypothesis (GLH), which attempts to account for cross-linguistic differences in the agreement behaviour of alienable and inalienably possessed nouns.</p>
+<p>The GLH states that &#8216;gender features on <italic>n</italic> must be valued within <italic>n</italic>P&#8217; (<xref ref-type="bibr" rid="B2">Adamson 2024: 225</xref>). Because both gender and inalienable possession are introduced locally to the <italic>n</italic>P as a property of nouns, they have the potential to interact. However, the gender value on the nominalizing head <italic>n</italic> is fixed before the <italic>n</italic>P combines with other external syntactic material, such as a PossP (<xref ref-type="bibr" rid="B52">Myler 2016</xref>; <xref ref-type="bibr" rid="B2">Adamson 2024: 220</xref>). This results in an asymmetry in the gender assignment potential of local inalienable possessors on one hand, and non-local alienable possessors on the other, as indicated by the dotted line in (36). His central proposal is that a noun&#8217;s gender assignment can be affected by virtue of being inalienably possessed (<italic>i</italic>possession), but it cannot be affected by being alienably possessed (<italic>a</italic>possession).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(36)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Local and non-local possession (<xref ref-type="bibr" rid="B2">Adamson 2024: 220</xref>)</p></list-item>
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-g8.png"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>With respect to Jarawara, Adamson (<xref ref-type="bibr" rid="B2">2024: 239</xref>) proposes that inalienably possessed nouns are licensed only by <italic>n</italic>s with unmarked feminine gender. He calls it an instance of <sc>possessee gender</sc>, whereby &#8216;<italic>i</italic>possessability is associated specifically with a particular gender value&#8217;. He also argues explicitly that possessor agreement does not feed gender assignment in Jarawara.</p>
+<p>The theoretical mechanisms used in each of our accounts are rather different. In Minimalism, agreement is modelled in constituent structure, while in LFG agreement is modelled in f-structure. However, it is nevertheless possible to compare them with respect to the data they can handle, the predictions they make and similarities they share. As with the current proposal, Adamson (<xref ref-type="bibr" rid="B2">2024: 239</xref>) distinguishes between alienable possessors introduced as a specifier (in his analysis, this is the specifier of PossP, with the Poss head realised as <italic>kaa</italic>) and inalienable possessors that are structurally closer to the possessed (in his analysis, introduced internally to <italic>n</italic>P), as represented in (36).</p>
+<p>Both the current account, and Adamson (<xref ref-type="bibr" rid="B2">2024</xref>) concur that PNs agree with their possessors in person number and gender, known as <italic>phi</italic>-features in Adamson&#8217;s account, and <sc>index</sc> features in the current proposal. This contrasts with Dixon&#8217;s description, which casts agreement between the possessor and a PN only in terms of gender.</p>
+<p>The most important difference between our proposals concerns our views about how PNs acquire their features. Adamson (<xref ref-type="bibr" rid="B2">2024</xref>) proposes that all PNs are inherently feminine, and that any other features that they realise are simply agreement features. In his approach to the Jarawara data, PNs do not &#8216;inherit&#8217; their features from the possessor. In the analysis proposed here, PNs do not have an inherent gender value independently of their possessor. They acquire their gender value through feature sharing. As I show in &#167;5.2 and &#167;5.3, a feature sharing analysis accounts for the agreement patterns observed on agreeing attributive modifiers and recursive PNs.</p>
+</sec>
+<sec>
+<title>5.2 Feature sharing and adjective agreement</title>
+<p>In Jarawara inalienably possessed phrases with third person singular possessors, agreeing adjectival modifiers always share the same gender feature as the possessor. This holds true when the adjective forms a constituent with the possessor, or the PN, as in (37), where underlining indicates which head is semantically modified in each case.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(37)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[[jomee]</p></list-item>
+<list-item><p>dog(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>biti]</p></list-item>
+<list-item><p>small.<sc>m</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>teme</p></list-item>
+<list-item><p>3<sc>sg.m.poss</sc>.foot</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;the small <underline>dog&#8217;s</underline> foot/feet&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[[jomee</p></list-item>
+<list-item><p>dog(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>teme]</p></list-item>
+<list-item><p>3<sc>sg.m.poss</sc>.foot</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>biti]</p></list-item>
+<list-item><p>small.<sc>m</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;the small dog&#8217;s <underline>foot/feet</underline>&#8217;</p></list-item>
+<list-item><p>(adapted from <xref ref-type="bibr" rid="B30">Dixon 2000: 506</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>In (37a), the adjective agrees with the noun it modifies, <italic>jomee</italic> &#8216;dog&#8217;, while in (37b) it agrees with the features of the possessive phrase headed by the PN. Assuming that PNs do not have either <sc>index</sc> or <sc>concord</sc> gender values of their own, the PN acquires the <sc>index</sc> features of the possessor through agreement with the <sc>ncomp</sc>. The f-structures for the phrases in (37a) and (37b) are shown in (38) and (39) respectively. Note that in (38) the <sc>adj</sc> is within the f-structure of the <sc>ncomp</sc>, while in (39) it is part of the containing f-structure.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(38)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-g9.png"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(39)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-g10.png"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Consider next the behaviour of agreeing adjectives in possessive structures with pronominal possessors, as in (40). Whenever there is a pronominal inalienable possessor, masculine agreement on agreeing adjectives is ungrammatical. But this introduces what I have called the adjective problem (&#167;2.3), namely that adjectives (which form a constituent with the noun) end up having have a non-local controller of head-modifier agreement as in (40).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(40)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>ee</p></list-item>
+<list-item><p>1<sc>nsg.incl</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>teme</p></list-item>
+<list-item><p>1/2<sc>nsg.poss</sc>.foot</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>bite</p></list-item>
+<list-item><p>small.<sc>f</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;our small feet&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>*ee</p></list-item>
+<list-item><p>1<sc>nsg.incl</sc></p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>teme</p></list-item>
+<list-item><p>1/2<sc>nsg.poss</sc>.foot</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>biti</p></list-item>
+<list-item><p>small.<sc>m</sc></p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Intended: &#8216;our small feet&#8217;</p></list-item>
+<list-item><p>(based on <xref ref-type="bibr" rid="B30">Dixon 2000: 507</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>The fact that there can be a mismatch between the gender of an agreeing modifier and the apparent gender of a PN has been employed as a central argument in support of pronominal possessors being feminine in Dixon&#8217;s analysis. Following the line of argumentation in Dixon (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>), since the adjective in (40a) does not agree with the superficial surface gender (i.e. masculine) of the PN <italic>teme</italic> &#8216;foot&#8217; (see <xref ref-type="table" rid="T2">Table 2</xref>), it must be agreeing with the feminine pronoun <italic>ee</italic>. However, under the analysis presented here, neither the pronoun nor the PN have an inherent gender value. Rather, the form of the PN is determined by the person and number features of the possessor, as reflected in the glosses in (40), and default (i.e. &#8216;feminine&#8217;) agreement on the adjective is inevitable, because neither the pronoun nor PN have gender values. As we will see, the distribution of stems in recursive structures also points to an analysis in which phrases headed by a PN involve feature sharing.</p>
+<p>A central claim that Adamson (<xref ref-type="bibr" rid="B2">2024: 239&#8211;40</xref>) makes is that all PNs have inherent feminine gender, regardless of the agreement behaviour they show. This differs from my account in that I propose that PNs lack a gender value of their own but may acquire one through feature sharing. Nothing in my analysis rests on this assumption (it could be that PNs are feminine in general), however, it would mean that feature sharing can replace existing <sc>index</sc> features of a noun where they already exist. My proposal recognises that stem alternations that manifest agreement with possessors may be morphomic and differ across inflection classes. This accounts for identities in the form of PNs within the agreement paradigm, without similarities in <sc>index</sc> feature structure. To account for agreement on predicates, as well as agreement within the NP, I propose that independent and prefixal pronouns lack a gender feature and cannot control agreement on the predicate or on attributive adjectives. Pronouns, but not nouns or PNs, have an inherent number feature, specified in their lexical entry, as seen in (23) and (24). PNs can acquire a number value through feature sharing, as seen in (32). Noun phrases can be specified for number only through an anaphoric or co-referring relationship with a non-singular pronoun (i.e. with <italic>mee</italic>). This neatly accounts for the observed facts without having to specify additional postsyntactic impoverishment rules (needed by <xref ref-type="bibr" rid="B2">Adamson 2024: 237&#8211;8</xref>).</p>
+<p>With respect to the adjective problem, Adamson&#8217;s (<xref ref-type="bibr" rid="B2">2024: 244</xref>) proposal predicts that if an attributive adjective agrees with a PN, it will occur in its feminine form, because regardless of the agreement form it has, the PN itself is always feminine. Examples like (37b), (and a similar example cited by <xref ref-type="bibr" rid="B2">Adamson 2024: 244, fn 27</xref>) where a masculine adjective modifies a (supposedly feminine) PN, illustrate that this is not the case; without a work around, Adamson&#8217;s (<xref ref-type="bibr" rid="B2">2024</xref>) proposal about adjective agreement doesn&#8217;t adequately capture the empirical facts.</p>
+<p>In my proposal adjectives agree with the head they modify only if it has a masculine gender value. If it lacks this value, the default feminine form of the adjective occurs. Data from Dixon (<xref ref-type="bibr" rid="B30">2000</xref>) indicates that attributive adjectives can agree in gender with the possessor if it is masculine singular. I argue that they can also agree with a phrase headed by a PN that acquires its features from a possessor through feature sharing.</p>
+</sec>
+<sec>
+<title>5.3 Feature sharing in recursive possessive phrases</title>
+<p>Building on the evidence presented so far, I argue that the behaviour of possessed nouns in recursive structures falls out naturally from a feature sharing approach if we recognise that PN stems follow a morphomic agreement pattern (&#167;3). This accounts for the feature problem and the recursion problem identified in &#167;2.3.</p>
+<p>To understand how the morphological patterns seen in recursive structures support a morphomic analysis, consider those in (41), in which the PN &#8216;inside&#8217; varies in form based on the person, number and gender features of its possessor, in this case an inalienable possession phrase headed by a PN. The patterns observed here remain unresolved by Dixon (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>), who has no explanation for why there is so much variation in the formation of recursive inalienable possessives.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(41)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>a.</p></list-item>
+<list-item><p>b.</p></list-item>
+<list-item><p>c.</p></list-item>
+<list-item><p>d.</p></list-item>
+<list-item><p>e.</p></list-item>
+<list-item><p>f.</p></list-item>
+<list-item><p>g.</p></list-item>
+<list-item><p>h.</p></list-item>
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>[omano] baki</p></list-item>
+<list-item><p>[timano] baki</p></list-item>
+<list-item><p>[mano] bako</p></list-item>
+<list-item><p>[mani] baki</p></list-item>
+<list-item><p>[ee mano] bako</p></list-item>
+<list-item><p>[otaa mano] bako</p></list-item>
+<list-item><p>[tee mano] bako</p></list-item>
+<list-item><p>[mee mani] baki</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B31">Dixon 2004: 315</xref>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>&#8216;my arms&#8217; insides&#8217;</p></list-item>
+<list-item><p>&#8216;your (<sc>sg</sc>) arms&#8217; insides&#8217;</p></list-item>
+<list-item><p>&#8216;his arms&#8217; insides&#8217;</p></list-item>
+<list-item><p>&#8216;her arms&#8217; insides&#8217;</p></list-item>
+<list-item><p>&#8216;our (<sc>incl</sc>) arms&#8217; insides&#8217;</p></list-item>
+<list-item><p>&#8216;our (<sc>excl</sc>) arms&#8217; insides&#8217;</p></list-item>
+<list-item><p>&#8216;your (<sc>nsg</sc>) arms&#8217; insides&#8217;</p></list-item>
+<list-item><p>&#8216;their arms&#8217; insides&#8217;</p></list-item>
+<list-item><p>&#160;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>If we assume, as Dixon does, that the PN forms that are syncretic with the masculine or feminine stem always bear a masculine or feminine gender value respectively, the forms in (41a&#8211;b) should not be possible since <italic>baki</italic> should agree with masculine <italic>mano</italic>. Similarly, if we follow Dixon&#8217;s claims that inalienable possessors are the head of a phrase formed with a PN, and that all pronouns have feminine gender, we expect to find a pattern in which all possessors of PNs that are themselves composed of a possessed PN would control feminine agreement on any subsequent PNs except where the most embedded possessor is masculine. Under such an analysis, the examples in (41e&#8211;g) would be unaccounted for.</p>
+<p>Neither of these descriptions work for explaining the forms of PNs in recursive structures because they do not incorporate three important properties of the system:</p>
+<list list-type="roman-lower">
+<list-item><p><bold>Feature sharing</bold>: Most PNs acquire their <sc>index</sc> features through feature sharing, a dimension of agreement observed in a subset of agreement relations.</p></list-item>
+<list-item><p><bold>Lexical splits</bold>: Synthetic and periphrastic first person and second person singular PNs do not involve feature sharing. The synthetic forms (which may have involved agreement at an earlier diachronic stage) are synchronically fully specified for their features in the lexicon. The periphrastic forms follow a syntactic pattern that is identical to the alienable possessive phrase, and do not involve agreement.</p></list-item>
+<list-item><p><bold>Morphomic patterns of agreement</bold>: PNs exhibit a morphomic pattern of possessor agreement. That is to say, the forms of PNs are distributed according to a pattern of exponence that cannot be explained by reference to natural classes alone.</p></list-item>
+</list>
+<p>To put these claims into perspective, consider first the following noun phrases with recursive third person possessors. In each case below, the most embedded possessor, <italic>Okomobi</italic> in (42a) and <italic>Jane</italic> in (42b), determines the gender value for the first possessed noun (&#8216;arm&#8217;) through feature sharing. This possessive phrase, in turn, determines the gender of the second possessed noun (&#8216;inside&#8217;).<xref ref-type="fn" rid="n22">22</xref></p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(42)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[[[Okomobi]<sub>M</sub></p></list-item>
+<list-item><p>Okomobi(<sc>m</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>[mano]]<sub>M</sub></p></list-item>
+<list-item><p>3<sc>sg.m.poss</sc>.arm</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>[bako]]<sub>M</sub></p></list-item>
+<list-item><p>3<sc>sg.m.poss</sc>.inside</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Okomobi&#8217;s arms&#8217; inside&#8217;</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>[[[Jane]<sub>F</sub></p></list-item>
+<list-item><p>Jane(<sc>f</sc>)</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>[mani]]<sub>F</sub></p></list-item>
+<list-item><p>3<sc>sg.f.poss</sc>.arm</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>[baki]]<sub>F</sub></p></list-item>
+<list-item><p>3<sc>sg.f.poss</sc>.inside</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;Jane&#8217;s arms&#8217; inside&#8217;</p></list-item>
+<list-item><p>(<xref ref-type="bibr" rid="B31">Dixon 2004: 315</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Building on the constituent structure analysis put forward in &#167;4, the recursive structure of (42a) is shown in (43).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(43)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-g11.png"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(44)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-g12.png"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>As with the feature sharing structures illustrated in &#167;4.2 and &#167;5.1, feature sharing in (44) is indicated by a line between the most embedded <sc>ncomp</sc> and the <sc>index</sc> features of the <sc>pred</sc> of which it is an argument. The <sc>index</sc> features of that PN are in turn shared with the <sc>pred</sc> of which it is an argument.</p>
+<p>Where the most embedded possessor is first person singular or second person singular, as in (41a&#8211;b), there is no feature sharing between the pronominal possessor and the most local PN. Therefore, only the features of the PN and not the possessor can be shared with any subsequent PN, as in (45).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(45)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-11-16849-g13.png"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>In my approach, there is no feature sharing at the lexical level; feature sharing is a syntactic phenomenon that arises through agreement. Consequently, forms like <italic>omano</italic> and <italic>tiwisi</italic> are treated as third person NPs &#8211; the <sc>index</sc> features of the possessors are not shared with the PN. The resulting head lacks any gender feature (since PNs lack an inherent gender feature). This accounts for the fact that a default feminine form is used in recursive structures like (45).</p>
+<p>Adamson (<xref ref-type="bibr" rid="B2">2024</xref>) proposes that first person singular and second person singular forms behave distinctively in recursive structures because the possessor and possessed are expressed by a single word (in contrast to those expressed syntactically). In his approach, agreement occurs between <italic>o</italic>- and <italic>ti</italic>- and the stems to which they attach, just as with other participant pronouns such as <italic>ee</italic> and <italic>otaa</italic>. Once the possessor and possessed elements form a single word, the features of the possessor are no longer visible to subsequent agreement processes. Consequently forms like <italic>omano</italic> and <italic>tiwisi</italic> cannot control agreement related to the <italic>phi</italic>-features of <italic>o</italic>- and <italic>ti</italic>- when they occur in recursive structures. Although my analysis and Adamson&#8217;s(<xref ref-type="bibr" rid="B2">2024</xref>) account approach the problem from different perspectives, they each use the same property &#8211; wordhood &#8211; to account for problems for which Dixon (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>) has no explanation.</p>
+<p>However, Adamson&#8217;s (<xref ref-type="bibr" rid="B2">2024</xref>) argument only attempts to account for the stems of Class I PNs. There are a number of stem alternations that remain unexplained in other classes. These include the use of &#8216;feminine&#8217; stems for agreement with some participants (i.e. first person singular and second person singular) in Class III forms like <italic>tiwisi</italic> &#8216;your (<sc>sg</sc>) leg&#8217;. It remains to be seen if Adamson&#8217;s (<xref ref-type="bibr" rid="B2">2024</xref>) approach is capable of handling such differences.</p>
+<p>In general, it is unclear what happens in recursive structures where the most embedded possessor is in Classes V&#8211;VII. There are no examples of recursive structures involving non-synthetic first person and second person singular possessors in Dixon (<xref ref-type="bibr" rid="B31">2004</xref>), and Adamson (<xref ref-type="bibr" rid="B2">2024</xref>) does not make any explicit predictions about such structures. I predict that the pronouns in periphrastic cells do not control agreement in gender on subsequent PN stems because the stems heading the phrase do not have a gender value (regardless of any formal similarity they have with stems that do).</p>
+</sec>
+<sec>
+<title>5.4. Possible prerequisites of feature sharing</title>
+<p>Feature sharing through agreement has been proposed to be important in accounting for agreement phenomena of different types in different frameworks. Haug &amp; Nikitina (<xref ref-type="bibr" rid="B36">2016</xref>) provide a detailed overview of proposals that involve feature sharing including Kathol (<xref ref-type="bibr" rid="B40">1999</xref>) in HPSG, and Frampton &amp; Gutmann (<xref ref-type="bibr" rid="B32">2000</xref>); Legate (<xref ref-type="bibr" rid="B43">2005</xref>); Pesetsky &amp; Torrego (<xref ref-type="bibr" rid="B59">2007</xref>); Bobaljik (<xref ref-type="bibr" rid="B15">2008</xref>); and Ackema &amp; Neeleman (<xref ref-type="bibr" rid="B1">2013</xref>) in derivational frameworks (see <xref ref-type="bibr" rid="B41">Keine, forthcoming</xref>, for an instructive and informative overview). Recent LFG analyses of agreement with feature sharing are found in Haug &amp; Nikitina (<xref ref-type="bibr" rid="B35">2012</xref>; <xref ref-type="bibr" rid="B36">2016</xref>) and Nikitina &amp; Haug (<xref ref-type="bibr" rid="B54">2015</xref>); Alsina &amp; Vigo (<xref ref-type="bibr" rid="B4">2014</xref>; <xref ref-type="bibr" rid="B5">2017</xref>) and Sadler (<xref ref-type="bibr" rid="B65">2019</xref>).</p>
+<p>Yet feature sharing is not a property of all agreement relations. This leads to the question of why feature sharing is possible in Jarawara inalienable possessive constructions, when it is not seen more generally in possession constructions.</p>
+<p>One particularly important observation in this regard is that feature sharing through agreement is only possible when an agreement relation between controller and target already exists. Consequently, we only expect feature sharing from possessor to possessed to be attested in languages where the possessor controls agreement on the possessed noun. A related factor is that all of the Jarawara examples in which feature sharing is proposed to exist involve relational nouns which obligatorily require a possessor. Feature sharing in Jarawara is restricted to possessive relationships which are broadly characterised as &#8216;inalienable&#8217;. The majority of these encode relational concepts such as body parts (e.g. <italic>teme/tame</italic> &#8216;foot&#8217;), plant parts (e.g. <italic>mowe/mowe</italic> &#8216;flower&#8217;), relational spatial concepts (e.g. <italic>bako/baki</italic> &#8216;inside&#8217;), or properties of and entity (e.g. <italic>maho/mahi</italic> &#8216;smell&#8217; (see <xref ref-type="bibr" rid="B31">Dixon 2004: 311</xref> for further details). It is possible that feature sharing in possessive constructions is restricted to relations of this kind, perhaps first originating in meronymic relations where the possessive phrases identify a component (e.g. a body part) and the integral entity (i.e. its possessor) at the same time. Another factor that may play an important role is the underspecification of the gender value of PNs, with feature sharing developing as an alternative to the default agreement strategy. Structural locality (a central issue for <xref ref-type="bibr" rid="B2">Adamson 2024</xref>) and topicality of the possessor may play an important role, but for the time being the relative importance of these factors remains fairly speculative.</p>
+</sec>
+</sec>
+<sec>
+<title>6 Conclusion</title>
+<p>A growing body of evidence, analysed in different theoretical frameworks, points to the view that agreement between controller and target can involve feature sharing under certain conditions (e.g. <xref ref-type="bibr" rid="B40">Kathol 1999</xref>; <xref ref-type="bibr" rid="B59">Pesetsky &amp; Torrego 2007</xref>; <xref ref-type="bibr" rid="B1">Ackema &amp; Neeleman 2013</xref>; <xref ref-type="bibr" rid="B36">Haug &amp; Nikitina 2016</xref>). The full range of syntactic environments in which this is possible is currently little understood, but data from Jarawara, as described by Dixon (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>), indicates that one such environment is NP internal agreement between an inalienable possessor specified for person, gender and number, person and number, or person and gender, and a possessed noun that is underspecified for gender and number.</p>
+<p>Using LFG as a framework for exposition, I have argued that inalienable possessors in Jarawara function as the <italic>complement</italic> of the possessed noun (contra <xref ref-type="bibr" rid="B30">Dixon 2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>). Through agreement with the possessor characterised by feature sharing, the feature values of a nominal complement (<sc>ncomp</sc>) are shared with their head &#8211; an inalienably possessed noun. As a consequence of feature sharing, an inalienably possessed noun that is otherwise underspecified for gender and number can control subsequent agreement processes. This gives rise to clauses in which internal inalienable possessors superficially appear to control agreement on the verbal predicate. In contrast to inalienable possessors, alienable possessors are specifiers of the phrase headed by the possessed noun and do not involve feature sharing, nor control NP-internal agreement of any kind.</p>
+<p>While feature sharing is not a property of agreement in standard approaches to Minimalism and LFG (see <xref ref-type="bibr" rid="B36">Haug and Nikitina 2016</xref>; <xref ref-type="bibr" rid="B41">Keine forthcoming</xref>), certain syntactic and semantic relationships between controller and target do appear to facilitate it, with part-whole relations between possessed and possessor being a potentially fruitful avenue for any future investigations. One important observation in this regard is that feature sharing through agreement is only possible when an agreement relation between controller and target already exists in a smaller domain. Consequently, we only expect feature sharing from possessor to possessed noun, and then from possessed noun to predicate to be attested in languages where the possessor controls agreement on the possessed noun. Other languages in which possessors control agreement within possessor phrases are therefore the most likely sources of similar behaviour.</p>
+<p>In Jarawara, exponence of these shared feature values is achieved through the morphomic distribution of PN stems. This distribution is only revealed if we accept that the form of a given paradigm cell, and the feature values encoded by that cell, are logically independent. The PNs fall into seven inflection classes that differ in terms of their inflectional exponence. Within these classes, PNs with singular possessors are formed in the morphology. This can be done synthetically through affixation of a possessor to a stem (i.e. incorporation), or periphrastically through the combination of a non-agreeing stem with a possessive pronoun. Distinguishing between parts of the paradigm which involve agreement and those which do not helps to account for differences in the behaviour of possessed nouns in recursive possessive structures (&#167;5.3) that were unresolved in Dixon&#8217;s (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>) earlier accounts.</p>
+<p>The value of a feature sharing analysis is apparent when dealing with issues that are difficult to reconcile in the accounts of Jarawara inalienable possession proposed by Dixon (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>) and Adamson (<xref ref-type="bibr" rid="B2">2024</xref>), whose analyses predict different behaviours from those seen in the data. An account based on feature sharing between inalienable possessors and PNs accounts for observed agreement patterns on both verbal predicates and attributive modifiers in the same way. Inalienable possessive phrases composed of (i) a possessor nominal with masculine gender value, and (ii) a PN, control masculine agreement on attributive adjectives within the noun phrase as well as on the predicate, but elsewhere, these targets always follow the default agreement pattern associated with feminine agreement controllers.</p>
+<p>While the inalienable possessor is internal to the possessive phrase, and its features are those observed on the predicate, it is neither a &#8216;possessor head&#8217;, nor a prominent internal possessor of the type observed in the majority of other languages with possessor agreement in the clausal domain because its features are always shared with the PN. Consequently, predicate agreement is determined by the NP in an entirely conventional way. When the controller lacks the masculine singular values, the default agreement form syncretic with the feminine singular occurs. Interpreting examples like this as instances of predicate agreement with a head that itself acquires its features through agreement with feature sharing provides an explanation for why clause-level agreement with inalienable possessors is obligatory in Jarawara, rather than differential; it is the only available option, because predicate agreement in not with the possessor, but with the possessed head of the NP.</p>
+</sec>
+</body>
+<back>
+<sec>
+<title>Abbreviations</title>
+<p>1 = first person, 2 = second person, 3 = third person, A = transitive subject, <sc>adj</sc> = adjunct, <sc>aux</sc> = auxiliary, <sc>bkg</sc> = backgrounding mood, <sc>cint</sc> =content interrogative, <sc>comp</sc> = complement clause, D = determiner, <sc>dec</sc> = declarative mood, DetP = determiner phrase, DP = determiner phrase, <sc>e</sc> = eyewitnessed, <sc>excl</sc> = exclusive, <sc>f</sc> = feminine, <sc>fpn</sc> = far past narrative, <sc>gen</sc> = genitive, <sc>gend</sc> = gender, GLH = Gender Locality Hypothesis, HPSG = Head-drive Phrase Structure Grammar, <sc>incl</sc> = inclusive, <sc>ipn</sc> = immediate past narrative, <sc>lead.up</sc> = marks a clause indicating some &#8216;lead up&#8217; within a segment of discourse, LFG = Lexical Functional Grammar, <sc>m</sc> = masculine, <italic>n</italic> = nominalizing head/little n, <sc>n</sc> = non-eyewitnessed, N = noun, <italic>n</italic>P = little n phrase, <sc>neg</sc> = negator/negation, <sc>nom</sc> = nominative, NP = noun phrase, <sc>nsg</sc> = non-singular, <sc>num</sc> = number, O = object, Oc = O-construction, <sc>p</sc> = past, <sc>pers</sc> = person, <sc>pl</sc> = plural, <sc>pn</sc> = possessed noun, <sc>poss</sc> = possessor/possessive, Poss = possessor, <sc>p</sc>oss<sc>p</sc> = possessor phrase, <sc>pred</sc> = f-structure feature whose value is a semantic form, <sc>pro</sc> = pronoun, <sc>rep</sc> = reported modality, S = subject/single argument on an intransitive clause, <sc>sg</sc> = singular, <sc>similar</sc> = similarity suffix.</p>
+</sec>
+<sec>
+<title>Funding information</title>
+<p>This research was funded by the Arts and Humanities Research Council grants <italic>Prominent Possessors</italic> (AH/M010708/1) and <italic>External Agreement</italic> (AH/R005540/1). Their generous support is gratefully acknowledged.</p>
+</sec>
+<sec>
+<title>Acknowledgements</title>
+<p>I would like to express my gratitude to my colleagues in Surrey Morphology Group for discussion of the data presented in this work, and to the audience at the Linguistics Association of Great Britain Annual Meeting in Kent in September 2017 for their comments on an earlier iteration of this work. I am especially appreciative of the thoughtful and constructive feedback provided by three anonymous reviewers and the editor, which greatly improved the quality of this paper.</p>
+</sec>
+<sec>
+<title>Competing interests</title>
+<p>The author has no competing interests to declare.</p>
+</sec>
+<fn-group>
+<fn id="n1"><p>For PIPs which are neither strictly internal nor external see Bond et al. (<xref ref-type="bibr" rid="B18">2019</xref>) and B&#225;r&#225;ny &amp; Nikolaeva (<xref ref-type="bibr" rid="B11">2021</xref>).</p></fn>
+<fn id="n2"><p>The Arawan family comprises six languages from southern Amazonia, namely, Paumari, Deni, Kulina, Sorowaha, Arawa and Madi (<xref ref-type="bibr" rid="B29">Dixon 1995: 263</xref>). Madi can be further divided into three mutually intelligible, closely related dialects (with over 95% shared vocabulary). These are known as Jarawara, Jamamadi and Banawa (<xref ref-type="bibr" rid="B29">Dixon 1995: 291</xref>). See Vogel (<xref ref-type="bibr" rid="B70">1989</xref>) for an earlier analysis of gender marking in Jarawara.</p></fn>
+<fn id="n3"><p>As in Dixon (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>), the inherent gender of a noun is signalled in parentheses in the gloss, and contextual gender values on agreement targets are glossed like other inflectional features.</p></fn>
+<fn id="n4"><p>The ungrammatical agreement alternatives must be inferred from Dixon&#8217;s (<xref ref-type="bibr" rid="B30">2000</xref>; <xref ref-type="bibr" rid="B31">2004</xref>) discussion of the data since negative evidence seldom features in the source material.</p></fn>
+<fn id="n5"><p>The use of default verbal agreement forms with first and second person pronouns is also attested elsewhere in the Arawan languages (<xref ref-type="bibr" rid="B17">Bond 2019</xref>), and Baerman (<xref ref-type="bibr" rid="B8">2023: 11&#8211;13</xref>) catalogues similar patterns cross-linguistically, including in Nakh-Daghestanian (<xref ref-type="bibr" rid="B23">Chumakina et al. 2007</xref>), Tucanoan (<xref ref-type="bibr" rid="B9">Baerman &amp; Corbett 2013</xref>; <xref ref-type="bibr" rid="B20">Chacon &amp; Michael 2018</xref>), Omotic (<xref ref-type="bibr" rid="B7">Baerman 2020</xref>) and Kadu (<xref ref-type="bibr" rid="B8">Baerman 2023</xref>) languages.</p></fn>
+<fn id="n6"><p>When citing the gender agreement forms of third person singular PNs (e.g. <italic>mano/mani</italic> &#8216;arm&#8217;), I always list the masculine agreement form first, since stems homophonous with this form are more pervasive within the paradigm than those homophonous with the feminine agreement stem. This contrasts with the order in Dixon (<xref ref-type="bibr" rid="B31">2004</xref>) where feminine agreement forms are cited first in lists (e.g. <italic>mani/mano</italic> &#8216;arm&#8217;).</p></fn>
+<fn id="n7"><p>Nearly all nouns proper in Jarawara have an inherent grammatical gender: masculine or feminine. According to Dixon (<xref ref-type="bibr" rid="B30">2000: 496</xref>), there are a handful of nouns which can control agreement in either gender, depending on the sex of the referent, including <italic>habai</italic> &#8216;friend&#8217;, <italic>inamatewe</italic> &#8216;child&#8217;, and <italic>jibotee</italic> &#8216;spouse&#8217;. In contrast, I propose that PNs lack an inherent gender value (&#167;2.2), but see Dixon (<xref ref-type="bibr" rid="B31">2004</xref>) and Adamson (<xref ref-type="bibr" rid="B2">2024</xref>) for a different view.</p></fn>
+<fn id="n8"><p>Note that PNs, like inanimates in general, do not express inherent number, nor do they directly control contextual expressions of number on the predicate (<xref ref-type="bibr" rid="B31">Dixon 2004: 290</xref>). See &#167;4.1 for further discussion.</p></fn>
+<fn id="n9"><p>Adpositions are a common source of possession marking (see <xref ref-type="bibr" rid="B37">Heine 1997: 144&#8211;158 for examples</xref>). For more on the possible diachrony of Jarawara alienable possession constructions see Stassen (<xref ref-type="bibr" rid="B68">2009: 126&#8211;7</xref>).</p></fn>
+<fn id="n10"><p>While PNs are typically accompanied by a possessor, text data in Dixon (<xref ref-type="bibr" rid="B31">2004</xref>) demonstrates that third person singular PNs can be used without overt possessors (see &#167;4.2.3). This is distinct from the usage of non-relational &#8216;free nouns&#8217; that are etymologically related to a subset of PNs (see <xref ref-type="bibr" rid="B31">Dixon 2004: 312</xref>).</p></fn>
+<fn id="n11"><p>Kinship terms, while inherently relational, do not fall within the class of PNs. See Dixon (<xref ref-type="bibr" rid="B31">2004: 298&#8211;301</xref>) for discussion of their properties.</p></fn>
+<fn id="n12"><p>Possessed nouns behave like other inanimate nouns in that they cannot be specified for number with the nominal modifier <italic>mee</italic> (cf. the third person pronoun <italic>mee</italic>), nor are PNs followed by <italic>mee</italic> in the predicate (<xref ref-type="bibr" rid="B31">Dixon 2004: 290</xref>).</p></fn>
+<fn id="n13"><p>While I assume that PNs in Jarawara do not have an inherent gender value, it is possible that this was not always so since inalienably possessed nouns in the Arawan language Paumari (<xref ref-type="bibr" rid="B21">Chapman &amp; Derbyshire 1986</xref>) agree with their possessor and simultaneously have their own inherent gender value.</p></fn>
+<fn id="n14"><p>This is a somewhat unusual claim from a typological perspective, since first and second person pronouns rarely have an inherent gender. See Baerman (<xref ref-type="bibr" rid="B7">2020</xref>) for discussion and references to examples.</p></fn>
+<fn id="n15"><p>Dixon (<xref ref-type="bibr" rid="B31">2004: 65&#8211;66</xref>) suggests that inclusion of epenthetic /w/ in the second singular form, where we might otherwise expect <italic>tifi</italic> based on other vowel hiatus rules makes these forms distinct from those predicted by other attested phonological processes. If we follow his view, it indicates that selection of the <italic>wifi</italic> stem is morphologically, not phonologically conditioned.</p></fn>
+<fn id="n16"><p>See Adamson (<xref ref-type="bibr" rid="B2">2024</xref>), discussed in &#167;5, for an approach that relies on postsyntactic impoverishment rules that delete features values to enable an analysis involving natural classes.</p></fn>
+<fn id="n17"><p>While there is a thematic restriction on what sorts of possessors can be <sc>ncomp</sc>s, there does not seem to be a need to formalise this for Jarawara. I put aside this issue here and assume the <sc>ncomp</sc>s can thematically restricted in the same way that objects can, if required.</p></fn>
+<fn id="n18"><p>Sometimes this stem differs from that used for third person singular masculine. For instance, in <italic>oko sowi</italic> &#8216;my penis&#8217; (cf. <xref ref-type="bibr" rid="B30">Dixon 2000: 351</xref>) the stem <italic>sowi</italic> differs from the stem <italic>sowiri</italic> used elsewhere in the paradigm. See &#167;3.1.7, <xref ref-type="table" rid="T8">Table 8</xref>.</p></fn>
+<fn id="n19"><p>The PNs <italic>narabo/narabi</italic> and <italic>warabo/warabi</italic> &#8216;his/her ear&#8217; are in apparent free variation in Jarawara. The forms <italic>narabo/narabi</italic> are found in the neighbouring Jamamad&#237; variety, while <italic>warabo/warabi</italic> occur in the Banaw&#225; variety (<xref ref-type="bibr" rid="B31">Dixon 2004: 348</xref>).</p></fn>
+<fn id="n20"><p>Feature sharing accounts might also prove appropriate for agreement in Tundra Nenets possessive constructions, and possibly some other languages of northern Eurasia (see <xref ref-type="bibr" rid="B56">Nikolaeva 2014b</xref>, <xref ref-type="bibr" rid="B53">Nichols 2017</xref>).</p></fn>
+<fn id="n21"><p>Although I have not done so here, it would be entirely possible to write a single entry for <italic>mano</italic> with disjunctive sets of <sc>ncomp</sc> feature values that accounts for both (28) and (33) if this were considered the most appropriate way to capture the morphomic distribution of the stem.</p></fn>
+<fn id="n22"><p>See Dienst (<xref ref-type="bibr" rid="B28">2014: 81&#8211;82</xref>) for discussion of similar recursive structures in the related language Kulina.</p></fn>
+</fn-group>
+<ref-list>
+<ref id="B1"><mixed-citation publication-type="journal"><string-name><surname>Ackema</surname>, <given-names>Peter</given-names></string-name> &amp; <string-name><surname>Neeleman</surname>, <given-names>Ad</given-names></string-name>. <year>2013</year>. <article-title>Subset controllers in agreement relations</article-title>. <source>Morphology</source> <volume>23</volume>(<issue>2</issue>). <fpage>291</fpage>&#8211;<lpage>323</lpage>. DOI: <pub-id pub-id-type="doi">10.1007/s11525-013-9218-4</pub-id></mixed-citation></ref>
+<ref id="B2"><mixed-citation publication-type="journal"><string-name><surname>Adamson</surname>, <given-names>Luke James</given-names></string-name>. <year>2024</year>. <article-title>Gender assignment is local: On the relation between grammatical gender and inalienable possession</article-title>. <source>Language</source> <volume>100</volume>(<issue>2</issue>). <fpage>218</fpage>&#8211;<lpage>264</lpage>. DOI: <pub-id pub-id-type="doi">10.1353/lan.2024.a929736</pub-id></mixed-citation></ref>
+<ref id="B3"><mixed-citation publication-type="journal"><string-name><surname>Adamson</surname>, <given-names>Luke James</given-names></string-name> &amp; <string-name><surname>Kramer</surname>, <given-names>Ruth</given-names></string-name>. <year>2025</year>. <article-title>On O-Constructions in Jarawara</article-title>. In <string-name><surname>Clemens</surname>, <given-names>Lauren</given-names></string-name> &amp; <string-name><surname>Gribanova</surname>, <given-names>Vera</given-names></string-name> &amp; <string-name><surname>Scontras</surname>, <given-names>Gregory</given-names></string-name> (eds), <source>The syntax in unchartered territories: Essays in honor of Maria Polinsky</source>, <fpage>1</fpage>&#8211;<lpage>22</lpage>. <pub-id pub-id-type="doi">10.7280/S9J964DJ</pub-id></mixed-citation></ref>
+<ref id="B4"><mixed-citation publication-type="book"><string-name><surname>Alsina</surname>, <given-names>Alex</given-names></string-name> &amp; <string-name><surname>Vigo</surname>, <given-names>Eugenio M</given-names></string-name>. <year>2014</year>. <chapter-title>Copular inversion and non-subject agreement</chapter-title>. In <string-name><given-names>Miriam</given-names> <surname>Butt</surname></string-name> &amp; <string-name><given-names>Tracy Holloway</given-names> <surname>King</surname></string-name> (eds), <source>Proceedings of the LFG &#8217;14 Conference</source>, <fpage>5</fpage>&#8211;<lpage>25</lpage>. <publisher-loc>Stanford, CA</publisher-loc>: <publisher-name>CSLI Publications</publisher-name>.</mixed-citation></ref>
+<ref id="B5"><mixed-citation publication-type="book"><string-name><surname>Alsina</surname>, <given-names>Alex</given-names></string-name> &amp; <string-name><surname>Vigo</surname>, <given-names>Eugenio M</given-names></string-name>. <year>2017</year>. <chapter-title>Agreement: Interactions with case and raising</chapter-title>. In <string-name><surname>Butt</surname>, <given-names>Miriam</given-names></string-name> &amp; <string-name><surname>King</surname>, <given-names>Tracy Holloway</given-names></string-name> (eds), <source>Proceedings of the LFG &#8217;17 Conference</source>, <fpage>3</fpage>&#8211;<lpage>23</lpage>. <publisher-loc>Stanford, CA</publisher-loc>: <publisher-name>CSLI Publications</publisher-name>.</mixed-citation></ref>
+<ref id="B6"><mixed-citation publication-type="book"><string-name><surname>Aronoff</surname>, <given-names>Mark</given-names></string-name>. <year>1994</year>. <source>Morphology by itself: Stems and inflectional classes</source>. <publisher-loc>Cambridge, MA</publisher-loc>: <publisher-name>MIT Press</publisher-name>.</mixed-citation></ref>
+<ref id="B7"><mixed-citation publication-type="journal"><string-name><surname>Baerman</surname>, <given-names>Matthew</given-names></string-name>. <year>2020</year>. <article-title>Gender flip in Benchnon (North Omotic)</article-title>. <source>Glossa</source> <volume>5</volume>(<issue>1</issue>). <elocation-id>76</elocation-id>. DOI: <pub-id pub-id-type="doi">10.5334/gjgl.1191</pub-id></mixed-citation></ref>
+<ref id="B8"><mixed-citation publication-type="journal"><string-name><surname>Baerman</surname>, <given-names>Matthew</given-names></string-name>. <year>2023</year>. <article-title>Agreement in Kadu: Inflectional merger as morphosyntactic abstraction</article-title>. <source>Diachronica</source> <volume>40</volume>(<issue>1</issue>). <fpage>1</fpage>&#8211;<lpage>29</lpage>. DOI: <pub-id pub-id-type="doi">10.1075/dia.20068.bae</pub-id></mixed-citation></ref>
+<ref id="B9"><mixed-citation publication-type="book"><string-name><surname>Baerman</surname>, <given-names>Matthew</given-names></string-name> &amp; <string-name><surname>Corbett</surname>, <given-names>Greville G</given-names></string-name>. <year>2013</year>. <chapter-title>Person by other means</chapter-title>. In <string-name><given-names>Dik</given-names> <surname>Bakker</surname></string-name> &amp; <string-name><given-names>Martin</given-names> <surname>Haspelmath</surname></string-name> (eds), <source>Languages across boundaries: Studies in memory of Anna Siewierska</source>, <fpage>13</fpage>&#8211;<lpage>26</lpage>. <publisher-loc>Berlin</publisher-loc>: <publisher-name>Mouton de Gruyter</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1515/9783110331127.1</pub-id></mixed-citation></ref>
+<ref id="B10"><mixed-citation publication-type="book"><string-name><surname>B&#225;r&#225;ny</surname>, <given-names>Andr&#225;s</given-names></string-name> &amp; <string-name><surname>Bond</surname>, <given-names>Oliver</given-names></string-name> &amp; <string-name><surname>Nikolaeva</surname>, <given-names>Irina</given-names></string-name> (eds.). <year>2019</year>. <source>Prominent Internal Possessors</source>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oso/9780198812142.001.0001</pub-id></mixed-citation></ref>
+<ref id="B11"><mixed-citation publication-type="journal"><string-name><surname>B&#225;r&#225;ny</surname>, <given-names>Andr&#225;s</given-names></string-name> &amp; <string-name><surname>Nikolaeva</surname>, <given-names>Irina</given-names></string-name>. <year>2021</year>. <article-title>On adjoined possessors</article-title>. <source>Linguistic Inquiry</source> <volume>52</volume>(<issue>1</issue>). <fpage>181</fpage>&#8211;<lpage>194</lpage>. DOI: <pub-id pub-id-type="doi">10.1162/ling_a_00370</pub-id></mixed-citation></ref>
+<ref id="B12"><mixed-citation publication-type="book"><string-name><surname>Belyaev</surname>, <given-names>Oleg</given-names></string-name>. <year>2023a</year>. <chapter-title>Introduction to LFG</chapter-title>. In <string-name><surname>Dalrymple</surname>, <given-names>Mary</given-names></string-name> (ed.), <source>Handbook of Lexical Functional Grammar</source>, <fpage>3</fpage>&#8211;<lpage>22</lpage>. <publisher-loc>Berlin</publisher-loc>: <publisher-name>Language Science Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.5281/zenodo.10185934</pub-id></mixed-citation></ref>
+<ref id="B13"><mixed-citation publication-type="book"><string-name><surname>Belyaev</surname>, <given-names>Oleg</given-names></string-name>. <year>2023b</year>. <chapter-title>Core concepts of LFG</chapter-title>. In <string-name><surname>Dalrymple</surname>, <given-names>Mary</given-names></string-name> (ed.), <source>Handbook of Lexical Functional Grammar</source>, <fpage>23</fpage>&#8211;<lpage>96</lpage>. <publisher-loc>Berlin</publisher-loc>: <publisher-name>Language Science Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.5281/zenodo.10185936</pub-id></mixed-citation></ref>
+<ref id="B14"><mixed-citation publication-type="book"><string-name><surname>Bermu&#769;dez-Otero</surname>, <given-names>Ricardo</given-names></string-name> &amp; <string-name><surname>Lu&#237;s</surname>, <given-names>Ana R</given-names></string-name>. <year>2016</year>. <chapter-title>A view of the morphome debate</chapter-title>. In <string-name><surname>Lu&#237;s</surname>, <given-names>Ana R.</given-names></string-name> &amp; <string-name><surname>Bermu&#769;dez-Otero</surname>, <given-names>Ricardo</given-names></string-name> (eds), <source>The morphome debate</source>, <fpage>309</fpage>&#8211;<lpage>40</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/acprof:oso/9780198702108.003.0012</pub-id></mixed-citation></ref>
+<ref id="B15"><mixed-citation publication-type="book"><string-name><surname>Bobaljik</surname>, <given-names>Jonathan</given-names></string-name>. <year>2008</year>. <chapter-title>Where&#8217;s phi? Agreement as a post-syntactic operation</chapter-title>. In <string-name><surname>Harbour</surname>, <given-names>Daniel</given-names></string-name> &amp; <string-name><surname>Adger</surname>, <given-names>David</given-names></string-name> &amp; <string-name><surname>Be&#769;jar</surname>, <given-names>Susana</given-names></string-name> (eds), <source>Phi-theory: Phi-features across interfaces and modules</source>, <fpage>295</fpage>&#8211;<lpage>328</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oso/9780199213764.003.0010</pub-id></mixed-citation></ref>
+<ref id="B16"><mixed-citation publication-type="book"><string-name><surname>Bond</surname>, <given-names>Oliver</given-names></string-name>. <year>2017</year>. <source>Possessor controllers of agreement</source>, presented at the Annual Meeting of the Linguistic Association of Great Britain 2017, <publisher-name>University of Kent</publisher-name>, <publisher-loc>Canterbury</publisher-loc>, <day>6</day> <month>September</month> 2017.</mixed-citation></ref>
+<ref id="B17"><mixed-citation publication-type="book"><string-name><surname>Bond</surname>, <given-names>Oliver</given-names></string-name>. <year>2019</year>. <chapter-title>Where are gender values and how do I get to them?</chapter-title> In <string-name><surname>Baerman</surname>, <given-names>Matthew</given-names></string-name> &amp; <string-name><surname>Bond</surname>, <given-names>Oliver</given-names></string-name> &amp; <string-name><surname>Hippisley</surname>, <given-names>Andrew</given-names></string-name> (eds), <source>Morphological perspectives: Papers in honour of Greville G. Corbett</source>, <fpage>327</fpage>&#8211;<lpage>369</lpage>. <publisher-loc>Edinburgh</publisher-loc>: <publisher-name>Edinburgh University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1515/9781474446020-016</pub-id></mixed-citation></ref>
+<ref id="B18"><mixed-citation publication-type="book"><string-name><surname>Bond</surname>, <given-names>Oliver</given-names></string-name> &amp; <string-name><surname>Meakins</surname>, <given-names>Felicity</given-names></string-name> &amp; <string-name><surname>Nordlinger</surname>, <given-names>Rachel</given-names></string-name>. <year>2019</year>. <chapter-title>Prominent possessor indexing in Gurindji</chapter-title>. In <string-name><surname>B&#225;r&#225;ny</surname>, <given-names>Andr&#225;s</given-names></string-name> &amp; <string-name><surname>Bond</surname>, <given-names>Oliver</given-names></string-name> &amp; <string-name><surname>Nikolaeva</surname>, <given-names>Irina</given-names></string-name> (eds.), <source>Prominent Internal Possessors</source>, <fpage>80</fpage>&#8211;<lpage>106</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oso/9780198812142.003.0003</pub-id></mixed-citation></ref>
+<ref id="B19"><mixed-citation publication-type="book"><string-name><surname>Bresnan</surname>, <given-names>Joan</given-names></string-name> &amp; <string-name><surname>Asudeh</surname>, <given-names>Ash</given-names></string-name> &amp; <string-name><given-names>Toivonen</given-names> <surname>Ida</surname></string-name> &amp; <string-name><surname>Wechsler</surname>, <given-names>Stephen</given-names></string-name>. <year>2016</year>. <source>Lexical-functional syntax</source> (<edition>Second</edition> edition). <publisher-loc>Malden, MA</publisher-loc>: <publisher-name>Wiley Blackwell</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1002/9781119105664</pub-id></mixed-citation></ref>
+<ref id="B20"><mixed-citation publication-type="journal"><string-name><surname>Chacon</surname>, <given-names>Thiago C.</given-names></string-name> &amp; <string-name><surname>Michael</surname>, <given-names>Lev</given-names></string-name>. <year>2018</year>. <article-title>The evolution of subject-verb agreement in Eastern Tukanoan</article-title>. <source>Journal of Historical Linguistics</source> <volume>8</volume>(<issue>1</issue>). <fpage>59</fpage>&#8211;<lpage>94</lpage>. DOI: <pub-id pub-id-type="doi">10.1075/jhl.16024.cha</pub-id></mixed-citation></ref>
+<ref id="B21"><mixed-citation publication-type="book"><string-name><surname>Chapman</surname>, <given-names>Shirley</given-names></string-name> &amp; <string-name><surname>Derbyshire</surname>, <given-names>Desmond C</given-names></string-name>. <year>1986</year>. <chapter-title>Paumari</chapter-title>. In <string-name><surname>Derbyshire</surname>, <given-names>Desmond C.</given-names></string-name> &amp; <string-name><surname>Pullum</surname>, <given-names>Geoffrey K.</given-names></string-name> (eds), <source>The Handbook of Amazonian Languages</source> (Vol. <volume>3)</volume>, <fpage>161</fpage>&#8211;<lpage>351</lpage>. <publisher-loc>Berlin</publisher-loc>: <publisher-name>Mouton de Gruyter</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1515/9783110850819</pub-id></mixed-citation></ref>
+<ref id="B22"><mixed-citation publication-type="book"><string-name><surname>Chisarik</surname>, <given-names>Erika</given-names></string-name> &amp; <string-name><surname>Payne</surname>, <given-names>John R</given-names></string-name>. <year>2001</year>. <chapter-title>Modelling possessor constructions in LFG: English and Hungarian</chapter-title>. In <string-name><surname>Butt</surname>, <given-names>Miriam</given-names></string-name> &amp; <string-name><surname>King</surname>, <given-names>Tracy Holloway</given-names></string-name> (eds), <source>Proceedings of the LFG &#8217;01 Conference</source>, <fpage>33</fpage>&#8211;<lpage>46</lpage>. <publisher-loc>Stanford, CA</publisher-loc>: <publisher-name>CSLI Publications</publisher-name>.</mixed-citation></ref>
+<ref id="B23"><mixed-citation publication-type="book"><string-name><surname>Chumakina</surname>, <given-names>Marina</given-names></string-name> &amp; <string-name><surname>Kibort</surname>, <given-names>Anna</given-names></string-name> &amp; <string-name><surname>Corbett</surname>, <given-names>Greville G.</given-names></string-name> <year>2007</year>. <chapter-title>Determining a language&#8217;s feature inventory: Person in Archi</chapter-title>. In <string-name><surname>Austin</surname>, <given-names>Peter K.</given-names></string-name> &amp; <string-name><surname>Simpson</surname>, <given-names>Andrew</given-names></string-name> (eds), <source>Endangered languages</source> (Linguistische Berichte <volume>14)</volume>, <fpage>143</fpage>&#8211;<lpage>172</lpage>. <publisher-loc>Hamburg</publisher-loc>: <publisher-name>Helmut Buske</publisher-name>.</mixed-citation></ref>
+<ref id="B24"><mixed-citation publication-type="journal"><string-name><surname>Corbett</surname>, <given-names>Greville G.</given-names></string-name> <year>2015</year>. <article-title>Morphosyntactic complexity: A typology of lexical splits</article-title>. <source>Language</source> <volume>91</volume>(<issue>1</issue>). <fpage>145</fpage>&#8211;<lpage>193</lpage>. DOI: <pub-id pub-id-type="doi">10.1353/lan.2015.0003</pub-id></mixed-citation></ref>
+<ref id="B25"><mixed-citation publication-type="book"><string-name><surname>Dalrymple</surname>, <given-names>Mary</given-names></string-name>. <year>2001</year>. <source>Lexical Functional Grammar</source> [Syntax and Semantics 34]. <publisher-loc>San Diego, CA</publisher-loc>: <publisher-name>Academic Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1163/9781849500104</pub-id></mixed-citation></ref>
+<ref id="B26"><mixed-citation publication-type="book"><string-name><surname>Dalrymple</surname>, <given-names>Mary</given-names></string-name> (ed.). <year>2023</year>. <source>Handbook of Lexical Functional Grammar</source>. <publisher-loc>Berlin</publisher-loc>: <publisher-name>Language Science Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oxfordhb/9780198852889.013.52</pub-id></mixed-citation></ref>
+<ref id="B27"><mixed-citation publication-type="book"><string-name><surname>Dalrymple</surname>, <given-names>Mary</given-names></string-name> &amp; <string-name><surname>Lowe</surname>, <given-names>John J.</given-names></string-name> &amp; <string-name><surname>Mycock</surname>, <given-names>Louise</given-names></string-name>. <year>2019</year>. <source>The Oxford reference guide to Lexical Functional Grammar</source>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oso/9780198733300.001.0001</pub-id></mixed-citation></ref>
+<ref id="B28"><mixed-citation publication-type="book"><string-name><surname>Dienst</surname>, <given-names>Stefan</given-names></string-name>. <year>2014</year>. <source>A grammar of Kulina</source>. <publisher-loc>Berlin</publisher-loc>: <publisher-name>De Gruyter</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1515/9783110341911</pub-id></mixed-citation></ref>
+<ref id="B29"><mixed-citation publication-type="journal"><string-name><surname>Dixon</surname>, <given-names>Robert M. W.</given-names></string-name> <year>1995</year>. <article-title>Fusional development of gender marking in Jarawara possessed nouns</article-title>. <source>International Journal of American Linguistics</source> <volume>61</volume>(<issue>3</issue>). <fpage>263</fpage>&#8211;<lpage>294</lpage>. DOI: <pub-id pub-id-type="doi">10.1086/466256</pub-id></mixed-citation></ref>
+<ref id="B30"><mixed-citation publication-type="journal"><string-name><surname>Dixon</surname>, <given-names>Robert. M. W.</given-names></string-name> <year>2000</year>. <article-title>Categories of the noun phrase in Jarawara</article-title>. <source>Journal of Linguistics</source> <volume>36</volume>(<issue>3</issue>). <fpage>487</fpage>&#8211;<lpage>510</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0022226700008367</pub-id></mixed-citation></ref>
+<ref id="B31"><mixed-citation publication-type="book"><string-name><surname>Dixon</surname>, <given-names>Robert. M. W.</given-names></string-name> <year>2004</year>. <source>The Jarawara language of Southern Amazonia</source>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oso/9780199270675.001.0001</pub-id></mixed-citation></ref>
+<ref id="B32"><mixed-citation publication-type="book"><string-name><surname>Frampton</surname>, <given-names>Jon</given-names></string-name> &amp; <string-name><surname>Gutmann</surname>, <given-names>Sam</given-names></string-name>. <year>2000</year>. <chapter-title>Agreement is feature sharing. Ms</chapter-title>. <publisher-name>Northeastern University</publisher-name>.</mixed-citation></ref>
+<ref id="B33"><mixed-citation publication-type="book"><string-name><surname>Gazdar</surname>, <given-names>Gerald</given-names></string-name> &amp; <string-name><surname>Pullum</surname>, <given-names>Geoffrey K.</given-names></string-name> <year>1982</year>. <source>Generalized Phrase Structure Grammar: A theoretical synopsis</source>. <publisher-loc>Bloomington, IN</publisher-loc>: <publisher-name>Indiana University Linguistics Club</publisher-name>.</mixed-citation></ref>
+<ref id="B34"><mixed-citation publication-type="book"><string-name><surname>Haug</surname>, <given-names>Dag</given-names></string-name>. <year>2023</year>. <chapter-title>Agreement</chapter-title>. In <string-name><surname>Dalrymple</surname>, <given-names>Mary</given-names></string-name> (ed.), <source>Handbook of Lexical Functional Grammar</source>, <fpage>193</fpage>&#8211;<lpage>218</lpage>. <publisher-loc>Berlin</publisher-loc>: <publisher-name>Language Science Press</publisher-name>. <pub-id pub-id-type="doi">10.5281/zenodo.10185942</pub-id></mixed-citation></ref>
+<ref id="B35"><mixed-citation publication-type="book"><string-name><surname>Haug</surname>, <given-names>Dag Trygve Truslew</given-names></string-name> &amp; <string-name><surname>Nikitina</surname>, <given-names>Tatiana</given-names></string-name>. <year>2012</year>. <chapter-title>The many cases of non-finite subjects: The challenge of &#8220;dominant&#8221; participles</chapter-title>. In <string-name><surname>Butt</surname>, <given-names>Miriam</given-names></string-name> &amp; <string-name><surname>King</surname>, <given-names>Tracy Holloway</given-names></string-name> (eds), <source>Proceedings of the LFG &#8217;12 Conference</source>, <fpage>292</fpage>&#8211;<lpage>311</lpage>. <publisher-loc>Stanford, CA</publisher-loc>: <publisher-name>CSLI Publications</publisher-name>.</mixed-citation></ref>
+<ref id="B36"><mixed-citation publication-type="journal"><string-name><surname>Haug</surname>, <given-names>Dag Trygve Truslew</given-names></string-name> &amp; <string-name><surname>Nikitina</surname>, <given-names>Tatiana</given-names></string-name>. <year>2016</year>. <article-title>Feature sharing in agreement</article-title>. <source>Natural Language &amp; Linguistic Theory</source> <volume>34</volume>. <fpage>865</fpage>&#8211;<lpage>910</lpage>. DOI: <pub-id pub-id-type="doi">10.1007/s11049-015-9321-9</pub-id></mixed-citation></ref>
+<ref id="B37"><mixed-citation publication-type="book"><string-name><surname>Heine</surname>, <given-names>Bernd</given-names></string-name>. <year>1997</year>. <source>Possession</source>. <publisher-loc>Cambridge</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>.</mixed-citation></ref>
+<ref id="B38"><mixed-citation publication-type="journal"><string-name><surname>Herce</surname>, <given-names>Borja</given-names></string-name>. <year>2020</year>. <article-title>On morphemes and morphomes: Exploring the distinction</article-title>. <source>Word Structure</source> <volume>13</volume>(<issue>1</issue>). <fpage>45</fpage>&#8211;<lpage>68</lpage>. DOI: <pub-id pub-id-type="doi">10.3366/word.2020.0159</pub-id></mixed-citation></ref>
+<ref id="B39"><mixed-citation publication-type="book"><string-name><surname>Herce</surname>, <given-names>Borja</given-names></string-name> <year>2023</year>. <source>The typological diversity of morphomes</source>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oso/9780192864598.001.0001</pub-id></mixed-citation></ref>
+<ref id="B40"><mixed-citation publication-type="book"><string-name><surname>Kathol</surname>, <given-names>Andreas</given-names></string-name>. <year>1999</year>. <chapter-title>Agreement and the syntax-morphology interface in HPSG</chapter-title>. In <string-name><surname>Levine</surname>, <given-names>Robert</given-names></string-name> &amp; <string-name><surname>Green</surname>, <given-names>Georgia</given-names></string-name> (eds), <source>Studies in contemporary phrase structure grammar</source>, <fpage>223</fpage>&#8211;<lpage>274</lpage>. <publisher-loc>Cambridge</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1017/CBO9780511554421.007</pub-id></mixed-citation></ref>
+<ref id="B41"><mixed-citation publication-type="book"><string-name><surname>Keine</surname>, <given-names>Stefan</given-names></string-name>. Forthcoming. <chapter-title>&#934;-feature sharing</chapter-title>. To appear in <string-name><surname>Grohmann</surname>, <given-names>Kleanthes K.</given-names></string-name> &amp; <string-name><surname>Leivada</surname>, <given-names>Evelina</given-names></string-name> (eds), <source>The Cambridge handbook of the Minimalist Program</source>. <publisher-loc>Cambridge</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>.</mixed-citation></ref>
+<ref id="B42"><mixed-citation publication-type="book"><string-name><surname>Koontz-Garboden</surname>, <given-names>Andrew</given-names></string-name>. <year>2016</year>. <chapter-title>Thoughts on diagnosing morphomicity: A case study from Ulwa</chapter-title>. In <string-name><surname>Lu&#237;s</surname>, <given-names>Ana R.</given-names></string-name> &amp; <string-name><surname>Bermu&#769;dez-Otero</surname>, <given-names>Ricardo</given-names></string-name> (eds), <source>The morphome debate</source>, <fpage>89</fpage>&#8211;<lpage>111</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/acprof:oso/9780198702108.003.0005</pub-id></mixed-citation></ref>
+<ref id="B43"><mixed-citation publication-type="journal"><string-name><surname>Legate</surname>, <given-names>Julie Anne</given-names></string-name>. <year>2005</year>. <article-title>Phases and cyclic agreement</article-title>. <source>MIT Working Papers in Linguistics</source> <volume>49</volume>. <fpage>147</fpage>&#8211;<lpage>156</lpage>.</mixed-citation></ref>
+<ref id="B44"><mixed-citation publication-type="thesis"><string-name><surname>Lieber</surname>, <given-names>Rochelle</given-names></string-name>. <year>1980</year>. <source>On the organization of the lexicon</source>. <publisher-loc>Durham, NH</publisher-loc>: <publisher-name>University of New Hampshire</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B45"><mixed-citation publication-type="journal"><string-name><surname>Lowe</surname>, <given-names>John J.</given-names></string-name> <year>2016</year>. <article-title>English possessive &#8217;s: Clitic and affix</article-title>. <source>Natural Language &amp; Linguistic Theory</source> <volume>34</volume>. <fpage>157</fpage>&#8211;<lpage>195</lpage>. DOI: <pub-id pub-id-type="doi">10.1007/s11049-015-9300-1</pub-id></mixed-citation></ref>
+<ref id="B46"><mixed-citation publication-type="journal"><string-name><surname>Maiden</surname>, <given-names>Martin</given-names></string-name>. <year>1992</year>. <article-title>Irregularity as a determinant of morphological change</article-title>. <source>Journal of Linguistics</source> <volume>28</volume>(<issue>2</issue>). <fpage>285</fpage>&#8211;<lpage>312</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0022226700015231</pub-id></mixed-citation></ref>
+<ref id="B47"><mixed-citation publication-type="journal"><string-name><surname>Maiden</surname>, <given-names>Martin</given-names></string-name>. <year>2005</year>. <article-title>Morphological autonomy and diachrony</article-title>. <source>Yearbook of Morphology 2004</source>. <fpage>137</fpage>&#8211;<lpage>75</lpage>. DOI: <pub-id pub-id-type="doi">10.1007/1-4020-2900-4_6</pub-id></mixed-citation></ref>
+<ref id="B48"><mixed-citation publication-type="book"><string-name><surname>Maiden</surname>, <given-names>Martin</given-names></string-name>. <year>2018</year>. <source>The Romance verb: Morphomic structure and diachrony</source>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oso/9780199660216.001.0001</pub-id></mixed-citation></ref>
+<ref id="B49"><mixed-citation publication-type="journal"><string-name><surname>Maiden</surname>, <given-names>Martin</given-names></string-name>. <year>2021</year>. <article-title>The morphome</article-title>. <source>Annual Review of Linguistics</source> 2021 <volume>7</volume>(<issue>1</issue>). <fpage>89</fpage>&#8211;<lpage>108</lpage>. DOI: <pub-id pub-id-type="doi">10.1146/annurev-linguistics-040220-042614</pub-id></mixed-citation></ref>
+<ref id="B50"><mixed-citation publication-type="webpage"><string-name><surname>Marquardt</surname>, <given-names>Christine</given-names></string-name>. <year>2020</year>. <source>Topic agreement in Jarawara</source>. Paper presented at 43rd Generative Linguistics in the Old World Conference (GLOW 43). Available at: <uri>https://osf.io/un7zy</uri></mixed-citation></ref>
+<ref id="B51"><mixed-citation publication-type="journal"><string-name><surname>Meakins</surname>, <given-names>Felicity</given-names></string-name> &amp; <string-name><surname>Nordlinger</surname>, <given-names>Rachel</given-names></string-name>. <year>2017</year>. <article-title>Possessor dissension</article-title>. <source>Linguistic Typology</source> <volume>21</volume>(<issue>1</issue>). <fpage>143</fpage>&#8211;<lpage>176</lpage>. DOI: <pub-id pub-id-type="doi">10.1515/lingty-2017-0004</pub-id></mixed-citation></ref>
+<ref id="B52"><mixed-citation publication-type="book"><string-name><surname>Myler</surname>, <given-names>Neil</given-names></string-name>. <year>2016</year>. <source>Building and interpreting possession sentences</source>. <publisher-loc>Cambridge, MA</publisher-loc>: <publisher-name>MIT Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.7551/mitpress/9780262034913.003.0004</pub-id></mixed-citation></ref>
+<ref id="B53"><mixed-citation publication-type="journal"><string-name><surname>Nichols</surname>, <given-names>Johanna</given-names></string-name>. <year>2017</year>. <article-title>Person as an inflectional category</article-title>. <source>Linguistic Typology</source> <volume>21</volume>(<issue>3</issue>). <fpage>387</fpage>&#8211;<lpage>456</lpage>. DOI: <pub-id pub-id-type="doi">10.1515/lingty-2017-0010</pub-id></mixed-citation></ref>
+<ref id="B54"><mixed-citation publication-type="journal"><string-name><surname>Nikitina</surname>, <given-names>Tatiana</given-names></string-name> &amp; <string-name><surname>Haug</surname>, <given-names>Dag Trygve Truslew</given-names></string-name>. <year>2015</year>. <article-title>Syntactic nominalization in Latin: A case of non-canonical subject agreement</article-title>. <source>Transactions of the Philological Society</source> <volume>113</volume> (<issue>1</issue>). <fpage>1</fpage>&#8211;<lpage>26</lpage>. DOI: <pub-id pub-id-type="doi">10.1111/1467-968X.12061</pub-id></mixed-citation></ref>
+<ref id="B55"><mixed-citation publication-type="book"><string-name><surname>Nikolaeva</surname>, <given-names>Irina</given-names></string-name>. <year>2014a</year>. <source>Internal prominent possessors</source>. Paper presented at the Syntax of World Languages VI, <publisher-name>University of Pavia</publisher-name>, <publisher-loc>Italy</publisher-loc>, <month>September</month> 2014.</mixed-citation></ref>
+<ref id="B56"><mixed-citation publication-type="book"><string-name><surname>Nikolaeva</surname>, <given-names>Irina</given-names></string-name>. <year>2014b</year>. <source>A grammar of Tundra Nenets</source>. <publisher-loc>Berlin</publisher-loc>: <publisher-name>de Gruyter</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1515/9783110320640</pub-id></mixed-citation></ref>
+<ref id="B57"><mixed-citation publication-type="book"><string-name><surname>Nikolaeva</surname>, <given-names>Irina</given-names></string-name> &amp; <string-name><surname>B&#225;r&#225;ny</surname>, <given-names>Andr&#225;s</given-names></string-name> &amp; <string-name><surname>Bond</surname>, <given-names>Oliver</given-names></string-name>. <year>2019</year>. <chapter-title>Towards a typology of Prominent Internal Possessors</chapter-title>. In <string-name><surname>B&#225;r&#225;ny</surname>, <given-names>Andr&#225;s</given-names></string-name> &amp; <string-name><surname>Bond</surname>, <given-names>Oliver</given-names></string-name> &amp; <string-name><surname>Nikolaeva</surname>, <given-names>Irina</given-names></string-name> (eds), <source>Prominent Internal Possessors</source>, <fpage>1</fpage>&#8211;<lpage>38</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oso/9780198812142.003.0001</pub-id></mixed-citation></ref>
+<ref id="B58"><mixed-citation publication-type="thesis"><string-name><surname>Norris</surname>, <given-names>Mark</given-names></string-name>. <year>2014</year>. <source>A theory of nominal concord</source>. <publisher-loc>Santa Cruz, CA</publisher-loc>: <publisher-name>University of California Santa Cruz</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B59"><mixed-citation publication-type="book"><string-name><surname>Pesetsky</surname>, <given-names>David</given-names></string-name> &amp; <string-name><surname>Torrego</surname>, <given-names>Esther</given-names></string-name>. <year>2007</year>. <chapter-title>The syntax of valuation and the interpretability of features</chapter-title>. In <string-name><surname>Karimi</surname>, <given-names>Simin</given-names></string-name> &amp; <string-name><surname>Samiian</surname>, <given-names>Visa</given-names></string-name> &amp; <string-name><surname>Wilkins</surname>, <given-names>Wendy K.</given-names></string-name> (eds), <source>Phrasal and clausal architecture: Syntactic derivation and interpretation</source>, <fpage>262</fpage>&#8211;<lpage>294</lpage>. <publisher-loc>Amsterdam</publisher-loc>: <publisher-name>Benjamins</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1075/la.101.14pes</pub-id></mixed-citation></ref>
+<ref id="B60"><mixed-citation publication-type="book"><string-name><surname>Pollard</surname> <given-names>Carl J</given-names></string-name>. &amp; <string-name><surname>Ivan Sag</surname> <given-names>A.</given-names></string-name> <year>1987</year>. <source>Information-based syntax and semantics</source>. <publisher-loc>Stanford, CA</publisher-loc>: <publisher-name>CSLI Publications</publisher-name>.</mixed-citation></ref>
+<ref id="B61"><mixed-citation publication-type="book"><string-name><surname>Pollard</surname>, <given-names>Carl J.</given-names></string-name> &amp; <string-name><surname>Sag</surname>, <given-names>Ivan A</given-names></string-name>. <year>1994</year>. <source>Head-Driven Phrase Structure Grammar</source>. <publisher-loc>Chicago</publisher-loc>: <publisher-name>University of Chicago Press</publisher-name>.</mixed-citation></ref>
+<ref id="B62"><mixed-citation publication-type="journal"><string-name><surname>Round</surname>, <given-names>Erich R.</given-names></string-name> <year>2011</year>. <article-title>Morphomes as a level of representation capture unity of exponence across the inflection&#8211;derivation divide</article-title>. <source>Linguistica</source> <volume>51</volume>. <fpage>217</fpage>&#8211;<lpage>30</lpage>. DOI: <pub-id pub-id-type="doi">10.4312/linguistica.51.1.217-230</pub-id></mixed-citation></ref>
+<ref id="B63"><mixed-citation publication-type="book"><string-name><surname>Round</surname>, <given-names>Erich R.</given-names></string-name> <year>2015</year>. <chapter-title>Rhizomorphomes, meromorphomes, and metamorphomes</chapter-title>. In <string-name><surname>Baerman</surname>, <given-names>Matthew</given-names></string-name> &amp; <string-name><surname>Brown</surname>, <given-names>Dunstan</given-names></string-name> &amp; <string-name><surname>Corbett</surname>, <given-names>Greville G.</given-names></string-name> (eds), <source>Understanding and measuring morphological complexity</source>, <fpage>29</fpage>&#8211;<lpage>52</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/acprof:oso/9780198723769.003.0003</pub-id></mixed-citation></ref>
+<ref id="B64"><mixed-citation publication-type="book"><string-name><surname>Sadler</surname>, <given-names>Louisa</given-names></string-name>. <year>2000</year>. <chapter-title>Noun phrase structure in Welsh</chapter-title>. In <string-name><surname>Butt</surname>, <given-names>Miriam</given-names></string-name> &amp; <string-name><surname>King</surname>, <given-names>Tracy Holloway</given-names></string-name> (eds), <source>Argument realization</source>, <fpage>73</fpage>&#8211;<lpage>109</lpage>. <publisher-loc>Stanford, CA</publisher-loc>: <publisher-name>CSLI Publications</publisher-name>.</mixed-citation></ref>
+<ref id="B65"><mixed-citation publication-type="journal"><string-name><surname>Sadler</surname>, <given-names>Louisa</given-names></string-name>. <year>2019</year>. <article-title>Multiple controllers in nominal modification</article-title>. <source>Argumentum</source> <volume>15</volume>. <fpage>617</fpage>&#8211;<lpage>638</lpage>.</mixed-citation></ref>
+<ref id="B66"><mixed-citation publication-type="book"><string-name><surname>Smith</surname>, <given-names>John Charles</given-names></string-name>. <year>2013</year>. <chapter-title>The morphome as a gradient phenomenon: Evidence from Romance</chapter-title>. In <string-name><surname>Cruschina</surname>, <given-names>Silvio</given-names></string-name> &amp; <string-name><surname>Maiden</surname>, <given-names>Martin</given-names></string-name> &amp; <string-name><surname>Smith</surname>, <given-names>John Charles</given-names></string-name> (eds), <source>The boundaries of pure morphology</source>, <fpage>247</fpage>&#8211;<lpage>61</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/acprof:oso/9780199678860.003.0013</pub-id></mixed-citation></ref>
+<ref id="B67"><mixed-citation publication-type="book"><string-name><surname>Spencer</surname>, <given-names>Andrew</given-names></string-name>. <year>2016</year>. <chapter-title>Stems, the morphome and meaning-bearing inflection</chapter-title>. In <string-name><surname>Lu&#237;s</surname>, <given-names>Ana R.</given-names></string-name> &amp; <string-name><surname>Bermu&#769;dez-Otero</surname>, <given-names>Ricardo</given-names></string-name> (eds), <source>The morphome debate</source>, <fpage>207</fpage>&#8211;<lpage>27</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/acprof:oso/9780198702108.003.0008</pub-id></mixed-citation></ref>
+<ref id="B68"><mixed-citation publication-type="book"><string-name><surname>Stassen</surname>, <given-names>Leon</given-names></string-name>. <year>2009</year>. <source>Predicative possession</source>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oso/9780199211654.001.0001</pub-id></mixed-citation></ref>
+<ref id="B69"><mixed-citation publication-type="book"><string-name><surname>Trommer</surname>, <given-names>Jochen</given-names></string-name>. <year>2016</year>. <chapter-title>A postsyntactic morphome cookbook</chapter-title>. In <string-name><surname>Siddiqi</surname>, <given-names>Daniel</given-names></string-name> &amp; <string-name><surname>Harley</surname>, <given-names>Heidi</given-names></string-name> (eds), <source>Morphological metatheory</source>, <fpage>59</fpage>&#8211;<lpage>93</lpage>. <publisher-loc>Amsterdam</publisher-loc>: <publisher-name>John Benjamins</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1075/la.229.03tro</pub-id></mixed-citation></ref>
+<ref id="B70"><mixed-citation publication-type="thesis"><string-name><surname>Vogel</surname>, <given-names>Alan Robert</given-names></string-name>. <year>1989</year>. <source>Gender and gender marking in Jaruara (Arauan)</source>. <publisher-loc>Arlington, TX</publisher-loc>: <publisher-name>University of Texas at Arlington</publisher-name> M.A. thesis.</mixed-citation></ref>
+<ref id="B71"><mixed-citation publication-type="book"><string-name><surname>Wechsler</surname>, <given-names>Stephen</given-names></string-name> &amp; <string-name><surname>Zlati&#263;</surname>, <given-names>Larisa</given-names></string-name>. <year>2003</year>. <source>The many faces of agreement</source>. <publisher-loc>Stanford, CA</publisher-loc>: <publisher-name>CSLI Publications</publisher-name>.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

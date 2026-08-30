@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zhang, Clayards &amp; Wagner (2024) — Focus and constituency in Mandarin and English</title>
+<style>
+  :root{
+    --ink:#1c1c1c; --mut:#6b6b6b; --rule:#e0e0e0; --accent:#7a2e2e; --paper:#fdfcfa;
+    --code:#f2efe9; --hl:#f7f2e7;
+  }
+  *{box-sizing:border-box}
+  body{font:17px/1.65 Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);
+       max-width:46rem;margin:0 auto;padding:3rem 1.5rem 6rem;}
+  h1{font-size:1.7rem;line-height:1.3;margin:0 0 .4rem;font-weight:600}
+  h2{font-size:1.15rem;margin:2.6rem 0 .6rem;font-weight:600;letter-spacing:.02em;
+     text-transform:uppercase;color:var(--accent)}
+  h3{font-size:1rem;margin:1.4rem 0 .4rem;font-weight:600}
+  .cite{color:var(--mut);font-size:.95rem;margin-bottom:2rem}
+  p{margin:.55rem 0}
+  ul,ol{margin:.5rem 0 .9rem;padding-left:1.4rem}
+  li{margin:.25rem 0}
+  blockquote{border-left:3px solid var(--rule);margin:1.1rem 0;padding:.2rem 0 .2rem 1.1rem;
+             color:#333;font-style:italic}
+  .gist{background:var(--hl);border:1px solid var(--rule);border-radius:4px;
+        padding:1.1rem 1.3rem;margin:1.4rem 0}
+  .gist ul{margin:.3rem 0 0}
+  .gist strong{font-variant:small-caps;letter-spacing:.04em}
+  code{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:.85em;
+       background:var(--code);padding:.1em .35em;border-radius:3px}
+  .tag{display:inline-block;font:600 .7rem/1.6 ui-monospace,monospace;letter-spacing:.08em;
+       text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+       border-radius:999px;padding:0 .6rem;margin:0 .3rem .3rem 0}
+  hr{border:0;border-top:1px solid var(--rule);margin:2.5rem 0}
+  .foot{font-size:.85rem;color:var(--mut)}
+  a{color:var(--accent)}
+  .nav{font-size:.85rem;margin-bottom:2rem}
+  .nav a{margin-right:.8rem}
+</style>
+</head>
+<body>
+
+<nav class="nav"><a href="synthesis.html">← Consolidated synthesis</a></nav>
+
+<h1>Prosodic effects of focus and constituency in Mandarin and in English</h1>
+<div class="cite">Wei Zhang, Meghan Clayards &amp; Michael Wagner — <em>Laboratory Phonology: Journal of the Association for Laboratory Phonology</em>, 15(1), 1–45 (2024). DOI: <a href="https://doi.org/10.16995/labphon.9704">10.16995/labphon.9704</a></div>
+
+<div class="gist">
+<strong>The gist.</strong> A matched production study (17 speakers per language) crossing focus position (A/B/C/wide) with constituent structure ([A or B] and C vs A or [B and C]) in coordinate name sequences, comparing English (a "stress-based" focus language) with Mandarin (a "pitch-range-based" one). Two headline results: (1) <strong>focus does not erase post-focal phrasing cues</strong> — syntactically-motivated phrasing distinctions survive after an early focus in <em>both</em> languages (constituency classification accuracy is high even when initial focus is correctly realised), supporting an <em>orthogonal/additive</em> model of prominence and phrasing; (2) the languages differ mainly in <em>cue weighting</em>, not kind: Mandarin relies more on f0 (and shows more extreme post-focal f0 compression), English more on duration; Mandarin lexical tone (T1 vs T4) modulates focus realisation, English stress pattern (initial vs final) modulates it. Intensity was a reliable phrasing cue in both languages.
+</div>
+
+<h2>What the paper does</h2>
+<p>Participants produced answers like "Not X or Y and Z who went…" in dialogue contexts where figures conveyed the intended bracketing (no commas — avoiding the direct-phrasing confound of earlier reading tasks, contra Wagner &amp; McAuliffe 2019). Eight syllables per utterance; duration, max f0, mean intensity extracted per syllable. Analysis via (a) random-forest classifiers (which cues best classify focus/constituency, and whether constituency survives post-focally), and (b) linear mixed models testing focus×constituency interactions per cue per syllable.</p>
+
+<h2>Key findings</h2>
+<ul>
+  <li><strong>No focus×constituency interaction in either language</strong> (LMMs: the interaction was non-significant in ~all models; one isolated Mandarin duration effect didn't replicate in combined-language models). Phrasing cues persist post-focally: constituency accuracy was <em>higher</em>, not lower, when initial focus was accurately classified — i.e. the phrasing signal wasn't traded off against the focus signal.</li>
+  <li><strong>Cue-weight differences:</strong> focus classification was driven most by f0 in Mandarin (65.9% accuracy) and by duration in English (51.3%); post-focal f0 compression was far larger in Mandarin (−31 to −44 Hz extra lowering) — consistent with the "pitch-range-based" typology, but only as a matter of degree, since both languages used all cues.</li>
+  <li><strong>Phrasing cues:</strong> pre-boundary syllables were longer and lower in intensity in both languages (2-syllable pre-boundary lengthening window; intensity lowering confined to the last syllable); the coordinator words themselves carried strong phrasing information in Mandarin; f0 played little consistent role in boundary marking (list-intonation confounds in English).</li>
+  <li><strong>Focus-vs-phrase-prominence overlap:</strong> B-focus (the middle, phrase-internal name) was the hardest to classify — focused B was acoustically confusable with phrase-final prominence, illustrating that lengthening is an overlapped cue for both dimensions (the "cue-anti-correlation" story from Wagner 2022).</li>
+  <li><strong>Lexical prosody interacts:</strong> T4 (falling tone) names used f0 more than T1 for focus; final-stressed English names concentrated focus cues on the stressed syllable.</li>
+</ul>
+
+<h2>Interpretation &amp; caveats</h2>
+<p>Results favour theories that keep prominence and phrasing representationally separate (Wagner &amp; McAuliffe 2019; additive prosody models) over accounts predicting post-focal neutralisation of phrasing. Caveats: English data collected online vs Mandarin in person; Mandarin second syllables were a controlled honorific while English ones varied; only coordinate structures tested; reading-like (though context-driven) speech.</p>
+
+<h2>Relevance to Calliope-TS</h2>
+<p>This is one of the two most directly pertinent papers in this set for Calliope (the other being the Moghiseh/Sonderegger/Wagner ITL paper), because it is Wagner's own lab validating, cross-linguistically, the two-dimensional architecture Calliope already implements:</p>
+<ul>
+  <li><strong>Insight: prominence and phrasing must stay separate axes.</strong> Calliope already keeps <code>phraseStress</code> (an integer ranking) separate from the κ/ϕ/ι hierarchy. This paper is strong empirical backing for that split: focus (prominence) and constituency (phrasing) are orthogonal in production, so the pipeline is right to compute them in separate stages and combine additively — and the <em>interaction</em> terms Calliope implicitly assumes (e.g. post-focal compression affecting key-stress strength) should be treated as second-order, not first-order.</li>
+  <li><strong>Insight: the "beginnings free, endings strict" logic is consistent with post-focal preservation of phrasing.</strong> Key stresses at right edges of IU/PP remain valid evidence even after an early focus — the meter layer may rely on them without fearing erasure.</li>
+  <li><strong>Insight: cue-weighting by language.</strong> For the Russian side of Calliope (a pitch/accent-based system) and any future languages, the paper supports language-specific cue profiles (f0-heavy vs duration-heavy) — and warns that the difference is gradient, so "stress-based vs pitch-range-based" should be a parameter, not a binary flag. The Russian pipeline's reliance on accentology (stress dictionaries + neural accentuator) is exactly the kind of f0/register-cue system this paper describes.</li>
+  <li><strong>Insight: lexical prosody modulates focus realisation.</strong> Tone type (Mandarin) and stress position (English) both modulate how focus is acoustically realised — a reminder that lexical strata (Calliope's CMU-derived contours) legitimately feed back into phrase-level decisions, and that tone-language support can't simply borrow English focus rules.</li>
+  <li><strong>Methodological transfer:</strong> random-forest feature-importance analysis is a ready-made diagnostic for Calliope's own rule weights — e.g. measuring which constraints actually carry the information in the metrical fitter's decision (a "which cues matter" audit analogous to the paper's per-language cue ranking).</li>
+</ul>
+
+<h2>Key named insights</h2>
+<ol>
+  <li><strong>Post-focal phrasing survives:</strong> focus does not neutralise syntactically-motivated phrasing distinctions, in stress-based or pitch-range-based languages alike.</li>
+  <li><strong>Orthogonality by design:</strong> prominence and phrasing are additively encoded; cue overlap (lengthening) is the main source of local ambiguity, resolved by cue anti-correlation.</li>
+  <li><strong>Gradient typology:</strong> "stress-based vs pitch-range-based" is a difference in cue weights and post-focal compression depth, not a categorical split.</li>
+  <li><strong>Tone/stress interplay:</strong> lexical tone and stress position shape how focus cues are deployed — lexical phonology leaks into phrase prosody in systematic ways.</li>
+</ol>
+
+<hr>
+<p class="foot"><strong>Citation:</strong> Zhang, W., Clayards, M., &amp; Wagner, M. (2024). Prosodic effects of focus and constituency in Mandarin and in English. <em>Laboratory Phonology: Journal of the Association for Laboratory Phonology</em>, 15(1), 1–45. <a href="https://doi.org/10.16995/labphon.9704">https://doi.org/10.16995/labphon.9704</a></p>
+<p class="foot"><strong>Key references inside:</strong> Wagner &amp; McAuliffe (2019); Kügler &amp; Calhoun (2020); Kügler &amp; Féry (2017); Norcliffe &amp; Jaeger (2005); Xu (1999); Chen &amp; Gussenhoven (2008); Vander Klok, Goad &amp; Wagner (2018); Wu (2021); Yan &amp; Calhoun (2020). OSF: <a href="https://osf.io/2wnjm/">osf.io/2wnjm</a>.</p>
+
+</body>
+</html>

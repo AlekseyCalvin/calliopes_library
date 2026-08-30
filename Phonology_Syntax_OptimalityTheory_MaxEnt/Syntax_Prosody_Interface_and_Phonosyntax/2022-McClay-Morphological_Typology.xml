@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.2/JATS-journalpublishing1.dtd">
+<!--<?xml-stylesheet type="text/xsl" href="article.xsl"?>-->
+<article article-type="research-article" dtd-version="1.2" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<front>
+<journal-meta>
+<journal-id journal-id-type="issn">2397-1835</journal-id>
+<journal-title-group>
+<journal-title>Glossa: a journal of general linguistics</journal-title>
+</journal-title-group>
+<issn pub-type="epub">2397-1835</issn>
+<publisher>
+<publisher-name>Open Library of Humanities</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.16995/glossa.9564</article-id>
+<article-categories>
+<subj-group>
+<subject>Research article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Prosodic realization and interpretation of English imperatives</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<name>
+<surname>McClay</surname>
+<given-names>Elise</given-names>
+</name>
+<email>emcclay@sfu.ca</email>
+<xref ref-type="aff" rid="aff-1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Keough</surname>
+<given-names>Megan</given-names>
+</name>
+<email>megan.e.keough@gmail.com</email>
+<xref ref-type="aff" rid="aff-1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Babel</surname>
+<given-names>Molly</given-names>
+</name>
+<email>molly.babel@ubc.ca</email>
+<xref ref-type="aff" rid="aff-1">1</xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Matthewson</surname>
+<given-names>Lisa</given-names>
+</name>
+<email>lisa.matthewson@ubc.ca</email>
+<xref ref-type="aff" rid="aff-1">1</xref>
+</contrib>
+</contrib-group>
+<aff id="aff-1"><label>1</label>Department of Linguistics, University of British Columbia, CA</aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2023-09-13">
+<day>13</day>
+<month>09</month>
+<year>2023</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2023</year>
+</pub-date>
+<volume>8</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>36</lpage>
+<permissions>
+<copyright-statement>Copyright: &#x00A9; 2023 The Author(s)</copyright-statement>
+<copyright-year>2023</copyright-year>
+<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International License (CC-BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. See <uri xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</uri>.</license-p>
+</license>
+</permissions>
+<self-uri xlink:href="http://www.glossa-journal.org/articles/10.16995/glossa.9564/"/>
+<abstract>
+<p>Imperative clauses can communicate a number of speech acts, and differences in intonation have been argued to prompt different interpretations. So far, however, limited phonetic evidence has been presented for such proposals. The focus in the current work is on maximally strong imperatives (commands) and weaker imperatives (mainly involving advice) in English. We report on a series of phonetic experiments intended to address whether listeners reliably associate stronger and weaker imperatives with idealized intonation (Experiment 1) and whether speakers produce these two types of imperatives differently (Experiment 2). Individual variability in our production data led us to test whether listeners can map the variable pronunciation patterns found in Experiment 2 to stronger and weaker imperatives (Experiment 3), as they did with the idealized pronunciations in Experiment 1. Despite substantial cross-talker intonation variation, listeners&#8217; stronger/weaker imperative recognition performance paralleled accuracy with the idealized productions. Analysis of the whole utterances indicates that speech rate and global pitch setting work along with the final intonation contour to signal semantic meaning in English imperatives. These results suggest that the mapping between meaning and form is complex and involves redundancy.</p>
+</abstract>
+</article-meta>
+</front>
+<body>
+<sec>
+<title>1 Introduction</title>
+<p>English imperative clauses can be used to convey a range of speech acts, including commanding, requesting, warning, giving advice, and giving permission. Some of these different functions are illustrated in (1).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(1)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Read this!&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;COMMAND</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Turn on the light, please.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;REQUEST</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>c.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Take the A train if you want to go to Harlem.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ADVICE</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>d.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>(It starts at eight, but) come earlier if you like!&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PERMISSION</p></list-item>
+<list-item><p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(adapted from <xref ref-type="bibr" rid="B29">Kaufmann 2012: 12&#8211;13</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Although the lexical content of an imperative can influence the most likely speech act it performs, the same string can also be used to perform a variety of different speech acts, as shown for the sentence in (2) in the contexts in (2a&#8211;d).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(2)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Turn on the light.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>From a sergeant to a corporal.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;COMMAND</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Asking a friend who is closer to the light switch.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;REQUEST</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>c.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Offering a tip about how to see better to read.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ADVICE</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>d.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>I&#8217;m not sleeping, so go ahead if you want to, &#8230;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PERMISSION</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Some researchers have proposed that intonation can be used to disambiguate the different interpretations of imperatives; see for example Chatzikonstantinou (<xref ref-type="bibr" rid="B10">2013</xref>), Oikonomou (<xref ref-type="bibr" rid="B40">2016</xref>), Jeong &amp; Condoravdi (<xref ref-type="bibr" rid="B26">2017</xref>), Portner (<xref ref-type="bibr" rid="B46">2018</xref>), and Rudin (<xref ref-type="bibr" rid="B49">2018</xref>). With the exception of Oikonomou&#8217;s work on Greek, all the prior studies focus on the intonation/meaning connection in English imperatives. Claims have been made that command imperatives are prosodically distinct from permission imperatives (<xref ref-type="bibr" rid="B40">Oikonomou 2016</xref>) and even from advice imperatives (<xref ref-type="bibr" rid="B10">Chatzikonstantinou 2013</xref>, and some indications in <xref ref-type="bibr" rid="B41">Oikonomou 2022</xref>). For Portner (<xref ref-type="bibr" rid="B46">2018</xref>), the intonational difference is claimed to correlate with whether the content of the imperative is presented as being the speaker&#8217;s priority (as with commands), or the addressee&#8217;s (as with permission, invitations, and some types of advice). However, no full studies have been carried out to determine the exact intonational properties of imperatives, nor to establish which intonation patterns associate with which semantic or pragmatic properties.</p>
+<p>In this paper we report on a series of phonetic experiments designed to address the questions in (3). The questions are in principle cross-linguistic and need to be answered for a diverse range of languages, but here we focus on English.<xref ref-type="fn" rid="n1">1</xref></p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(3)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>i.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Do speakers produce &#8216;command&#8217; and &#8216;non-command&#8217; imperatives with different prosody?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>ii.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>If yes, what are the prosodic characteristics of the different uses of imperatives?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>iii.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Do listeners use these production cues in their perception in order to disambiguate between different types of imperative?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>iv.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>How should prosody-semantics interactions in imperatives be analyzed?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Our studies suggest that English speakers do produce the two types of imperatives with different prosody, and that English listeners are able to use production cues in their perception in order to disambiguate meaning. However, we found that there is substantial variability in the intonational contours used by speakers, making it difficult to assign particular meanings to specific intonational melodies. Instead, we discovered some robust patterns, which we refer to as &#8220;macro&#8221; prosodic settings, involving overall speech rate and pitch height, that correlate with the command/advice imperative distinction. An examination of productions that elicit unanimous agreement in their semantic meaning also suggests that the realization of the nuclear pitch accent in imperatives cues the strong or weak reading. This leads us tentatively to suggest that there are prosodic morphemes that consist not solely of particular tonal contours, but instead of macro settings involving overall speech rate and pitch height and nuclear pitch accent.</p>
+<p>In section 2, we provide some brief semantic and prosodic background, and in section 3 we give an overview of prior contributions on the prosody-meaning connection in imperatives. Sections 4 through 6 report on our three experiments. Experiment 1 investigated whether listeners associate &#8216;idealized&#8217; distinct prosodies with command and non-command imperatives (mostly advice uses, with some permission tokens). Experiment 2 was a production experiment, eliciting imperatives from participants. Experiment 3 tested an independent group of listeners&#8217; interpretation of the natural productions from Experiment 2. In Section 7 we examine the prosodic patterns of a subset of utterances. We conclude in Section 8 with speculations about the implications of our results for the analysis of prosody-meaning interactions.</p>
+</sec>
+<sec>
+<title>2 Semantic and prosodic background</title>
+<p>The optimal analysis of the semantics and pragmatics of imperatives is a matter of lively debate in current literature. One major point of contention concerns whether imperatives semantically contain modal operators (<xref ref-type="bibr" rid="B22">Han 1999</xref>; <xref ref-type="bibr" rid="B23">2019</xref>; <xref ref-type="bibr" rid="B50">Schwager 2006</xref>; <xref ref-type="bibr" rid="B17">Grosz 2009</xref>; <xref ref-type="bibr" rid="B12">Condoravdi &amp; Lauer 2012</xref>; <xref ref-type="bibr" rid="B29">Kaufmann 2012</xref>; <xref ref-type="bibr" rid="B30">Kaufmann &amp; Kaufmann 2016</xref>; <xref ref-type="bibr" rid="B40">Oikonomou 2016</xref>; <xref ref-type="bibr" rid="B41">2022</xref>; among others), or whether their directive force comes from the pragmatics instead (<xref ref-type="bibr" rid="B44">Portner 2004</xref>; <xref ref-type="bibr" rid="B45">2007</xref>; <xref ref-type="bibr" rid="B46">2018</xref>; <xref ref-type="bibr" rid="B8">Charlow 2010</xref>; <xref ref-type="bibr" rid="B9">2011</xref>; <xref ref-type="bibr" rid="B54">Starr 2010</xref>; <xref ref-type="bibr" rid="B53">2020</xref>; <xref ref-type="bibr" rid="B48">Roberts 2015</xref>; <xref ref-type="bibr" rid="B61">von Fintel &amp; Iatridou 2017</xref>, among others). A typical modal analysis can be (very roughly and informally) paraphrased as in (4), while a pragmatic analysis might be (similarly roughly and informally) summarized as in (5).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(4)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Modal approach:</p></list-item>
+<list-item><p>An imperative containing the property P truth-conditionally conveys &#8216;You must/should P&#8217; (and in addition presupposes that the context is such that an utterance of &#8216;You must/should P&#8217; is performative, i.e., functions to impose the obligation).</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(5)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Pragmatic approach:</p></list-item>
+<list-item><p>An imperative expressing the property P updates the discourse context so that P is added to the addressee&#8217;s set of future commitments or preferences.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>An important issue, faced by both strands of analysis, is how imperative constructions can receive a unified analysis, given their wide range of uses in discourse and in particular the difference between &#8216;strong&#8217; readings &#8212; like commands, requests, and some types of advice &#8212; and &#8216;weak&#8217; readings &#8212; like disinterested advice, invitations, and permission. Within a modal analysis, for example, the issue manifests itself as the fact that permission imperatives (like in (2d)) are not accurately paraphrased with the necessity modal <italic>must</italic>, and seem at first glance to reflect instead a possibility modal like <italic>may</italic>.</p>
+<p>The majority response to this problem has traditionally been to analyze the necessity readings as basic, and to derive permission (possibility) readings through a pragmatic weakening mechanism (e.g., <xref ref-type="bibr" rid="B50">Schwager 2006</xref>/<xref ref-type="bibr" rid="B29">Kaufmann 2012</xref>). Recently, some authors have gone in the other direction, proposing a basic interpretation which allows permission readings, plus a pragmatic strengthening mechanism to obtain necessity readings ( <xref ref-type="bibr" rid="B40">Oikonomou 2016</xref>; <xref ref-type="bibr" rid="B41">2022</xref>; Francis 2020). A third option is that there is a real ambiguity, so that necessity and possibility imperatives actually have different denotations; see e.g., Grosz (<xref ref-type="bibr" rid="B17">2009</xref>) and Carter (<xref ref-type="bibr" rid="B7">2021</xref>) for proposals of this type.</p>
+<p>Turning to the prosody-meaning connection, many authors have proposed the existence of prosodic elements whose presence changes the semantics or pragmatics of an utterance. See, for example, Pierrehumbert &amp; Hirschberg (<xref ref-type="bibr" rid="B43">1990</xref>); Gussenhoven (<xref ref-type="bibr" rid="B21">2004</xref>); Truckenbrodt (<xref ref-type="bibr" rid="B59">2012</xref>, <xref ref-type="bibr" rid="B60">2020</xref>); Bartels (<xref ref-type="bibr" rid="B1">2014</xref>), among many others. Some of the semantic or pragmatic phenomena that have been claimed to be influenced by prosody include quantifier scope (e.g., <xref ref-type="bibr" rid="B25">Jackendoff 1972</xref>; <xref ref-type="bibr" rid="B58">Sur&#225;nyi &amp; Turi 2020</xref>), rising declaratives (e.g., <xref ref-type="bibr" rid="B18">Gunlogson 2001</xref>, <xref ref-type="bibr" rid="B19">2008</xref>; <xref ref-type="bibr" rid="B14">Fletcher &amp; Loakes 2010</xref>; <xref ref-type="bibr" rid="B47">Ritchart &amp; Arvaniti 2013</xref>; <xref ref-type="bibr" rid="B24">Heim 2019</xref>; <xref ref-type="bibr" rid="B2">Bhadra 2020</xref>), information structural notions (<xref ref-type="bibr" rid="B55">Steedman 1991</xref>; <xref ref-type="bibr" rid="B56">2007</xref>; <xref ref-type="bibr" rid="B57">2014</xref>), and in general, the management of interlocutors&#8217; commitment and/or belief states (e.g., <xref ref-type="bibr" rid="B13">Davis 2009</xref>; <xref ref-type="bibr" rid="B36">Malamud &amp; Stephenson 2015</xref>; <xref ref-type="bibr" rid="B49">Rudin 2018</xref>; <xref ref-type="bibr" rid="B24">Heim 2019</xref>; <xref ref-type="bibr" rid="B2">Bhadra 2020</xref>).</p>
+<p>These and similar phenomena have led to the hypothesis that there are intonation-meaning mappings (i.e., prosodic morphemes) that contribute specific meanings apart from the sentence&#8217;s segmental material (<xref ref-type="bibr" rid="B43">Pierrehumbert &amp; Hirschberg 1990</xref>; <xref ref-type="bibr" rid="B55">Steedman 1991</xref>; <xref ref-type="bibr" rid="B21">Gussenhoven 2004; i.a</xref>.). If such prosodic morphemes exist, one possibility is that stronger and weaker imperatives in English are distinguished by a prosodic difference (for instance, H% vs. L%),<xref ref-type="fn" rid="n2">2</xref> but before we make this conclusion, we need evidence of systematicity between imperative prosody and interpretation. In the following section we provide an overview of prior work in the area of English imperative intonation.</p>
+</sec>
+<sec>
+<title>3 The prosody-meaning connection in imperatives</title>
+<p>In this section we review prior proposals about the correlation between interpretation and intonation in imperatives. We begin with the paper that inspired the current research, Portner (<xref ref-type="bibr" rid="B46">2018</xref>).</p>
+<p>Portner&#8217;s (<xref ref-type="bibr" rid="B46">2018</xref>) approach to imperatives, building on his earlier work (2004; 2007), involves a structured model of the context that captures interlocutors&#8217; commitments to both factual information and priorities. Mutual commitments to factual information are represented in the Common Ground, and mutual commitments to future priorities of interlocutors are provided by the mutual To-Do List. Each interlocutor also has their own individual commitments, both to facts and to priorities. Portner&#8217;s (<xref ref-type="bibr" rid="B46">2018</xref>) novel contribution is to propose that there is a difference in conventional effect between &#8216;falling imperatives&#8217; and &#8216;rising imperatives&#8217;, parallel to the falling/rising declarative distinction (<xref ref-type="bibr" rid="B18">Gunlogson 2001</xref>, among many others). Both falling and rising imperatives propose an addition to the addressee&#8217;s To-Do List, but in addition, &#8216;Rising imperatives propose the <italic>addressee&#8217;s</italic> commitment to treating the imperative&#8217;s content as a priority, while falling imperatives propose the <italic>speaker&#8217;s</italic> commitment&#8217; (<xref ref-type="bibr" rid="B46">Portner 2018: 307</xref>; emphasis added).</p>
+<p>To illustrate, Portner&#8217;s proposal is that the imperative <italic>Have a seat</italic>, when uttered with falling intonation, is used when the speaker is directing the addressee to sit down, and is not taking the addressee&#8217;s priorities into account. When uttered with rising intonation, the same string <italic>Have a seat</italic> invites or gives permission to the addressee to sit down, under the speaker&#8217;s assumption that sitting down will benefit the addressee. In the falling case, &#8216;the <italic>speaker</italic> rates futures in which the addressee sits down higher than those in which he does not,&#8217; and in the rising case, &#8216;the <italic>addressee</italic> rates futures in which the addressee sits down higher than those in which he does not&#8217; (<xref ref-type="bibr" rid="B46">Portner 2018: 308</xref>; emphasis added). In both cases, the speaker expects that the priority for the addressee to sit down will become mutual.</p>
+<p>In terms of the speech acts introduced at the beginning of this paper, commands fall into the falling group, while invitations or offers like <italic>Have a cookie!</italic> fall into the rising group. Although Portner does not specifically discuss advice, his characterization of rising imperatives as offering a priority that the speaker believes will benefit the addressee suggests that at least some cases of advice will be expected to have rising intonation.<xref ref-type="fn" rid="n3">3</xref></p>
+<p>While Portner himself did not conduct any phonetic studies of imperative intonation, a few other authors have. Chatzikonstantinou (<xref ref-type="bibr" rid="B10">2013</xref>) conducted three pilot studies of English imperatives, testing the hypothesis that there is an intonational difference between imperatives used to convey commands and those used to give advice. He proposes that commands and advice are associated with distinct pitch contours during production, and that &#8220;during perception listeners can consistently identify whether an imperative is a command or an advice based on the acoustic signal&#8221; (<xref ref-type="bibr" rid="B10">Chatzikonstantinou 2013: 4</xref>).</p>
+<p>In terms of production, Chatzikonstantinou found that command imperatives were uttered with &#8220;a flat intonation following H H L- (L%) pattern&#8221; (2013:6), while advice imperatives received &#8220;a H H*L- (H%) with a distinctive large excursion at the N[oun]&#8221; (<xref ref-type="bibr" rid="B10">2013: 7</xref>). It should be noted however that these results are based on analysis of the data of just one (female) speaker. Chatzikonstantinou&#8217;s two pilot perception studies relied on the edited productions of that speaker, and specifically used the final portions of imperatives embedded within larger utterances (e.g., She told him to <underline>read the book</underline>). Chatzikonstantinou found that participants were able to correctly identify whether an imperative was a command or advice with at least 78.5% accuracy.</p>
+<p>Oikonomou (<xref ref-type="bibr" rid="B40">2016</xref>) conducted a small production experiment to test the hypothesis that command and request interpretations of imperatives involve broad focus intonation, and permission imperatives do not. Five English speakers and four Greek speakers read aloud 10 pairs of imperative sentences; within each pair, the strings were identical but one context supported a command/request reading while the other supported a permission reading. The &#8220;prevailing pattern&#8221; in the English productions was that command/request imperatives were realized with a high Nuclear Pitch Accent followed by a low boundary tone ((H*) H* L-L%); this parallels the intonation of declaratives with broad focus (2016: 70&#8211;71). In &#8220;a few cases&#8221;, English command/request imperatives involved rising intonation (2016: 71). Similarly in Greek, the predominant pattern was for command/request imperatives to end in a H* L-L% contour, with a &#8220;second prevailing pattern&#8221; involving a final rising intonation (<xref ref-type="bibr" rid="B40">Oikonomou 2016: 72&#8211;73</xref>).</p>
+<p>Oikonomou further found that permission imperatives in both English and Greek were typically realized with a high Nuclear Pitch Accent on the verb (i.e., earlier in the imperative than for commands/requests), followed by de-accenting (2016: 74). Based on the information given, it therefore seems that the difference between the two types was not one of contour, but of the placement of the H*.</p>
+<p>Oikonomou&#8217;s semantic explanation for why these intonation patterns should correlate with these readings relates to a claim that the two types of imperatives involve focus on different constituents; see her discussion for details. With respect to the rising intonation found on some productions of command/request imperatives, she argues that &#8220;rising intonation is a marked prosodic pattern which can apply equivalently to all types of Imperatives to encode uncertainty/level of endorsement etc. but it doesn&#8217;t differentiate the permissions from the commands&#8221; (2016: 66). This contrasts directly with Portner&#8217;s proposal that rising intonation <italic>does</italic> signal permission uses.</p>
+<p>Rudin (<xref ref-type="bibr" rid="B49">2018: 20</xref>) argues that falling intonation (more precisely &#8220;steeply, monotonically falling intonational tunes&#8221;, or H* L-L%) signals that the speaker is making a commitment by virtue of their utterance, while rising intonation (&#8220;steeply, monotonically rising intonational tunes&#8221;, L* H-H%) conveys that the speaker is not making a commitment (see also <xref ref-type="bibr" rid="B43">Pierrehumbert &amp; Hirschberg 1990</xref>; <xref ref-type="bibr" rid="B59">Truckenbrodt 2012</xref>). Within imperatives, falling intonation conveys that the speaker is committed to the claim that the addressee should perform the relevant action; rising intonation signals that the speaker is leaving it up to the addressee to decide whether or not they should perform the action. Again, this differs from Portner&#8217;s characterization of the semantic division. Unlike for Portner, for Rudin the falling/rising split does not correlate with a speech act division. Rudin also argues against Portner&#8217;s claim that a rising imperative signals that the speaker thinks the addressee wants to perform the action.</p>
+<p>In support of the uncoupling of intonation from speech acts, Rudin offers data that suggest that commands and offers with falling intonation pattern together, in opposition to offers with rising intonation. For example, offers with falling intonation can be followed by <italic>I insist</italic> (7), but offers with rising intonation cannot (8).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(7)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>A:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Have a cookie.&#160;&#160;&#160;&#160;&#160;&#160;OFFER WITH FALLING INTONATION</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>B:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>No, thanks.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>A:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>I insist.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(<xref ref-type="bibr" rid="B49">Rudin 2018: 97</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(8)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>A:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Have a cookie?&#160;&#160;&#160;&#160;OFFER WITH RISING INTONATION</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>B:</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>No, thanks.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>A: ??</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>I insist.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;(<xref ref-type="bibr" rid="B49">Rudin 2018: 97</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Jeong &amp; Condoravdi (<xref ref-type="bibr" rid="B26">2017</xref>) carried out a full perception experiment to test a hypothesis about the intonation of English imperatives in various types of discourse contexts. (See also <xref ref-type="bibr" rid="B27">Jeong &amp; Condoravdi 2018</xref>.) Specifically, they investigated the &#8216;downstepped level terminal contour&#8217; (DLT), H* !H-L%. This is also known as the &#8216;calling contour&#8217;, and is often found in vocatives (<italic>Jacob! Your lunch!</italic>). In the experiment, 400 participants heard imperatives which had been recorded by native speakers and then synthetically manipulated to have the desired intonational properties (either the DLT contour, or the more traditional H* L-L% or L* L-L%). Participants judged which recordings fit best into scenarios they read.</p>
+<p>Jeong &amp; Condoravdi found that the DLT contour is usually compatible with imperatives expressing well-wishes (e.g., <italic>Enjoy the movie!</italic>), but incompatible with orders and offers. However, they also argue that the appropriateness of the DLT contour crosscuts speech-act types and is systematically context-dependent. In particular, DLT is used when the speaker wishes to signal that she does not expect her own future actions to affect whether the content of the imperative clause is realized. This accounts for the finding that requests or warnings which are reminders license DLT, but novel requests or warnings about unfamiliar dangers typically do not (cf. also <xref ref-type="bibr" rid="B32">Ladd 1978</xref> for this empirical generalization).</p>
+<p>While Jeong &amp; Condoravdi&#8217;s work is, to our knowledge, the most robustly phonetically grounded prior work on imperatives and intonation, we set it aside from now on because it deals with a particular contour that does not (as they convincingly show) correlate with the command vs. non-command distinction which is our focus here.<xref ref-type="fn" rid="n4">4</xref></p>
+<p>Finally, a very recent pilot study by Oikonomou (<xref ref-type="bibr" rid="B41">2022</xref>) has detected a potential three-way intonational contrast in Greek imperatives. In the production portion of the experiment, a single speaker was asked to read imperative utterances as naturally as she could, in both command and permission contexts. Next, 23 participants in a perception study were asked to categorize each imperative production as either a &#8216;requirement&#8217; or a &#8216;possibility&#8217;. Oikonomou reports that one intonational pattern was produced for the permission imperatives (a Nuclear Pitch Accent on the verb), but two different patterns were produced for the command contexts: one ending with a final L-L% boundary tone, and one ending with a final L-H% boundary tone. Participants in the perception study appear able to distinguish the commands from the permissions, and the commands ending in L-H% were judged as slightly more &#8216;requirement&#8217;-like than the L-L% commands.<xref ref-type="fn" rid="n5">5</xref></p>
+<p>Summarizing the state of the art, we can see that there are recurring claims that prosody conveys semantic and/or pragmatic information in English imperatives, but very little consensus about the details. With respect to whether there are prosodic morphemes in imperatives, Portner&#8217;s and Rudin&#8217;s analyses imply that, indeed, something akin to prosodic morphemes may be at play. Portner assigns different lexical semantics to &#8216;falling&#8217; vs. &#8216;rising&#8217; intonation, and Rudin assigns different discourse effects to H* L-L% vs. L* H-H%.<xref ref-type="fn" rid="n6">6</xref></p>
+<p>Our examination of the prior literature suggests that there is a need for a more in-depth phonetic study on the prosody/meaning connection in English imperatives. Portner (<xref ref-type="bibr" rid="B46">2018</xref>), for example, as noted above, proposes a hypothesis about the semantic import of the intonational contours in falling and rising imperatives. Adopting an intuition put forth by Bolinger &amp; Bolinger (<xref ref-type="bibr" rid="B3">1989</xref>), he suggests that &#8216;steadily falling intonation is associated with commands and a rise with permission and invitation&#8217; (2018: 316). In earlier circulated versions of this paper, Portner further speculated that the rising intonation is based on an H phrase accent or a complex pitch accent, while the falling intonation involves an L accent. However, he admitted that the actual intonational analysis was still wide open. Rudin (<xref ref-type="bibr" rid="B49">2018</xref>) gives no phonetic measurements to support his claims about prosody, merely annotating &#8216;rising imperatives&#8217; with a question mark. He explicitly states that &#8216;[t]he issue of how exactly a tune is translated into the continuous <italic>f</italic>0 across an utterance is taken to be a concern for the phonology-phonetics interface, and I provide no treatment of it here&#8217; (2018: 5). And although Chatzikonstantinou (<xref ref-type="bibr" rid="B10">2013</xref>) and Oikonomou (<xref ref-type="bibr" rid="B40">2016</xref>; <xref ref-type="bibr" rid="B41">2022</xref>) did do phonetic measurements, their experiments were small pilot studies and no full results or statistics are reported.</p>
+<p>We contribute to this body of work on the prosody and meaning mapping in imperatives through a series of three experiments on the prosodic distinction between command and non-command imperatives in English. As a reminder, our goals are to characterize the prosodic characteristics used by speakers and listeners to differentiate the two uses of imperative with the broader goal of elucidating the manner in which prosody-semantic interactions should be characterized.</p>
+<p>Before we turn to our experiments, we have an important terminological note. For ease of exposition, we will be using the terms &#8216;strong&#8217; and &#8216;weak&#8217; for the two uses of imperatives we are investigating. It should be noted, however, that our &#8216;weak&#8217; imperatives do not consist primarily of the weakest uses &#8212; permission &#8212; and therefore our &#8216;weak&#8217; contexts are <italic>not</italic> primarily ones that would invite an analysis using a possibility modal (for those who prefer a modal analysis). Most of our &#8216;weak&#8217; imperative contexts involve advice, and two of them are most naturally construed as permission. What was crucial for us in constructing the contexts was that the &#8216;weak&#8217; ones are cases where the speaker believes the proposed action will be a priority for the <italic>addressee</italic>, while the &#8216;strong&#8217; contexts are ones where the proposed action is a priority for the <italic>speaker</italic> (cf. <xref ref-type="bibr" rid="B46">Portner&#8217;s 2018</xref> characterization, discussed above).</p>
+</sec>
+<sec>
+<title>4 Experiment 1: Perception from &#8220;idealized&#8221; production</title>
+<p>We formed the hypothesis that listeners will assign imperatives produced with final L* L- L% (a low accent with a low fall at the phrasal boundary) contours to command discourse contexts, and imperatives produced with final H* L- L% (a high accent and low fall at the phrasal boundary) contours to advice discourse contexts. Our hypothesized contours were adapted from those proposed by Portner (<xref ref-type="bibr" rid="B46">2018</xref>), and matched our intuitions about the most likely contours for younger speakers in our geographical area. We then prepared materials for a perception task with these intonation contours.</p>
+<sec>
+<title>4.1 Materials</title>
+<p>Nineteen imperative sentences that were maximally voiced (containing few voiceless sounds to facilitate f0 estimation) were drafted. All of the imperatives invited positive actions on the part of the addressee; none contained negation or prohibitions. Using these imperatives, 38 contexts were designed in which we manipulated whether the speaker is in a position of equal vs. superior authority compared to the addressee, and whether the content of the imperative is the speaker&#8217;s priority or the addressee&#8217;s.</p>
+<p>For each imperative, we created one command context and one advice context. In order to make the contextual contrast between the command interpretations and the advice interpretations maximally clear, we manipulated not only the discourse contexts but also the interlocutor roles. Thus, in the command contexts, the priority was the speaker&#8217;s and moreover there was unequal authority between speaker and addressee such that the speaker was more powerful (e.g. the speaker is a head chef who wants a task completed, so they tell a subordinate to do it), while in the advice contexts, the priority was the addressee&#8217;s and moreover there was equal authority (no power difference) (e.g., the speaker&#8217;s friend wants help preparing dinner, and doesn&#8217;t know where to start).</p>
+<p>To ensure that our contexts were indeed interpreted as &#8216;strong&#8217; or &#8216;weak&#8217; by participants and to identify any ambiguous contexts for removal, we conducted a pre-experiment. This consisted of a survey containing all of our contexts, followed by a multiple-choice question presenting two rephrasings of the imperatives as containing either strong or weak necessity modals (e.g., &#8220;Jessica <underline>must</underline> boil the water&#8221; vs. &#8220;Jessica <underline>should</underline> boil the water&#8221;) and the option to write in a third response if neither seemed a suitable paraphrase.</p>
+<p>Fifteen volunteers completed the survey. On the basis of their responses, we discarded three imperatives, and rephrased certain contexts (e.g., making authority relations more clear). This left 16 imperatives, which are presented in <xref ref-type="table" rid="T1">Table 1</xref>.</p>
+<table-wrap id="T1">
+<label>Table 1</label>
+<caption>
+<p>Full list of target sentences used in experiments.</p>
+</caption>
+<table>
+<thead>
+<tr>
+<td align="left" valign="top">Boil the nine litres of water for the ravioli.</td>
+<td align="left" valign="top">Have a banana.</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" valign="top">Buy Grandma a bouquet of roses.</td>
+<td align="left" valign="top">Hide the money in the drawer.</td>
+</tr>
+<tr>
+<td align="left" valign="top">Climb the mountain in the summer.</td>
+<td align="left" valign="top">Move the wardrobe.</td>
+</tr>
+<tr>
+<td align="left" valign="top">Divide the total by eleven.</td>
+<td align="left" valign="top">Order dinner for Emily.</td>
+</tr>
+<tr>
+<td align="left" valign="top">Do your homework before dinner.</td>
+<td align="left" valign="top">Play an original arrangement.</td>
+</tr>
+<tr>
+<td align="left" valign="top">Draw the girl using the brown crayon.</td>
+<td align="left" valign="top">Review the order before finalizing.</td>
+</tr>
+<tr>
+<td align="left" valign="top">Go home and weed the garden.</td>
+<td align="left" valign="top">Roll the dough for the perogies.</td>
+</tr>
+<tr>
+<td align="left" valign="top">Grill the buns and the burgers.</td>
+<td align="left" valign="top">Throw the ball to Mario.</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>Cartoon images were designed to accompany the contexts, to make the intended meaning robust. <xref ref-type="fig" rid="F1">Figure 1</xref> presents the example images that accompanied &#8220;Have a banana&#8221;, and the strong and weak contexts for this string are given below in (9)&#8211;(10). All of the contexts are available at <ext-link ext-link-type="uri" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.osf.io/5pm3h">www.osf.io/5pm3h</ext-link>.</p>
+<fig id="F1">
+<label>Figure 1</label>
+<caption>
+<p>Accompanying images for the strong (top panel) and weak (bottom panel) contexts for the imperative &#8220;Have a banana.&#8221;</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-8-9564-g1.jpg"/>
+</fig>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(9)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Strong context for &#8220;Have a banana&#8221;</italic>:</p></list-item>
+<list-item><p>Your daughter is suffering from some health problems that are mostly mysterious, but linked to potassium. According to the doctor she has to eat a banana every six hours or risk serious health consequences; cookies and sweets are off-limits until they&#8217;ve done more tests. Your daughter is whining about having to eat so much fruit. You are getting a little impatient with her and you say: Have a banana.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(10)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Weak context for &#8220;Have a banana&#8221;</italic>:</p></list-item>
+<list-item><p>You and your friend are getting ready to go on a bike ride. Your friend is wondering whether she should have a quick snack before you head out. You just happened to have purchased some bananas, so you say: Have a banana.</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>One of the authors produced the imperative sentences in <xref ref-type="table" rid="T1">Table 1</xref> using the final L*L-L% or H*L-L% contours hypothesized as idealized examples of strong and weak imperatives. We recorded several productions of each target sentence in each prosodic condition using an AKG C250 head-mounted microphone and a SoundDevices 2.0 pre-amp. Recordings were made at 44.1kHz with a 16 bit-depth and saved directly as .wav files. The authors then selected the best version of each imperative to be used for the experiment. The stimuli are available for listening here: <ext-link ext-link-type="uri" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.osf.io/5pm3h">www.osf.io/5pm3h</ext-link>.</p>
+</sec>
+<sec>
+<title>4.2 Procedure</title>
+<p>Participants were individually tested on custom-built PC desktop computers in sound-attenuated cubicles. The experiment was administered using ePrime and participants wore AKG headphones. The stimuli were simultaneously presented to participants as written text and a contextualizing cartoon, followed by the audio recordings of the target imperative in both prosodic conditions (L*L-L% and H*L-L%). Listeners were asked to determine which production was more appropriate or natural for the context. Participants selected their preferred contour, responding to the prompt: &#8220;Judge which response is better given the situation.&#8221; Responses were recorded using a serial response box.</p>
+<p>Each context was presented twice through the course of the experiment, counterbalancing the presentation order of the strong and weak imperative response options. The order of the contexts was fully randomized for each participant.</p>
+<p>Note that we also conducted two additional experiments not reported here: one which used only auditory prompts for the contexts (recorded by another trained linguist) instead of the written contexts, and another which used the auditory prompts for the contexts accompanied by the illustrations. There were no statistically significant differences amongst the three conditions in a mixed effects logistic regression model, and thus for simplicity&#8217;s sake, we simply report on the most basic of the designs.</p>
+</sec>
+<sec>
+<title>4.3 Participants</title>
+<p>Twenty-three self-reported native speakers of English with no current speech or language disorders or hearing impairments completed the task. Participants were recruited through a participant pool of students at the University of British Columbia, and were compensated with partial course credit.</p>
+</sec>
+<sec>
+<title>4.4 Results</title>
+<p>Responses made in under 250 ms were removed, which eliminated less than 1% of the data. Responses made more than two standard deviations away from the mean (M = 2091 ms, SD = 858) were also removed, which left over 95% of the original data set. The remaining data were fit to a mixed effects logistic regression model. The dependent measure was the proportion of trials that matched the strong and weak labeling of our target stimuli. Condition (strong, weak) was a fixed effect, and was dummy coded with strong as the reference level. Subject and Item (the 16 Response Text options) were entered as random slopes with Condition as a random intercept for each.<xref ref-type="fn" rid="n7">7</xref></p>
+<p>The model reported a significant intercept [B = 1.48, SE = 0.31, z = 4.78, p &lt; 0.001], which indicates that when presented with the strong contexts, listeners made judgments that supported our hypothesis. That is, listeners categorized the L*L-L% items as strong imperatives. The effect of Condition was not significant [B = &#8211;0.39, SE = 0.27, z = &#8211;1.46, p = 0.15], indicating that listeners were not significantly more accurate on strong trials compared to weak trials. Listeners associated the H*L-L% contour with weak imperatives and L*L-L% with strong imperatives. The listener means for strong and weak imperatives were both significantly above chance [Strong: M = 76% matched prediction, SE = 0.03, t(22) = 7.7, p &lt; 0.001; Weak: M = 72% matched prediction, SE = 0.03, t(22) 6.39, p &lt; 0.001]. These patterns are visualized in <xref ref-type="fig" rid="F2">Figure 2</xref>. Overall, these results provide support for the hypothesis that the L*L-L% contour indexes strong imperatives, while the H*L-L% contour indexes weak imperatives, though listener responses are far from 100% matching the predictions.</p>
+<p>We also conducted an analysis where we treated the data as a signal detection task (<xref ref-type="bibr" rid="B35">MacMillan &amp; Creelman 2005</xref>). This method of analysis allows for the consideration of types of wrong responses (e.g., overapplication of the label &#8220;strong&#8221; for weak items or incorrectly calling a strong item weak), which allows us to examine biases and response strategies. For this analysis we arbitrarily labelled correct responses to strong items as hits in our calculation of d&#8217;, a measure of sensitivity. Due to the direction of calculation, this means that negative c values, which is a measure of response bias, indicate a bias to respond &#8220;strong&#8221;. Overall d&#8217; values were high, corroborating the accuracy analysis, demonstrating that listeners were good at the task (M = 2.7, SD = 1.4). Overall, listeners&#8217; bias (c) scores did not differ from 0 (M = &#8211;0.08, SD = 0.24; t(22) = &#8211;1.7, p = 0.10), suggesting that, overall, listeners were unbiased in their responses, indicating that they did not have a default assumption that imperatives are strong or weak.</p>
+<fig id="F2">
+<label>Figure 2</label>
+<caption>
+<p>Proportion of trials matching the prediction for Strong and Weak contexts for Experiment 1. The error bars represent standard error.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-8-9564-g2.png"/>
+</fig>
+<p>Listener data are shown in <xref ref-type="fig" rid="F3">Figure 3</xref>, where the left panel shows d&#8217; scores and the right panel shows c scores, ordered by listeners&#8217; values. These visualizations demonstrate that listeners&#8217; sensitivity to the strong and weak distinction varied considerably (min d&#8217; = 0.38, max d&#8217; = 5.04). Moreover, while overall listener bias was not significantly different from 0, bias scores ranged widely, with more participants (n = 13) showing a bias to respond strong than weak (n = 9). Note that one participant fell right at the zero line, indicating an unbiased response strategy.</p>
+<fig id="F3">
+<label>Figure 3</label>
+<caption>
+<p>By-listener sensitivity (left panel) and bias (right panel) to the Strong and Weak contrast in Experiment 1. The data are ordered by listener sensitivity and bias, respectively. In the bias panel, the dashed line is at 0, demarcating unbiased performance. Positive bias values indicate a bias to respond weak, negative values indicate a bias to respond strong.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-8-9564-g3.png"/>
+</fig>
+</sec>
+<sec>
+<title>4.5 Discussion</title>
+<p>The goal of this first experiment was to confirm that listeners associated the idealized intonation contours produced by a trained linguist with strong and weak imperatives. Listeners indeed do make the associations in the expected direction approximately 75% of the time. While this is far from unanimous, it does suggest that the proposed intonation contours convey meanings, potentially suggesting statistical gradience between the prosodic structure and semantic meaning, such that while a meaning may be associated with a category a large percentage of the time, that association is not reliable in 100% of cases (<xref ref-type="bibr" rid="B34">Ladd 2014</xref>). Specifically, Experiment 1 provides evidence that listeners generally associate the idealized intonation contour L*L-L% with command imperatives and the idealized intonation contour H*L-L% with advice imperatives. However, note that we will complicate this suggested interpretation below.</p>
+<p>Given that the stimuli used in the first experiment were idealized and produced by linguists, in the next experiment we document the prosodic cueing speakers naturally produce in response to the contexts written to convey strong and weak imperatives. To this end, for our second experiment we elicited productions from a new group of participants in response to the contexts.</p>
+</sec>
+</sec>
+<sec>
+<title>5 Experiment 2: Production</title>
+<p>For the production experiment, we hypothesized that participants&#8217; recorded imperatives would be similar to the &#8220;idealized&#8221; productions used for Experiment 1; that is, that participants would produce strong imperatives with a L* nuclear accent, and weak imperatives with H*, and that both conditions would have a L- phrasal tone and a L% boundary tone.</p>
+<sec>
+<title>5.1 Materials</title>
+<p>The materials for the second experiment were the 16 target imperatives and the 32 contexts (16 strong, 16 weak) described above for Experiment 1.</p>
+</sec>
+<sec>
+<title>5.2 Procedure</title>
+<p>Participants were asked to read a context, and then were presented with the imperative without punctuation as a text response. Participants were asked to record the response in a way that feels &#8220;natural or normal given the situation,&#8221; where the situation was the context that had been provided. Each context was presented twice, such that four versions of each phrase were collected from each participant (2 strong, 2 weak for each phrase).</p>
+<p>Recordings were made through Audacity directly to a Windows PC at a 44.1kHz sampling rate at 16 bit-rate. Participants wore a head-mounted AKG C250 microphone connected to SoundDevices 2.0 pre-amp.</p>
+</sec>
+<sec>
+<title>5.3 Participants</title>
+<p>Nineteen self-identified native speakers of English completed this task. Participants were recruited through a participant pool of students at the University of British Columbia, and were compensated with partial course credit.</p>
+</sec>
+<sec>
+<title>5.4 Analysis</title>
+<sec>
+<title>5.4.1 ToBI Analysis</title>
+<p>Four trained linguists coded each utterance in terms of (1) a high or low accent on the stressed word; (2) whether that high or low accent was followed by a rise or a fall, and (3) whether the final stressed word was the last word in the utterance. Example sound files were provided to the coders. The transcriptions were collected via a Praat script, with decisions (1) and (2) combined into single code (e.g., H tone on final stressed word, fall after) and coders were instructed to keep the pitch tracker off to place the focus on the auditory impression of the signal. Coding was done on a speaker-by-speaker basis, and the coders were instructed to listen to all of the sound files from one individual before beginning that speaker&#8217;s coding to familiarize themselves with that speaker&#8217;s pitch range.</p>
+</sec>
+<sec>
+<title>5.4.2 Acoustic Analysis</title>
+<p>The utterances were force-aligned with the Montreal Forced Aligner (<xref ref-type="bibr" rid="B37">McAuliffe et al. 2017</xref>) so that transcriptions of words and phones (segments) were time-aligned with the recorded .wav file. A research assistant manually checked and adjusted silent pause positions and placement, adjusting the estimated word boundaries given by the forced aligner to improve alignment accuracy, as necessary.</p>
+<p>In annotating for our targeted set of ToBI markers, we noticed that the precise intonation contours produced were extremely variable, both within and across speakers. Furthermore, even outside of those phrase-final elements we were unable to identify a concrete alternative tone pattern that grouped one imperative reading to the exclusion of the other. Given this, we reserved an examination of the intonation contours to take place after a perceptual analysis by a group of listeners (participants in Experiment 3), to confirm that listeners are able to reliably identify the productions as strong and weak (see Section 6). At the same time, auditory impressions suggested that instead of particular intonation contours, the strong or weak imperative distinction was reflected in two macro settings: overall speech rate and overall pitch setting. The prosodic settings of speech rate and overall pitch setting are analyzed here.</p>
+<p>Speech rate was calculated as the number of syllables per second in each utterance, where those syllables are estimated from the dictionary pronunciation of each word. This speech rate calculation includes (within-utterance) pauses in the calculation, as they form part of the utterance duration. To calculate pitch setting, f0 was estimated across the utterance in millisecond timestamps using the Straight algorithm (<xref ref-type="bibr" rid="B31">Kawahara et al. 1999</xref>) in VoiceSauce (<xref ref-type="bibr" rid="B51">Shue et al. 2011</xref>). On a by-speaker basis, f0 values were normalized to semitones using each speaker&#8217;s 5% quantile as the baseline value.</p>
+</sec>
+</sec>
+<sec>
+<title>5.5 Results</title>
+<p>A subset of five speakers were analyzed upon two raters&#8217; completion of the annotation. Cohen&#8217;s Kappa was calculated using the irr package (v. 0.84.1, <xref ref-type="bibr" rid="B15">Gamer et al. 2015</xref>) with these two raters for the tone on the stressed word, plus fall or rise categorization and the decision as to whether or not the stressed word was utterance final. Cohen&#8217;s Kappa was used to quantify agreement. Moderate agreement was found both in whether there was a high or low accent on the stressed word and whether that high or low accent was followed by a rise or fall [z = 9.17, Kappa = 0.395, p &lt; 0.001], as well in the coding regarding whether the final stressed word was the final word in the utterance [z = 5, Kappa = 0.225, p &lt; 0.001]. While these agreement levels are in the moderate range, given that they were on a subset of the speakers and a comparison of only two of the coders, it was determined the agreement was not high enough to have confidence in the auditory coding.</p>
+<sec>
+<title>5.5.1 Speech Rate</title>
+<p>Speech rate was used as the dependent variable in a linear mixed effects model with Condition (dummy coded, with strong imperatives as the reference level) as a fixed effect and speaker and item as random effects. Condition was included as a random slope for both speaker and condition (model syntax: SpeechRate ~ Condition + (1+Condition&#124;Speaker) + (1&#124;Item)). There was a significant intercept [B = 4.85, SE = 0.25, t = 19.31] and an effect of Condition:Weak (B = 0.71, SE = 0.16, z = 4.3], indicating that imperatives that were elicited in a weak context were produced at a faster speech rate than imperatives produced in response to a strong context. These results are visualized in <xref ref-type="fig" rid="F4">Figure 4</xref>, which presents individual participants&#8217; mean speech rate for each utterance condition. Each participant is represented by a point in each column that is connected by a single line.</p>
+<fig id="F4">
+<label>Figure 4</label>
+<caption>
+<p>Speech rate (syllables/second) by the elicited imperative type. Each dot and connecting line represent an individual participant. Error bars are omitted for visual clarity.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-8-9564-g4.png"/>
+</fig>
+</sec>
+<sec>
+<title>5.5.2 Global pitch setting</title>
+<p>Semitones were used as the dependent variable in a linear mixed effects model with Condition (dummy coded, with strong imperatives as the reference level) as a fixed effect and speaker and item as random effects. Condition was included as a random slope for both speaker and condition (model syntax: Semitones ~ Condition + (1+Condition&#124;Speaker) + (1&#124;Item)). There was a significant intercept [B = 8.05, SE = 0.59, t = 13.7] and an effect of Condition:Weak (B = 1.3, SE = 0.22, z = 5.973]. This indicates that weak imperatives had globally higher f0 settings than imperatives elicited in a strong pragmatic context; these results can be seen in <xref ref-type="fig" rid="F5">Figure 5</xref>. Again, each participant is represented by a point in each column that is connected by a single line.</p>
+<fig id="F5">
+<label>Figure 5</label>
+<caption>
+<p>Semitones (normalized f0 estimates) by the elicited imperative type. Each dot and connecting line represents an individual participant. Error bars are omitted for visual clarity.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-8-9564-g5.png"/>
+</fig>
+</sec>
+</sec>
+<sec>
+<title>5.6 Discussion</title>
+<p>ToBI transcription amongst the annotators did not provide an inter-rater reliability score that allowed for any sort of confident interpretation of the data. Our inability to reliably transcribe these utterances could be due to a lack of training, which is a noted challenge in prosodic transcription (<xref ref-type="bibr" rid="B11">Cole &amp; Shattuck-Hufnagel 2016</xref>), or because of the actual physical gradience (<xref ref-type="bibr" rid="B34">Ladd 2014</xref>) or distributional realizations (<xref ref-type="bibr" rid="B6">Cangemi &amp; Grice 2016</xref>) of the productions. We return to these points in the General Discussion (Section 8).</p>
+<p>While the cross-speaker variability we observed prevented a clear prosodic description of these imperatives, two macro prosodic settings were both auditorily salient and acoustically robust. Speakers produced imperatives elicited in a weak context with a higher speech rate and a higher f0 setting than imperatives elicited in a strong context.</p>
+<p>To see if listeners also make reliable associations of &#8220;low and slow&#8221; with strong imperatives, in the next experiment we presented an independent group of listeners with the elicited imperatives, asking them to categorize them as strong or weak.</p>
+</sec>
+</sec>
+<sec>
+<title>6 Experiment 3: Perception from production</title>
+<p>Auditory assessment by the authors indicates that the utterances gathered from participants in Experiment 2 showed substantial variation in how the imperatives were produced. To assess whether these productions are reliably interpreted as strong and weak imperatives, we presented them to listeners for categorization. Our hypothesis was that listeners can accurately interpret imperatives as &#8216;strong&#8217; (command) or &#8216;weak&#8217; (advice) based on hearing these natural productions, and that there would be a high degree of agreement between the original recording condition and listeners&#8217; judgments.</p>
+<sec>
+<title>6.1 Materials</title>
+<p>The imperative productions gathered from the 19 individuals described above in Experiment 2 were used in this task.</p>
+</sec>
+<sec>
+<title>6.2 Procedure</title>
+<p>Participants were individually tested on custom-built PC desktop computers in sound-attenuated cubicles. The experiment was administered using ePrime and participants wore AKG headphones. Listeners were presented with the imperatives over headphones and asked to categorize each imperative as a hard or soft command. Hard commands were defined for participants as &#8220;demanding, ordering, or requiring that the listener<italic>must</italic> follow the command&#8221;, and soft commands were defined as &#8220;recommending, advising, or suggesting that the listener<italic>might</italic> follow the command.&#8221;</p>
+<p>Listeners were presented with three randomly selected speakers, presented as three separate blocks with self-timed breaks in between. Within each speaker block, each utterance was presented twice. The order of the utterances was randomized for each listener. Each speaker was presented to 14&#8211;18 listeners.</p>
+</sec>
+<sec>
+<title>6.3 Participants</title>
+<p>A total of 101 self-reported native speakers of English with no current speech or language disorders or hearing impairments or disabilities completed this task. Participants were recruited through a participant pool of students at the University of British Columbia, and compensated with partial course credit.</p>
+</sec>
+<sec>
+<title>6.4 Perception results</title>
+<p>Trials for which there were no responses were removed, eliminating less than 0.5% of the data. Responses made in under 250 ms were also removed, which accounted for less than 0.2% of the data. Then responses made more than two standard deviations away from the mean response time (M = 2044 ms, SD = 824) were trimmed, which eliminated another 4.5% of the data set. The data were fit to a mixed effects logistic regression model to predict the proportion of trials that matched the elicited production category. Category (strong, weak) was a fixed effect, and was dummy coded with strong as the reference level. Subjects, Speakers, and Items (the 16 imperatives) were entered as random slopes with Condition as a random intercept for each.<xref ref-type="fn" rid="n8">8</xref></p>
+<p>The model returned a significant intercept [B = 1.34, SE = 0.20, z = 6.58, p &lt; 0.001], which, given that strong was the reference level, indicates that listeners generally accurately identified strong imperatives as such. The effect of Condition was significant [B = &#8211;0.60, SE = 0.24, z = &#8211;2.51, p = 0.01]; listeners were less accurate at categorizing weak imperatives than strong imperatives. T-tests confirmed that listener performance was significantly above chance for both strong [M = 76%, t(100) = 35.06, p &lt; 0.001] and weak [M = 66%, t(100) = 18.15, p &lt; 0.001] imperatives. <xref ref-type="fig" rid="F6">Figure 6</xref> illustrates these results visually.</p>
+<fig id="F6">
+<label>Figure 6</label>
+<caption>
+<p>Proportion of trials matching the elicited productions for Strong and Weak contexts for Experiment 3. The error bars represent standard error.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-8-9564-g6.png"/>
+</fig>
+<p>As for Experiment 1, the data were analyzed as a signal detection task (<xref ref-type="bibr" rid="B35">MacMillan &amp; Creelman 2005</xref>) in two analyses: one which assessed the behaviour of the listeners, and another which quantified the imperative contrast robustness on a by-speaker level. As in the previous SDT analysis, strong items were coded as hits in our calculations. Listeners were generally quite good at the task (M = 2.4, SD = 0.46). Listeners showed a significant bias to respond strong (M = &#8211;0.15, SD = 0.17; t(100) = &#8211;8.91, p &lt; 0.001, Cohen&#8217;s d = 0.88). <xref ref-type="fig" rid="F7">Figure 7</xref> presents listeners&#8217; individual performance in terms of d&#8217; (sensitivity) and c (bias). Listeners&#8217; sensitivity to speakers&#8217; strong and weak contrasts was generally high, but the majority of listeners showed a strong response bias, with one participant rather strongly biased towards a weak response.</p>
+<fig id="F7">
+<label>Figure 7</label>
+<caption>
+<p>By-listener sensitivity (top panel) and bias (bottom panel) to the participant-produced Strong and Weak contrast in Experiment 3. The data are ordered by listener sensitivity and bias, respectively. In the bias panel, the dashed line is at 0, demarcating unbiased performance. Positive bias values indicate a bias to respond weak, negative values indicate a bias to respond strong.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-8-9564-g7.png"/>
+</fig>
+<p>Given that listeners were randomly assigned to three speakers, a listener&#8217;s mean sensitivity is going to be highly affected by the robustness of the strong and weak contrast for the speakers to which they were assigned. To understand the speaker differences, d&#8217; and c were calculated on a by-speaker basis. On average, sensitivity for speakers was relatively high (M = 2.36, SD = 0.62). Speakers&#8217; voices also elicited a strong response bias that was significantly different from 0 [M = &#8211;0.15, SD = 0.07; t(18) = &#8211;9.56, p &lt; 0.001, Cohen&#8217;s d = 2.19). <xref ref-type="fig" rid="F8">Figure 8</xref> presents these by-speaker values, ordered by sensitivity and bias. Speakers vary considerably in the robustness of their production of the contrast, but all speakers elicited a &#8220;strong&#8221; response bias.</p>
+</sec>
+<sec>
+<title>6.5 Interim summary of all three experiments</title>
+<p>Experiment 1 showed that listeners can categorize imperatives as strong or weak based on idealized productions of L* L- L% and H* L- L% respectively, fairly well. Speakers&#8217; strong and weak imperative productions from Experiment 2 were highly variable in terms of contours, but with consistently higher speech rate and overall pitch for weak than for strong. Experiment 3 demonstrated that listeners can categorize imperatives as strong or weak based on natural productions fairly well, and that these accuracy levels from the spontaneously elicited utterances align well with the idealized utterances from Experiment 1 (e.g., mean accuracy on the strong imperatives was 76% in both Experiment 1 and Experiment 3, and the mean accuracy on the weak imperatives across the experiments was 72% and 66%, respectively).</p>
+<fig id="F8">
+<label>Figure 8</label>
+<caption>
+<p>By-speaker analysis of sensitivity (left panel) and bias (right panel). The data are ordered by listeners&#8217; average sensitivity and bias to each speaker. In the bias panel, the dashed line is at 0, demarcating unbiased performance. Positive bias values would indicate a bias to respond weak, negative values indicate a bias to respond strong.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="glossa-8-9564-g8.png"/>
+</fig>
+<p>This alignment of response accuracy across the two perception experiments, along with the observations from the production experiment that global pitch setting and speech rate were robust differences in the spontaneous imperative productions, prompted us to analyze the idealized productions from Experiment 1. Like the spontaneous productions, the strong (M = 13.8 semitones, SD = 3.4) and weak (M = 14.6 semitones, SD = 3.2) idealized productions also differed significantly in global pitch setting (t(15) = &#8211;3.15, p = 0.007, Cohen&#8217;s d = 0.96). Unlike the spontaneous productions, however, the idealized productions did not differ in their speech rates between the strong (M = 5.8 syllables/second, SD = 0.7) and weak (M = 5.9, SD = 0.7) imperatives (t(15) = &#8211;0.87, p = 0.4).</p>
+<p>Together, this suggests that listeners may be using a speaker&#8217;s overall f0 setting as a prosodic dimension by which to determine the status of the imperative as semantically/pragmatically strong or weak.</p>
+</sec>
+</sec>
+<sec>
+<title>7 Perception results as a guide</title>
+<p>The results of the previous analysis indicate that, overall, listeners are able to identify speakers&#8217; imperative productions as reliably strong or weak in a way that aligns with the context in which the imperatives were produced. This is despite the fact that the intonation patterns of participants&#8217; productions were highly variable. The perception results, however, can be a guide to identifying which imperative productions indicated their strength most clearly. In this section we focus on the 7% of the utterances in the perception experiment which received unanimous (i.e., 100%) agreement from the listeners. We conservatively focus on these items, though agreement was high on a large number of items; 28% of the utterances were categorized in the intended direction by listeners 90% of the time.</p>
+<sec>
+<title>7.1 Methods</title>
+<p>Eighty-four utterances, constituting 7% of the items from Experiment 2, received unanimous agreement from listeners. Three of the authors listened to these items together and auditorily coded the items as follows. We coded for contours using auditory perception-based annotation only (i.e., we did not look at the Praat pitch traces). Nuclear accent annotation fell into three groups:</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(11)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>&#8216;high&#8217;:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nuclear accent was higher than syllables preceding and following (a &#8220;bump&#8221; followed by a fall)</p></list-item>
+<list-item><p>&#8216;level then fall&#8217;:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nuclear accent was equal to syllable preceding and higher than syllable following</p></list-item>
+<list-item><p>&#8216;low&#8217;:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nuclear accent was lower than syllables preceding and following</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>We also coded for final rise/final fall; the overwhelming majority of data (82/84) were coded as ending in a fall rather than a rise.</p>
+</sec>
+<sec>
+<title>7.2 Results</title>
+<p>The coding provided frequency counts that were analyzed using Pearson&#8217;s Chi-squared test for the auditory coding of nuclear accent, subjective speech rate, and final rise.</p>
+<sec>
+<title>7.2.1 Nuclear Accent</title>
+<p>The nuclear accent was auditorily coded as high, level-then-fall, low, or N/A. The percentage of times that each of these labels was applied to the elicited strong and weak items is shown in <xref ref-type="table" rid="T2">Table 2</xref>, with the raw frequency counts in parentheses. The N/A category was ignored and the frequency counts for the remaining categories were subjected to a Pearson&#8217;s Chi-squared test, which established a difference across cells (X(2) = 41.64, p &lt; 0.001). Given the small number of observations in the Low category, we focus our attention on the High and Level-then-Fall comparisons. Imperatives elicited in response to strong contexts and unanimously categorized as sounding &#8220;strong&#8221; by listeners were much more likely to have the Level-then-Fall nuclear accent than the High nuclear accent. Comparatively, the imperatives unanimously perceived as &#8220;weak&#8221; by listeners and elicited in the weak context were much more likely to have High nuclear accents than the Level-then-Fall designation.</p>
+<table-wrap id="T2">
+<label>Table 2</label>
+<caption>
+<p>Percentage (counts) of elicited strong and weak items receiving each coding category for Nuclear Accent</p>
+</caption>
+<table>
+<thead>
+<tr>
+<td align="left" valign="top"></td>
+<td align="left" valign="top"><bold>High</bold></td>
+<td align="left" valign="top"><bold>Level then Fall</bold></td>
+<td align="left" valign="top"><bold>Low</bold></td>
+<td align="left" valign="top"><bold>N/A</bold></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" valign="top">strong</td>
+<td align="left" valign="top">10% (6)</td>
+<td align="left" valign="top">72% (43)</td>
+<td align="left" valign="top">7% (4)</td>
+<td align="left" valign="top">12% (7)</td>
+</tr>
+<tr>
+<td align="left" valign="top">weak</td>
+<td align="left" valign="top">79% (19)</td>
+<td align="left" valign="top">4% (1)</td>
+<td align="left" valign="top">12% (3)</td>
+<td align="left" valign="top">4% (1)</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+</sec>
+<sec>
+<title>7.2.2 Subjective Speech Rate</title>
+<p>The subjective speech rate of the utterances was coded as fast, normal, or slow. The percentages and raw frequency counts for this coding are shown in <xref ref-type="table" rid="T3">Table 3</xref>. The frequency counts were submitted to a Pearson&#8217;s Chi-squared test, which found a difference across cells (X(2) = 37.58, p &lt; 0.001). Imperatives elicited in weak contexts were more likely to be perceived as fast compared to the strong imperatives, which were more likely to be categorized as normal or slow. Notably, no weak imperatives were perceived as slow.</p>
+<table-wrap id="T3">
+<label>Table 3</label>
+<caption>
+<p>Percentage (counts) of elicited strong and weak items and their auditory coding with respect to perceived speech rate.</p>
+</caption>
+<table>
+<thead>
+<tr>
+<td align="left" valign="top"></td>
+<td align="left" valign="top"><bold>Fast</bold></td>
+<td align="left" valign="top"><bold>Normal</bold></td>
+<td align="left" valign="top"><bold>Slow</bold></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" valign="top">strong</td>
+<td align="left" valign="top">12% (7)</td>
+<td align="left" valign="top">57% (34)</td>
+<td align="left" valign="top">32% (19)</td>
+</tr>
+<tr>
+<td align="left" valign="top">weak</td>
+<td align="left" valign="top">79% (19)</td>
+<td align="left" valign="top">21% (5)</td>
+<td align="left" valign="top">0% (0)</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+</sec>
+<sec>
+<title>7.2.3 Final Rise</title>
+<p>The presence or absence of a final rise was coded as present vs. absent. The percentages and counts of the coding by utterance type are reported in <xref ref-type="table" rid="T4">Table 4</xref>. The frequency counts were used in a Chi-square test, which found no difference across cells (X(1) = 2.2, p = 0.14).</p>
+<table-wrap id="T4">
+<label>Table 4</label>
+<caption>
+<p>Percentage (counts) of elicited strong and weak items and their auditory coding with respect to the presence of a final rise.</p>
+</caption>
+<table>
+<thead>
+<tr>
+<td align="left" valign="top"></td>
+<td align="left" valign="top"><bold>No</bold></td>
+<td align="left" valign="top"><bold>Yes</bold></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" valign="top">strong</td>
+<td align="left" valign="top">100% (60)</td>
+<td align="left" valign="top">0% (0)</td>
+</tr>
+<tr>
+<td align="left" valign="top">weak</td>
+<td align="left" valign="top">92% (22)</td>
+<td align="left" valign="top">8% (2)</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+</sec>
+</sec>
+<sec>
+<title>7.3 Discussion</title>
+<p>The &#8216;clearest&#8217; utterances &#8212; those which participants in Experiment 3 unanimously categorized according to the strong or weak context they had been uttered in &#8212; were coded differently in terms of the perceived nuclear accent and subjective speech rate when they were imperatives elicited in strong or weak contexts. Among this set of clearest utterances, strong imperatives were overall produced with a slower speech rate than weak imperatives, and the types of imperative also differed in the perceived height of their Nuclear Pitch Accent: while weak imperatives overwhelmingly had a H* accent that was both preceded and followed by syllables with lower pitch, the great majority of strong imperatives had a &#8216;level then fall&#8217; contour, in which the Nuclear Pitch Accent was approximately level to the preceding syllable, but higher than the following one.</p>
+<p>These results may appear to suggest that the clearest utterances had consistently different tonal contours after all, in spite of what we concluded based on Experiment 2. However, we do not believe that these strong and weak imperatives, which were the clearest in terms of recognition by participants, involve different tonal melodies. Notice that &#8216;level-then-fall&#8217; is still a falling tune, which therefore would still be annotated as H* L- L%. The H* in a level-then-fall contour is merely produced without an extra high bump. Instead, it participates in the global pitch declination of the utterance. This may relate to Chatzikonstantinou&#8217;s (<xref ref-type="bibr" rid="B10">2013</xref>) finding in his pilot study that strong imperatives had a &#8220;flat intonation following H H L- (L%) contour.&#8221; Altogether, this would suggest that the final prosodic melody in both strong and weak imperatives is a falling contour. The difference lies in the phonetic implementation of the nuclear pitch accent, which is higher for weak imperatives. That is, weak and strong imperatives share the phonological structure for the nuclear pitch accent, that may vary in likelihood of downstep (likely for strong, not probable but plausible for weak), but they differ in terms of the phonological structure with respect to the macro prosodic characteristics that robustly distinguish these opposing semantic meanings.</p>
+</sec>
+</sec>
+<sec>
+<title>8 General discussion</title>
+<p>We have made some progress towards answering our original four research questions, repeated in (12).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(12)</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>i.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Do speakers produce &#8216;command&#8217; and &#8216;advice&#8217; imperatives with different prosody?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>ii.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>If yes, what are the prosodic characteristics of the different types of imperatives?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>iii.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Do listeners use these production cues in their perception in order to disambiguate between different types of imperative?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>iv.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>How should prosody-semantics interactions in imperatives be analyzed?</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Experiment 2 provided evidence that English speakers indeed do produce &#8216;command&#8217; and &#8216;advice&#8217; imperatives differently, but these meanings were not simply delivered via tunes. The prosodic signature of these imperative meanings was robustly manifested as macro phonetic settings: speakers produce strong imperatives with a slower speech rate and a lower overall pitch than weak imperatives. In terms of intonational contours, we found substantial variability both within and between speakers, which impeded quantitative analysis of acoustic characteristics.</p>
+<p>The evidence that listeners make use of production cues to disambiguate different types of imperatives comes from both Experiments 1 and 3. Listeners were fairly good at correctly categorizing imperatives as strong or weak, when hearing either idealized productions (Experiment 1) or natural ones (Experiment 3). This accuracy was in spite of the substantial within- and across-speaker variability observed in the participants&#8217; productions in Experiment 2, which were the stimuli in Experiment 3.</p>
+<p>The idealized stimuli in Experiment 1, which were designed to test the hypothesis that the strong imperative meaning is manifested as L*L-L% and the weak imperative as H*L-L%, elicited accurate responses from listeners (76% accurate for strong imperatives, 72% for weak). Subsequent analysis revealed, however, that the strong and weak imperatives were also differentiated by overall f0 setting: strong imperatives were associated with a lower f0 than weak imperatives. Listeners&#8217; productions of strong and weak imperatives did not consistently exhibit the predicted prosodic contours, but they did robustly differ in terms of f0 setting and speech rate. Strong imperatives were low and slow, while weak imperatives had higher f0 and faster speech rates. There was variability across listeners in Experiment 3, and, notably, listeners were more accurate with the strong imperatives (76% accurate) than weak (66% accurate). We refer to the f0 and speech rate differences as distinctions in macro prosodic settings.</p>
+<p>Despite the variability in production, many items in Experiment 3 were unanimously correctly categorized by listeners; these items were analyzed further. In these clearest utterances, which were uniformly and accurately categorized by all listeners, speakers not only consistently produced strong imperatives &#8216;slower and lower&#8217; than weak ones, they had fairly consistent patterns for the height of the Nuclear Pitch Accent, based on our auditory coding. This consistency was particularly evident for the strong imperatives, for which the level-then-fall nuclear pitch accent pattern was very consistent (<xref ref-type="table" rid="T2">Table 2</xref>). The pattern of the high nuclear pitch accent for the weak imperatives was robust, but not as consistent as that for the strong imperatives. Ultimately, however, we propose that these contours should be analyzed identically: both as falls. The difference is in the phonetic height of the H* accent, which is higher on weak imperatives.</p>
+<p>Our postulation that the strong and weak imperative distinction does not correspond to a consistent difference in phrase-final intonational melodies leads us to re-examine the conclusions we drew from Experiment 1, where we had hypothesized that it was the idealized pitch contours L* L- L% vs. H* L- L% that listeners were using as cues. As noted above, upon analysis we discovered that the idealized productions for Experiment 1 actually had higher overall pitch for weak imperatives than for strong ones. This may suggest that listeners in Experiment 1 were categorizing imperatives as strong or weak primarily using overall f0 setting, rather than the idealized prosodic contours we were aiming for. This is an interpretation that can be tested in future work.</p>
+<p>What light do these findings shed on the final research question: how best to analyze the prosody-meaning connection in imperatives? Recall from Section 2 that several authors have proposed, in essence, prosodic morphemes consisting of particular tonal contours that convey particular meanings. Our results cast doubt on the validity of the assumption that final tonal contours are what categorically distinguish imperative meanings, at least for command vs. advice imperatives in the variety of English we investigated. Nevertheless, we did find prosodic differences between command and advice imperatives that are perceived and (presumably) used by listeners to distinguish the two types of speech act.</p>
+<p>There seem to be two routes to take with respect to the interpretation of our results.<xref ref-type="fn" rid="n9">9</xref> On the one hand, we could propose prosodic morphemes that convey meaning but that do not involve intonational melodies such as falls or rises. Instead, they involve the macro settings of overall pitch height, speech rate, and the height of the nuclear pitch accent. Under such an approach, and taking Portner&#8217;s (<xref ref-type="bibr" rid="B46">2018</xref>) semantic analysis as an example for concreteness, we could say that lower overall pitch, slower speech rate, and a level-then-fall nuclear pitch accent encode that the speaker is committed to the property denoted by the imperative being a priority, while higher overall pitch, faster speech rate, and a high nuclear pitch accent encode that the speaker is asking for confirmation that the addressee is committed to the action.</p>
+<p>As with any phonetic feature, we expect substantial variability in how these phonological instructions of &#8216;high and fast&#8217; vs. &#8216;low and slow&#8217; and the associated pitch accents are actually produced by speakers. While cross-speaker variation is always to be expected, within this particular meaning space, individuals will also differ substantially in their socio-pragmatic approaches to these imperatives. That is, individuals will deliver command and advice imperatives with different degrees of politeness, the acoustic realization of which may muffle the clarity and preciseness of the originally targeted prosodic morpheme as the semantic and socio-pragmatic meaning is delivered through the same acoustic channel.</p>
+<p>As an alternative to that first route, we could argue that command and advice imperatives are phonologically identical, and therefore that there are not two different form-meaning mappings, and only one phonological form. This would mean that there is semantic and pragmatic ambiguity between the two types of speech act. Under such an approach, the different phonetic realizations of commands vs. advice are merely ways that speakers use phonetic cues to attempt disambiguation between the two meanings.</p>
+<p>Under the first approach, there would be a grammatical link between the meaning of a strong imperative and &#8216;low and slow&#8217; productions, and between the meaning of a weak imperative and &#8216;high and fast&#8217; productions. Under the second approach, in contrast, the connection between the meaning of the two types of imperatives and their phonetic productions is fully realized through the socio-pragmatic differences in how individuals approach imperative as a speech act. That is, the social-pragmatic meaning of the speech act is derived from a particular speaker&#8217;s phonetic production. A concrete example of how this second approach could function would be as follows: low and slow speech patterns are associated with individuals who have or claim authority in social interactions. Speakers can then reproduce these low and slow features to signal a strong interpretation, leveraging that social association.<xref ref-type="fn" rid="n10">10</xref> Regardless of the approaches followed, the phonetic distinctions we observed could arise as instantiations of more general pragmatic phenomena such as the speaker&#8217;s level of authoritativeness, assertiveness, politeness, formality, or the relative positions of speaker and listener on a social hierarchy. This is similar to Oikonomou&#8217;s (<xref ref-type="bibr" rid="B40">2016</xref>) suggestion that certain prosodies applied to imperatives can signal uncertainty or degree of endorsement.</p>
+<p>Considering the second analytical option, recall that we found that weak imperatives are produced with a higher f0 setting than strong imperatives. This was true both in the idealized stimuli produced by a trained linguist for Experiment 1 and in the elicited productions from speakers in Experiment 2. This carries a flavour of Ohala&#8217;s Frequency Code, which leverages sexual dimorphic generalizations and binary gender-stereotypic associations to predict that higher-pitched signals cue uncertainty versus the certainty indicated in a lower-pitched register (<xref ref-type="bibr" rid="B39">Ohala 1983</xref>). Strong imperatives can be viewed as being associated with authority, confidence, and certainty, while weak imperatives are not. Something like the Frequency Code might therefore provide the indirect link to explain the f0 differences found in our experiments between command and advice imperatives. However, a successful account of the prosodic differences between strong and weak imperatives cannot solely rest with an explanation like Ohala&#8217;s Frequency Code, given that imperative type was also robustly associated with speech rate, and there is little evidence that speech rate aligns with the Frequency Code. While it is certainly a stereotype within English-speaking communities that women speak faster than men, there is no evidence supporting such a claim (e.g., <xref ref-type="bibr" rid="B4">Byrd 1992</xref>). Women are perceived as speaking faster than men, but this is possibly due to traversing acoustically larger vowel spaces with, on average, smaller physiology (<xref ref-type="bibr" rid="B62">Weirich &amp; Simpson 2014</xref>).</p>
+<p>As noted in the Discussion of Experiment 2, the challenge to reliably transcribe the utterances elicited from participants in Experiment 2 could be due to the physical (<xref ref-type="bibr" rid="B34">Ladd 2014</xref>) or distributional (<xref ref-type="bibr" rid="B6">Cangemi &amp; Grice 2016</xref>) gradience of realizations. The challenge could also be due to speakers&#8217; individual differences in the tonal realizations of strong and weak imperatives, as has been noted in the production of pitch accents (e.g., <xref ref-type="bibr" rid="B38">Niebuhr et al. 2011</xref>). Politeness is also a dimension that can affect the prosodic realization of an utterance (<xref ref-type="bibr" rid="B6">Cangemi &amp; Grice 2016</xref>; <xref ref-type="bibr" rid="B28">Jeong &amp; Potts 2016</xref>), and some participants may have adopted a more polite style in the weak imperatives that altered the expected prosodic contour.</p>
+<p>Given this, and given the robustness of the macro-setting effects we found in addition to the differences in nuclear pitch accent height observed for the clearest of utterances, we lean towards the former type of analysis, namely that there is a grammatical/phonological link connecting a piece of semantics to a piece of phonetics. As <xref ref-type="fig" rid="F4">Figures 4</xref> and <xref ref-type="fig" rid="F5">5</xref> above demonstrated, every participant in Experiment 2 produced command imperatives both lower and slower than they produced advice imperatives. In spite of there being substantial variability in other phonetic properties of the productions, there seems to be a very clear generalization that commands are not produced high and fast, and advice is not produced low and slow. Moreover, these phonetic differences between command and advice imperatives are robustly used by listeners to disambiguate meaning. As noted above, although only 7% of the items produced in Experiment 2 were correctly categorized by the listeners in Experiment 3 with 100% accuracy, 28% of the items were categorized in the intended direction by listeners with 90% accuracy.</p>
+<p>Recall that the predominant nuclear pitch accent contour we coded for the &#8216;clearest&#8217; strong productions was &#8216;level-then-fall&#8217;, which is a common contour for declaratives. The rise-before-fall we predominantly heard in weak imperatives is the unexpected case intonationally. This could suggest that the strong interpretation is more basic, and that extra information or help is needed to convey the weak interpretation. There is some evidence in support of this in our data, as listeners were more likely to show a bias to respond &#8220;strong&#8221; to any imperative.<xref ref-type="fn" rid="n11">11</xref> Similarly, future research might uncover some clues about the default interpretation of imperatives from our pitch and speech rate findings. That is, future experiments could probe whether the baseline speech rate and overall pitch for speakers are closer to those we found for the strong imperatives, or for the weak.</p>
+<p>Our inquiry into the phonetic space of command and advice imperatives confirms that Portner (<xref ref-type="bibr" rid="B46">2018</xref>) was correct about the semantic distinction being realized phonetically. Our data, however, suggest he was incorrect about the nature of the phonetic manifestation of the semantic categories. The phonetic distinction between command and advice imperatives, while reliably detectable by listeners, is not wholly determined by final contour differences, but is rather signaled multidimensionally by speech rate, global pitch settings, and nuclear pitch accent. This constellation of features is not surprising, as it has long been noted that prosodically cued meaning goes beyond pitch contours (e.g., <xref ref-type="bibr" rid="B16">Gobl &amp; Chasaide 2003</xref>; <xref ref-type="bibr" rid="B5">Campbell &amp; Mokhtari 2003</xref>; <xref ref-type="bibr" rid="B57">Steedman 2014</xref>), but it does serve as a reminder of the complex mapping between meaning and form.</p>
+</sec>
+<sec>
+<title>Data availability</title>
+<p>Materials we have permission to share are available here: <ext-link ext-link-type="uri" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.osf.io/5pm3h">www.osf.io/5pm3h</ext-link>.</p>
+</sec>
+</body>
+<back>
+<fn-group>
+<fn id="n1"><p>We generically refer to &#8216;English&#8217; because while our study was conducted in western Canada where Canadian English is the local standard, our requirement for participants is that they self-identify as a native speaker of any variety of English. This comes with the assumption that they are familiar with the local variety of English on which we base our materials.</p></fn>
+<fn id="n2"><p>In this paper we make use of the ToBI (Tones and Break Indices) system for annotating prosodic contours (<xref ref-type="bibr" rid="B52">Silverman et al. 1992</xref>). The ToBI symbols relevant to the current research are listed in (6), where H stands for &#8220;high&#8221; and L for &#8220;low&#8221;.</p>
+<p><list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(6)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>H*, L*:&#160;&#160;&#160;&#160;&#160;&#160;&#160;pitch accents (on the nuclear stress)</p></list-item>
+<list-item><p>H-, L-:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;phrase accent (between pitch accents and edges of intonation phrases)</p></list-item>
+<list-item><p>H%, L%:&#160;&#160;&#160;&#160;boundary tone at the right edge of intonation phrase</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list></p>
+<p>A typical English falling contour is annotated as H* L- L%, and a typical rising contour is L* H- H%.</p></fn>
+<fn id="n3"><p>Portner analyzes disinterested advice and &#8216;for example&#8217; imperatives as a separate phenomenon: they &#8216;do not seek to update the addressee&#8217;s to-do list&#8217; (<xref ref-type="bibr" rid="B46">Portner 2018: 310</xref>).</p></fn>
+<fn id="n4"><p>Other phonetically grounded research on the prosody-meaning connection includes Jeong &amp; Potts (<xref ref-type="bibr" rid="B28">2016</xref>), who conducted perception experiments to probe how English-speaking listeners interpreted declaratives and interrogatives (plus a few imperatives), with three different prosodic contours: falling, level and rising. They also asked participants how annoyed, authoritative, and polite the speakers sounded. They found that across all sentence-types, falling tunes led to the speaker being interpreted as authoritative, level tunes correlated with sounding annoyed, and rising tunes were perceived as polite. Petrone &amp; D&#8217;Imperio (<xref ref-type="bibr" rid="B42">2011</xref>) also found that a falling tune H*L-L% on request/offer utterances (e.g., Can [you/I] check the weather for [me/you]?) was perceived as increasing speaker authority, particularly for requests. We briefly return to the interaction of speaker authority with phonetics in section 8. However, as our results will show melody differences only in the nuclear pitch accent, we cannot utilize these proposals from Petrone &amp; D&#8217;Imperio and Jeong &amp; Potts.</p></fn>
+<fn id="n5"><p>No statistical model is described or reported in Oikonomou (<xref ref-type="bibr" rid="B41">2022</xref>).</p></fn>
+<fn id="n6"><p>Oikonomou (<xref ref-type="bibr" rid="B40">2016</xref>) does not assign semantics to tonal melodies, claiming that the prosodic difference is ordinary F(ocus)-marking attracting the nuclear stress.</p></fn>
+<fn id="n7"><p>The following code was used: glmer(ProportionMatch ~ Condition + (1 + Condition&#124;Subject) + (1 + Condition&#124;Item), family = &#8220;binomial&#8221;).</p></fn>
+<fn id="n8"><p>The following code was used: glmer(Accuracy ~ Category + (1 + Category&#124;Subject) + (1 + Category&#124;Speaker) + (1 + Category &#124;Item), family = &#8220;binomial&#8221;).</p></fn>
+<fn id="n9"><p>An important aside is that the theoretical and empirical scholarship on the prosody-meaning connection can be broadly separated into the direct and indirect camps. The indirect approach posits phonological prosodic categories produced as particular phonetic characteristics that mediate the mapping from semantics to acoustics. This is the intonational phonology approach (e.g., <xref ref-type="bibr" rid="B20">Gussenhoven 1983</xref>; <xref ref-type="bibr" rid="B33">Ladd 1996/2008</xref>). The direct approach posits that acoustic characteristics are directly associated with semantic meaning (e.g., <xref ref-type="bibr" rid="B63">Xu &amp; Xu 2005</xref>). Our data do not adjudicate between these approaches. We interpret our data following the intonational phonology or indirect approach (<xref ref-type="bibr" rid="B33">Ladd 1996</xref>), where a phonological category mediates the mapping between semantic meaning and phonetic realizations.</p></fn>
+<fn id="n10"><p>Thank you to a reviewer for this clear characterization.</p></fn>
+<fn id="n11"><p>A reviewer suggests an alternative to consider, namely that the weak interpretation is more basic, but adults have a tendency to derive strengthened interpretations when they can (similar to the strengthening of &#8216;or&#8217; to an exclusive interpretation from an inclusive one). This is an interesting idea to pursue in future research. We do not adopt it at this time because we are not committed to a semantic analysis of command vs. non-command imperatives that places them on a scale of semantic strength.</p></fn>
+</fn-group>
+<sec>
+<title>Ethics and consent</title>
+<p>This research was approved by the Behavioural Ethics Research Board at the University of British Columbia in accordance with the ethical standards documented in the 1964 Declaration of Helsinki and its later amendments.</p>
+</sec>
+<sec>
+<title>Funding information</title>
+<p>This research has been supported by a SSHRC Insight Grant to MB.</p>
+</sec>
+<ack>
+<title>Acknowledgements</title>
+<p>Thank you to Jobie Hui for her artistry in the drawings for the experiment. Thank you to Lydia Rhi, Ariana Zattera, Brianne Senior for their contributions to data collection and analysis. Thank you to Khushi Patil and Megan Housley for assistance in manuscript preparation. For feedback, thank you to Michael Rochemont, Hotze Rullmann, Hubert Truckenbrodt, members of the Speech in Context Lab, and audiences at LabPhon 15 at Cornell University, the University of British Columbia, and the Universit&#228;t zu K&#246;ln.</p>
+</ack>
+<sec>
+<title>Competing interests</title>
+<p>The authors have no competing interests to declare.</p>
+</sec>
+<ref-list>
+<ref id="B1"><label>1</label><mixed-citation publication-type="book"><string-name><surname>Bartels</surname>, <given-names>Christine</given-names></string-name>. <year>2014</year>. <source>The intonation of English statements and questions: A compositional interpretation</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Routledge</publisher-name>. DOI: <pub-id pub-id-type="doi">10.4324/9781315053332</pub-id></mixed-citation></ref>
+<ref id="B2"><label>2</label><mixed-citation publication-type="journal"><string-name><surname>Bhadra</surname>, <given-names>Diti</given-names></string-name>. <year>2020</year>. <article-title>The semantics of evidentials in questions</article-title>. <source>Journal of Semantics</source> <volume>37</volume>(<issue>3</issue>). <fpage>367</fpage>&#8211;<lpage>423</lpage>. DOI: <pub-id pub-id-type="doi">10.1093/jos/ffaa003</pub-id></mixed-citation></ref>
+<ref id="B3"><label>3</label><mixed-citation publication-type="book"><string-name><surname>Bolinger</surname>, <given-names>Dwight</given-names></string-name> &amp; <string-name><surname>Bolinger</surname>, <given-names>Dwight L. M.</given-names></string-name> <year>1989</year>. <source>Intonation and its uses: Melody in grammar and discourse</source>. <publisher-name>Stanford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1515/9781503623125</pub-id></mixed-citation></ref>
+<ref id="B4"><label>4</label><mixed-citation publication-type="journal"><string-name><surname>Byrd</surname>, <given-names>Dani</given-names></string-name>. <year>1992</year>. <article-title>Preliminary results on speaker-dependent variation in the TIMIT database</article-title>. <source>The Journal of the Acoustical Society of America</source> <volume>92</volume>(<issue>1</issue>). <fpage>593</fpage>&#8211;<lpage>596</lpage>. DOI: <pub-id pub-id-type="doi">10.1121/1.404271</pub-id></mixed-citation></ref>
+<ref id="B5"><label>5</label><mixed-citation publication-type="journal"><string-name><surname>Campbell</surname>, <given-names>Nick</given-names></string-name> &amp; <string-name><surname>Mokhtari</surname>, <given-names>Parham</given-names></string-name>. <year>2003</year>. <article-title>Voice quality: the 4th prosodic dimension</article-title>. <source>Proceedings of the 15th International Congress of the Phonetic Sciences</source> (ICPhS, 2003), <fpage>2417</fpage>&#8211;<lpage>2420</lpage>.</mixed-citation></ref>
+<ref id="B6"><label>6</label><mixed-citation publication-type="journal"><string-name><surname>Cangemi</surname>, <given-names>Francesco</given-names></string-name> &amp; <string-name><surname>Grice</surname>, <given-names>Martine</given-names></string-name>. <year>2016</year>. <article-title>The importance of a distributional approach to categoriality in autosegmental-metrical accounts of intonation</article-title>. <source>Laboratory Phonology</source> <volume>7</volume>(<issue>1</issue>). <fpage>1</fpage>&#8211;<lpage>20</lpage>. DOI: <pub-id pub-id-type="doi">10.5334/labphon.28</pub-id></mixed-citation></ref>
+<ref id="B7"><label>7</label><mixed-citation publication-type="journal"><string-name><surname>Carter</surname>, <given-names>Sam</given-names></string-name>. <year>2021</year>. <article-title>Force and choice</article-title>. <source>Linguistics and Philosophy</source> <volume>45</volume>. <fpage>875</fpage>&#8211;<lpage>910</lpage>. DOI: <pub-id pub-id-type="doi">10.1007/s10988-021-09335-w</pub-id></mixed-citation></ref>
+<ref id="B8"><label>8</label><mixed-citation publication-type="book"><string-name><surname>Charlow</surname>, <given-names>Nathan</given-names></string-name>. <year>2010</year>. <chapter-title>Restricting and embedding imperatives</chapter-title>. In <string-name><surname>Aloni</surname>, <given-names>M.</given-names></string-name> &amp; <string-name><surname>Bastiaanse</surname>, <given-names>H.</given-names></string-name> &amp; <string-name><surname>de Jager</surname>, <given-names>T.</given-names></string-name> &amp; <string-name><surname>Schulz</surname>, <given-names>K.</given-names></string-name> (eds.), <source>Logic, Language and Meaning. Lecture Notes in Computer Science</source> <volume>6042</volume>. <publisher-loc>Berlin, Heidelberg</publisher-loc>: <publisher-name>Springer</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1007/978-3-642-14287-1_23</pub-id></mixed-citation></ref>
+<ref id="B9"><label>9</label><mixed-citation publication-type="thesis"><string-name><surname>Charlow</surname>, <given-names>Nathan</given-names></string-name>. <year>2011</year>. <source>Practical language: Its meaning and use</source>. <publisher-name>University of Michigan</publisher-name> Doctoral dissertation.</mixed-citation></ref>
+<ref id="B10"><label>10</label><mixed-citation publication-type="book"><string-name><surname>Chatzikonstantinou</surname>, <given-names>Tasos</given-names></string-name>. <year>2013</year>. <source>Prosody and illocutionary force in English imperatives</source>. Ms., <publisher-name>University of Chicago</publisher-name>.</mixed-citation></ref>
+<ref id="B11"><label>11</label><mixed-citation publication-type="journal"><string-name><surname>Cole</surname>, <given-names>Jennifer</given-names></string-name> &amp; <string-name><surname>Shattuck-Hufnagel</surname>, <given-names>Stefanie</given-names></string-name>. <year>2016</year>. <article-title>New methods for prosodic transcription: Capturing variability as a source of information</article-title>. <source>Laboratory Phonology</source> <volume>7</volume>(<issue>1</issue>). DOI: <pub-id pub-id-type="doi">10.5334/labphon.29</pub-id></mixed-citation></ref>
+<ref id="B12"><label>12</label><mixed-citation publication-type="webpage"><string-name><surname>Condoravdi</surname>, <given-names>Cleo</given-names></string-name> &amp; <string-name><surname>Lauer</surname>, <given-names>Sven</given-names></string-name>. <year>2012</year>. <article-title>Imperatives: Meaning and illocutionary function</article-title>. In <string-name><surname>Pi&#241;on</surname>, <given-names>Christopher</given-names></string-name> (ed.), <source>Empirical issues in syntax and semantics</source> <volume>9</volume>, <fpage>1</fpage>&#8211;<lpage>21</lpage>. <uri>http://www.cssp.cnrs.fr/eiss9/eiss9_condoravdi-and-lauer.pdf</uri></mixed-citation></ref>
+<ref id="B13"><label>13</label><mixed-citation publication-type="journal"><string-name><surname>Davis</surname>, <given-names>Christopher</given-names></string-name>. <year>2009</year>. <article-title>Decisions, dynamics and the Japanese particle yo</article-title>. <source>Journal of Semantics</source> <volume>26</volume>(<issue>4</issue>). <fpage>329</fpage>&#8211;<lpage>366</lpage>. DOI: <pub-id pub-id-type="doi">10.1093/jos/ffp007</pub-id></mixed-citation></ref>
+<ref id="B14"><label>14</label><mixed-citation publication-type="journal"><string-name><surname>Fletcher</surname>, <given-names>Janet</given-names></string-name> &amp; <string-name><surname>Loakes</surname>, <given-names>Deborah</given-names></string-name>. <year>2010</year>. <article-title>Interpreting rising intonation in Australian English</article-title>. In <source>5th International Conference of Speech Prosody</source> 2010.</mixed-citation></ref>
+<ref id="B15"><label>15</label><mixed-citation publication-type="journal"><string-name><surname>Gamer</surname>, <given-names>Mattias</given-names></string-name> &amp; <string-name><surname>Lemon</surname>, <given-names>Jim</given-names></string-name> &amp; <string-name><surname>Singh</surname>, <given-names>Ian F. P.</given-names></string-name> <year>2015</year>. <source>Various coefficients of interrater reliability and agreement</source>. R package version 0.84. 2012.</mixed-citation></ref>
+<ref id="B16"><label>16</label><mixed-citation publication-type="journal"><string-name><surname>Gobl</surname>, <given-names>Christer</given-names></string-name>. &amp; <string-name><surname>Chasaide</surname>, <given-names>Ailbhe N.</given-names></string-name> <year>2003</year>. <article-title>The role of voice quality in communicating emotion, mood and attitude</article-title>. <source>Speech communication</source> <volume>40</volume>(<issue>1&#8211;2</issue>). <fpage>189</fpage>&#8211;<lpage>212</lpage>. DOI: <pub-id pub-id-type="doi">10.1016/S0167-6393(02)00082-1</pub-id></mixed-citation></ref>
+<ref id="B17"><label>17</label><mixed-citation publication-type="journal"><string-name><surname>Grosz</surname>, <given-names>Patrick</given-names></string-name>. <year>2009</year>. <article-title>German particles, modality, and the semantics of imperatives</article-title>. In <string-name><surname>Lima</surname>, <given-names>Suzi</given-names></string-name> &amp; <string-name><surname>Mullin</surname>, <given-names>Kevin</given-names></string-name> &amp; <string-name><surname>Smith</surname>, <given-names>Brian</given-names></string-name> (eds.), <source>North East Linguistic Society</source> (NELS) <volume>39</volume>, <fpage>323</fpage>&#8211;<lpage>336</lpage>.</mixed-citation></ref>
+<ref id="B18"><label>18</label><mixed-citation publication-type="book"><string-name><surname>Gunlogson</surname>, <given-names>Christine</given-names></string-name>. <year>2001</year>. <source>True to form: Rising and falling declaratives as questions in English</source>. <publisher-loc>New York, NY</publisher-loc>: <publisher-name>Routledge</publisher-name>. DOI: <pub-id pub-id-type="doi">10.4324/9780203502013</pub-id></mixed-citation></ref>
+<ref id="B19"><label>19</label><mixed-citation publication-type="journal"><string-name><surname>Gunlogson</surname>, <given-names>Christine</given-names></string-name>. <year>2008</year>. <article-title>A question of commitment</article-title>. <source>Belgian Journal of Linguistics</source> <volume>22</volume>. <fpage>101</fpage>&#8211;<lpage>36</lpage>. DOI: <pub-id pub-id-type="doi">10.1075/bjl.22.06gun</pub-id></mixed-citation></ref>
+<ref id="B20"><label>20</label><mixed-citation publication-type="journal"><string-name><surname>Gussenhoven</surname>, <given-names>Carlos</given-names></string-name>. <year>1983</year>. <article-title>Focus, mode and the nucleus</article-title>. <source>Journal of Linguistics</source> <volume>19</volume>(<issue>2</issue>). <fpage>377</fpage>&#8211;<lpage>417</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0022226700007799</pub-id></mixed-citation></ref>
+<ref id="B21"><label>21</label><mixed-citation publication-type="book"><string-name><surname>Gussenhoven</surname>, <given-names>Carlos</given-names></string-name>. <year>2004</year>. <source>The phonology of tone and intonation</source>. <publisher-loc>Cambridge</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1017/CBO9780511616983</pub-id></mixed-citation></ref>
+<ref id="B22"><label>22</label><mixed-citation publication-type="journal"><string-name><surname>Han</surname>, <given-names>Chung-hye</given-names></string-name>. <year>1999</year>. <article-title>Deontic modality, lexical aspect and the semantics of imperatives</article-title>. <source>Linguistics in the morning calm</source> <volume>4</volume>. <fpage>475</fpage>&#8211;<lpage>95</lpage>.</mixed-citation></ref>
+<ref id="B23"><label>23</label><mixed-citation publication-type="book"><string-name><surname>Han</surname>, <given-names>Chung-hye</given-names></string-name>. <year>2019</year>. <chapter-title>Imperatives</chapter-title>. In <string-name><surname>Portner</surname>, <given-names>P.</given-names></string-name> et al. (eds.), <source>Semantics - Sentence and Information Structure</source>, <fpage>225</fpage>&#8211;<lpage>249</lpage>. <publisher-loc>Berlin, Boston</publisher-loc>: <publisher-name>De Gruyter Mouton</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1515/9783110589863-006</pub-id></mixed-citation></ref>
+<ref id="B24"><label>24</label><mixed-citation publication-type="thesis"><string-name><surname>Heim</surname>, <given-names>Johannes M</given-names></string-name>. <year>2019</year>. <source>Commitment and engagement: The role of intonation in deriving speech acts</source>. <publisher-name>University of British Columbia</publisher-name> Doctoral dissertation.</mixed-citation></ref>
+<ref id="B25"><label>25</label><mixed-citation publication-type="book"><string-name><surname>Jackendoff</surname>, <given-names>Ray S</given-names></string-name>. <year>1972</year>. <source>Semantic interpretation in generative grammar</source>. <publisher-loc>Cambridge, MA</publisher-loc>: <publisher-name>MIT Press</publisher-name>.</mixed-citation></ref>
+<ref id="B26"><label>26</label><mixed-citation publication-type="journal"><string-name><surname>Jeong</surname>, <given-names>Sunwoo</given-names></string-name> &amp; <string-name><surname>Condoravdi</surname>, <given-names>Cleo</given-names></string-name>. <year>2017</year>, <month>February</month>. <article-title>Imperatives with the calling contour</article-title>. In <source>Proceedings of Berkeley Linguistic Society</source> <volume>43</volume>.</mixed-citation></ref>
+<ref id="B27"><label>27</label><mixed-citation publication-type="journal"><string-name><surname>Jeong</surname>, <given-names>Sunwoo</given-names></string-name> &amp; <string-name><surname>Condoravdi</surname>, <given-names>Cleo</given-names></string-name>. <year>2018</year>. <article-title>Imperatives and intonation: The case of the down-stepped level terminal contour</article-title>. In <string-name><surname>Bennett</surname>, <given-names>Wm. G.</given-names></string-name> et al. (eds.), <source>Proceedings of the 35th West Coast Conference on Formal Linguistics</source>, <fpage>214</fpage>&#8211;<lpage>223</lpage>.</mixed-citation></ref>
+<ref id="B28"><label>28</label><mixed-citation publication-type="journal"><string-name><surname>Jeong</surname>, <given-names>Sunwoo</given-names></string-name> &amp; <string-name><surname>Potts</surname>, <given-names>Christopher</given-names></string-name>. <year>2016</year>. <article-title>Intonational sentence-type conventions for perlocutionary effects: An experimental investigation</article-title>. In <source>Semantics and Linguistic Theory</source> <volume>26</volume>, <fpage>1</fpage>&#8211;<lpage>22</lpage>. DOI: <pub-id pub-id-type="doi">10.3765/salt.v26i0.3787</pub-id></mixed-citation></ref>
+<ref id="B29"><label>29</label><mixed-citation publication-type="book"><string-name><surname>Kaufmann</surname>, <given-names>Magdalena</given-names></string-name>. <year>2012</year>. <source>Interpreting imperatives</source>. <publisher-loc>Dordrecht</publisher-loc>: <publisher-name>Springer</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1007/978-94-007-2269-9</pub-id></mixed-citation></ref>
+<ref id="B30"><label>30</label><mixed-citation publication-type="book"><string-name><surname>Kaufmann</surname>, <given-names>Magdalena</given-names></string-name> &amp; <string-name><surname>Kaufmann</surname>, <given-names>Stefan</given-names></string-name>. <year>2016</year>. <chapter-title>Modality and mood in formal semantics</chapter-title>. In <string-name><surname>van der Auwera</surname>, <given-names>Johan</given-names></string-name> &amp; <string-name><surname>Nuyts</surname>, <given-names>Jan</given-names></string-name> (ed.), <source>The Oxford handbooks of mood and modality</source>, <fpage>785</fpage>&#8211;<lpage>820</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oxfordhb/9780199591435.013.24</pub-id></mixed-citation></ref>
+<ref id="B31"><label>31</label><mixed-citation publication-type="journal"><string-name><surname>Kawahara</surname>, <given-names>Hideki</given-names></string-name> &amp; <string-name><surname>Katayose</surname>, <given-names>Haruhiro</given-names></string-name> &amp; <string-name><surname>Cheveign&#233;</surname>, <given-names>Alain D.</given-names></string-name> &amp; <string-name><surname>Patterson</surname>, <given-names>Roy D.</given-names></string-name> <year>1999</year>. <article-title>Fixed point analysis of frequency to instantaneous frequency mapping for accurate estimation of F0 and periodicity</article-title>. In <source>Sixth European Conference on Speech Communication and Technology</source>. DOI: <pub-id pub-id-type="doi">10.21437/Eurospeech.1999-613</pub-id></mixed-citation></ref>
+<ref id="B32"><label>32</label><mixed-citation publication-type="journal"><string-name><surname>Ladd</surname>, <given-names>D. Robert</given-names></string-name>. <year>1978</year>. <article-title>Stylized intonation</article-title>. <source>Language</source> <volume>54</volume>(<issue>3</issue>). <fpage>517</fpage>&#8211;<lpage>540</lpage>. DOI: <pub-id pub-id-type="doi">10.1353/lan.1978.0056</pub-id></mixed-citation></ref>
+<ref id="B33"><label>33</label><mixed-citation publication-type="book"><string-name><surname>Ladd</surname>, <given-names>D. Robert</given-names></string-name>. <year>1996/2008</year>. <source>Intonational Phonology</source>. <edition>1st</edition> and 2nd edition. <publisher-loc>Cambridge</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1017/CBO9780511808814</pub-id></mixed-citation></ref>
+<ref id="B34"><label>34</label><mixed-citation publication-type="book"><string-name><surname>Ladd</surname>, <given-names>D. Robert</given-names></string-name>. <year>2014</year>. <source>Simultaneous structure in phonology</source> (Vol. <volume>28</volume>). <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/acprof:oso/9780199670970.001.0001</pub-id></mixed-citation></ref>
+<ref id="B35"><label>35</label><mixed-citation publication-type="book"><string-name><surname>Macmillan</surname>, <given-names>Neil</given-names></string-name> &amp; <string-name><surname>Creelman</surname>, <given-names>C. Douglas</given-names></string-name>. <year>2005</year>. <source>Detection theory: a user&#8217;s guide</source> (<edition>2nd</edition> ed.). <publisher-loc>Mahwah, NJ</publisher-loc>: <publisher-name>Lawrence Erlbaum Associates</publisher-name>.</mixed-citation></ref>
+<ref id="B36"><label>36</label><mixed-citation publication-type="journal"><string-name><surname>Malamud</surname>, <given-names>Sophia A</given-names></string-name>. &amp; <string-name><surname>Stephenson</surname>, <given-names>Tamina</given-names></string-name>. <year>2015</year>. <article-title>Three ways to avoid commitments: Declarative force modifiers in the conversational scoreboard</article-title>. <source>Journal of Semantics</source> <volume>32</volume>(<issue>2</issue>). <fpage>275</fpage>&#8211;<lpage>311</lpage>. DOI: <pub-id pub-id-type="doi">10.1093/jos/ffu002</pub-id></mixed-citation></ref>
+<ref id="B37"><label>37</label><mixed-citation publication-type="journal"><string-name><surname>McAuliffe</surname>, <given-names>Michael</given-names></string-name> &amp; <string-name><surname>Socolof</surname>, <given-names>Michaela</given-names></string-name> &amp; <string-name><surname>Mihuc</surname>, <given-names>Sarah</given-names></string-name> &amp; <string-name><surname>Wagner</surname>, <given-names>Michael</given-names></string-name> &amp; <string-name><surname>Sonderegger</surname>, <given-names>Morgan</given-names></string-name>. <year>2017</year>, <month>August</month>. <article-title>Montreal Forced Aligner: Trainable Text-Speech Alignment Using Kaldi</article-title>. In <source>Interspeech</source> <volume>2017</volume>, <fpage>498</fpage>&#8211;<lpage>502</lpage>. DOI: <pub-id pub-id-type="doi">10.21437/Interspeech.2017-1386</pub-id></mixed-citation></ref>
+<ref id="B38"><label>38</label><mixed-citation publication-type="journal"><string-name><surname>Niebuhr</surname>, <given-names>Oliver</given-names></string-name> &amp; <string-name><surname>d&#8217;Imperio</surname>, <given-names>Mariapaola</given-names></string-name> &amp; <string-name><surname>Fivela</surname>, <given-names>Barbara G.</given-names></string-name> &amp; <string-name><surname>Cangemi</surname>, <given-names>Francesco</given-names></string-name>. <year>2011</year>. <article-title>Are there &#8220;shapers&#8221; and &#8220;aligners&#8221;?: Individual differences in signaling pitch accent category</article-title>. In <source>The International Congress of the Phonetic Sciences</source>, <fpage>120</fpage>&#8211;<lpage>123</lpage>.</mixed-citation></ref>
+<ref id="B39"><label>39</label><mixed-citation publication-type="journal"><string-name><surname>Ohala</surname>, <given-names>John. J</given-names></string-name>. <year>1983</year>. <article-title>Cross-language use of pitch: An ethological view</article-title>. <source>Phonetica</source> <volume>40</volume>(<issue>1</issue>). <fpage>1</fpage>&#8211;<lpage>18</lpage>. DOI: <pub-id pub-id-type="doi">10.1159/000261678</pub-id></mixed-citation></ref>
+<ref id="B40"><label>40</label><mixed-citation publication-type="thesis"><string-name><surname>Oikonomou</surname>, <given-names>Despina</given-names></string-name>. <year>2016</year>. <source>Covert modals in root contexts</source>. <publisher-name>Massachusetts Institute of Technology</publisher-name> Doctoral dissertation.</mixed-citation></ref>
+<ref id="B41"><label>41</label><mixed-citation publication-type="journal"><string-name><surname>Oikonomou</surname>, <given-names>Despina</given-names></string-name>. <year>2022</year>. <article-title>Detecting variable force in imperatives: A modalized minimal approach</article-title>. <source>Natural Language and Linguistic Theory</source>, <fpage>1</fpage>&#8211;<lpage>56</lpage>. DOI: <pub-id pub-id-type="doi">10.1007/s11049-022-09554-1</pub-id></mixed-citation></ref>
+<ref id="B42"><label>42</label><mixed-citation publication-type="book"><string-name><surname>Petrone</surname>, <given-names>Caterina</given-names></string-name> &amp; <string-name><surname>D&#8217;Imperio</surname>, <given-names>Mariapaola</given-names></string-name>. <year>2011</year>. <chapter-title>From tones to tunes: Effects of the f 0 prenuclear region in the perception of Neapolitan statements and questions</chapter-title>. In <string-name><surname>Frotz</surname>, <given-names>Sonia</given-names></string-name> &amp; <string-name><surname>Elordieta</surname>, <given-names>Gorka</given-names></string-name> &amp; <string-name><surname>Prieto</surname>, <given-names>Pilar</given-names></string-name> (eds.), <source>Prosodic categories: Production, perception and comprehension</source>, <fpage>207</fpage>&#8211;<lpage>230</lpage>. <publisher-loc>Berlin, Germany</publisher-loc>: <publisher-name>Springer Verlag</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1007/978-94-007-0137-3_9</pub-id></mixed-citation></ref>
+<ref id="B43"><label>43</label><mixed-citation publication-type="book"><string-name><surname>Pierrehumbert</surname>, <given-names>Janet</given-names></string-name> &amp; <string-name><surname>Hirschberg</surname>, <given-names>Julia</given-names></string-name>. <year>1990</year>. <chapter-title>The meaning of intonational contours in the interpretation of discourse</chapter-title>. In <string-name><surname>Cohen</surname>, <given-names>Phillip</given-names></string-name> &amp; <string-name><surname>Morgan</surname>, <given-names>Jerry</given-names></string-name> &amp; <string-name><surname>Pollack</surname>, <given-names>Martha</given-names></string-name> (eds.), <source>Intentions in communication</source>, <fpage>271</fpage>&#8211;<lpage>312</lpage>. <publisher-loc>Cambridge, MA</publisher-loc>: <publisher-name>MIT Press</publisher-name>.</mixed-citation></ref>
+<ref id="B44"><label>44</label><mixed-citation publication-type="journal"><string-name><surname>Portner</surname>, <given-names>Paul</given-names></string-name>. <year>2004</year>. <article-title>The semantics of imperatives within a theory of clause types</article-title>. In <source>Semantics and Linguistic Theory</source> <volume>14</volume>, <fpage>235</fpage>&#8211;<lpage>252</lpage>. DOI: <pub-id pub-id-type="doi">10.3765/salt.v14i0.2907</pub-id></mixed-citation></ref>
+<ref id="B45"><label>45</label><mixed-citation publication-type="journal"><string-name><surname>Portner</surname>, <given-names>Paul</given-names></string-name>. <year>2007</year>. <article-title>Imperatives and modals</article-title>. <source>Natural Language Semantics</source> <volume>15</volume>(<issue>4</issue>). <fpage>351</fpage>&#8211;<lpage>383</lpage>. DOI: <pub-id pub-id-type="doi">10.1007/s11050-007-9022-y</pub-id></mixed-citation></ref>
+<ref id="B46"><label>46</label><mixed-citation publication-type="book"><string-name><surname>Portner</surname>, <given-names>Paul</given-names></string-name>. <year>2018</year>. <chapter-title>Commitment to priorities</chapter-title>. In <string-name><surname>Fogal</surname>, <given-names>Daniel</given-names></string-name> &amp; <string-name><surname>Harris</surname>, <given-names>Daniel W.</given-names></string-name> &amp; <string-name><surname>Moss</surname>, <given-names>Matt</given-names></string-name> (eds.), <source>New work on speech acts</source>, <fpage>296</fpage>&#8211;<lpage>316</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oso/9780198738831.003.0011</pub-id></mixed-citation></ref>
+<ref id="B47"><label>47</label><mixed-citation publication-type="book"><string-name><surname>Ritchart</surname>, <given-names>Amanda</given-names></string-name> &amp; <string-name><surname>Arvaniti</surname>, <given-names>Amalia</given-names></string-name>. <year>2013</year>, <month>December</month>. <chapter-title>The use of high rise terminals in Southern Californian English</chapter-title>. In <source>Proceedings of Meetings on Acoustics 166 ASA</source> <volume>20</volume>(<issue>1</issue>), p. <elocation-id>060001</elocation-id>. <publisher-name>Acoustical Society of America</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1121/1.4863274</pub-id></mixed-citation></ref>
+<ref id="B48"><label>48</label><mixed-citation publication-type="journal"><string-name><surname>Roberts</surname>, <given-names>Craige</given-names></string-name>. <year>2015</year>. <article-title>Conditional plans and imperatives: A semantics and pragmatics for imperative mood</article-title>. In <source>Proceedings of the 20th Amsterdam colloquium</source>, <fpage>353</fpage>&#8211;<lpage>362</lpage>.</mixed-citation></ref>
+<ref id="B49"><label>49</label><mixed-citation publication-type="thesis"><string-name><surname>Rudin</surname>, <given-names>Deniz</given-names></string-name>. <year>2018</year>. <source>Rising above commitment</source>. <publisher-name>University of California, Santa Cruz</publisher-name> Doctoral dissertation.</mixed-citation></ref>
+<ref id="B50"><label>50</label><mixed-citation publication-type="thesis"><string-name><surname>Schwager</surname>, <given-names>Magdalena</given-names></string-name>. <year>2006</year>. <chapter-title>Interpreting Imperatives</chapter-title>. <publisher-name>Johann Wolfgang Goethe Universit&#228;t</publisher-name> Doctoral dissertation.</mixed-citation></ref>
+<ref id="B51"><label>51</label><mixed-citation publication-type="book"><string-name><surname>Shue</surname>, <given-names>Yen-Liang</given-names></string-name> &amp; <string-name><surname>Keating</surname>, <given-names>Patricia</given-names></string-name> &amp; <string-name><surname>Vicenik</surname>, <given-names>Chad</given-names></string-name> &amp; <string-name><surname>Yu</surname>, <given-names>Kristine</given-names></string-name>. <year>2011</year>. <chapter-title>VoiceSauce: A program for voice analysis</chapter-title>. In <source>Proceedings of the 17th International Congress of Phonetic Sciences</source>, <fpage>1846</fpage>&#8211;<lpage>1849</lpage>. <publisher-loc>Hong Kong</publisher-loc>. Program available online at <uri>http://www.seas.ucla.edu/spapl/voicesauce/</uri>.</mixed-citation></ref>
+<ref id="B52"><label>52</label><mixed-citation publication-type="journal"><string-name><surname>Silverman</surname>, <given-names>Kim</given-names></string-name> &amp; <string-name><surname>Beckman</surname>, <given-names>Mary</given-names></string-name> &amp; <string-name><surname>Pitrelli</surname>, <given-names>John</given-names></string-name> &amp; <string-name><surname>Ostendorf</surname>, <given-names>Mari</given-names></string-name> &amp; <string-name><surname>Wightman</surname>, <given-names>Colin</given-names></string-name> &amp; <string-name><surname>Price</surname>, <given-names>Patti</given-names></string-name> &amp; <string-name><surname>Pierrehumbert</surname>, <given-names>Janet</given-names></string-name> &amp; <string-name><surname>Hirschberg</surname>, <given-names>Julia</given-names></string-name>. <year>1992</year> <article-title>TOBI: a standard for labeling English prosody</article-title>. <source>Proc. 2nd International Conference on Spoken Language Processing</source> (ICSLP 1992), <fpage>867</fpage>&#8211;<lpage>870</lpage>. DOI: <pub-id pub-id-type="doi">10.21437/ICSLP.1992-260</pub-id></mixed-citation></ref>
+<ref id="B53"><label>53</label><mixed-citation publication-type="journal"><string-name><surname>Starr</surname>, <given-names>William</given-names></string-name>. <year>2020</year>. <article-title>A preference semantics for imperatives</article-title>. <source>Semantics and Pragmatics</source> <volume>13</volume>(<issue>6</issue>). <fpage>1</fpage>&#8211;<lpage>62</lpage>. DOI: <pub-id pub-id-type="doi">10.3765/sp.13.6</pub-id></mixed-citation></ref>
+<ref id="B54"><label>54</label><mixed-citation publication-type="thesis"><string-name><surname>Starr</surname>, <given-names>William B</given-names></string-name>. <year>2010</year>. <chapter-title>Conditionals, meaning and mood</chapter-title>. <publisher-loc>New Brunswick, NJ</publisher-loc>: <publisher-name>Rutgers University</publisher-name> Ph.D. thesis.</mixed-citation></ref>
+<ref id="B55"><label>55</label><mixed-citation publication-type="journal"><string-name><surname>Steedman</surname>, <given-names>Mark</given-names></string-name>. <year>1991</year>. <article-title>Structure and intonation</article-title>. <source>Language</source>. <fpage>260</fpage>&#8211;<lpage>296</lpage>. DOI: <pub-id pub-id-type="doi">10.1353/lan.1991.0098</pub-id></mixed-citation></ref>
+<ref id="B56"><label>56</label><mixed-citation publication-type="book"><string-name><surname>Steedman</surname>, <given-names>Mark</given-names></string-name>. <year>2007</year>. <chapter-title>Information-structural semantics for English intonation</chapter-title>. In <string-name><surname>Lee</surname>, <given-names>Chungmin</given-names></string-name> &amp; <string-name><surname>Gordon</surname>, <given-names>Matthew</given-names></string-name> &amp; <string-name><surname>B&#252;ring</surname>, <given-names>Daniel</given-names></string-name> (eds.), <source>Topic and Focus: Cross-linguistic Perspectives on Meaning and Intonation</source> (Studies in Linguistics and Philosophy 82), <fpage>245</fpage>&#8211;<lpage>264</lpage>. <publisher-loc>Dordrecht</publisher-loc>: <publisher-name>Kluwer</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1007/978-1-4020-4796-1_13</pub-id></mixed-citation></ref>
+<ref id="B57"><label>57</label><mixed-citation publication-type="journal"><string-name><surname>Steedman</surname>, <given-names>Mark</given-names></string-name>. <year>2014</year>. <article-title>The surface-compositional semantics of English intonation</article-title>. <source>Language</source>. <fpage>2</fpage>&#8211;<lpage>57</lpage>. DOI: <pub-id pub-id-type="doi">10.1353/lan.2014.0010</pub-id></mixed-citation></ref>
+<ref id="B58"><label>58</label><mixed-citation publication-type="book"><string-name><surname>Sur&#225;nyi</surname>, <given-names>Bal&#225;zs</given-names></string-name> &amp; <string-name><surname>Turi</surname>, <given-names>Gerg&#337;</given-names></string-name>. <year>2020</year>. <chapter-title>Intonational effects on English scopally ambiguous sentences</chapter-title>. <source>Ilha do Desterro</source> <volume>73</volume>(<issue>3</issue>). <fpage>13</fpage>&#8211;<lpage>36</lpage>. <publisher-name>Florian&#243;polis</publisher-name>. DOI: <pub-id pub-id-type="doi">10.5007/2175-8026.2020v73n3p13</pub-id></mixed-citation></ref>
+<ref id="B59"><label>59</label><mixed-citation publication-type="book"><string-name><surname>Truckenbrodt</surname>, <given-names>Hubert</given-names></string-name>. <year>2012</year>. <chapter-title>Semantics of intonation</chapter-title>. In <string-name><surname>Maienborn</surname>, <given-names>Claudia</given-names></string-name> &amp; <string-name><surname>von Heusinger</surname>, <given-names>Klaus</given-names></string-name> &amp; <string-name><surname>Portner</surname>, <given-names>Paul</given-names></string-name>. (eds.), <source>Semantics: An International Handbook of Natural Language Meaning</source>, <fpage>2039</fpage>&#8211;<lpage>2069</lpage>. <publisher-loc>Berlin</publisher-loc>: <publisher-name>Mouton de Gruyter</publisher-name>.</mixed-citation></ref>
+<ref id="B60"><label>60</label><mixed-citation publication-type="book"><string-name><surname>Truckenbrodt</surname>, <given-names>Hubert</given-names></string-name>. <year>2020</year>. <chapter-title>Semantics of English intonation: &#8220;A leopard? A leopard!&#8221;</chapter-title>. In <string-name><surname>Gutzmann</surname>, <given-names>Daniel</given-names></string-name> &amp; <string-name><surname>Matthewson</surname>, <given-names>Lisa</given-names></string-name> &amp; <string-name><surname>Meier</surname>, <given-names>C&#233;cile</given-names></string-name> &amp; <string-name><surname>Rullmann</surname>, <given-names>Hotze</given-names></string-name> &amp; <string-name><surname>Zimmermann</surname>, <given-names>Thomas E.</given-names></string-name> (eds.), <source>The Wiley Blackwell Companion to Semantics</source>, <fpage>1</fpage>&#8211;<lpage>26</lpage>. <publisher-name>Wiley</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1002/9781118788516.sem025</pub-id></mixed-citation></ref>
+<ref id="B61"><label>61</label><mixed-citation publication-type="book"><string-name><surname>von Fintel</surname>, <given-names>Kai</given-names></string-name> &amp; <string-name><surname>Iatridou</surname>, <given-names>Sabine</given-names></string-name>. <year>2017</year>. <chapter-title>A modest proposal for the meaning of imperatives</chapter-title>. In <string-name><surname>Arregui</surname>, <given-names>Ana</given-names></string-name> &amp; <string-name><surname>Rivero</surname>, <given-names>Maria L.</given-names></string-name> &amp; <string-name><surname>Salanova</surname>, <given-names>Andr&#233;s P.</given-names></string-name> (eds.), <source>Modality across syntactic categories</source>, <fpage>288</fpage>&#8211;<lpage>319</lpage>. <publisher-loc>New York</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/acprof:oso/9780198718208.003.0013</pub-id></mixed-citation></ref>
+<ref id="B62"><label>62</label><mixed-citation publication-type="journal"><string-name><surname>Weirich</surname>, <given-names>Melanie</given-names></string-name> &amp; <string-name><surname>Simpson</surname>, <given-names>Adrian. P.</given-names></string-name> <year>2014</year>. <article-title>Differences in acoustic vowel space and the perception of speech tempo</article-title>. <source>Journal of Phonetics</source> <volume>43</volume>. <fpage>1</fpage>&#8211;<lpage>10</lpage>. DOI: <pub-id pub-id-type="doi">10.1016/j.wocn.2014.01.001</pub-id></mixed-citation></ref>
+<ref id="B63"><label>63</label><mixed-citation publication-type="journal"><string-name><surname>Xu</surname>, <given-names>Yi</given-names></string-name> &amp; <string-name><surname>Xu</surname>, <given-names>Ching. X.</given-names></string-name> <year>2005</year>. <article-title>Phonetic realization of focus in English declarative intonation</article-title>. <source>Journal of Phonetics</source> <volume>33</volume>(<issue>2</issue>). <fpage>159</fpage>&#8211;<lpage>197</lpage>. DOI: <pub-id pub-id-type="doi">10.1016/j.wocn.2004.11.001</pub-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

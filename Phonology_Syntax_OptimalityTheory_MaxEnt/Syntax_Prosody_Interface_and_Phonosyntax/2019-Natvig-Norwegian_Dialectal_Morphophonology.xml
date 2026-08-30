@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20120330//EN" "http://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
+<!--<?xml-stylesheet type="text/xsl" href="article.xsl"?>-->
+<article article-type="research-article" dtd-version="1.1" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<front>
+<journal-meta>
+<journal-id journal-id-type="issn">2397-1835</journal-id>
+<journal-title-group>
+<journal-title>Glossa: a journal of general linguistics</journal-title>
+</journal-title-group>
+<issn pub-type="epub">2397-1835</issn>
+<publisher>
+<publisher-name>Ubiquity Press</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.5334/gjgl.1172</article-id>
+<article-categories>
+<subj-group>
+<subject>Research</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Rhotic underspecification: Deriving variability and arbitrariness through phonological representations</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name>
+<surname>Natvig</surname>
+<given-names>David</given-names>
+</name>
+<email>d.a.natvig@iln.uio.no</email>
+<xref ref-type="aff" rid="aff-1">1</xref>
+</contrib>
+</contrib-group>
+<aff id="aff-1"><label>1</label>Center for Multilingualism in Society across the Lifespan (MultiLing), University of Oslo, Blindern, Oslo, NO</aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2020-05-19">
+<day>19</day>
+<month>05</month>
+<year>2020</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2020</year>
+</pub-date>
+<volume>5</volume>
+<issue>1</issue>
+<elocation-id>48</elocation-id>
+<history>
+<date date-type="received" iso-8601-date="2019-12-11">
+<day>11</day>
+<month>12</month>
+<year>2019</year>
+</date>
+<date date-type="accepted" iso-8601-date="2020-02-28">
+<day>28</day>
+<month>02</month>
+<year>2020</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>Copyright: &#x00A9; 2020 The Author(s)</copyright-statement>
+<copyright-year>2020</copyright-year>
+<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International License (CC-BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. See <uri xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</uri>.</license-p>
+</license>
+</permissions>
+<self-uri xlink:href="http://www.glossa-journal.org/articles/10.5334/gjgl.1172/"/>
+<abstract>
+<p>Rhotics show considerable surface variation, which has precluded classification based on cohesive articulatory or acoustic properties. Yet they tend to display consistent patterns of behavior in relation to other phonemes within the phonological system. In this article, I argue that this apparently conflicting behavior among r-sounds is a direct result of the lack of positive content in their phonological representations. That is, the basic phonological structure of a rhotic is an unspecified consonant sonorant, which I define based on their underspecified contrastive oppositions to other phonemic categories. This proposal captures the seemingly arbitrary relationship between the phonetics and phonology present among r-sounds and accounts for why corresponding degrees of divergent surface forms are not attested for other phonological categories.</p>
+</abstract>
+<kwd-group>
+<kwd>rhotics</kwd>
+<kwd>phonological representation</kwd>
+<kwd>contrast</kwd>
+<kwd>underspecification</kwd>
+<kwd>modularity</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec>
+<title>1 Introduction</title>
+<p>The phonetic properties of rhotics exist within a spectrum of interrelated articulatory gestures, but without one common unifying characteristic that distinguishes them from other sounds. Therefore, it is not possible to universally classify them based on surface features while also excluding sounds that do not demonstrate rhotic-like phonological behavior (see Section 2). A more promising approach has been to treat rhotics based on combinations of articulatory gestures (<xref ref-type="bibr" rid="B35">Magnuson 2007</xref>; <xref ref-type="bibr" rid="B43">Proctor 2011</xref>; <xref ref-type="bibr" rid="B53">Sebregts 2014</xref>) or their phonological behavior (e.g. <xref ref-type="bibr" rid="B59">Wiese 2001a</xref>; <xref ref-type="bibr" rid="B60">b</xref>; <xref ref-type="bibr" rid="B62">2011</xref>; <xref ref-type="bibr" rid="B6">Chabot 2019</xref>; <xref ref-type="bibr" rid="B63">Youssef 2019</xref>; <xref ref-type="bibr" rid="B39">Natvig &amp; Salmons forthcoming</xref>). For example, Proctor (<xref ref-type="bibr" rid="B43">2011</xref>) shows evidence that rhotics, and liquids generally, instantiate a range of dorsal and coronal articulations. With respect to phonology, however, Chabot (<xref ref-type="bibr" rid="B6">2019</xref>) argues for a rhotic definition based on behavior, not features, because their surface forms are often irrelevant to their phonological patterning. This finding is further supported in Youssef&#8217;s (<xref ref-type="bibr" rid="B63">2019</xref>) analysis of r-sounds&#8217; contrasts, distributions, and phonological behavior across Arabic dialects. In fact, Chabot states that &#8220;there may be no way of uniting rhotics via representational models; that is, they cannot be understood outside of the role they play within a system&#8221; (<xref ref-type="bibr" rid="B63">2019: 3</xref>), leading to the conclusion that &#8220;if rhotics are in an arbitrary phonetics/phonology relationship, such a relationship must in principle be possible for all phonology&#8221; (<xref ref-type="bibr" rid="B6">Chabot 2019: 18</xref>). The question, then, is whether the degree of arbitrariness that rhotics exhibit is attested for other phonemic classes, or whether there are structural motivations for this arbitrary relationship between phonetics and phonology.</p>
+<p>Phonetic features for a particular phoneme may be overspecified relative to their corresponding phonological representations (<xref ref-type="bibr" rid="B45">Purnell 2009</xref>). However, there are processes that reflect clear correspondences between phonological representations and phonetic properties (e.g. <xref ref-type="bibr" rid="B16">Halle et al. 2000</xref>). Laryngeal assimilations are one example: These features are shared within the domains of the onset, nucleus, or coda of a syllable (<xref ref-type="bibr" rid="B26">Kehrein &amp; Golston 2004</xref>). When adjacent phonemes have conflicting features, i.e. voiced and voiceless or fortis (aspirated) and lenis (plain voiceless), one will take on the feature of the other. The specific feature (voicing or aspiration) that spreads depends on how a language marks the contrasting phonemic classes. For example, Dutch differs from the general Germanic pattern by the active spreading of voicing instead of aspiration (<xref ref-type="bibr" rid="B22">Iverson &amp; Salmons 1995</xref>; <xref ref-type="bibr" rid="B23">2003</xref>). Fortis stops in Norwegian, for example, trigger both sonorant devoicing and regressive assimilation (<xref ref-type="bibr" rid="B28">Kristoffersen 2000: 77</xref>; <xref ref-type="bibr" rid="B1">Allen 2016: 106ff</xref>).<xref ref-type="fn" rid="n1">1</xref> Adjectives that modify neuter nouns are marked by a <italic>-t</italic> suffix and induce regressive assimilation, as in <italic>trygg</italic> [<sup>1</sup>t<sup>h</sup>&#638;&#805;y&#609;] &#8216;safe&#8217; vs <italic>trygt</italic> [<sup>1</sup>t<sup>h</sup>&#638;&#805;yk<sup>h</sup>t] &#8216;safe (<sc>NEUT.SG</sc>)&#8217;.<xref ref-type="fn" rid="n2">2</xref> Here fortis /t<sup>h</sup>/, both as the onset consonant and the neuter agreement marker, devoices &#8212; or spreads its aspiration &#8212; to the following /r/ and to the preceding [&#609;], respectively.<xref ref-type="fn" rid="n3">3</xref> In Dutch, on the other hand, the compounding of <italic>meet</italic> &#8216;measure&#8217; and <italic>band</italic>, resulting in <italic>mee</italic>[db]<italic>and</italic> &#8216;tape-measure&#8217; signals voicing activity, where the laryngeal features of /b/ spread to the preceding voiceless /t/ (<xref ref-type="bibr" rid="B23">Iverson &amp; Salmons 2003: 12</xref>). The Norwegian and Dutch examples demonstrate two types of laryngeal systems, aspirating and voicing respectively, in the laryngeal realism framework (<xref ref-type="bibr" rid="B22">Iverson &amp; Salmons 1995</xref>; <xref ref-type="bibr" rid="B20">Honeybone 2005</xref>). The active assimilatory features are encoded phonologically and contrast with an unmarked category. Namely, the Norwegian fortis series is specified for aspiration features ([spread glottis]) and the lenis series lacks laryngeal features. The configuration for Dutch, then, is reversed. The voiceless stops are unmarked, whereas the voiced ones are specified for voice, or [slack]. From a laryngeal realist perspective, these alternations have a non-arbitrary relationship between the phonetics and the phonology: The phonologically active categories are aspirated in Norwegian and voiced in Dutch.</p>
+<p>Although these phonetic outputs align with phonological correlates, some do not. Swedish, for example, has a fully voiced lenis series, but assimilation patterns similar to Norwegian, where aspiration &#8212; not voicing &#8212; is actively spread from fortis consonants (<xref ref-type="bibr" rid="B48">Riad 2014: 49</xref>). Even though the surface forms of Swedish consonants are exponents of aspirating and voicing systems, its phonological behavior indicates that it has a fortis/lenis phonological configuration. Because there is no evidence of voicing activity in Swedish (<xref ref-type="bibr" rid="B48">Riad 2014: 49</xref>), the full voicing of its lenis stops is not the result of a phonological feature. It is a phonetic property of that natural class that, in this case, enhances its contrast against the fortis set (<xref ref-type="bibr" rid="B23">Iverson &amp; Salmons 2003</xref>; Section 3.3). Phonetics does not determine a particular phonological system. Rather, the patterns of phonetic behavior influence the construction of phonologically active feature representations. The composition of these representations reflects what is and what is not arbitrary in any given language. How a system marks contrast results in the substantive and arbitrary categories in the phonology (<xref ref-type="bibr" rid="B2">Avery &amp; Rice 1989</xref>; <xref ref-type="bibr" rid="B49">Rice 1999</xref>; <xref ref-type="bibr" rid="B50">2009</xref>).</p>
+<p>In contrast to laryngeal realism, the laryngeal relativist position argues against a direct relationship between a phonological feature and assimilatory voicing patterns (<xref ref-type="bibr" rid="B7">Cyran 2014</xref>). A critique of laryngeal realism is that phonological representations are too strongly biased toward phonetic features: &#8220;the presence of full voicing is taken to be an indication of the presence of the element [voice] [&#8230;] while aspiration leads to the postulation of [spread]&#8221; (<xref ref-type="bibr" rid="B7">Cyran 2014: 10</xref>). Furthermore, Cyran (<xref ref-type="bibr" rid="B7">2014: 14</xref>) argues against privativity, stating that &#8220;privative models, when confronted with symmetrical assimilation, must distinguish between a phenomenon which is the result of spreading of the active laryngeal category [&#8230;] and one which is different in kind.&#8221; I agree that there is a clear distinction between the phonetics and the phonology (Section 3.3); I argue that phonological features must be analyzed in terms of contrast and behavior (Section 3.1). However, the discussion of Swedish above attests to the ability of laryngeal realist positions to disambiguate surface features that correspond to substantive phonological representations and those that do not. Finally, I concur that privative analyses require clear parameters to distinguish between active phonological processes on the one hand, and passive phonetic coarticulations on the other. For example, Purnell et al. (<xref ref-type="bibr" rid="B47">2019</xref>) examine the symmetrical fronting and backing processes in Old English using privative marking for only front vowels (see Section 3.2). I address this issue further with suggestions for some general characteristics of modular behavior in Section 4.2.</p>
+<p>With respect to rhotics, Chabot&#8217;s (<xref ref-type="bibr" rid="B6">2019</xref>) appeal to a phonological conceptualization that must operationalize their behavior and relationships to other phonemes is sound and duly justified. However, it is precisely these relationships that provide evidence for the (lack of) content of a rhotic&#8217;s representations. Whether a phoneme&#8217;s representational structure contains or lacks a particular reference to phonetically relevant information is the result of that phoneme&#8217;s structural relationship to the other phonemes in a particular inventory (<xref ref-type="bibr" rid="B2">Avery &amp; Rice 1989</xref>). To advance the phonological understanding of rhotics, I propose a representational definition for liquids and rhotics as underspecified and unspecified consonantal sonorants, respectively (Section 3.3). The framework for this proposal draws on Modified Contrastive Specification (MCS; <xref ref-type="bibr" rid="B9">Dresher et al. 1994</xref>) and a modular organization of the sound system (<xref ref-type="bibr" rid="B46">Purnell &amp; Raimy 2015</xref>; <xref ref-type="bibr" rid="B47">Purnell et al. 2019</xref>). Phonological representations are based on abstract contrastive relationships between sounds in a given phonemic inventory. I demonstrate that considering liquids and rhotics as a distinct, underspecified class of sonorants accounts for the myriad variants of attested r-sounds without expecting other, more clearly defined phonological categories to behave in a similar fashion. By defining a unique representational class that languages implement for variable rhotic forms, this analysis provides a structural basis for gestural classifications of liquids and r-sounds (e.g. <xref ref-type="bibr" rid="B43">Proctor 2011</xref>) and compliments phonological accounts based on their phonotactic patterns (<xref ref-type="bibr" rid="B59">Wiese 2001a</xref>; <xref ref-type="bibr" rid="B6">Chabot 2019</xref>).</p>
+<p>This article is structured as follows: I briefly discuss challenges associated with classifying rhotics into a single natural class in Section 2. In Section 3, I present the theoretical models I draw on to propose a unifying definition of rhotic as a phonological class. Next, in Section 4, I elaborate on the implications of this proposal, particularly regarding different types of rhotic inventories and Chabot&#8217;s (<xref ref-type="bibr" rid="B6">2019</xref>) insights that rhotics are systemically stable both diachronically and synchronically. I conclude in Section 5.</p>
+</sec>
+<sec>
+<title>2 Rhotics as a negative phonological class</title>
+<p>Attempts to unify rhotics under a phonological category based on shared articulatory or acoustic properties have proven elusive. Lindau (<xref ref-type="bibr" rid="B33">1985: 167</xref>) describes rhotics as showing &#8220;more of a family resemblance&#8221; to each other, with some overlapping common features, but with no single, unifying property. While considering a range of articulatory and acoustic manifestations of rhotics, Ladefoged &amp; Maddieson (<xref ref-type="bibr" rid="B30">1996: 215</xref>) consolidate them based on the orthographic criterion that they correspond to sounds usually written with the grapheme &lt;r&gt;. The difficulty in organizing rhotics into a cohesive phonological class is evident by the variants represented in Table <xref ref-type="table" rid="T1">1</xref>, where possible r-sounds range in place from labial to glottal and differ in manner from trills, taps or flaps, fricatives, and approximants; often with voiced and voiceless counterparts as well (<xref ref-type="bibr" rid="B6">Chabot 2019: 13</xref>). Additionally, many r-types can occur with pharyngealized variants. For example, alveolar taps/trills, uvulars, or alveolar/retroflex approximants across a range of Arabic dialects can present with pharyngealized and non-pharyngealized forms (<xref ref-type="bibr" rid="B63">Youssef 2019: 5</xref>).</p>
+<table-wrap id="T1">
+<label>Table 1</label>
+<caption>
+<p>Summary of rhotic segments (from <xref ref-type="bibr" rid="B6">Chabot 2019: 13</xref>).</p>
+</caption>
+<table>
+<tr>
+<th style="background-color:#f3f3f4;" align="left" valign="top"></th>
+<th style="background-color:#f3f3f4;" align="left" valign="top">Labio-dental</th>
+<th style="background-color:#f3f3f4;" align="left" valign="top">Dental Alveolar Postalveolar</th>
+<th style="background-color:#f3f3f4;" align="left" valign="top">Retroflex</th>
+<th style="background-color:#f3f3f4;" align="left" valign="top">Velar</th>
+<th style="background-color:#f3f3f4;" align="left" valign="top">Uvular</th>
+<th style="background-color:#f3f3f4;" align="left" valign="top">Glottal</th>
+</tr>
+<tr>
+<td colspan="7"><hr/></td>
+</tr>
+<tr>
+<td align="left">Trill</td>
+<td align="left"></td>
+<td align="left">r&#805; r</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">&#640;&#805; &#640;</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Tap/flap</td>
+<td align="left"></td>
+<td align="left">&#638;&#805; &#638;</td>
+<td align="left">&#637;</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Fricative</td>
+<td align="left"></td>
+<td align="left">&#643; &#658;</td>
+<td align="left">&#642; &#656;</td>
+<td align="left">x &#611;</td>
+<td align="left">&#967; &#641;</td>
+<td align="left">h &#614;</td>
+</tr>
+<tr>
+<td align="left">Approximant</td>
+<td align="left">&#651;</td>
+<td align="left">&#633;&#805; &#633;</td>
+<td align="left">&#635;&#778; &#635;</td>
+<td align="left">&#624;</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</table>
+</table-wrap>
+<p>Rhotics, however, do share gestural features in that they are produced as constellations of coordinated tongue gestures (<xref ref-type="bibr" rid="B5">Browman &amp; Goldstein 1995</xref>). Magnuson (<xref ref-type="bibr" rid="B35">2007</xref>) analyzes the interrelatedness of these gestures via the dual vocal tract model, which considers sets of independent primary and secondary articulations in the laryngeal/pharyngeal vocal tract and the oral vocal tract. Furthermore, Proctor (<xref ref-type="bibr" rid="B43">2011</xref>) shows that laterals and rhotics in Spanish and Russian activate both coronal and dorsal gestures, finding that the &#8220;dark/light&#8221; allophony in both languages is the result of different dorsal constrictions, not the presence or absence of the gesture. Sebregts (<xref ref-type="bibr" rid="B53">2014: 233</xref>) sees the co-occurrence of coronal and dorsal gestures as a property of taps and trills that gave rise to the retroflex or bunched approximants in Dutch, as well as an articulatory link between alveolar and uvular variants. Liquids in general, and rhotics in particular, may initiate coronal and dorsal gestures; rhotics that fall within the dorsal range in Table <xref ref-type="table" rid="T1">1</xref> (the velars, uvulars, and glottals) lack a surface coronal articulation. Finally, the labio-dental approximant [&#651;], as well as lip rounding as a coarticulation for English /r/ (<xref ref-type="bibr" rid="B27">Keyser &amp; Stevens 2006: 51</xref>), indicates that labial features are also accessible for rhotic variants. As a class, r-sounds access and activate labial, coronal, and dorsal articulators to various degrees, and with various types of constrictions. I argue in Section 3.3 that these overlapping, co-occurring articulatory properties result from language-specific, sub-phonological processes.</p>
+<p>It is clear that r-sounds employ a range of complex articulations and that those articulatory features serve as distinguishing properties of other phonemic categories. However, rhotics display strikingly similar phonological patterns regardless of their particular surface forms (<xref ref-type="bibr" rid="B33">Lindau 1985</xref>; <xref ref-type="bibr" rid="B30">Ladefoged &amp; Maddieson 1996: 216</xref>; <xref ref-type="bibr" rid="B59">Wiese 2001a</xref>; <xref ref-type="bibr" rid="B55">Stausland Johnsen 2012</xref>; <xref ref-type="bibr" rid="B6">Chabot 2019</xref>; <xref ref-type="bibr" rid="B39">Natvig &amp; Salmons forthcoming</xref>). Therefore, sound systems must operate with rhotic categories that license both their phonological behavior and a range of phonetic outputs. As Wiese explains, &#8220;If there are at least eight or nine different r-sounds which are identified in a fairly unproblematic manner, it should be possible to state a reasonably precise definition of what an r-sound is. But this is by no means the case&#8221; (<xref ref-type="bibr" rid="B59">2001a: 338</xref>).</p>
+<p>The disunited properties of rhotics have also long been observed in theoretical work. For example, Trubetzkoy observes that they may better be described by their negative content. For German, he states that /r/ &#8220;is not a vowel, not a specific obstruent, not a nasal, nor an <italic>l</italic>&#8221; (<xref ref-type="bibr" rid="B57">Trubetzkoy 1969: 73</xref>, cited in <xref ref-type="bibr" rid="B8">Dresher 2009: 44</xref>). Accordingly, what is and is not an /r/ is a result of its relationships to other members of a phonological inventory, including which other sounds are represented phonemically, and how rhotics show particular phonological behavior relative to those other phonemes. In order to define /r/ in terms of its phonological patterns, Wiese (<xref ref-type="bibr" rid="B59">2001a: 360</xref>) argues that phonotactics (immediately after glides on the sonority scale) best unify rhotics as a class. He suggests that their segmental properties are either irrelevant or highly variable (see also <xref ref-type="bibr" rid="B62">Wiese 2011</xref>). Chabot develops this perspective by showing that rhotics behave as sonorants irrespective of their phonetic properties (<xref ref-type="bibr" rid="B6">2019: 11</xref>). Furthermore, rhotic variants may change over time without invoking changes to the phonological system. Chabot defines these characteristics as &#8220;procedural stability&#8221; and &#8220;diachronic stability,&#8221; respectively (<xref ref-type="bibr" rid="B6">2019: 8&#8211;11</xref>). These synchronic and diachronic properties lead Chabot (<xref ref-type="bibr" rid="B6">2019</xref>) to conclude the phonology does not make reference to features that govern the surface pronunciations of rhotics and that the phonetic variants are mediated by language-specific operations, not linguistic universals.</p>
+<p>Although rhotics may be produced with a broad range of major articulatory gestures &#8212; labial, coronal, dorsal &#8212; their phonemic representations overwhelmingly lack reference to all of those features, if any of them. In the following section, I present a representational definition for r-sounds that models their negative phonological content, as well as their robust articulatory properties and phonetic variation.</p>
+</sec>
+<sec>
+<title>3 Phonological representation of rhotics and interfaces within the sound system</title>
+<p>I operationalize Trubetzkoy&#8217;s (<xref ref-type="bibr" rid="B57">1969</xref>) characterization that rhotics are an empty phonological class, existing in opposition to other phonemes. In order to model these relationships, I adopt the position that the phonology defines abstract contrastive relationships (<xref ref-type="bibr" rid="B13">Hall 2007</xref>; <xref ref-type="bibr" rid="B8">Dresher 2009</xref>) and that these contrasts are marked privatively (<xref ref-type="bibr" rid="B22">Iverson &amp; Salmons 1995</xref>; <xref ref-type="bibr" rid="B3">Avery &amp; Idsardi 2001</xref>). These categories are subsequently converted into pronounceable phonetic forms through a series of (at least three) modular interfaces (<xref ref-type="bibr" rid="B46">Purnell &amp; Raimy 2015</xref>; <xref ref-type="bibr" rid="B47">Purnell et al. 2019</xref>). Throughout the remainder of this section, I present this model of the sound system as the foundation for a cohesive phonological representation of rhotics that is sensitive to language-specific phonemic inventories.</p>
+<sec>
+<title>3.1 Modified Contrastive Specification</title>
+<p>A central issue in understanding phonological representations is determining which features are present, and which phonemes in a language&#8217;s phonological inventory those features specify. The core position of what Avery &amp; Idsardi (<xref ref-type="bibr" rid="B3">2001: 45</xref>) call the &#8220;Toronto School of Contrast&#8221; is that phonemes&#8217; phonological representations are based on language-specific contrastive relationships (<xref ref-type="bibr" rid="B9">Dresher et al. 1994</xref>). Key to this framework is that phonological inventories drive what is specified and underspecified (<xref ref-type="bibr" rid="B2">Avery &amp; Rice 1989</xref>). Therefore, it is not a question of whether the phonological system is phonetically grounded (e.g. <xref ref-type="bibr" rid="B18">Hayes et al. 2004</xref>) or substance free (e.g. <xref ref-type="bibr" rid="B12">Hale &amp; Reiss 2008</xref>), but how systems organize substance and underspecification for contrastive purposes.</p>
+<p>Dresher (<xref ref-type="bibr" rid="B8">2009</xref>) formalizes a method for assigning features to an inventory, the Successive Division Algorithm (SDA), arguing that phonological features sequentially contrast phonemic categories one feature at a time until all phonemes are distinct. The framework assumes that the phonology operates only on contrastive features, using phonological activity as the primary justification for proposing which features are contrastive for which phonemes (<xref ref-type="bibr" rid="B13">Hall 2007</xref>; <xref ref-type="bibr" rid="B8">Dresher 2009</xref>). The SDA is as follows in (1):</p>
+<table-wrap>
+<table content-type="example">
+<tbody>
+<tr>
+<td>(1)</td>
+<td colspan="2">The Successive Division Algorithm (<xref ref-type="bibr" rid="B8">Dresher 2009: 16</xref>)</td>
+</tr>
+<tr>
+<td>&#160;</td>
+<td>a.</td>
+<td>Begin with <italic>no</italic> feature specifications: Assume all sounds are allophones of a single phoneme.</td>
+</tr>
+<tr>
+<td>&#160;</td>
+<td>b.</td>
+<td>If the set is found to consist of more than one contrasting member, select a feature and divide the set into as many subsets as the feature allows for.</td>
+</tr>
+<tr>
+<td>&#160;</td>
+<td>c.</td>
+<td>Repeat step (b) in each subset: Keep dividing up the inventory into sets, applying successive features in turn, until every set has only one member.</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>As an example, Dresher (<xref ref-type="bibr" rid="B8">2009: 45</xref>) discusses German /r/ based on its relationship to other consonantal phonemes, shown in Figure <xref ref-type="fig" rid="F1">1</xref>. The first division of the inventory is the obstruent-sonorant opposition, where the solid line divides the stops, affricates, and fricatives above from the nasals and liquids below. Within the sonorant group, nasals are distinguished from the liquids /l, r/, represented by the inclusion of the former within the box. Finally, /l/ is specified as a lateral (circle), making it distinct from /r/.</p>
+<fig id="F1">
+<label>Figure 1</label>
+<caption>
+<p>German consonantal phonemes (from <xref ref-type="bibr" rid="B8">Dresher 2009: 45</xref>).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/article/id/5296/file/63396/"/>
+</fig>
+<p>Another way of representing this sequence of contrasts is through a contrastive hierarchy, as in (2), where [obstruent] &lt; [nasal] &lt; [lateral] distinguish the relevant natural classes. Features in parentheses are presented as oppositions to the specified features in Dresher&#8217;s (<xref ref-type="bibr" rid="B8">2009: 45</xref>) analysis in Figure <xref ref-type="fig" rid="F1">1</xref>.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(2)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/article/id/5296/file/63399/"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>The motivation for ranking [obstruent] &lt; [nasal] &lt; [lateral] derives from Dresher&#8217;s effort to embody markedness within phonological structure. Based on Trubetzkoy&#8217;s (<xref ref-type="bibr" rid="B57">1969</xref>) characterization of German /r/ as having negative phonological content, the structure in Figure <xref ref-type="fig" rid="F1">1</xref> and (2) models unmarked feature values for German /r/ (see Section 3.2 for discussion of the composition of phonological features). Finally, the contrastive hierarchy that results from the application of the SDA to a language&#8217;s phonemic inventory consists of both the distinctive features specifying phonemes and sets of phonemes, as well as the order in which these features partition the inventory. The specific composition of a language&#8217;s contrastive hierarchy is based on a phonological analysis of that language, not on linguistic universals (although there may be common typological tendencies). I now elaborate on the nature and substance of contrastive features.</p>
+</sec>
+<sec>
+<title>3.2 The architecture of phonological contrast</title>
+<p>The negative phonological content of German /r/ and, I argue, rhotics more generally is represented here via unmarked privative specifications. Rather than encoding distinctive features with positive and negative values, contrasts are represented by the presence vs. the absence of a given feature (e.g. <xref ref-type="bibr" rid="B36">Mester &amp; It&#244; 1989</xref>; <xref ref-type="bibr" rid="B34">Lombardi 1996</xref>). Arguments that draw on the privative composition of features are rooted in analyses for a range of phonological phenomena, including palatalization (<xref ref-type="bibr" rid="B36">Mester &amp; It&#244; 1989</xref>), laryngeal assimilations (<xref ref-type="bibr" rid="B22">Iverson &amp; Salmons 1995</xref>; <xref ref-type="bibr" rid="B3">Avery &amp; Idsardi 2001</xref>; <xref ref-type="bibr" rid="B1">Allen 2016</xref>), vowel diachrony (<xref ref-type="bibr" rid="B46">Purnell &amp; Raimy 2015</xref>; <xref ref-type="bibr" rid="B29">Kwon 2019</xref>; <xref ref-type="bibr" rid="B47">Purnell et al. 2019</xref>), phonetic and phonological contact (<xref ref-type="bibr" rid="B38">Natvig 2019</xref>), and historical rhotic patterns in Germanic (<xref ref-type="bibr" rid="B39">Natvig &amp; Salmons forthcoming</xref>).</p>
+<p>A further insight from this line of research, specifically from Avery &amp; Idsardi (<xref ref-type="bibr" rid="B3">2001</xref>) and developed in Purnell &amp; Raimy (<xref ref-type="bibr" rid="B46">2015</xref>) and Purnell et al. (<xref ref-type="bibr" rid="B47">2019</xref>), is the proposal that the phonology operates on structures that are more abstract than traditional features, what Avery &amp; Idsardi (<xref ref-type="bibr" rid="B3">2001</xref>) call dimensions. These are nodes within a unified feature geometry that organize mutually exclusive articulatory gestures (<xref ref-type="bibr" rid="B3">Avery &amp; Idsardi 2001: 44&#8211;45</xref>). For example, [spread glottis] and [constricted glottis] (gestures for aspiration and glottalization, respectively) fall under the Glottal Width dimension; they are antagonistic gestures of a single muscle group and cannot be activated simultaneously (<xref ref-type="bibr" rid="B3">Avery &amp; Idsardi 2001: 44</xref>). The gesture for voicing, [slack], is subordinate to the Glottal Tension dimension, and is antagonistic to [stiff] (voiceless). Dimensions are completed with one of the opposing gestures &#8212; or set at a neutral configuration &#8212; at a post-phonological level of representation (see Section 3.3). Furthermore, completions may be sensitive to phonological contexts. For example, fortis stops in English are aspirated initially, produced with the [spread glottis] gesture, but may be unreleased and glottalized with [constricted glottis] in codas (<xref ref-type="bibr" rid="B3">Avery &amp; Idsardi 2001: 51&#8211;52</xref>), as in <italic>pin</italic> [p<sup>h</sup>&#618;&#771;n] and <italic>nip</italic> [n&#618;<bold><sup>&#660;</sup></bold>p], respectively. Specifying the fortis stops in English with Glottal Width captures these sub-phonological alternations, as well as English laryngeal assimilations (<xref ref-type="bibr" rid="B22">Iverson &amp; Salmons 1995</xref>). The full set of phonological dimensions, with possible completion gestures and their phonetic outputs, from Avery &amp; Idsardi (<xref ref-type="bibr" rid="B3">2001: 66</xref>) and advanced in Purnell &amp; Raimy (<xref ref-type="bibr" rid="B46">2015</xref>) and Purnell et al. (<xref ref-type="bibr" rid="B47">2019</xref>), is provided in Figure <xref ref-type="fig" rid="F2">2</xref>.</p>
+<fig id="F2">
+<label>Figure 2</label>
+<caption>
+<p>Dimensions, gestures, and phonetics (from <xref ref-type="bibr" rid="B46">Purnell &amp; Raimy 2015: 526</xref>).</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/article/id/5296/file/63397/"/>
+</fig>
+<p>Purnell et al. (<xref ref-type="bibr" rid="B47">2019</xref>) build on this framework by developing a system for marking the unspecified members of privative contrasts with what they refer to as &#8220;superordinate null marking.&#8221; When a set of phonemes is specified for a dimension, the contrasting set is represented with the dominating node. For example, in a system with nasal sonorants specified for Soft Palate, completed [nasal], the remaining sonorants are marked with the superordinate Root feature [sonorant]<sup>SP</sup>, i.e. unspecified with respect to Soft Palate (SP). This notation follows the conventions in Purnell et al. (<xref ref-type="bibr" rid="B47">2019</xref>) of placing the specified feature in superscript notation on the unspecified superordinate node. Both dimensions and superordinate structures are ordered as a feature chain within a phoneme&#8217;s representational architecture based on the application of the SDA (<xref ref-type="bibr" rid="B54">Spahr 2016: 65&#8211;66</xref>; <xref ref-type="bibr" rid="B47">Purnell et al. 2019: e466</xref>). Purnell et al. (<xref ref-type="bibr" rid="B47">2019</xref>) show that Old English phonological changes with respect to fronting of /a/, retraction of /&#230;/, and breaking of /a/ fall out from the stacking of dimensional and superordinate structures of sonorants within a defined phonological domain. I adopt this method for representing specified and unspecified contrastive pairs in liquid and rhotic contexts. The advantage of employing superordinate null marking for representations is that it provides a structure to the unspecified categories. This structure is then built up through conversion processes that produce pronounceable, phonetic forms (Section 3.3). With respect to rhotics, because [sonorant] dominates the Oral Place cavity (see Figure <xref ref-type="fig" rid="F2">2</xref>), the labial, coronal, and dorsal articulators may be available for non-contrastive articulatory purposes (Section 3.3). This architecture supports findings from e.g. Proctor (<xref ref-type="bibr" rid="B43">2011</xref>) that show simultaneous (non-contrastive) coronal and dorsal articulations for liquids.</p>
+<p>Based on the feature geometry presented in Figure <xref ref-type="fig" rid="F2">2</xref>, the relevant dimensions for specifying German sonorants are Soft Palate (completed [nasal]) for /m, n, &#331;/ and Tongue Groove (completed [concave], the lateral articulatory gesture) for /l/. The phonological representation for /r/ is unspecified at the level of the dimension: It is unspecified relative to Soft Palate ([sonorant]<sup>SP</sup>) and Tongue Groove (Coronal<sup>TG</sup>). A partial contrastive hierarchy of German consonants with privative dimensions and superordinate null marking is shown in (3). The features [consonant] and [vowel] are assumed to be the first contrastive opposition of the SDA, distinguishing these major classes (<xref ref-type="bibr" rid="B47">Purnell et al. 2019</xref>); [sonorant] and [consonant] are not designated for superordinate marking because they both occur as Root features without any dominating nodes. Because superordinate marking represents the unmarked member of a contrastive pair, it does not predict a primary, i.e. categorical and exclusive, articulator node for those segments (Section 3.3). Specifically, the structure in (3) does not require /r/ to have a coronal, rather than uvular, primary place of articulation. Rather, superordinate structures are representations that serve as the input for sub-phonological operations. The particular variant or variants of any phoneme results from the processes that convert contrastive dimensions and superordinate nodes into pronounceable forms. I now turn to a discussion of those processes.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(3)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/article/id/5296/file/63400/"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+</sec>
+<sec>
+<title>3.3 Levels of representation and modular processes</title>
+<p>Although the phonological dimensions that mark distinctive categories for phonemic representations classify articulatory actions, they are not pronounceable in and of themselves. Not only must each dimension be completed with a gesture, the unspecified categories also require their own additional structure to be rendered pronounceable. Therefore, additional processes interact with abstract representations to convert them into viable phonetic forms. These procedures involve distinct modules, and the conversions of representations of one module to representations in another (e.g. <xref ref-type="bibr" rid="B52">Scheer 2014</xref>), with each module operating on its own sets of representations and properties. Purnell &amp; Raimy (<xref ref-type="bibr" rid="B46">2015</xref>) argue that the sound system is comprised of at least three distinct levels of representation: The Phonological level, which governs discrete, underspecified phonological categories via contrastive dimensions; the Phonetic-Phonological level, which builds structure into these categories by completing and filling in articulatory gestures; and the Phonetic level, which converts those gestures into continuous units in the speech signal.</p>
+<p>Dimensions are completed with one of two possible gestures, or left inert (neutral), at the Phonetic-Phonological level of representation. These completions are both language-specific and context sensitive. They are &#8220;part of the work that phonology must do to convert phonologically sparse memorized representations into more fully specified phonetic representations that are the basis for instructions for motor control systems&#8221; (<xref ref-type="bibr" rid="B46">Purnell &amp; Raimy 2015: 527</xref>). The activation of one muscle &#8212; and not its antagonistic pair &#8212; for any given dimensional category, along with any meaningful phonological environments (e.g. aspiration and glottalization in English) is part of the acquisition of that language&#8217;s sound system and patterns. Furthermore, other gestures (i.e. those corresponding to non-contrastive dimensions) are added at the Phonetic-Phonological level of representation through the enhancement process. Enhancements are non-contrastive (redundant or predictable) features that increase the perceptual saliency of phonemic contrasts (<xref ref-type="bibr" rid="B56">Stevens et al. 1986</xref>; <xref ref-type="bibr" rid="B27">Keyser &amp; Stevens 2006</xref>; <xref ref-type="bibr" rid="B14">Hall 2011</xref>). For example, Tongue Groove (completed [concave]) marks /l/, distinguishing it from unspecified /r/ (Coronal<sup>TG</sup>). The opposing Tongue Groove gesture [convex] for an alveolar /r/ results in an articulation that is phonetically distinct from the lateral. An inactivated Coronal articulator, producing a dorsal rhotic variant, may also be considered an enhancement to this lateral-rhotic contrast. Accordingly, enhancement is the implementation of non-contrastive features at the Phonetic-Phonological level of representation, facilitating the pronounceability of underspecified categories.</p>
+<p>Differentiating between gestures that result from the completion of contrastive dimensions and enhancements has valuable implications for liquid and rhotic representations. The completion and implementation of contrastive dimensions display categorical properties, whereas enhancements tend to be variable (<xref ref-type="bibr" rid="B27">Keyser &amp; Stevens 2006</xref>; <xref ref-type="bibr" rid="B14">Hall 2011</xref>). Therefore, the processes that fill in structure to the unspecified member of a contrastive set are more subject to geographical and social variability. The more underspecified a phonological category, the broader the range of phonetic variants it can express. A representation of r-sounds that requires no categorical place or manner dimension structurally captures that range of surface variability. The specific manner and place features are negotiated sub-phonologically via regional, social, and contextual factors. For example, German varieties present a wide range of /r/ phones, four of which include coronal [r, &#637;] and dorsal [&#640;, &#641;] (<xref ref-type="bibr" rid="B51">Salmons 2018: 318</xref>, based on <xref ref-type="bibr" rid="B11">G&#246;schel 1971</xref> and <xref ref-type="bibr" rid="B61">Wiese 2003</xref>), all of which are licit phonetic outputs based on the representations presented in (3). Furthermore, Wiese (<xref ref-type="bibr" rid="B60">2001b</xref>) finds changes from one generation to the next between coronal and dorsal /r/ with no clear directionality. The shallow time depth in which these changes occur, along with the lack of evidence that they alter the system of contrasts for German consonants, supports a negative specification for German /r/. Table <xref ref-type="table" rid="T2">2</xref> schematizes the three levels of representation with German /l/ and /r/ as comparative examples. Articulations in italics are enhancements; plain text gestures are those that complete a contrastive dimension. Additional information added at the Phonetic-Phonological level is excluded from Table <xref ref-type="table" rid="T2">2</xref>, including the dependents of the Dorsal and Coronal nodes and their corresponding gestures (possible enhancements in parentheses), as well as information that defines manners of articulation (trill vs. fricative). All major /r/ types have options for co-occurring coronal and dorsal (and possibly labial) gestures; for the uvular phones [&#640;, &#641;] no Coronal articulation is realized. With respect to /l/ and /r/, the contrastive hierarchy in (3) and the levels of representation in Table <xref ref-type="table" rid="T2">2</xref> broadly capture contemporary and historic liquid patterns in Germanic (e.g. <xref ref-type="bibr" rid="B39">Natvig &amp; Salmons forthcoming</xref>). Specifically, /r/ demonstrates a higher degree of phonetic/phonological arbitrariness than its lateral counterpart.</p>
+<table-wrap id="T2">
+<label>Table 2</label>
+<caption>
+<p>Levels of representation for German liquids.</p>
+</caption>
+<table>
+<tr>
+<th style="background-color:#f3f3f4;" align="left" valign="top">Level of representation</th>
+<th style="background-color:#f3f3f4;" align="left" valign="top">/l/</th>
+<th style="background-color:#f3f3f4;" align="left" colspan="2">/r/</th>
+</tr>
+<tr>
+<td colspan="4"><hr/></td>
+</tr>
+<tr>
+<td align="left">Phonological<break/>(Dimension: Discrete)</td>
+<td align="left">[consonant]<break/>[sonorant]<break/>[sonorant]<sup>SP</sup><break/>Tongue Groove</td>
+<td align="left" colspan="2">[consonant]<break/>[sonorant]<break/>[sonorant]<sup>SP</sup><break/>Coronal<sup>TG</sup></td>
+</tr>
+<tr>
+<td colspan="4"><hr/></td>
+</tr>
+<tr>
+<td align="left">Phonetic-Phonological<break/>(Gestures: Completions, enhancements)</td>
+<td align="left">[consonant]<break/>[sonorant]<break/><italic>(Dorsal)</italic><break/>[concave]</td>
+<td align="left">[consonant]<break/>[sonorant]<break/><italic>(Dorsal)</italic><break/>Coronal</td>
+<td align="left">[consonant]<break/>[sonorant]<break/><italic>Dorsal</italic><break/><strike>Coronal</strike></td>
+</tr>
+<tr>
+<td colspan="4"><hr/></td>
+</tr>
+<tr>
+<td align="left">Phonetic<break/>(Implementation: Continuous)</td>
+<td align="left">[l]</td>
+<td align="left">[r], [&#637;]</td>
+<td align="left">[&#640;], [&#641;]</td>
+</tr>
+</table>
+</table-wrap>
+<p>The contrastive hierarchy in (3) depicts the negative phonological content of /r/. It is unspecified relative to nasals, as part of a liquid class composed of /l, r/ ([sonorant]<sup>SP</sup>), and it is again unspecified against the lateral /l/, specified for Tongue Groove (Coronal<sup>TG</sup>). As a consequence, this /r/ is an unspecified liquid. I draw on these phonological relationships to put forward a contrastive definition for both liquids and rhotics in (4). I assume here that contrastive features for glides are either based on corresponding vowel representations, or that they fall under their own, independent natural class (see <xref ref-type="bibr" rid="B40">Nevins &amp; Chitoran 2008</xref>).</p>
+<table-wrap>
+<table content-type="example">
+<tbody>
+<tr>
+<td>(4)</td>
+<td colspan="2">Representational definitions of LIQUID and RHOTIC</td>
+</tr>
+<tr>
+<td>&#160;</td>
+<td>a.</td>
+<td>A <sc>LIQUID</sc> is any phoneme, or set of phonemes, that belongs to the class of non-nasal consonant sonorants, where present. If no nasal sonorants are present, <sc>LIQUID</sc> comprises the only class of consonant sonorants. The <sc>LIQUID</sc> class is represented via the phonological marking [consonant] [sonorant] ([sonorant]<sup>SP</sup>).</td>
+</tr>
+<tr>
+<td>&#160;</td>
+<td>b.</td>
+<td>A <sc>RHOTIC</sc> is the <sc>LIQUID</sc> phoneme that does not receive any dimensional marking in its phonological representations. <sc>RHOTIC</sc> is always the unmarked member within any <sc>LIQUID</sc> set.</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>Both the <sc>LIQUID</sc> and <sc>RHOTIC</sc> categories refer to underspecified sets within a contrastive structure.<xref ref-type="fn" rid="n4">4</xref> They do not determine liquid surface forms, but describe a class and subclass characterized by both broad phonetic variation and relative phonological stability. I define <sc>RHOTIC</sc> as the dimensionally unspecified <sc>LIQUID</sc> phoneme, not as a phonetic category of r-sounds. Whether a language presents the <sc>RHOTIC</sc> category as an r-sound, l-sound, or any other sonorant that patterns as a liquid is the result of that language&#8217;s organization of contrastive substance and the sub-phonological processes that convert underspecified categories into phonetic objects. Although the examples of r-sounds discussed here behave consistently as the <sc>RHOTIC</sc> subset, this does not need to the case for every language. For example, an r-sound may be specified within the <sc>LIQUID</sc> set, contrasting against an unspecified liquid (see the discussion of Arabic rhotics in Section 4.1). In such an alignment, this model predicts that the specified rhotic will participate in phonologically active processes and the unspecified liquid will be subject to more variability.</p>
+<p>The definitions in (4) do not require any phonological content limiting the places or manners of articulations for r-sounds, other than that they are phonologically sonorants, expressed with a continuant manner. The degree of relative closure (spanning fully sonorous to partial obstruction) is mediated through post-phonological operations. The definitions stipulate that /r/ is not specified for phonological content, i.e. dimensions, which crucially depends on the phonemic makeup of consonantal sonorants for any given language. This proposal captures the Hall&#8217;s (<xref ref-type="bibr" rid="B15">1997</xref>) attempt to unify rhotics as a phonological category via [+rhotic] without proposing a feature for only this purpose. Likewise, the superordinate structure that falls out of (4) is in line with Walsh Dickey&#8217;s (<xref ref-type="bibr" rid="B58">1997</xref>) proposal to model coronal and dorsal rhotic feature geometry, however here as nodes that accommodate language-specific structure building in accordance with the more variation-prone properties of sub-phonological modules of representation.</p>
+<p>Chabot (<xref ref-type="bibr" rid="B6">2019</xref>), however, understands the complexities of producing trills and taps as a motiving factor for rhotic variation, stating:</p>
+<disp-quote>
+<p>Trills are phonetically difficult segments to articulate, and the variation they are subject to is the manifestation of speaker strategies to overcome the difficulty they pose. This difficulty is not phonological, it is strictly phonetic and speakers readily adopt variations of rhotic phones in order to cope with the impediments imposed by phonetics. (<xref ref-type="bibr" rid="B6">Chabot 2019: 14</xref>)</p>
+</disp-quote>
+<p>However complex these articulatory combinations may be, they do little to explain other patterns of structured variation. Take, for example American English /u/, which varies regionally and socially across the horizontal plane of the vowel space (<xref ref-type="bibr" rid="B24">Jacewicz et al. 2011</xref>). This variation occurs relative to an unspecified representation in the present framework, in which /i/ is specified for Tongue Thrust against unmarked /u/ (<xref ref-type="bibr" rid="B46">Purnell &amp; Raimy 2015</xref>; <xref ref-type="bibr" rid="B47">Purnell et al. 2019</xref>). Furthermore, Natvig (<xref ref-type="bibr" rid="B37">2018</xref>) finds that patterns of variance in Norwegian vowels&#8217; first and second formant (F1, F2) trajectories correspond to underspecified, yet substantive, phonological representations. It is unclear that a difficulty with producing a vowel relatively higher, lower, further back, or further forward would contribute to this type of variable pattern. This system of underspecified contrastive representation models these socially and contextually indexed variations. While physiological factors may contribute to the wide range of variants for rhotics and other complex sounds, considering that variation in relation to phonological representations situates it within a wider set of structured, heterogeneous patterns.</p>
+<p>The contrastive hierarchies in (5) and (6) depict the structural relationships between <sc>LIQUID</sc> and <sc>RHOTIC</sc>. In (5) the phonemic inventories lack a contrast between /l/ and /r/. In the contrastive hierarchy in (5a), liquids are the only consonantal sonorants, whereas (5b) includes nasals. For both, <sc>LIQUID</sc> and <sc>RHOTIC</sc> comprise a single node, contrasting with any specified nasal sonorant, if present, and is itself unspecified. Because Tongue Groove is not present in these inventories, there is no phonological condition that prohibits a lateral variant within a <sc>LIQUID</sc> = <sc>RHOTIC</sc> contrastive arrangement. The particular form, whether lateral or not, is mediated through language-specific conversion and implementation processes (see Section 3.3).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(5)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Sample contrastive hierarchies with <sc>LIQUID</sc> = <sc>RHOTIC</sc> structure</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/article/id/5296/file/63401/"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/article/id/5296/file/63402/"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>In contrast to (5), the phonological inventories represented in the contrastive hierarchies in (6) both have distinct /l/ and /r/ phonemes, marked by the Tongue Groove specification for /l/. Here, <sc>RHOTIC</sc> is a subset of <sc>LIQUID</sc>. The contrastive hierarchy for German consonants in (3) is structurally identical to the contrastive hierarchy in (6b), and the surface form of /r/, whether characterized as coronal or dorsal for example, is negotiated through the same sub-phonological processes that influence the output of the <sc>LIQUID</sc> = <sc>RHOTIC</sc> category in (5).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(6)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>Sample contrastive hierarchies of <sc>LIQUID</sc> and <sc>RHOTIC</sc> distinction</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/article/id/5296/file/63403/"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/article/id/5296/file/63404/"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>In this section, I presented arguments for defining the category <sc>RHOTIC</sc> as the unspecified consonant sonorant by appealing to underspecified phonological representations and the relationship between specification and variability in a modular sound system. This position both unifies rhotics under a cohesive phonological category and models the widespread surface variability of r-sounds as a consequence of their representation within a phonemic system. In the next section, I show how these structures may characterize languages with varying numbers of liquid phonemes and discuss the relationship between <sc>RHOTIC</sc> representation and Chabot&#8217;s (<xref ref-type="bibr" rid="B6">2019</xref>) notions of diachronic and procedural stability.</p>
+</sec>
+</sec>
+<sec>
+<title>4 Predictions and implications</title>
+<p>Treating <sc>RHOTIC</sc> as an underspecified category within the present modular framework assumes that the <sc>RHOTIC</sc> phoneme lacks contrastive features for phonological alternations. Furthermore, systems without r-sounds and those with multiple rhotics each need to be taken into account. For instance, Hawaiian lacks an /l-r/ distinction and both Malayalam and Arabic have multiplex <sc>LIQUID</sc> systems. These inventories shed light on the relationships between contrastive underspecification, phonological activity, and modular operations within the sound system. This analysis further provides structural explanations in support of Chabot&#8217;s (<xref ref-type="bibr" rid="B6">2019</xref>) findings that rhotics demonstrate both diachronic and procedural stability. In the following subsections, I consider each of these issues in turn.</p>
+<sec>
+<title>4.1 Modeling diverse liquid systems</title>
+<p>Some languages, Hawaiian for example, have a <sc>LIQUID</sc> = <sc>RHOTIC</sc> system and do not have an r-sound. The Hawaiian consonant inventory has the stops /p, k, h, &#660;/ and the consonant sonorants /m, n, l/ (<xref ref-type="bibr" rid="B19">Herd 2005: 97</xref>). Following the contrastive hierarchy for sonorants in (5), the nasals /m, n/ are marked for Soft Palate, leaving /l/ unspecified ([sonorant]<sup>SP</sup>) in the proposed Hawaiian representations in (7).<xref ref-type="fn" rid="n5">5</xref> In this particular case, /l/ is the unspecified sonorant consonant, satisfying the definitions for both <sc>LIQUID</sc> and <sc>RHOTIC</sc> in (4). The fact that the unspecified phoneme in this class occurs as a lateral, and not a classic r-sound, is a result of the language-specific processes that convert the <sc>RHOTIC</sc> category into a phonetic form. Because [r] and [l] do not contrast in Hawaiian, there is no operation to distinguish the two phones into distinct categories (see <xref ref-type="bibr" rid="B31">Lahiri &amp; Reetz 2002</xref>; <xref ref-type="bibr" rid="B32">2010</xref> for a model mapping phonetic forms to underspecified representations). Compare New Zealand M&#257;ori, another Polynesian language with a <sc>LIQUID</sc> = <sc>RHOTIC</sc> organization, but with a surface form [r] (<xref ref-type="bibr" rid="B19">Herd 2005: 101</xref>). In this case, the Phonetic-Phonological level operations convert the unspecified sonorant category into a rhotic variant instead of a lateral one.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(7)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/article/id/5296/file/63405/"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>In contrast to Hawaiian and New Zealand M&#257;ori, Malayalam requires specifications to distinguish five liquids /l, &#621;, &#656;, &#638;, r/, where /&#656;/ is considered a post-alveolar approximant (<xref ref-type="bibr" rid="B44">Punnoose et al. 2013</xref>). In Malayalam it appears that the distinction between laterals and r-sounds is less salient than between the retracted and advanced, or &#8220;dark&#8221; vs. &#8220;clear&#8221; sets (<xref ref-type="bibr" rid="B44">Punnoose et al. 2013: 282, 294</xref>). Accordingly, I propose the contrastive hierarchy of Malayalam liquids in (8), where the dimension Tongue Root, completed [RTR] (Retracted Tongue Root), contrasts dark /r, &#621;/ from clear/&#656;, &#638;, l/ as the first contrast within the <sc>LIQUID</sc> group. The dark phonemes /r, &#621;/ are realized phonetically with a pharyngealized resonance (Punnoose et al. 2003: 276), characteristic of an [RTR] gesture (see Figure <xref ref-type="fig" rid="F2">2</xref>). Within each of those sets, Tongue Groove, completed [concave], distinguishes the laterals /&#621;/ and /l/ from /r/ and /&#656;, &#638;/, respectively. Tongue Curl, completed [up], marks /&#656;/; /&#638;/ is unspecified for dimensions and the <sc>RHOTIC</sc> based on (4). Finally, although /&#656;/ tends to lack sublaminal contact like other Malayalam retroflex consonants, &#8220;the type of weak retroflexion [&#8230;] in [/&#656;/] may be due to both its approximant nature and its clear resonance&#8221; (<xref ref-type="bibr" rid="B44">Punnoose et al. 2013: 292</xref>). Therefore, Tongue Curl ([up]) contributes here to the phoneme&#8217;s post-alveolar place of articulation even if it is not retroflex to the same degree as other retroflex sounds in Malayalam.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(8)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/article/id/5296/file/63406/"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>These phonological specifications model two interactions between liquids and vowels as a product of the liquids&#8217; contrastive specifications. Namely, /&#656;/ aligns with clear /&#638;, l/ in one pattern, but with dark /r, &#621;/ in another. First, Punnoose et al. (<xref ref-type="bibr" rid="B44">2013</xref>) find significant differences in F1 and F2 of vowels preceding and following /&#656;, &#638;, l/ compared to /r, &#621;/. Specifically, vowels have lower F2 (further back) and higher F1 (lower) in /r, &#621;/ contexts than in /&#656;, &#638;, l/ ones (<xref ref-type="bibr" rid="B44">Punnoose et al. 2013: 285&#8211;292</xref>). The Tongue Root specification that groups /r, &#621;/ as a natural class, and completes as [RTR], induces vowel backing and lowering relative to the unspecified ([sonorant]<sup>TR</sup>) class /&#656;, &#638;, l/. Other the other hand, although /&#656;/ patterns with /&#638;, l/ with respect to their influences on the horizontal and vertical positions of neighboring vowels, it also causes a decrease in the third and fourth formants (F3, F4) with /r, &#621;/. These are the acoustic effects of retroflex-like articulations (<xref ref-type="bibr" rid="B17">Hamann 2003</xref>). Retroflexion is the result of a variable set of complex, gradient gestures, including raising, flexing, and or retracting the tongue tip, retracting the tongue root, lowering the tongue body, and (sub)laminal constriction (<xref ref-type="bibr" rid="B44">Punnoose et al. 2013: 277</xref>). The lowering of F3 and F4, then, is an acoustic outcome of the Tongue Root specification, and [RTR] completion, for /r, &#621;/, but the Tongue Curl ([up]) feature for /&#656;/. Both of the specifications are related to retroflexion gestures (retracting the tongue root and raising the tongue tip for Tongue Root and Tongue Curl, respectively) and each may be enhanced further by other interrelated gestures.</p>
+<p>Similar to Malayalam&#8217;s dark and clear liquid classes, many Arabic varieties have emphatic and non-emphatic r-sounds. Emphatic /r&#740;/ in Arabic is produced with an &#8220;articulation involving the retraction of the tongue dorsum toward the pharyngeal wall&#8221; (<xref ref-type="bibr" rid="B63">Youssef 2019: 5</xref>) and, when phonemic, triggers emphasis spreading, or &#8220;bidirectional, long-range pharyngealization&#8221; that targets vowels and consonants (<xref ref-type="bibr" rid="B63">Youssef 2019: 10</xref>). Here emphasis spreading again demonstrates the contrastive status of the Tongue Root dimension, completed with [RTR], for the emphatic phonemes. In a survey of phonological representations for rhotics across a range of Arabic dialects, Youssef (<xref ref-type="bibr" rid="B63">2019</xref>) finds four major groups, shown in (9):</p>
+<table-wrap>
+<table content-type="example">
+<tbody>
+<tr>
+<td>(9)</td>
+<td>a.</td>
+<td>non-emphatic /r/</td>
+</tr>
+<tr>
+<td>&#160;</td>
+<td>b.</td>
+<td>emphatic /r&#740;/</td>
+</tr>
+<tr>
+<td>&#160;</td>
+<td>c.</td>
+<td>both non-emphatic /r/ and emphatic /r&#740;/</td>
+</tr>
+<tr>
+<td>&#160;</td>
+<td>d.</td>
+<td>both uvular /&#641;/ and tap-trill /r/</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>The uvular in (9d), however, has undergone a merger with the fricatives and no longer patterns as a rhotic with respect to sonority (<xref ref-type="bibr" rid="B63">Youssef 2019: 28</xref>). Therefore, the /r/s in (9a) and (9d) do not contrast with other r-sounds and are consistent with the <sc>RHOTIC</sc> category defined in (4). The contrast between /r/ and /r&#740;/ in (9c) occurs via Tongue Root specification for the latter. It is the occurrence of emphatic /r&#740;/ in (9b) &#8212; showing clear evidence of phonological marking by triggering emphasis spreading (<xref ref-type="bibr" rid="B63">Youssef 2019: 13&#8211;14</xref>), but without an unspecified /r/ counterpart &#8212; that illustrates the contrastive relationships among Arabic sonorant phonemes and the ways in which these contrasts vary across dialects.</p>
+<p>Consider the contrastive hierarchy with emphatic and non-emphatic liquids in (10). Tongue Root is again specified above Tongue Groove within the <sc>LIQUID</sc> class, contrasting emphatic liquids against the unmarked, non-emphatic set.<xref ref-type="fn" rid="n6">6</xref> Varieties with inventories like that in (9c), then, have a Tongue Groove specification under the [sonorant]<sup>TR</sup> node, resulting in phonemic representations for both non-emphatic /l/ and /r/. In contrast, /r&#740;/ in (9b) is specified for Tongue Root and the unspecified <sc>RHOTIC</sc> category has a lateral surface form. That is, there is no Tongue Groove specification under either Tongue Root or [sonorant]<sup>TR</sup> for (9b). In a contrastive alignment with /l, r&#740;/ as the only <sc>LIQUID</sc> segments, and with /r&#740;/-triggered alternations, /l/ is the unspecified consonant sonorant. The lateral, and not the r-sound, in this arrangement satisfies the definition of <sc>RHOTIC</sc> in (4) because of the Tongue Root dimension&#8217;s phonological activity and, accordingly, its role in defining contrasts within a particular phonemic inventory.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(10)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/article/id/5296/file/63407/"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Youssef (<xref ref-type="bibr" rid="B63">2019</xref>) provides strong evidence for phonological activity driving the underlying representations of Arabic rhotics, with emphasis spreading a principal component of that activity. In this framework, emphasis spreading with /r&#740;/ as a trigger indicates Tongue Root in its phonological representation. The broader variation among Arabic varieties can be understood in terms of whether the <sc>LIQUID</sc> class is marked for Tongue Root and whether those emphatic and non-emphatic classes are further specified, e.g. for Tongue Groove. These representations are consistent and compatible with the feature geometry supported in Youssef (<xref ref-type="bibr" rid="B63">2019</xref>), with the advantage that the present framework considers, in addition to the phonologically active features of these r-sounds, their relationships to the rest of the phonemic systems to which they belong.</p>
+<p>Although Hawaiian, Malayalam, and Arabic differ in terms of their sonorant and liquid inventories, they demonstrate the value of considering representations based on language-specific <sc>LIQUID</sc> and <sc>RHOTIC</sc> patterns and treatments of those categories. The proposed contrastive hierarchies for these languages are hypotheses that require further investigation of each language&#8217;s phonological systems, as well as additional cross-linguistic testing, but they provide a means for analyzing rhotics as a negatively defined category and for explaining the distributions of <sc>LIQUID</sc> surface forms along with the variety of articulations available for their realizations.</p>
+</sec>
+<sec>
+<title>4.2 On diachronic and procedural stability</title>
+<p>The position that rhotics (or laterals without a contrast among liquids) occupy the unspecified category of consonantal sonorants has diachronic implications. Specifically, because of their unspecified nature, surface forms can vary and change without disrupting the relationship that these phonemes have with the rest of the representational system. Chabot refers to this as diachronic stability, specifically that &#8220;rhotics can vary on the diachronic axis without provoking a realignment in the phonological system&#8221; (<xref ref-type="bibr" rid="B6">2019: 1</xref>). I argue that it is the very representational structure that contributes to that phonological stability over time.</p>
+<p>One outcome of the <sc>RHOTIC</sc> definition in (4) is that, depending on the makeup of the rest of the phonemic system, a host of changes in place and manner may be changes in the outcomes of building structure into phonologically unspecified domains. They are changes at the Phonetic or Phonetic-Phonological levels of representation, not in the contrastive, Phonological level dimensions. Take German again as an example in Table <xref ref-type="table" rid="T3">3</xref>, where four major variants reflect differences in the implementation of the unspecified side of contrastive sets (see (3)). Like the examples in Table <xref ref-type="table" rid="T2">2</xref>, the primary difference between coronal and dorsal surface forms of /r/ is that the latter are not produced with coronal constriction. Variation among the coronals results from &#8212; at the very least &#8212; differences in the specific position of the tip of the tongue, curled upward (TC-[up]) for retroflex [&#637;]. The uvular variants [&#640;, &#641;] are articulated with the [back] gesture dominated by the Tongue Thrust (TT) node, with the latter produced with a [fricative] gesture (OP-[fricative]).</p>
+<table-wrap id="T3">
+<label>Table 3</label>
+<caption>
+<p>Levels of representation major variants of German /r/.</p>
+</caption>
+<table>
+<tr>
+<th style="background-color:#f3f3f4;" align="left" valign="top">Phonological</th>
+<th style="background-color:#f3f3f4;" align="center" valign="top" colspan="4">Phonetic-Phonological</th>
+</tr>
+<tr>
+<th colspan="5"><hr/></th>
+</tr>
+<tr>
+<th style="background-color:#f3f3f4;" align="left" valign="top">/r/</th>
+<th style="background-color:#f3f3f4;" align="left" valign="top">[r]</th>
+<th style="background-color:#f3f3f4;" align="left" valign="top">[&#637;]</th>
+<th style="background-color:#f3f3f4;" align="left" valign="top">[&#640;]</th>
+<th style="background-color:#f3f3f4;" align="left" valign="top">[&#641;]</th>
+</tr>
+<tr>
+<td colspan="5"><hr/></td>
+</tr>
+<tr>
+<td align="left">[consonant]<break/>[sonorant]<break/>[sonorant]<sup>SP</sup><break/>Coronal<sup>TG</sup></td>
+<td align="left">[consonant]<break/>[sonorant]<break/><italic>(Dorsal)</italic><break/><italic>(Coronal)</italic><break/><italic>(Oral Place)</italic></td>
+<td align="left">[consonant]<break/>[sonorant]<break/><italic>(Dorsal)</italic><break/><italic>TC-[up]</italic><break/><italic>(Oral Place)</italic></td>
+<td align="left">[consonant]<break/>[sonorant]<break/><italic>TT-[back]</italic><break/><strike>Coronal</strike><break/><italic>(Oral Place)</italic></td>
+<td align="left">[consonant]<break/>[sonorant]<break/><italic>TT-[back]</italic><break/><strike>Coronal</strike><break/><italic>OP-[fricative]</italic></td>
+</tr>
+</table>
+</table-wrap>
+<p>Diachronic changes of /r/ in some varieties of German demonstrate no clear directionality: &#8220;While alveolar [r] changes into uvular [&#640;], the reverse is found as well&#8221; (<xref ref-type="bibr" rid="B60">Wiese 2001b: 21</xref>). Furthermore, they are the result of changes not in representations, but in the processes that render the phonological category pronounceable, which are subject to social and individual variation (<xref ref-type="bibr" rid="B14">Hall 2011</xref>; <xref ref-type="bibr" rid="B37">Natvig 2018</xref>). In this type of sound change that targets rhotics, there are no changes to any contrastive features and, therefore, no change to, or realignment of, the phonological system.</p>
+<p>There are, however, sound changes involving rhotics that do alter the phonological system. The loss of a distinction between /l, r/ in Polynesian is one such example. In this case, the products of this merger are either [r] or [l] (see Section 4.1). Based on Herd (<xref ref-type="bibr" rid="B19">2005</xref>) and previous discussions, I propose the contrastive hierarchy for Proto-Polynesian, with an /l-r/ contrast, in (11).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(11)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/article/id/5296/file/63408/"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>In this change from Proto-Polynesian to Hawaiian and New Zealand M&#257;ori, Tongue Groove is lost from the set of contrastive features and the earlier lateral-rhotic distinction is merged into a single category with either [l] or [r] as a viable form, i.e. a <sc>LIQUID</sc> = <sc>RHOTIC</sc> alignment. The difference between Hawaiian and New Zealand M&#257;ori, then, is that in Hawaiian the [concave] completion of Tongue Groove is realized as an enhancement at the Phonetic-Phonological level of representation for the new unspecified category, but lost in New Zealand M&#257;ori where the conversion processes that rendered the Proto-Polynesian <sc>RHOTIC</sc> category pronounceable remain. The merger of /l/ and /r/, with differential adoption of the liquid variant from Proto-Polynesian, is shown in (12).</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(12)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/article/id/5296/file/63409/"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>This kind of change supports Oxford&#8217;s Sisterhood Merger Hypothesis, where structural mergers occur at the lowest level within a contrastive hierarchy, i.e. &#8220;contrastive sisters&#8221; (<xref ref-type="bibr" rid="B41">Oxford 2015: 315</xref>). As this example further demonstrates, the loss of the Tongue Groove specification does not mean that /l/ becomes /r/. Rather, the merger produces the structural circumstances in which [l] and [r] may exist as allophones, either conditioned or unconditioned. If the situation is such that the lateral and the rhotic are in free variation, one may occur as a prototypical (or default) reflex of the unspecified category, mediated through language-specific conversion and implementation processes, not representations. For any merger, or loss of contrast, in the present framework the more unspecified category remains at the expense of the more specified one. Because <sc>RHOTIC</sc> comprises the unspecified set among consonant sonorants, the category will always exist unless there is a complete loss of consonant sonorants. This is the category that provides the representational conditions for a phoneme to behave like a liquid generally, and a rhotic specifically. Furthermore, this category will be diachronically stable with respect to representation, irrespective of changes in its conversions and, therefore, phonetic reflexes.</p>
+<p>According to this model, historical changes to the pronunciation of these rhotics are not due to changes in phonological features (i.e. dimensions), because the category lacks dimensional specification.<xref ref-type="fn" rid="n7">7</xref> This amount of underspecification further contributes to the procedural stability that characterizes rhotics, or that they &#8220;are implicated in phonological processes [that] can vary in a phonetically arbitrary manner without perturbing the process itself&#8221; (<xref ref-type="bibr" rid="B6">Chabot 2019: 1</xref>). The implication for the present model is that processes involving the <sc>RHOTIC</sc> phoneme occur at a sub-phonological level of representation. This is a specific hypothesis about the influences that the <sc>RHOTIC</sc> phoneme has on other sounds within a given phonological domain, and testing it is an extremely promising area of future research.</p>
+<p>An example of an alternation process that targets a sub-phonological level is a retroflexion pattern in certain varieties of Norwegian. This is a variable process in which /r, &#637;/ preceding the laminal coronals /t<sup>h</sup>, t(d), s, l, n/ across word and morpheme boundaries coalesce into retroflexes (<xref ref-type="bibr" rid="B28">Kristoffersen 2000: 96&#8211;97, 315&#8211;316</xref>; <xref ref-type="bibr" rid="B25">Johannessen &amp; Vaux 2013: 49</xref>). This alternation also includes some varieties that have uvular /r/ in isolation (<xref ref-type="bibr" rid="B55">Stausland Johnsen 2012</xref>). Patterns of retroflexion in a number of environments are shown in Table <xref ref-type="table" rid="T4">4</xref>. Note that Johannessen &amp; Vaux (<xref ref-type="bibr" rid="B25">2013: 54</xref>) argue that there is considerable variation with respect to whether retroflexion occurs, concluding that /r/ allomorphy and, therefore retroflexion itself, is sensitive to phonological, as well as individual, geographical, and social factors. The multiple variants of the compound <italic>soldag</italic> &#8216;sun(ny) day&#8217; are one example.</p>
+<table-wrap id="T4">
+<label>Table 4</label>
+<caption>
+<p>Norwegian retroflexion patterns (adapted from <xref ref-type="bibr" rid="B28">Kristoffersen 2000: 96&#8211;97</xref>; <xref ref-type="bibr" rid="B25">Johannessen &amp; Vaux 2013: 49</xref>).</p>
+</caption>
+<table>
+<tr>
+<th style="background-color:#f3f3f4;" align="left" valign="top">Environment</th>
+<th style="background-color:#f3f3f4;" align="left" valign="top">Orthography</th>
+<th style="background-color:#f3f3f4;" align="left" valign="top">Isolated pronunciation</th>
+<th style="background-color:#f3f3f4;" align="left" valign="top">Output</th>
+<th style="background-color:#f3f3f4;" align="left" valign="top">Gloss</th>
+</tr>
+<tr>
+<td colspan="5"><hr/></td>
+</tr>
+<tr>
+<td align="left">root + inflectional affix</td>
+<td align="left"><italic>sur-t</italic></td>
+<td align="left">[<sup>1</sup>s&#649;&#720;&#638;]</td>
+<td align="left">[<sup>1</sup>s&#649;&#720;&#648;<sup>h</sup>]</td>
+<td align="left">sour-<sc>NEUT.SG</sc></td>
+</tr>
+<tr>
+<td align="left">root + derivational affix</td>
+<td align="left"><italic>kj&#248;r-sel</italic></td>
+<td align="left">[<sup>1</sup>&#231;&#629;&#720;&#638;]</td>
+<td align="left">[<sup>1</sup>&#231;&#629;&#642;.&#642;l&#809;]</td>
+<td align="left">drive-NMLZ</td>
+</tr>
+<tr>
+<td align="left">word + clitic</td>
+<td align="left"><italic>sp&#248;r-n</italic></td>
+<td align="left">[<sup>1</sup>sp&#629;&#638;]</td>
+<td align="left">[<sup>1</sup>sp&#629;&#627;]</td>
+<td align="left">ask-him</td>
+</tr>
+<tr>
+<td align="left">compound</td>
+<td align="left"><italic>sol-dag</italic></td>
+<td align="left">[<sup>1</sup>su&#720;&#637;] or [<sup>1</sup>su&#720;l]</td>
+<td align="left">[<sup>2</sup>su&#720;.&#598;&#593;&#720;&#609;]<break/>[<sup>2</sup>su&#720;l.d&#593;&#720;&#609;]<break/>[<sup>2</sup>su&#720;&#637;.d&#593;&#720;&#609;]</td>
+<td align="left">sun(ny) day</td>
+</tr>
+<tr>
+<td align="left">verb + object</td>
+<td align="left"><italic>har tid</italic></td>
+<td align="left">[<sup>1</sup>h&#593;&#720;&#638;]</td>
+<td align="left">[<sup>1</sup>h&#593;(&#720;) <sup>1</sup>&#648;<sup>h</sup>i&#720;]</td>
+<td align="left">has time</td>
+</tr>
+</table>
+</table-wrap>
+<p>Kristoffersen (<xref ref-type="bibr" rid="B28">2000: 96ff</xref>) views retroflexion as a subset of related phonological rules, where an apical feature spreads from the rhotic to the following coronal, and the rhotic&#8217;s remaining features, and therefore the segment itself, delete. The outcome is a single retroflex phone, which represents the fusion of two adjacent segments into one (<xref ref-type="bibr" rid="B28">Kristoffersen 2000: 96</xref>). There are a number of constraints to the application of this rule depending on the domain of application &#8212; tautomorphemic vs. heteromorphemic for example &#8212; that interact with suprasegmental patterns and representations (<xref ref-type="bibr" rid="B28">Kristoffersen 2000: 99, 317</xref>). However, in all cases the retroflexion process results in the loss of the source rhotic segment on the surface. This is represented not only in the forms for <italic>soldag</italic> &#8216;sun(ny) day&#8217; in Table <xref ref-type="table" rid="T4">4</xref>, but across word boundaries as well, as in (13). These examples demonstrate higher-order restrictions on the domains in which retroflexion can apply. Notice the relationship between r-deletion and retroflexion. When retroflexion can and does apply, the /r/ coalesces with the following coronal.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(13)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><italic>Norwegian</italic> (<xref ref-type="bibr" rid="B28">Kristoffersen 2000: 317</xref>)</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>a.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>Per</p></list-item>
+<list-item><p>&#8216;Per</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>ser</p></list-item>
+<list-item><p>sees</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>en</p></list-item>
+<list-item><p>a</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>stor</p></list-item>
+<list-item><p>big</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>l&#248;ve.</p></list-item>
+<list-item><p>lion.&#8217;</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>[<sup>1</sup>p<sup>h</sup>e&#720;&#642;e&#720;.&#638;&#603;n. <sup>1</sup>stu&#720;. <sup>2</sup>&#621;&#629;&#720;.&#651;&#601;]</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>&#160;</p></list-item>
+</list>
+<list list-type="wordfirst">
+<list-item><p>b.</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="word">
+<list-item><p>Per,</p></list-item>
+<list-item><p>&#8216;Per,</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>Siris</p></list-item>
+<list-item><p>Siri&#8217;s</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>bror,</p></list-item>
+<list-item><p>brother,</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>ser</p></list-item>
+<list-item><p>sees</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>en</p></list-item>
+<list-item><p>a</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>stor</p></list-item>
+<list-item><p>big</p></list-item>
+</list>
+<list list-type="word">
+<list-item><p>l&#248;ve.</p></list-item>
+<list-item><p>lion.&#8217;</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="final-sentence">
+<list-item><p>[<sup>1</sup>p<sup>h</sup>e&#720;&#638;. &#124; <sup>2</sup>si&#720;&#638;is. <sup>1</sup>b&#638;u&#720;&#638; &#124; <sup>1</sup>se&#720;.&#638;&#603;n. <sup>1</sup>stu&#720;. <sup>2</sup>&#621;&#629;&#720;.&#651;&#601;]</p></list-item>
+<list-item><p>??[ <sup>1</sup>p<sup>h</sup>e&#720; &#124; <sup>2</sup>&#642;i&#720;&#638;is. <sup>1</sup>b&#638;u&#720; &#124; <sup>1</sup>&#642;e&#720;.&#638;&#603;n. <sup>1</sup>stu&#720;. <sup>2</sup>&#621;&#629;&#720;.&#651;&#601;]</p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>Uvular /r/ varieties with retroflexion can be seen in the sample phrases [&#609;&#596;&#720;.&#641;&#649;&#720;t<sup>h</sup>] <italic>g&#229;r ut</italic> &#8216;go out&#8217; and [&#609;&#596;&#720;.&#598;&#618;k.k<sup>h</sup>&#601;] <italic>g&#229;r det ikke</italic> &#8216;if it&#8217;s not possible&#8217; (<xref ref-type="bibr" rid="B55">Stausland Johnsen 2012: 514</xref>). Retroflexion with /r/ as a trigger, however, does not reflect the spreading of an inherent (phonetic or phonological) feature of the coronal or uvular r-sounds in Norwegian. There is no indication that Norwegian retroflexion draws on the categorical phonological representations of the conditioning /r/, a fact that supports the unspecified representation of /r/.</p>
+<p>Due to its variability and non-assimilatory characteristics, Norwegian retroflexion is more consistent with a conditioned enhancement of coronals, operating at the Phonetic-Phonological level of representation. Whether it occurs or not is a function of the variable nature of the representations and structures for that particular module, i.e. enhancement. The contemporary pattern, however, requires a diachronic explanation. It likely emerged from a phonological rule in which retroflex features of /&#637;/ spread to following coronals, which then extended to environments following /r/ (see <xref ref-type="bibr" rid="B55">Stausland Johnsen 2012: 511&#8211;513</xref> for a discussion). Take for instance the partial contrastive hierarchy in (14) for a Norwegian variety with phonemic /&#637;/ marked with Tongue Curl (completed [up]) to contrast it against /r/.</p>
+<list list-type="gloss">
+<list-item>
+<list list-type="wordfirst">
+<list-item><p>(14)</p></list-item>
+</list>
+</list-item>
+<list-item>
+<list list-type="sentence-gloss">
+<list-item>
+<list list-type="final-sentence">
+<list-item><p><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/article/id/5296/file/63410/"/></p></list-item>
+</list>
+</list-item>
+</list>
+</list-item>
+</list>
+<p>The first stage of this change is an adaptation of Kristoffersen&#8217;s (<xref ref-type="bibr" rid="B28">2000: 96</xref>) retroflex rule into the presentation framework. Here, /&#637;/ spreads its Tongue Curl dimension to the following coronal and then deletes, as in /k&#649;&#637;-t<sup>h</sup>/ [<sup>1</sup>&#609;&#649;&#720;&#648;<sup>h</sup>] &#8216;yellow (<sc>NEUT.SG</sc>)&#8217;, cf. [<sup>1</sup>&#609;&#649;&#720;&#637;] in isolation (<xref ref-type="bibr" rid="B28">Kristoffersen 2000: 96</xref>). The deletion, or lack of a retroflex flap reflex, in these environments introduces ambiguity into the speech signal. Based solely on surface forms, the retroflex gesture (Tongue Curl [up]) can be interpreted by learners either as an assimilation from /&#637;/ followed by deletion of that segment, or an enhancement of the coronal in that same context. The articulatory gestures that derived from the phonological specification of /&#637;/ and spread to a following coronal are aligned with that segment and reanalyzed as filling in structure at the Phonetic-Phonological level of representation. This type of change is what Blevins (<xref ref-type="bibr" rid="B4">2004</xref>) defines as &#8220;chance,&#8221; where:</p>
+<disp-quote>
+<p>The phonetic signal is accurately perceived by the listener, but is intrinsically phonologically ambiguous, and the listener associates a phonological form with the utterance which difference from the phonological form in the speaker&#8217;s grammar. (<xref ref-type="bibr" rid="B4">Blevins 2004: 32</xref>)</p>
+</disp-quote>
+<p>In this instance it is not the phonological representations that change, but the conversion processes that underlie them. Due to this reanalysis, this gesture [up] no longer completes the Tongue Curl dimension for /&#637;/, which results in a disruption of the conversion from the Phonological to the Phonetic-Phonological levels of representation. Therefore, /&#637;/ is not converted into a pronounceable segment. This unimplemented /&#637;/ representation provides the environment for the retroflex enhancement of coronals. The fact that compounds such as <italic>soldag</italic> &#8216;sun(ny) day&#8217; in Table <xref ref-type="table" rid="T4">4</xref> only have retroflexion in connection with the loss of the preceding liquid is consistent with these bare representations conditioning the process. This bare environment domain, i.e. unimplemented phoneme, extends from [consonant, sonorant, Tongue Curl] to [consonant, sonorant], thereby including /r/.</p>
+<p>This diachronic process is represented in Figure <xref ref-type="fig" rid="F3">3</xref>. /T/ is any non-retroflex laminal phoneme, with the assumption that the Coronal articulator, either as superordinate structure or as the dominating node of a coronal dimension, defines the natural class. Boxes underneath each linked X segment show relevant structure across three levels of representation; the intervening {#} signifies the boundary (word, morpheme, clitic) between the sources and triggers of the process. The initial retroflex rule is presented in 1, with the conditioned enhancement in 2, and its extension to include /r/ in 3. The last stage, 3, results in a sub-phonological operation that spreads to other Norwegian varieties, including those that do not have the retroflex flap phoneme and to those that have the uvular /r/ in isolation. Stage 3 models the synchronic pattern: Coronals are enhanced with Tongue Curl (TC) [up] following the unimplemented Coronal<sup>TG</sup> phonemes. Finally, because stem-final r-deletion spans most of the Norwegian-speaking area (see <xref ref-type="bibr" rid="B42">Papazian &amp; Helleland 2005: 76&#8211;77</xref>; <xref ref-type="bibr" rid="B25">Johannessen &amp; Vaux 2013</xref>), there were and are ample conditions for varieties that historically and presently lack the contrastive features for retroflexion to adopt this enhancement. Other types of sub-phonological conversions and operations have been shown to be particularly susceptible to transfer in contact scenarios (<xref ref-type="bibr" rid="B38">Natvig 2019</xref>), and there is reason to believe that dialect or sociolect contact undergoes similar processes.</p>
+<fig id="F3">
+<label>Figure 3</label>
+<caption>
+<p>Diachrony of Norwegian retroflex enhancement.</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/article/id/5296/file/63398/"/>
+</fig>
+<p>Norwegian retroflex enhancement requires a considerable amount of machinery at the Phonetic-Phonological level of representation. However, this reanalysis is the same type of rule telescoping that other accounts posit (e.g. <xref ref-type="bibr" rid="B55">Stausland Johnsen 2012</xref>), but here resulting in Phonetic-Phonological level change instead of Phonological change. Furthermore, the forms, features, and distributions of the enhancement are consistent with sub-phonological processes:</p>
+<list list-type="roman-lower">
+<list-item><p>The retroflexion gesture, Tongue Curl [up], does not categorically specify or describe the conditioning phoneme ([&#638;]/[r] or [&#641;]) in isolation (<xref ref-type="bibr" rid="B55">Stausland Johnsen 2012</xref>).</p></list-item>
+<list-item><p>The process requires the loss of the previous liquid; it does not co-occur with surface-level conditioning phonological features or phonetic co-articulations ([<sup>2</sup>su&#720;&#637;.d&#593;&#720;&#609;] vs. [<sup>2</sup>su&#720;.&#598;&#593;&#720;&#609;]; <xref ref-type="bibr" rid="B28">Kristoffersen 2000: 96</xref>).</p></list-item>
+<list-item><p>It does not always occur when conditioning factors are met (<xref ref-type="bibr" rid="B25">Johannessen &amp; Vaux 2013</xref>).</p></list-item>
+<list-item><p>Conditioned Phonetic-Phonological operations are attested elsewhere, where they may be optional (e.g. English unreleased/glottalized final stops in coda position: [n&#230;&#704;p] and [n&#230;p<sup>h</sup>] are possible pronunciations for <italic>nap</italic>).</p></list-item>
+</list>
+<p>These observations are some of many possible metrics for evaluating where a given sound pattern may occur within a modular sound system. It is also worth investigating how these types of enhancements integrate with more detailed modular conceptualizations of the sound system (e.g. <xref ref-type="bibr" rid="B27">Keyser &amp; Stevens 2006: 39</xref>). They are, however, demonstrations of how <sc>LIQUID</sc> and <sc>RHOTIC</sc> as underspecified phonological categories participate in alternations. These illustrations further show how underspecified representations model and predict the extent to which their isolated phonetic forms are opaque to those processes, both synchronically and diachronically (see <xref ref-type="bibr" rid="B21">Howell 1991</xref>; <xref ref-type="bibr" rid="B60">Wiese 2001b</xref>; <xref ref-type="bibr" rid="B39">Natvig &amp; Salmons forthcoming</xref>).</p>
+<p>I presented here one illustration each of diachronic and procedural stability of the <sc>RHOTIC</sc> category, crucially drawing on its lack of phonological content. In both cases, the stability of the category with respect to highly variable surface forms is the result of sub-phonological processes that govern those variants. In sum, both the diachronic and synchronic stability of rhotics phonologically and the diachronic and synchronic variation of rhotics phonetically are not conflicting or incompatible properties, but interconnected outcomes based on the negative phonological content of the <sc>RHOTIC</sc> category, as defined in (4).</p>
+</sec>
+</sec>
+<sec>
+<title>5 Conclusion</title>
+<p>There are no exclusive acoustic or articulatory features that contrastively define rhotics. However, it is their synchronic and diachronic behaviors relative to other phonemes that characterizes them phonologically (<xref ref-type="bibr" rid="B6">Chabot 2019</xref>). Considering the wide range of rhotic-patterning segments across dimensions of place and manner, I argue here that a category <sc>RHOTIC</sc> is the unspecified sonorant consonant in the phonological system, where <sc>LIQUID</sc> is a broader underspecified category that may encompass multiple phonemes. The particular surface form of <sc>RHOTIC</sc> is a direct result of its relationship to other potential <sc>LIQUID</sc> phonemes and their phonological properties, as well as the computations to make all underspecified representations pronounceable. These processes contribute to the extreme degree of rhotic arbitrariness across phonological and phonetic domains. The underspecified definitions presented and supported here bring liquid and rhotic phonological structure in line with gestural accounts and descriptions (<xref ref-type="bibr" rid="B43">Proctor 2011</xref>), while defining discrete categories that exhibit consistent phonological behavior (<xref ref-type="bibr" rid="B60">Wiese 2001b</xref>; <xref ref-type="bibr" rid="B6">Chabot 2019</xref>; <xref ref-type="bibr" rid="B63">Youssef 2019</xref>).</p>
+<p>Although non-linear relationships are characteristic of cross-modular interactions (<xref ref-type="bibr" rid="B45">Purnell 2009</xref>), other phonemic categories do not vary with respect to manner and place to the same extent as what is not only possible, but a hallmark, for r-sounds. The interrelated models in this analysis capture this observation not based on intrinsic or universal properties of different types of sounds, but in the relationships that those sounds have with the others in a given phonological inventory. Specifically, the degree to which any particular phoneme can vary phonetically is a direct result of its phonological specification and the representations that distinguish the other phonemes in an inventory. The more phonemes and the more distinctive features a system and a phoneme have, the more restricted that phoneme&#8217;s phonetic variants may be. The extent of /r/ variation is directly related to that language&#8217;s representational structure. Finally, rhotic underspecification permits the variation of r-sounds over time and space, but it does not require it. Any individual phonetic form and the amount of contextualized or free variation it has are governed by conversion processes at sub-phonological levels of representation. Given the appropriate phonological, phonetic, and social conditions, there are very few structural restrictions to what may be the archetypal allophone of an unspecified phoneme in a particular phonemic set.</p>
+<p>In this analysis, I advance the representational underpinnings of cross-linguistic rhotic behavior and their complex articulatory properties. Furthermore, this investigation supports hierarchically organized phonological representations within a modular sound system, each module operating on different types of representations with their own properties and characteristics. Finally, I demonstrate a way forward for interpreting and analyzing diachronic and synchronic rhotic and liquid patterns predicated on their unspecified, or underspecified, representations. These hypotheses deserve further cross-linguistic testing to enrich our understanding of the phonology of rhotics and liquids, as well as phonological theory in general.</p>
+</sec>
+</body>
+<back>
+<sec>
+<title>Abbreviations</title>
+<p># = word, morpheme, or clitic boundary, ATR = Advanced Tongue Root, F1 = first formant, F2 = second formant, F3 = third formant, F4 = fourth formant, MCS = Modified Contrastive Specification, <sc>NEUT</sc> = neuter, <sc>NMLZ</sc> = nominalizer, OP = Oral Place, RTR = Retracted Tongue Root, SDA = Successive Division Algorithm, SG = singular, SP = Soft Palate, T = coronal consonant, TC = Tongue Curl, TG = Tongue Groove, TR = Tongue Root, TT = Tongue Thrust, X = segmental timing slot</p>
+</sec>
+<fn-group>
+<fn id="n1"><p>Note that this contrast is represented with phonemic aspiration as /p<sup>h</sup>, t<sup>h</sup>, k<sup>h</sup>/ &lt;p, t, k&gt; (fortis) against plain voiceless /p, t, k/ &lt;b, d, g&gt; (lenis) and that the lenis series may passively receive voicing (see <xref ref-type="bibr" rid="B1">Allen 2016</xref>).</p></fn>
+<fn id="n2"><p>Norwegian has tonal accents (see <xref ref-type="bibr" rid="B28">Kristoffersen 2000: 233&#8211;298</xref>) that do not interact with processes discussed here. They are excluded when they are not provided in cited examples.</p></fn>
+<fn id="n3"><p>Preaspiration and postaspiration in Norwegian codas are variable and sensitive to regional and phonological contexts (e.g. <xref ref-type="bibr" rid="B10">Endresen 1991: 61</xref>; <xref ref-type="bibr" rid="B1">Allen 2016</xref>). I transcribe the neuter form <italic>trygt</italic> with aspiration between [k] and [t] to show that the final consonant cluster shares a [spread glottis] gesture; for some speakers, aspiration may begin prior to the stop closure for [k].</p></fn>
+<fn id="n4"><p>Small caps are used to indicate phonological categories, without referring to specific surface forms.</p></fn>
+<fn id="n5"><p>See, however, Herd (<xref ref-type="bibr" rid="B19">2005: 99</xref>), who includes the glide /w/ with consonantal sonorants, specifying [labial] above [nasal].</p></fn>
+<fn id="n6"><p>The contrastive hierarchy in (10) includes /l&#740;/ to show how an emphatic lateral would be specified, but it is not required for the present analysis.</p></fn>
+<fn id="n7"><p>In a system with multiple r-sounds, diachronic change may be phonological, resulting in mergers or splits with other rhotics and liquids, or even into a different major class like the reanalysis of uvular /&#641;/ in Arabic as a fricative (<xref ref-type="bibr" rid="B63">Youssef 2019: 28</xref>). The latter change exemplifies a type of Oxford&#8217;s (<xref ref-type="bibr" rid="B41">2015: 317</xref>) Segmental Reanalysis Hypothesis, where &#8220;a segment may be reanalyzed as having a different contrastive status.&#8221; In this case a previously unspecified manner of articulation (i.e. frication) is reanalyzed as a phonological feature.</p></fn>
+</fn-group>
+<ack>
+<title>Acknowledgements</title>
+<p>I would like to thank Samantha Litty, Eric Raimy, and Joe Salmons for discussions and comments on previous versions of this article. I am also very appreciative of the feedback I received from the Glossa editorial staff and the anonymous reviewers. All mistakes and oversights are my own.</p>
+</ack>
+<sec>
+<title>Funding Information</title>
+<p>This work has received funding from the European Union&#8217;s Horizon 2020 research and innovation program under the Marie Sk&#322;odowska-Curie grant agreement number 838164. It is also partly supported by the Research Council of Norway through its Centres of Excellence funding scheme, project number 223265.</p>
+</sec>
+<sec>
+<title>Competing Interests</title>
+<p>The author has no competing interests to declare.</p>
+</sec>
+<ref-list>
+<ref id="B1"><label>1</label><mixed-citation publication-type="thesis"><string-name><surname>Allen</surname>, <given-names>Brent</given-names></string-name>. <year>2016</year>. <source>Laryngeal phonetics and phonology in Germanic</source>. <publisher-loc>Madison, WI</publisher-loc>: <publisher-name>University of Wisconsin&#8211;Madison</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B2"><label>2</label><mixed-citation publication-type="journal"><string-name><surname>Avery</surname>, <given-names>Peter</given-names></string-name> &amp; <string-name><given-names>Keren</given-names> <surname>Rice</surname></string-name>. <year>1989</year>. <article-title>Segment structure and coronal underspecification</article-title>. <source>Phonology</source> <volume>6</volume>(<issue>2</issue>). <fpage>179</fpage>&#8211;<lpage>200</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0952675700001007</pub-id></mixed-citation></ref>
+<ref id="B3"><label>3</label><mixed-citation publication-type="book"><string-name><surname>Avery</surname>, <given-names>Peter</given-names></string-name> &amp; <string-name><given-names>William J.</given-names> <surname>Idsardi</surname></string-name>. <year>2001</year>. <chapter-title>Laryngeal Dimensions, completion and enhancement</chapter-title>. In <string-name><given-names>Tracy</given-names> <surname>Alan Hall</surname></string-name> (ed.), <source>Distinctive feature theory</source>, <fpage>41</fpage>&#8211;<lpage>70</lpage>. <publisher-loc>Berlin</publisher-loc>: <publisher-name>Mouton de Gruyter</publisher-name>.</mixed-citation></ref>
+<ref id="B4"><label>4</label><mixed-citation publication-type="book"><string-name><surname>Blevins</surname>, <given-names>Juliette</given-names></string-name>. <year>2004</year>. <source>Evolutionary phonology: The emergence of sound patterns</source>. <publisher-loc>Cambridge</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1017/CBO9780511486357</pub-id></mixed-citation></ref>
+<ref id="B5"><label>5</label><mixed-citation publication-type="book"><string-name><surname>Browman</surname>, <given-names>Catherine P</given-names></string-name>. &amp; <string-name><given-names>Louis M.</given-names> <surname>Goldstein</surname></string-name>. <year>1995</year>. <chapter-title>Gestural syllable position effects in American English</chapter-title>. In <string-name><given-names>Fredericka</given-names> <surname>Bell-Berti</surname></string-name> &amp; <string-name><given-names>Lawrence J.</given-names> <surname>Raphael</surname></string-name> (eds.), <source>Producing speech: Contemporary issues</source>, <fpage>19</fpage>&#8211;<lpage>34</lpage>. <publisher-loc>New York</publisher-loc>: <publisher-name>AIP Press</publisher-name>.</mixed-citation></ref>
+<ref id="B6"><label>6</label><mixed-citation publication-type="journal"><string-name><surname>Chabot</surname>, <given-names>Alex</given-names></string-name>. <year>2019</year>. <article-title>What&#8217;s wrong with being a rhotic?</article-title> <source>Glossa: A Journal of General Linguistics</source> <volume>4</volume>(<issue>1</issue>): <fpage>38</fpage>. 1&#8211;24. DOI: <pub-id pub-id-type="doi">10.5334/gjgl.618</pub-id></mixed-citation></ref>
+<ref id="B7"><label>7</label><mixed-citation publication-type="book"><string-name><surname>Cyran</surname>, <given-names>Eugeniusz</given-names></string-name>. <year>2014</year>. <source>Between phonology and phonetics: Polish voicing</source>. <publisher-loc>Berlin</publisher-loc>: <publisher-name>Mouton de Gryuter</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1515/9781614515135</pub-id></mixed-citation></ref>
+<ref id="B8"><label>8</label><mixed-citation publication-type="book"><string-name><surname>Dresher</surname>, <given-names>B. Elan</given-names></string-name>. <year>2009</year>. <source>The contrastive hierarchy in phonology</source>. <publisher-loc>Cambridge</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1017/CBO9780511642005</pub-id></mixed-citation></ref>
+<ref id="B9"><label>9</label><mixed-citation publication-type="book"><string-name><surname>Dresher</surname>, <given-names>B. Elan</given-names></string-name>, <string-name><given-names>Glyne</given-names> <surname>Piggot</surname></string-name> &amp; <string-name><given-names>Keren</given-names> <surname>Rice</surname></string-name>. <year>1994</year>. <chapter-title>Contrast in Phonology: Overview</chapter-title>. In <string-name><given-names>Carrie</given-names> <surname>Dyck</surname></string-name> (ed.), <source>Toronto Working Papers in Linguistics</source> <volume>13</volume>. <fpage>iii</fpage>&#8211;<lpage>xvii</lpage>. <publisher-loc>Toronto</publisher-loc>: <publisher-name>Department of Linguistics, University of Toronto</publisher-name>.</mixed-citation></ref>
+<ref id="B10"><label>10</label><mixed-citation publication-type="book"><string-name><surname>Endresen</surname>, <given-names>Rolf Thiel</given-names></string-name>. <year>1991</year>. <source>Fonetikk og fonologi: Ei element&#230;r innf&#248;ring [Phonetics and phonology: An elementary introduction]</source>. <publisher-loc>Oslo</publisher-loc>: <publisher-name>Universitetsforlaget</publisher-name>.</mixed-citation></ref>
+<ref id="B11"><label>11</label><mixed-citation publication-type="journal"><string-name><surname>G&#246;schel</surname>, <given-names>Joachim</given-names></string-name>. <year>1971</year>. <article-title>Artikulation und Distribution der sogenannten Liquida r in den europ&#228;ischen Sprachen [Articulation and distribution of the so-called liquid r in the European Languages]</article-title>. <source>Indogermanische Forschungen</source> [Indo-Germanic Studies] <volume>76</volume>. <fpage>84</fpage>&#8211;<lpage>126</lpage>.</mixed-citation></ref>
+<ref id="B12"><label>12</label><mixed-citation publication-type="book"><string-name><surname>Hale</surname>, <given-names>Mark</given-names></string-name> &amp; <string-name><given-names>Charles</given-names> <surname>Reiss</surname></string-name>. <year>2008</year>. <source>The phonological enterprise</source>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>.</mixed-citation></ref>
+<ref id="B13"><label>13</label><mixed-citation publication-type="thesis"><string-name><surname>Hall</surname>, <given-names>Daniel Currie</given-names></string-name>. <year>2007</year>. <source>The role and representation of contrast in phonological theory</source>. <publisher-loc>Toronto</publisher-loc>: <publisher-name>University of Toronto</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B14"><label>14</label><mixed-citation publication-type="journal"><string-name><surname>Hall</surname>, <given-names>Daniel Currie</given-names></string-name>. <year>2011</year>. <article-title>Phonological contrast and phonetic enhancement: Dispersedness without dispersion</article-title>. <source>Phonology</source> <volume>28</volume>(<issue>1</issue>). <fpage>1</fpage>&#8211;<lpage>54</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0952675711000029</pub-id></mixed-citation></ref>
+<ref id="B15"><label>15</label><mixed-citation publication-type="book"><string-name><surname>Hall</surname>, <given-names>Tracy Alan</given-names></string-name>. <year>1997</year>. <source>The phonology of coronals</source>. <publisher-loc>Amsterdam &amp; Philadelphia</publisher-loc>: <publisher-name>John Benjamins</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1075/cilt.149</pub-id></mixed-citation></ref>
+<ref id="B16"><label>16</label><mixed-citation publication-type="journal"><string-name><surname>Halle</surname>, <given-names>Morris</given-names></string-name>, <string-name><given-names>Bert</given-names> <surname>Vaux</surname></string-name> &amp; <string-name><given-names>Andrew</given-names> <surname>Wolfe</surname></string-name>. <year>2000</year>. <article-title>On feature spreading and the representation of place of articulation</article-title>. <source>Linguistic Inquiry</source> <volume>31</volume>(<issue>3</issue>). <fpage>387</fpage>&#8211;<lpage>444</lpage>. DOI: <pub-id pub-id-type="doi">10.1162/002438900554398</pub-id></mixed-citation></ref>
+<ref id="B17"><label>17</label><mixed-citation publication-type="thesis"><string-name><surname>Hamann</surname>, <given-names>Silke</given-names></string-name>. <year>2003</year>. <source>The phonetics and phonology of retroflexes</source>. <publisher-loc>Utrecht</publisher-loc>: <publisher-name>Utrecht University</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B18"><label>18</label><mixed-citation publication-type="book"><string-name><surname>Hayes</surname>, <given-names>Bruce</given-names></string-name>, <string-name><given-names>Robert</given-names> <surname>Kirchner</surname></string-name> &amp; <string-name><given-names>Donca</given-names> <surname>Steriade</surname></string-name> (eds.). <year>2004</year>. <source>Phonetically based phonology</source>. <publisher-loc>Cambridge</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1017/CBO9780511486401</pub-id></mixed-citation></ref>
+<ref id="B19"><label>19</label><mixed-citation publication-type="webpage"><string-name><surname>Herd</surname>, <given-names>Jonathan</given-names></string-name>. <year>2005</year>. <chapter-title>Loanword adaptation and the evaluation of similarity</chapter-title>. In <string-name><given-names>Chiara</given-names> <surname>Frigeni</surname></string-name>, <string-name><given-names>Manami</given-names> <surname>Hirayama</surname></string-name>, &amp; <string-name><given-names>Sara</given-names> <surname>Mackenzie</surname></string-name> (eds.), <source>Toronto Working Papers in Linguistics</source> <volume>24</volume>, <fpage>65</fpage>&#8211;<lpage>116</lpage>. <publisher-loc>Toronto</publisher-loc>: <publisher-name>Linguistics Graduate Course Union</publisher-name>. (<uri>https://twpl.library.utoronto.ca/index.php/twpl/article/view/6195</uri>) (Accessed 2019-02-10).</mixed-citation></ref>
+<ref id="B20"><label>20</label><mixed-citation publication-type="book"><string-name><surname>Honeybone</surname>, <given-names>Patrick</given-names></string-name>. <year>2005</year>. <chapter-title>Diachronic evidence in segmental phonology: The case of obstruent laryngeal specifications</chapter-title>. In <string-name><given-names>Marc</given-names> <surname>van Oostendorp</surname></string-name> &amp; <string-name><given-names>Jeroen</given-names> <surname>van de Weijer</surname></string-name> (eds.), <source>The internal organization of phonological segments</source>, <fpage>317</fpage>&#8211;<lpage>352</lpage>. <publisher-loc>Berlin</publisher-loc>: <publisher-name>Mouton de Gruyter</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1515/9783110890402.317</pub-id></mixed-citation></ref>
+<ref id="B21"><label>21</label><mixed-citation publication-type="book"><string-name><surname>Howell</surname>, <given-names>Robert B</given-names></string-name>. <year>1991</year>. <source>Old English breaking and its Germanic analogues</source>. <publisher-loc>T&#252;bingen</publisher-loc>: <publisher-name>Max Niemeyer</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1515/9783111356501</pub-id></mixed-citation></ref>
+<ref id="B22"><label>22</label><mixed-citation publication-type="journal"><string-name><surname>Iverson</surname>, <given-names>Gregory</given-names></string-name> &amp; <string-name><given-names>Joseph</given-names> <surname>Salmons</surname></string-name>. <year>1995</year>. <article-title>Aspiration and laryngeal representation in Germanic</article-title>. <source>Phonology</source> <volume>12</volume>(<issue>3</issue>). <fpage>369</fpage>&#8211;<lpage>396</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0952675700002566</pub-id></mixed-citation></ref>
+<ref id="B23"><label>23</label><mixed-citation publication-type="journal"><string-name><surname>Iverson</surname>, <given-names>Gregory</given-names></string-name> &amp; <string-name><given-names>Joseph</given-names> <surname>Salmons</surname></string-name>. <year>2003</year>. <article-title>Legacy specification in the laryngeal phonology of Dutch</article-title>. <source>Journal of Germanic Linguistics</source> <volume>15</volume>(<issue>1</issue>). <fpage>1</fpage>&#8211;<lpage>26</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S1470542703000242</pub-id></mixed-citation></ref>
+<ref id="B24"><label>24</label><mixed-citation publication-type="journal"><string-name><surname>Jacewicz</surname>, <given-names>Ewa</given-names></string-name>, <string-name><given-names>Robert</given-names> <surname>Allen Fox</surname></string-name> &amp; <string-name><given-names>Joseph</given-names> <surname>Salmons</surname></string-name>. <year>2011</year>. <article-title>Cross-generational vowel change in American English</article-title>. <source>Language Variation and Change</source> <volume>23</volume>(<issue>1</issue>). <fpage>45</fpage>&#8211;<lpage>86</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0954394510000219</pub-id></mixed-citation></ref>
+<ref id="B25"><label>25</label><mixed-citation publication-type="journal"><string-name><surname>Johannessen</surname>, <given-names>Janne Bondi</given-names></string-name> &amp; <string-name><given-names>Bert</given-names> <surname>Vaux</surname></string-name>. <year>2013</year>. <article-title>Retroflex variation and methodological issues: A reply to Simonson, Moen, and Cowen (2008)</article-title>. <source>Journal of Phonetics</source> <volume>41</volume>(<issue>1</issue>). <fpage>48</fpage>&#8211;<lpage>55</lpage>. DOI: <pub-id pub-id-type="doi">10.1016/j.wocn.2012.09.002</pub-id></mixed-citation></ref>
+<ref id="B26"><label>26</label><mixed-citation publication-type="journal"><string-name><surname>Kehrein</surname>, <given-names>Wolfgang</given-names></string-name> &amp; <string-name><given-names>Chris</given-names> <surname>Golston</surname></string-name>. <year>2004</year>. <article-title>A prosodic theory of laryngeal contrasts</article-title>. <source>Phonology</source> <volume>21</volume>(<issue>3</issue>). <fpage>325</fpage>&#8211;<lpage>357</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0952675704000302</pub-id></mixed-citation></ref>
+<ref id="B27"><label>27</label><mixed-citation publication-type="journal"><string-name><surname>Keyser</surname>, <given-names>Samuel</given-names></string-name> &amp; <string-name><given-names>Kenneth</given-names> <surname>Stevens</surname></string-name>. <year>2006</year>. <article-title>Enhancement and overlap in the speech chain</article-title>. <source>Language</source> <volume>82</volume>(<issue>1</issue>). <fpage>33</fpage>&#8211;<lpage>63</lpage>. DOI: <pub-id pub-id-type="doi">10.1353/lan.2006.0051</pub-id></mixed-citation></ref>
+<ref id="B28"><label>28</label><mixed-citation publication-type="book"><string-name><surname>Kristoffersen</surname>, <given-names>Gjert</given-names></string-name>. <year>2000</year>. <source>The phonology of Norwegian</source>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>.</mixed-citation></ref>
+<ref id="B29"><label>29</label><mixed-citation publication-type="webpage"><string-name><surname>Kwon</surname>, <given-names>Joy</given-names></string-name>. <year>2019</year>. <article-title>Korean vowel mergers: Contrastive hierarchies and distinctive features</article-title>. <source>University of Pennsylvania Working Papers in Linguistics</source> <volume>25</volume>(<issue>1</issue>). <fpage>159</fpage>&#8211;<lpage>168</lpage>. (<uri>https://repository.upenn.edu/pwpl/vol25/iss1/18</uri>) (Accessed 2019-20-09).</mixed-citation></ref>
+<ref id="B30"><label>30</label><mixed-citation publication-type="book"><string-name><surname>Ladefoged</surname>, <given-names>Peter</given-names></string-name> &amp; <string-name><given-names>Ian</given-names> <surname>Maddieson</surname></string-name>. <year>1996</year>. <source>The sounds of the world&#8217;s languages</source>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Blackwell</publisher-name>.</mixed-citation></ref>
+<ref id="B31"><label>31</label><mixed-citation publication-type="book"><string-name><surname>Lahiri</surname>, <given-names>Aditi</given-names></string-name> &amp; <string-name><given-names>Henning</given-names> <surname>Reetz</surname></string-name>. <year>2002</year>. <chapter-title>Underspecified recognition</chapter-title>. In <string-name><given-names>Carlos</given-names> <surname>Gussenhoven</surname></string-name> &amp; <string-name><given-names>Natasha</given-names> <surname>Warner</surname></string-name> (eds.), <source>Laboratory Phonology</source> <volume>7</volume>, <fpage>637</fpage>&#8211;<lpage>676</lpage>. <publisher-loc>Berlin</publisher-loc>: <publisher-name>Mouton de Gruyter</publisher-name>.</mixed-citation></ref>
+<ref id="B32"><label>32</label><mixed-citation publication-type="journal"><string-name><surname>Lahiri</surname>, <given-names>Aditi</given-names></string-name> &amp; <string-name><given-names>Henning</given-names> <surname>Reetz</surname></string-name>. <year>2010</year>. <article-title>Distinctive features: Phonological underspecification in representation and processing</article-title>. <source>Journal of Phonetics</source> <volume>38</volume>(<issue>1</issue>). <fpage>44</fpage>&#8211;<lpage>99</lpage>. DOI: <pub-id pub-id-type="doi">10.1016/j.wocn.2010.01.002</pub-id></mixed-citation></ref>
+<ref id="B33"><label>33</label><mixed-citation publication-type="book"><string-name><surname>Lindau</surname>, <given-names>Mona</given-names></string-name>. <year>1985</year>. <chapter-title>The story of r</chapter-title>. In <string-name><given-names>V.A.</given-names> <surname>Fromkin</surname></string-name> (ed.), <source>Phonetic linguistics</source>, <fpage>157</fpage>&#8211;<lpage>168</lpage>. <publisher-loc>Orlando</publisher-loc>: <publisher-name>Academic Press</publisher-name>.</mixed-citation></ref>
+<ref id="B34"><label>34</label><mixed-citation publication-type="journal"><string-name><surname>Lombardi</surname>, <given-names>Linda</given-names></string-name>. <year>1996</year>. <article-title>Postlexical rules and the status of privative features</article-title>. <source>Phonology</source> <volume>13</volume>(<issue>1</issue>). <fpage>1</fpage>&#8211;<lpage>38</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0952675700000178</pub-id></mixed-citation></ref>
+<ref id="B35"><label>35</label><mixed-citation publication-type="confproc"><string-name><surname>Magnuson</surname>, <given-names>Thomas J</given-names></string-name>. <year>2007</year>. <article-title>The story of /r/ in two vocal tracts</article-title>. In <string-name><given-names>J&#252;rgen</given-names> <surname>Trouvain</surname></string-name> &amp; <string-name><given-names>William J.</given-names> <surname>Barry</surname></string-name> (eds.), <conf-name>Proceedings of the 16th International Congress of Phonetic Sciences</conf-name>, <fpage>1193</fpage>&#8211;<lpage>1196</lpage>.</mixed-citation></ref>
+<ref id="B36"><label>36</label><mixed-citation publication-type="journal"><string-name><surname>Mester</surname>, <given-names>R. Armin</given-names></string-name> &amp; <string-name><given-names>Junko</given-names> <surname>It&#244;</surname></string-name>. <year>1989</year>. <article-title>Feature predictability and underspecification: Palatal prosody in Japanese mimetics</article-title>. <source>Language</source> <volume>65</volume>(<issue>2</issue>). <fpage>258</fpage>&#8212;<lpage>293</lpage>. DOI: <pub-id pub-id-type="doi">10.2307/415333</pub-id></mixed-citation></ref>
+<ref id="B37"><label>37</label><mixed-citation publication-type="thesis"><string-name><surname>Natvig</surname>, <given-names>David</given-names></string-name>. <year>2018</year>. <source>Contrast, variation, and change in Norwegian vowel systems</source>. <publisher-loc>Madison, WI</publisher-loc>: <publisher-name>University of Wisconsin&#8211;Madison</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B38"><label>38</label><mixed-citation publication-type="book"><string-name><surname>Natvig</surname>, <given-names>David</given-names></string-name>. <year>2019</year>. <chapter-title>Levels of representation in phonetic and phonological contact</chapter-title>. In <string-name><given-names>Jeroen</given-names> <surname>Darquennes</surname></string-name>, <string-name><given-names>Joseph</given-names> <surname>Salmons</surname></string-name> &amp; <string-name><given-names>Wim</given-names> <surname>Vandenbussche</surname></string-name> (eds.), <source>Language contact: An international handbook (Handb&#252;cher zur Sprach- und Kommunikationswissenchaft/Handbooks of Linguistics and Communication Science 45) 1</source>. <fpage>88</fpage>&#8211;<lpage>100</lpage>. <publisher-loc>Berlin &amp; Boston, MA</publisher-loc>: <publisher-name>De Gruyter</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1515/9783110435351-008</pub-id></mixed-citation></ref>
+<ref id="B39"><label>39</label><mixed-citation publication-type="journal"><string-name><surname>Natvig</surname>, <given-names>David</given-names></string-name> &amp; <string-name><given-names>Joseph</given-names> <surname>Salmons</surname></string-name>. Forthcoming. <article-title>Fully accepting variation in (pre)history: The pervasive heterogeneity of Germanic rhotics</article-title>. Festschrift chapter.</mixed-citation></ref>
+<ref id="B40"><label>40</label><mixed-citation publication-type="journal"><string-name><surname>Nevins</surname>, <given-names>Andrew</given-names></string-name> &amp; <string-name><given-names>Ioana</given-names> <surname>Chitoran</surname></string-name>. <year>2008</year>. <article-title>Phonological representations and the variable patterning of glides</article-title>. <source>Lingua</source> <volume>118</volume>(<issue>12</issue>). <fpage>1979</fpage>&#8211;<lpage>1997</lpage>. DOI: <pub-id pub-id-type="doi">10.1016/j.lingua.2007.10.006</pub-id></mixed-citation></ref>
+<ref id="B41"><label>41</label><mixed-citation publication-type="journal"><string-name><surname>Oxford</surname>, <given-names>Will</given-names></string-name>. <year>2015</year>. <article-title>Patterns of contrast in phonological change: Evidence from Algonquian vowel systems</article-title>. <source>Language</source> <volume>91</volume>(<issue>2</issue>). <fpage>308</fpage>&#8211;<lpage>357</lpage>. DOI: <pub-id pub-id-type="doi">10.1353/lan.2015.0028</pub-id></mixed-citation></ref>
+<ref id="B42"><label>42</label><mixed-citation publication-type="book"><string-name><surname>Papazian</surname>, <given-names>Erik</given-names></string-name> &amp; <string-name><given-names>Botolv</given-names> <surname>Helleland</surname></string-name>. <year>2005</year>. <source>Norsk talem&#229;l: Lokal og sosial variasjon</source> [Norwegian spoken language: Local and social variation]. <publisher-loc>Kristiansand</publisher-loc>: <publisher-name>H&#248;yskoleforlaget</publisher-name>.</mixed-citation></ref>
+<ref id="B43"><label>43</label><mixed-citation publication-type="journal"><string-name><surname>Proctor</surname>, <given-names>Michael</given-names></string-name>. <year>2011</year>. <article-title>Towards a gestural characterization of liquids: Evidence from Spanish and Russian</article-title>. <source>Laboratory Phonology</source> <volume>2</volume>(<issue>2</issue>). <fpage>451</fpage>&#8211;<lpage>485</lpage>. DOI: <pub-id pub-id-type="doi">10.1515/labphon.2011.017</pub-id></mixed-citation></ref>
+<ref id="B44"><label>44</label><mixed-citation publication-type="journal"><string-name><surname>Punnoose</surname>, <given-names>Reenu</given-names></string-name>, <string-name><given-names>Ghada</given-names> <surname>Khattab</surname></string-name> &amp; <string-name><given-names>Jalal</given-names> <surname>Al-Tamimi</surname></string-name>. <year>2013</year>. <article-title>The contested fifth liquid in Malayalam: A window into the lateral-rhotic relationship in Dravidian languages</article-title>. <source>Phonetica</source> <volume>70</volume>(<issue>4</issue>). <fpage>274</fpage>&#8211;<lpage>297</lpage>. DOI: <pub-id pub-id-type="doi">10.1159/000356359</pub-id></mixed-citation></ref>
+<ref id="B45"><label>45</label><mixed-citation publication-type="book"><string-name><surname>Purnell</surname>, <given-names>Thomas</given-names></string-name>. <year>2009</year>. <chapter-title>Phonetic influence on phonological operations</chapter-title>. In <string-name><given-names>Eric</given-names> <surname>Raimy</surname></string-name> &amp; <string-name><given-names>Charles</given-names> <surname>Cairns</surname></string-name> (eds.), <source>Contemporary views on architecture and representations in phonology</source>, <fpage>337</fpage>&#8211;<lpage>354</lpage>. <publisher-loc>Cambridge, MA</publisher-loc>: <publisher-name>MIT Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.7551/mitpress/9780262182706.003.0017</pub-id></mixed-citation></ref>
+<ref id="B46"><label>46</label><mixed-citation publication-type="book"><string-name><surname>Purnell</surname>, <given-names>Thomas</given-names></string-name> &amp; <string-name><given-names>Eric</given-names> <surname>Raimy</surname></string-name>. <year>2015</year>. <chapter-title>Distinctive features, levels of representation and historical phonology</chapter-title>. In <string-name><given-names>Patrick</given-names> <surname>Honeybone</surname></string-name> &amp; <string-name><given-names>Joseph</given-names> <surname>Salmons</surname></string-name> (eds.), <source>The Oxford handbook of historical phonology</source>, <fpage>522</fpage>&#8211;<lpage>544</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/oxfordhb/9780199232819.013.002</pub-id></mixed-citation></ref>
+<ref id="B47"><label>47</label><mixed-citation publication-type="journal"><string-name><surname>Purnell</surname>, <given-names>Thomas</given-names></string-name>, <string-name><given-names>Eric</given-names> <surname>Raimy</surname></string-name> &amp; <string-name><given-names>Joseph</given-names> <surname>Salmons</surname></string-name>. <year>2019</year>. <article-title>Old English vowels: Diachrony, privativity, and phonological representations</article-title>. <source>Language, Research reports</source> <volume>94</volume>(<issue>4</issue>). <fpage>e447</fpage>&#8211;<lpage>e473</lpage>. DOI: <pub-id pub-id-type="doi">10.1353/lan.2019.0083</pub-id></mixed-citation></ref>
+<ref id="B48"><label>48</label><mixed-citation publication-type="book"><string-name><surname>Riad</surname>, <given-names>Tomas</given-names></string-name>. <year>2014</year>. <source>The phonology of Swedish</source>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1093/acprof:oso/9780199543571.001.0001</pub-id></mixed-citation></ref>
+<ref id="B49"><label>49</label><mixed-citation publication-type="journal"><string-name><surname>Rice</surname>, <given-names>Keren</given-names></string-name>. <year>1999</year>. <article-title>Featural markedness in phonology: Variation. Part 1</article-title>. <source>Glot International</source> <volume>4</volume>(<issue>7</issue>). <fpage>3</fpage>&#8211;<lpage>6</lpage>. Part 2. <italic>Glot International</italic> 4(8). 3&#8211;7.</mixed-citation></ref>
+<ref id="B50"><label>50</label><mixed-citation publication-type="book"><string-name><surname>Rice</surname>, <given-names>Keren</given-names></string-name>. <year>2009</year>. <chapter-title>Nuancing markedness: a place for contrast</chapter-title>. In <string-name><given-names>Eric</given-names> <surname>Raimy</surname></string-name> &amp; <string-name><given-names>Charles E.</given-names> <surname>Cairnes</surname></string-name> (eds.), <source>Contemporary views on architecture and representations in phonology</source>, <fpage>311</fpage>&#8211;<lpage>321</lpage>. <publisher-loc>Cambridge, MA</publisher-loc>: <publisher-name>MIT Press</publisher-name>. DOI: <pub-id pub-id-type="doi">10.7551/mitpress/9780262182706.003.0015</pub-id></mixed-citation></ref>
+<ref id="B51"><label>51</label><mixed-citation publication-type="book"><string-name><surname>Salmons</surname>, <given-names>Joseph</given-names></string-name>. <year>2018</year>. <source>A history of German: What the past reveals about today&#8217;s language</source>. <edition>2nd</edition> edn. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>.</mixed-citation></ref>
+<ref id="B52"><label>52</label><mixed-citation publication-type="book"><string-name><surname>Scheer</surname>, <given-names>Tobias</given-names></string-name>. <year>2014</year>. <chapter-title>Spell-out, post-phonological</chapter-title>. In <string-name><given-names>Eugeniusz</given-names> <surname>Cyran</surname></string-name> &amp; <string-name><given-names>Jolarta</given-names> <surname>Szpyra-Koz&#322;owska</surname></string-name> (eds.), <source>Crossing phonetics-phonology lines</source>, <fpage>255</fpage>&#8211;<lpage>275</lpage>. <publisher-loc>Newcastle upon Tyne</publisher-loc>: <publisher-name>Cambridge Scholars</publisher-name>.</mixed-citation></ref>
+<ref id="B53"><label>53</label><mixed-citation publication-type="thesis"><string-name><surname>Sebregts</surname>, <given-names>Koen</given-names></string-name>. <year>2014</year>. <source>The sociophonetics and phonology of Dutch r</source>. <publisher-loc>Utrecht</publisher-loc>: <publisher-name>Utrecht University</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B54"><label>54</label><mixed-citation publication-type="thesis"><string-name><surname>Spahr</surname>, <given-names>Christopher</given-names></string-name>. <year>2016</year>. <source>Contrastive representations in non-segmental phonology</source>. <publisher-loc>Toronto</publisher-loc>: <publisher-name>University of Toronto</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B55"><label>55</label><mixed-citation publication-type="journal"><string-name><surname>Stausland Johnsen</surname>, <given-names>Sverre</given-names></string-name>. <year>2012</year>. <article-title>A diachronic account of phonological unnaturalness</article-title>. <source>Phonology</source> <volume>29</volume>(<issue>3</issue>). <fpage>505</fpage>&#8211;<lpage>531</lpage>. DOI: <pub-id pub-id-type="doi">10.1017/S0952675712000243</pub-id></mixed-citation></ref>
+<ref id="B56"><label>56</label><mixed-citation publication-type="book"><string-name><surname>Stevens</surname>, <given-names>Kenneth</given-names></string-name>, <string-name><given-names>Samuel</given-names> <surname>Keyser</surname></string-name> &amp; <string-name><given-names>Haruko</given-names> <surname>Kawasaki</surname></string-name>. <year>1986</year>. <chapter-title>Toward a phonetic and phonological theory of redundant features</chapter-title>. In <string-name><given-names>Joseph</given-names> <surname>Perkell</surname></string-name> &amp; <string-name><given-names>Dannis</given-names> <surname>Klatt</surname></string-name> (eds.), <source>Invariance and variability in speech processes</source>, <fpage>426</fpage>&#8211;<lpage>449</lpage>. <publisher-loc>Hillsdale</publisher-loc>: <publisher-name>Erlbaum</publisher-name>.</mixed-citation></ref>
+<ref id="B57"><label>57</label><mixed-citation publication-type="book"><string-name><surname>Trubetzkoy</surname>, <given-names>Nicolai S</given-names></string-name>. <year>1969</year>. <source>Principles of phonology</source>, translated by <string-name><given-names>Christiane A. M.</given-names> <surname>Baltaxe</surname></string-name>. <publisher-loc>Berkeley, CA</publisher-loc>: <publisher-name>University of California Press</publisher-name>.</mixed-citation></ref>
+<ref id="B58"><label>58</label><mixed-citation publication-type="thesis"><string-name><surname>Walsh Dickey</surname>, <given-names>Laura</given-names></string-name>. <year>1997</year>. <source>The phonology of liquids</source>. <publisher-loc>Amherst, MA</publisher-loc>: <publisher-name>University of Massachusetts Amherst</publisher-name> dissertation.</mixed-citation></ref>
+<ref id="B59"><label>59</label><mixed-citation publication-type="book"><string-name><surname>Wiese</surname>, <given-names>Richard</given-names></string-name>. <year>2001a</year>. <chapter-title>The phonology of /r/</chapter-title>. In <string-name><given-names>Tracy Alan</given-names> <surname>Hall</surname></string-name> (ed.), <source>Distinctive feature theory</source>, <fpage>335</fpage>&#8211;<lpage>368</lpage>. <publisher-loc>Berlin</publisher-loc>: <publisher-name>Mouton de Gruyter</publisher-name>.</mixed-citation></ref>
+<ref id="B60"><label>60</label><mixed-citation publication-type="book"><string-name><surname>Wiese</surname>, <given-names>Richard</given-names></string-name>. <year>2001b</year>. <chapter-title>The unity and variation of (German) /r/</chapter-title>. In <string-name><given-names>Hans</given-names> <surname>Van de Velde</surname></string-name> &amp; <string-name><given-names>Roeland</given-names> <surname>van Hout</surname></string-name> (eds.), <source>&#8216;r-atics: Sociolinguistic, phonetic and phonological characteristics of /r/</source>, <fpage>11</fpage>&#8211;<lpage>26</lpage>. <publisher-loc>Brussels</publisher-loc>: <publisher-name>Etudes &amp; Travaux</publisher-name>.</mixed-citation></ref>
+<ref id="B61"><label>61</label><mixed-citation publication-type="journal"><string-name><surname>Wiese</surname>, <given-names>Richard</given-names></string-name>. <year>2003</year>. <article-title>The unity and variation of (German) /r/</article-title>. <source>Zeitschrift f&#252;r Dialektologie und Linguistik</source> [Journal for Dialectology and Linguistics] <volume>70</volume>. <fpage>25</fpage>&#8211;<lpage>43</lpage>.</mixed-citation></ref>
+<ref id="B62"><label>62</label><mixed-citation publication-type="book"><string-name><surname>Wiese</surname>, <given-names>Richard</given-names></string-name>. <year>2011</year>. <chapter-title>The representation of rhotics</chapter-title>. In <string-name><given-names>Marc</given-names> <surname>van Oostendorp</surname></string-name>, <string-name><given-names>Colin J.</given-names> <surname>Ewen</surname></string-name>, <string-name><given-names>Elizabeth</given-names> <surname>Hume</surname></string-name> &amp; <string-name><given-names>Keren</given-names> <surname>Rice</surname></string-name> (eds.), <source>The Blackwell companion to phonology</source>, <fpage>711</fpage>&#8211;<lpage>729</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Blackwell</publisher-name>. DOI: <pub-id pub-id-type="doi">10.1002/9781444335262.wbctp0030</pub-id></mixed-citation></ref>
+<ref id="B63"><label>63</label><mixed-citation publication-type="journal"><string-name><surname>Youssef</surname>, <given-names>Islam</given-names></string-name>. <year>2019</year>. <article-title>The phonology and micro-typology of Arabic R</article-title>. <source>Glossa: A Journal of General Linguistics</source> <volume>4</volume>(<issue>1</issue>): <fpage>131</fpage>. 1&#8211;36. DOI: <pub-id pub-id-type="doi">10.5334/gjgl.1002</pub-id></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

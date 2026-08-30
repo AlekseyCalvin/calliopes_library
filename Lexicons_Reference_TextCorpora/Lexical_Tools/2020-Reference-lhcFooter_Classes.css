@@ -1,0 +1,135 @@
+@charset "UTF-8";
+.shutdown-banner {
+  background-color: #326295;
+  color: white;
+  padding: 1rem;
+}
+
+.shutdown-banner a {
+  color: white !important;
+  text-decoration: underline;
+}
+
+.shutdown-banner a:hover {
+  color: #ffebee;
+}
+
+.bg-primary {
+    background-color:#326295;
+}
+
+.lhc-grid-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px !important;
+    background-color:#326295;
+}
+
+.lhc-grid-container a:hover {
+    text-decoration:underline;
+}
+
+.lhc-grid-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lhc-grid-row a {
+    text-decoration:none;
+}
+
+.lhc-grid-col-6 {
+    width: 50%;
+}
+
+.lhc-grid-col-12 {
+    width: 100%;
+}
+
+.lhc-text-white {
+    color: white !important;
+    font-family:sans-serif;
+}
+
+.lhc-margin-bottom-1 {
+    margin-bottom: 0.5rem !important;
+}
+
+.lhc-social_media li {
+    display: inline-block;
+    min-width: 35px;
+}
+
+.lhc-social_media img {
+    max-height: 33px;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+.lhc-bg-secondary {
+    background-color: #DCE4EF !important;
+}
+
+.lhc-padding-1 {
+    padding: .5rem !important;
+}
+
+.lhc-add-list-reset {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    padding-left: 0 !important;
+    list-style: none !important;
+}
+
+.lhc-margin-right-05 {
+    margin-right: 0.25rem !important;
+}
+
+.lhc-text-center {
+    text-align: center !important;
+}
+
+@media (min-width: 64em) {
+    .lhc-desktop\:lhc-grid-col-3 {
+        flex: 0 1 auto;
+        width: 25%;
+    }
+}
+
+:root {
+    --blue: #5A75AA;
+    --indigo: #6610f2;
+    --main: #326295;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #F29500;
+    --yellow: #D7A14B;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #326295;
+    --secondary: #DCE4EF;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #D7A14B;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --gray-mid: #6c757d;
+    --heading: #79459d;
+    --accent: #A210E0;
+    --shade: #fdfcff;
+    --gold: #bdab8e;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1280px;
+    --font-family-sans-serif: "Public Sans", "Roboto", "Helvetica Neue", Arial, Tacoma !important;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}

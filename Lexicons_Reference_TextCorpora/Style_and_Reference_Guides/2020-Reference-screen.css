@@ -1,0 +1,504 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #fff;
+  background: #232323 url("../images/bg.jpg") repeat-x;
+  font-size: 18px;
+  line-height: 1em;
+}
+body,
+select,
+textarea,
+input {
+  font: 100% "Open Sans", sans-serif;
+}
+a,
+a:visited {
+  color: #a1a1a3;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  color: #c99a73;
+}
+*:focus {
+  outline: 0;
+}
+ol {
+  margin: 15px;
+}
+ol ol {
+  margin: 5px;
+}
+ol li {
+  margin-left: 25px;
+}
+blockquote {
+  background: #242424 url("../images/quote.gif") no-repeat 10px 22px;
+  font: italic 1.5em Georgia, "Times New Roman", Times, serif;
+  padding: 22px 22px 22px 85px;
+  margin: 15px 0 15px 20px;
+  border: 1px solid #1c1c1c;
+  border-width: 0 0 1px 3px;
+}
+blockquote p {
+  margin: 0 0 15px;
+}
+cite {
+  display: block;
+  text-transform: uppercase;
+  font-style: normal;
+  font: 0.6em Georgia, "Times New Roman", Times, serif;
+  padding: 4px 0 4px 25px;
+}
+pre {color: #fff;}
+hr {
+  clear: both;
+  background: #222224;
+  color: #222224;
+  width: 100%;
+  height: 1px;
+  margin: 15px 0;
+  border: 0;
+  display: block;
+}
+header {
+  background: url("../images/bg_wrapper.jpg") right no-repeat;
+  height: 185px;
+  margin-top: 22px;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: initial;
+  line-height: 1rem;
+  font-weight: 600;
+}
+nav {
+  margin: 0;
+}
+nav li {
+  font-size: 1.2rem;
+  margin-left: 36px;
+}
+#logo {
+  margin-top: 50px;
+  position: relative;
+}
+#logo img {
+  max-width: 90vw;
+}
+#logo img + img {
+  display: none;
+}
+#intro {
+  margin-top: 30px;
+  height: 100px;
+  font-size: 1.2em;
+}
+#intro p {
+  display: inline;
+}
+#intro #tagline {
+  background: none;
+  padding: 0;
+  display: block;
+  height: 50px;
+  margin-top: 30px;
+  max-width: 100%;
+}
+.content {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 20px;
+}
+#main {
+  background: #2d2d2f;
+  border-top: 1px solid #444446;
+  padding: 40px 0 50px;
+  z-index: 1;
+  overflow: visible;
+}
+.poem-home {
+  border: solid 10px #666;
+  position: relative;
+  background-color: #222;
+  height: auto;
+}
+#accordion {
+  font-size: 1rem;
+}
+#accordion .poem-sort-method {
+  font-size: 1.2rem;
+}
+span.space_1 {
+  margin-left: 1em;
+}
+small.date {
+  padding-left: 1.5em;
+  font-size: 0.6em;
+  vertical-align: middle;
+}
+.buttons {
+  float: right;
+  margin-top: -1em;
+}
+#utils {
+  background: #666;
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  /* For some reason a style tag is being added to the
+  element with a width of 880px. Where does it come from?!?
+  Until we find out, we have to use !important here to reset it. */
+  width: 100% !important;
+}
+#utils div {
+  display: flex;
+  gap: 20px;
+}
+#utils button {
+  margin: 0 auto;
+}
+#utils div span {
+  display: flex;
+  gap: 6px;
+}
+button {
+  background: none;
+  border: 0;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  #sidebar {
+    margin-top: 80px;
+  }
+}
+#sidebar h2 {
+  background: url("../images/bg_hdr_sidebar.gif") top left 70% no-repeat;
+  font: 2rem Georgia, "Times New Roman", Times, serif;
+  text-align: right;
+  margin: 0;
+  padding: 20px 0 14px;
+}
+#sidebar h3 {
+  text-align: right;
+  font: 1.5rem Georgia, "Times New Roman", Times, serif;
+}
+#sidebar h4 {
+  color: #ccc;
+  border-top: 4px solid #555;
+  padding-left: 8px;
+  font-size: 1rem;
+}
+.poem-sort-method {
+  color: #fff;
+  display: block;
+  height: 40px;
+  background: #19191b;
+  border: 1px solid #19191b;
+  padding: 0 24px;
+  text-align: right;
+  line-height: 40px;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0;
+  outline: 0;
+  border-bottom: 1px solid #0b0b0d;
+}
+.poem-results {
+  background-color: #000;
+  padding: 10px 10px 15px 15px;
+  font-size: 0.9em;
+  color: #fff;
+  max-height: 350px;
+  overflow: auto;
+}
+.poem-results h4 {
+  color: #666;
+  border-bottom: 1px solid #19191b;
+  border-top: 1px solid #19191b;
+  padding: 15px 2px;
+}
+.poem-results ul {
+  margin-top: -1px;
+  overflow: auto;
+}
+.titles {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 0;
+}
+.titles a {
+  color: #a1a1a3;
+}
+footer {
+  background: url("../images/bg_footer.gif") repeat-x;
+  padding-top: 18px;
+  height: 125px;
+  font-size: 12px;
+}
+footer a,
+footer a:visited {
+  color: #afafaf;
+}
+footer p {
+  margin: 0;
+}
+footer #author_container a {
+  text-decoration: underline;
+}
+footer #dept_container {
+  text-align: right;
+  border-right: 1px dotted #676767;
+}
+footer .scholars_lab_logo img {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+#glossary {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+#glossary p {
+  margin: 15px 0;
+  line-height: 150%;
+}
+#glossary h2 {
+  font: 2.8em Georgia, "Times New Roman", Times, serif;
+  background: url("../images/bg_hdr.gif") left 8px no-repeat;
+  letter-spacing: 0.05em;
+  padding: 14px 0 10px;
+}
+#glossary dl {
+  margin: 10px 0 20px;
+  overflow: hidden;
+}
+#glossary dl .media {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #222224;
+}
+#glossary dl .media dt {
+  padding: 15px 20px 15px 0;
+  border-top: none;
+}
+#glossary dl .media dd {
+  padding: 0 20px;
+  border-top: none;
+}
+#glossary dl dt {
+  width: 25%;
+  float: left;
+  padding: 25px 20px 25px 0;
+  border-top: 1px solid #222224;
+  text-align: right;
+  clear: both;
+  color: #a1a1a3;
+  font: 1.2em Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+#glossary dl dd {
+  float: left;
+  width: 75%;
+  padding: 10px 20px;
+  border-top: 1px solid #222224;
+  overflow: hidden;
+}
+#glossary dl dd p {
+  font-size: 1.2em;
+}
+#glossary dl dt.first,
+#glossary dl dd.first {
+  border-top: none;
+}
+#tabs {
+  background: #2d2d2f;
+  border: 0;
+  border-top: 1px solid #3f3f41;
+  padding-top: 10px;
+  font-size: 1.3em;
+}
+#tabs span {
+  color: #fff;
+}
+#tabs h2 {
+  color: #fff;
+  font: 2.4em Georgia, "Times New Roman", Times, serif;
+  background: url("../images/bg_hdr.gif") left 8px no-repeat;
+  letter-spacing: 0.05em;
+  padding: 14px 0 10px;
+  margin-top: 15px;
+}
+#tabs p {
+  color: #fff;
+  margin: 15px 0;
+  line-height: 150%;
+}
+#tabs .ui-widget-header {
+  color: #fff;
+  background: #2d2d2f;
+  border: 0;
+}
+#tabs .ui-widget-header .ui-state-active,
+#tabs .ui-widget-header .ui-state-default {
+  color: #fff;
+  background: #2d2d2f;
+  border: 0;
+}
+#tabs .ui-state-active {
+  color: #fff;
+  background: #2d2d2f;
+  border: 0;
+}
+#tabs .ui-state-active a,
+#tabs .ui-state-active a:link {
+  color: #fff;
+}
+#tabs .ui-widget-content .ui-state-active,
+#tabs .ui-widget-content .ui-state-default {
+  color: #fff;
+  background: #2d2d2f;
+  border: 0;
+}
+#tabs .ui-state-default {
+  color: #fff;
+  background: #2d2d2f;
+  border: 0;
+}
+#subnav {
+  float: right;
+}
+#subnav li {
+  list-style: none;
+  float: left;
+  height: 37px;
+}
+#subnav li a {
+  height: 25px;
+  margin: 0 15px 0 0;
+  float: left;
+  padding: 10px 5px 6px 0;
+  font-size: 1em;
+  color: #a1a0a0;
+}
+#rules-top {
+  background: #2d2d2f;
+  border: 0;
+  font-size: 1.3em;
+}
+#rules-top span {
+  color: #fff;
+}
+#rules-top h2 {
+  color: #fff;
+  font: 2.4em Georgia, "Times New Roman", Times, serif;
+  background: url("../images/bg_hdr.gif") left 8px no-repeat;
+  letter-spacing: 0.05em;
+  padding: 14px 0 10px;
+  margin-top: 15px;
+}
+#rules-top p {
+  color: #fff;
+  margin: 15px 0;
+  line-height: 150%;
+}
+.poem_tabs {
+  margin-bottom: 10px;
+}
+.poem_tabs li {
+  display: inline;
+  background: #444;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.2em;
+}
+.poem_tabs li a,
+.poem_tabs li a:visited {
+  text-decoration: none;
+  color: #a1a1a3;
+}
+.poem_tabs li a:hover,
+.poem_tabs li a:active {
+  color: #c99a73;
+}
+#poem_resources {
+  padding-top: 15px;
+  margin-left: 25px;
+  font-size: 1.2em;
+}
+#poem_resources h2 {
+  background: url("../images/bg_hdr.gif") left 8px no-repeat;
+  font: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 0.05em;
+  padding: 14px 0 10px;
+  line-height: 2em;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+#meter-select select {
+  color: #000;
+}
+#meter-select option {
+  color: #000;
+}
+.ui-widget-header {
+  background: #19191b;
+  border: 1px solid #19191b;
+}
+.ui-dialog-title:hover {
+  background: #19191b;
+}
+
+@media (max-width: 767px) {
+  header {
+    display: none;
+  }
+
+  nav li {
+    margin-bottom: 10px;
+  }
+
+  #main {
+    padding: 0;
+    border: none;
+  }
+
+  #utils {
+    height: auto;
+    position: initial;
+    margin: 0;
+  }
+
+  #utils div {
+    gap: 10px;
+    flex-flow: column;
+  }
+
+  #utils .inner-util {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    padding: 10px;
+  }
+}

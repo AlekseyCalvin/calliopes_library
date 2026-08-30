@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Lexical Tools</title>
+  <link rel="stylesheet" href="/assets/uswds-2.4.0/css/uswds.min.css" />
+  <link rel="stylesheet" href="/LSG/assets/stylesheets/LSG_main.css">
+  <link rel="stylesheet" href="/assets/footer/1.1/lhcFooter-Classes.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-59GQ6JK');</script>
+	<!-- End Google Tag Manager -->
+	
+	  </head>
+	  <body>
+	   <!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59GQ6JK"
+	height="0" width="0" style="display:none;visibility:hidden" title="googletagmanager"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<script src="https://www.nlm.nih.gov/home_assets/vendor/bootstrap/dist/js/bootstrap.bundle.js" crossorigin="anonymous"></script>
+  <div class="usa-overlay"></div>
+  <header class="usa-header usa-header--extended">
+    <div class="usa-nav-layout grid-row">
+<!--
+		<div class="shutdown text-white">
+<p>Because of a lapse in government funding, the information on this website may not be up to date, transactions submitted via the website may not be processed, and the agency may not be able to respond to inquiries until appropriations are enacted.
+The NIH Clinical Center (the research hospital of NIH) is open. For more details about its operating status, please visit <a href="https://cc.nih.gov/" target="_blank" class="text-white text-underline">cc.nih.gov</a>.
+Updates regarding government operating status and resumption of normal operations can be found at <a href="https://www.opm.gov/" target="_blank" class="text-white text-underline">OPM.gov</a>.</p>
+</div>
+-->
+
+     <div class="usa-logo grid-col-10" id="extended-logo">
+
+      <div class="header-logo" style="line-height:1rem;">
+        <div class="display-flex flex-row flex-align-center">
+            <div>
+              <a href="https://www.nih.gov"><img src="/assets/images/logo-NIH-block.png" alt="NIH logo chevron"></a>
+            </div>    
+            <div class="display-flex flex-column">
+              <a href="https://www.nlm.nih.gov">
+                <img src="/assets/images/logo-NLM-block.png" alt="portion of logo that reads National Library of Medicine">
+              </a>
+              <a href="/index.html">
+                <img src="/assets/images/logo-LHC-block.png" alt="portion of logo that reads Lister Hill National Center for Biomedical Communications">
+              </a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="LHC-menu grid-col-2 display-flex flex-row flex-justify-end flex-align-center">
+      <button class="usa-menu-btn"><i class="fas fa-bars fa-2x" title="3 bar menu button"></i></button>
+    </div>
+  </div>
+
+  <nav aria-label="Primary navigation" class="usa-nav">
+	<div class="usa-nav__inner">
+	  <button class="usa-nav__close"><img src="../../../../../../../assets/images/close.svg" alt="close"></button>
+	  <div class="nav-container">
+		<ul class="usa-nav__primary usa-accordion">
+
+		  <li class="usa-nav__primary-item">
+			<a href="../../../../../../../index.html"><span class="subproject-navtitle">LEXICAL SYSTEMS GROUP&#58;</span></a>
+		  </li>
+		  <li class="usa-nav__primary-item">
+			<a href="../../../../index.html"><span class="subproject-navtitle">Lexical Tools</span></a>
+		  </li>
+
+		  <li class="usa-nav__primary-item">
+			<button class="usa-accordion__button usa-nav__link  resourcesButton" aria-expanded="false"
+			  aria-controls="extended-nav-section-one"><span>RESOURCES</span>
+			</button>
+			<ul id="extended-nav-section-one" class="usa-nav__submenu" hidden>
+			  <li class="usa-nav__submenu-item">
+				<a href="../../../../web/release/index.html">Releases</a>
+			  </li>
+			  <li class="usa-nav__submenu-item">
+				<a href="https://lvgwebtools.nlm.nih.gov/WebLvg/jsp/global/cMenu.jsp">Web Tools</a>
+        </li>
+        <li class="usa-nav__submenu-item">
+          <a href="../../../../web/download.html">Download</a>
+          </li>
+			</ul>
+		  </li>
+
+		  <li class="usa-nav__primary-item">
+			<button class="usa-accordion__button usa-nav__link documentationButton" aria-expanded="false"
+			  aria-controls="extended-nav-section-three"><span>DOCUMENTATION</span>
+			</button>
+			<ul id="extended-nav-section-three" class="usa-nav__submenu" hidden>
+			  <li class="usa-nav__submenu-item">
+				<a href="../../../../docs/apiDoc/index.html">API Documents</a>
+			  </li>
+			  <li class="usa-nav__submenu-item">
+				<a href="../../../../docs/designDoc/index.html">Design Documents</a>
+			  </li>
+			  <li class="usa-nav__submenu-item">
+				<a href="../../../../docs/userDoc/index.html">User Documents</a>
+			  </li>
+			  <li class="usa-nav__submenu-item">
+				<a href="../../../../docs/UserContribution/index.html">User Contributions</a>
+			  </li>
+			</ul>
+		  </li>
+
+		  <li class="usa-nav__primary-item">
+			<button class="usa-accordion__button usa-nav__link infoButton" aria-expanded="false"
+			  aria-controls="extended-nav-section-four"><span>INFORMATION</span>
+			</button>
+			<ul id="extended-nav-section-four" class="usa-nav__submenu" hidden>
+			  <li class="usa-nav__submenu-item">
+				<a href="../../../../web/faq.html">FAQs</a>
+			  </li>
+			  <li class="usa-nav__submenu-item">
+				<a href="../../../../web/contact.html">Contact Us</a>
+			  </li>
+			  <li class="usa-nav__submenu-item">
+				<a href="../../../../web/about.html">About</a>
+			  </li>
+			</ul>
+		</ul>
+	  </div>
+
+	  <div class="usa-nav__secondary">
+		<form class="usa-search usa-search--small" method="GET" action="../../../../../../../search-result.html" target="_self" name="search" id="search" onsubmit="try{return velocityFormSubmit(this, event);}catch(e){}">
+			<div role="search">
+				<label class="usa-sr-only" for="extended-search-field-small">Search small</label>
+				<input class="usa-input" id="extended-search-field-small" type="search" name="query" placeholder="Search Lexical Systems Group...">
+				<button class="usa-button bg-accent-warm" type="submit"><span class="usa-sr-only">Search</span></button>
+			</div>
+		</form>
+		
+	  </div>
+	</div>
+  </nav>
+
+
+</header>
+
+<div class="container-research bg-white">
+	<div class="container padding-top-4 padding-bottom-4">
+	  <h2 class="body-title padding-top-4">Lexical Tools</h2>
+	  <div>
+
+
+    <!-- content -->
+<p class="title">Derivational Suffix List</p>
+
+<p><b>I. Suffix list</b>
+<p>With derivational suffixes, the new word has a new meaning, and is usually a different part of speech. But the new meaning is related to the old meaning - it is "derived" from the old meaning. There are several hundred derivational suffixes.  The following table lists the all derivational suffixes (most common) for Lexical Tools:
+
+<p>
+<table class="usa-table" border=1>
+<tr><th>Suffix<th>Category<th>Senses<th>Examples<th>Lexical Tools Rules
+<tr><td>able$ <td>adj <td>capable, able to, can do 
+<td><ul>
+<li><code>readability|readable</code>
+<li><code>wash|washable, tax|taxable, fashion|fasionable </code>
+<li><code>wash|washable, tax|taxable, comfort|comfortable</code>
+<li><code>irritate|irritable</code>
+<li><code>move|movable, note|notable, adore|adorable, use|usable, sale|salable, improve|improvable</code>
+</ul>
+<td><ul>
+<li><code>ability$|noun|base|able$|adj|base</code>
+<li><code>able$|adj|base|$|noun|base</code>
+<li><code>able$|adj|base|$|verb|base</code>
+<li><code>able$|adj|base|ate$|verb|base</code>
+<li><code>able$|adj|base|e$|verb|base</code>
+</ul>
+
+<tr><td>ably$ <td>adv <td>&nbsp; <td><ul>
+<li><code>pass|passably, fashion|fashionably</code>
+<li><code>notable|notably</code>
+</ul>
+<td><ul>
+<li><code>ably$|adv|base|$|verb|base</code>
+<li><code>able$|verb|base|ably$|adv|base (tbd)</code>
+</ul>
+
+<tr><td>ad$ <td>noun <td>group <td>triad, monad<td><ul></ul>
+<tr><td>ade$ <td>noun <td>&nbsp; <td>lemonade, accolade, blockade<td><ul></ul>
+<tr><td>age$ <td>noun <td>forming a noun <td><ul>
+<li><code>assemble|assemblage, mile|mileage</code>
+<li><code>marry|marriage</code>
+<li><code>garage</code>
+</ul>
+<td><ul>
+<li><code>age$|noun|base|e$|verb|base</code></ul>
+<tr><td>agogy$ <td>noun <td>leading <td>pedagogy, demagogy<td><ul></ul>
+
+<tr><td>al$ (see -ality)<td>adj <td>aspect of, pertaining to <td><ul>
+<li><code>function|functional, accident|accidental, profession|professional</code>
+<li><code>viscera|visceral, protozoa|protozoal, vagina|vaginal</code>
+<li><code>universe|universal</code>
+<li><code>bacterium|bacterial</code>
+<li><code>focus|focal</code>
+</ul>
+<td><ul>
+<li><code>al$|adj|base|$|noun|base</code>
+<li><code>al$|adj|base|a$|noun|base</code>
+<li><code>al$|adj|base|e$|noun|base</code>
+<li><code>al$|adj|base|um$|noun|base</code>
+</ul>
+<tr><td>al$<td>noun <td>abstract noun <td>arrive|arrival, refuse|refusal, appraise|appraisal<td><ul></ul>
+
+<tr><td>ality$<td>noun <td>property (aspect, behaviour, condition) of <td>proportionality, sexuality (see -al and -ity) <td><ul></ul>
+<tr><td>an$ <td>adj <td>&nbsp; <td><ul>
+<li><code>Cambodia|Cambodian</code>
+<li><code>urban</code>
+</ul>
+<td><ul>
+<li><code>a$|noun|base|an$|adj|base</code>
+</ul>
+<tr><td>an$ <td>noun <td>&nbsp; <td><ul>
+<li><code>amphibia|amphibian</code>
+<li><code>republican, Roman, veteran</code>
+</ul>
+<td><ul>
+<li><code>a$|noun|base|an$|noun|base</code>
+</ul>
+
+<tr><td>ance$ <td>noun <td>an act of, a state of, the result of (see ence$)<td><ul>
+<li><code>govern|governance, annoy|annoyance, repent|repentance</code>
+<li><code>defiant|defiance, conformant|conformance, relevant|relevance, relevant|relevance,</code>
+<li><code>insure|insurance</code>
+</ul>
+<td><ul>
+<li><code>ance$|noun|base|$|verb|base</code>
+<li><code>ance$|noun|base|ant$|adj|base</code>
+<li><code>ance$|noun|base|e$|verb|base</code>
+</ul>
+<tr><td>ancy$ <td>noun <td>&nbsp; <td>pregnancy, redundancy, vacancy <td><ul> </ul>
+
+<tr><td>ant$ <td>adj <td>pertaining to, VERB + ing (see ent$)<td><ul>
+<li><code>relax|relaxant</code>
+<li><code>radiate|radiant, dominate|dominant, please|pleasant</code>
+<li><code>fumigation|fumigant</code>
+</ul>
+<td><ul>
+<li><code>ant$|adj|base|$|verb|bas</code>
+<li><code>ant$|adj|base|ate$|verb|base</code>
+<li><code>ant$|adj|base|ation$|noun|base</code>
+</ul>
+
+<tr><td>ant$<td>noun <td>one who, that which (see ent$) <td><ul>
+<li><code>triumph|triumphant, assist|assistant, inhabit|inhabitant</code>
+<li><code>stimulate|stimulant, immigrate|immigrant</code>
+<li><code>serve|servant</code>
+</ul>
+<td><ul>
+<li><code>ant$|noun|base|$|verb|base</code>
+<li><code>ant$|noun|base|ate$|verb|base</code>
+<li><code>ant$|noun|base|e$|verb|base</code>
+</ul>
+
+<tr><td>ar$ <td>adj <td> <td><ul>
+<li><code>alveola|alveolar, fibula|fibular</code>
+<li><code>insulate|insular, modulate|modular</code>
+<li><code>line|linear, module|modular</code>
+<li><code>alveous|alveolar</code>
+</ul><td><ul>
+<li><code>a$|noun|base|ar$|adj|base</code>
+<li><code>ar$|adj|base|ate$|verb|base</code>
+<li><code>ar$|adj|base|e$|noun|base</code>
+<li><code>ar$|adj|base|us$|noun|base</code>
+</ul>
+
+<tr><td>ar$<td>noun <td> <td>beggar, liar<td><ul></ul>
+
+<tr><td>ard$ <td>noun <td>&nbsp; <td>drunkard, coward, wizard, steward <td><ul></ul>
+
+<tr><td>ary$ <td>adj <td>pertaining to, verb + ing (see ory$) <td><ul>
+<li><code>inflation|inflationary, second|secondary, caution|cautionary</code>
+<li><code>imagine|imaginary</code>
+</ul>
+<td><ul>
+<li><code>ary$|adj|base|$|noun|base</code>
+</ul>
+
+<tr><td>ary$ <td>noun <td>a place where (see ory$)<td>diction|dictionary, seminar|seminary<td><ul></ul>
+
+<tr><td>arch$ <td>noun <td>ruler, leader <td>monarch, tetrarch <td><ul></ul>
+<tr><td>archy$ <td>noun <td>rule, leadership <td>gynarchy, anarchy <td><ul></ul>
+<tr><td>arium$ <td>noun <td>a place where<td>aquarium <td><ul></ul>
+
+<tr><td>asia$ <td>noun <td>&nbsp;<td>fantasia|fantastic<td><ul>
+<li><code>asia$|noun|base|astic$|adj|base</code>
+</ul>
+
+<tr><td>ate$ <td>adj <td>pertaining to, VERB + ing<td><ul>
+<li><code>adequacy|adequate, celibacy, celibate</code>
+<li><code>ire|irate</code>
+<li><code>ilitera|literate</code>
+<li><code>desper|desperate, fortune|fortunate</code>
+</ul>
+<td><ul>
+<li><code>acy$|noun|base|ate$|adj|base</code>
+</ul>
+<tr><td>ate$ <td>noun <td>one who, that which<td>certify|certificate, advocate|advocate <td><ul></ul>
+
+<tr><td>ate$ <td>verb <td>to VERB, to cause to, to make <td>libera|liberate, hyphen|hyphenate, concentration|concentrate, oscille|oscillate <td><ul></ul>
+
+<tr><td>athlon$ <td>noun <td>sporting event <td>pentathlon, decathlon <td><ul></ul>
+
+<tr><td>ation$ <td>noun <td>state or concept of <td><ul>
+<li><code>flirt|flirtation</code>
+<li><code>admire|admiration, starve|starvation, hesitate|hesitation, explore|exploration</code>
+<li><code>pronounce|pronunciation</code>
+</ul>
+<td><ul>
+<li><code>ation$|noun|base|$|verb|base</code>
+<li><code>ation$|noun|base|e$|verb|base</code>
+
+</ul>
+
+<tr><td>ation$ <td>noun <td>from verb with -ate, state or concept of <td><ul>
+<li><code>alienate|alienation, concentrate|concentration, oscillate|oscillation, narrate|narration, invite|invitation</code>
+</ul>
+<td><ul>
+<li><code>ate$|verb|base|ation$|noun|base</code>
+</ul>
+
+<tr><td>ative$ <td>noun <td>&nbsp; <td>
+<ul>
+<li><code>relate|relative, narrate|narrative</code>
+</ul>
+<td><ul>
+<li><code>ative$|noun|base|ate$|verb|base</code>
+</ul>
+
+<tr><td>ative$ <td>adj <td>&nbsp; <td>talkative, lucrative, affirmative <td><ul></ul>
+
+<tr><td>atory$ <td>noun <td>&nbsp; <td>laboratory, conversatory <td><ul></ul>
+
+<tr><td>bound$ <td>adv <td>heading in the direction of <td>inbound, outbound, citybound <td><ul></ul>
+
+<tr><td>cele$, coele$, coel$ <td>noun <td>body cavity <td>mucocoel or mucocoele <td><ul></ul>
+<tr><td>cele$ <td>noun <td>tumor, hernia <td>hydatidocele <td><ul></ul>
+<tr><td>centesis$ <td>noun <td>puncturing <td>amniocentesis, rachicentesis <td><ul></ul>
+<tr><td>cephalic$ <td>adj <td>relating to the head <td>anencephaly, macrocephaly <td><ul></ul>
+<tr><td>chondrion$ <td>noun <td>small grainlike structure <td>mitochondrion <td><ul></ul>
+<tr><td>cide$ <td>noun <td>murder, killing agent <td>suicide, vespacide, regicide, fratricide <td><ul></ul>
+<tr><td>city$ <td>noun <td>practice <td>atrocity <td><ul></ul>
+<tr><td>cy$ <td>noun <td>expressing the quality of an adjective <td>diplomacy, literacy, idiocy <td><ul></ul>
+<tr><td>cycle$ <td>noun <td>circle, cycle, unit of radio frequency <td>epicycle, hydrocycle <td><ul></ul>
+
+<tr><td>dom$ <td>noun <td>state or condition of <td>freedom, boredom, kingdom <td><ul></ul>
+
+<tr><td>ectasia$, ectasis$ <td>noun <td>stretching out <td>brochiectasis, telangiectasia <td><ul></ul>
+<tr><td>ectomy$ <td>noun <td>surgical removal <td>laryngectomy, vasectomy <td><ul></ul>
+
+<tr><td>ed$ <td>adj <td>&nbsp; <td><ul>
+<li><code>pigment|pigmented</code>
+<li><code>bore|bored, tile|tiled, glue|glued</code>
+</ul>
+<td><ul>
+<li><code>ed$|adj|base|$|noun|base</code>
+<li><code>ed$|adj|base|e$|noun|base</code>
+</ul>
+
+<tr><td>ee$ <td>noun <td>changes verb to a noun (the object of that verb) <td>employee, referee, payee <td><ul></ul>
+<tr><td>eer$ <td>adj <td>&nbsp; <td>engineer, overseer <td><ul></ul>
+<tr><td>eme$ <td>noun <td>linguistic unit <td>lexeme, phoneme, morpheme <td><ul></ul>
+<tr><td>emia$ <td>noun <td>blood condition <td>leukemia, anaemia <td><ul></ul>
+<tr><td>en$ <td>adj <td>&nbsp; <td>golden, wooden, written, frozen <td><ul></ul>
+<tr><td>en$ <td>verb <td>&nbsp; <td>lessen, deafen, frighten <td><ul></ul>
+<tr><td>enchyma$ <td>noun <td>cellular tissue <td>mesenchyma, karyenchyma <td><ul></ul>
+
+<tr><td>ence$ <td>noun <td>an act of, a state of, the result of (see ance$)<td><ul>
+<li><code>deferential|deference</code>
+<li><code>corpulence|corpulent, prominent|prominence, independent|independence, violent|violence, absent|absence</ul>
+</code>
+<td><ul>
+<li><code>ence$|noun|base|ent$|adj|base</code>
+<li><code>ence$|noun|base|ential$|adj|base</code>
+</ul>
+
+<tr><td>ency$ <td>noun <td>&nbsp; <td><ul>
+<li><code>fluent|fluency, cogent|cogency, clement|clemency</code>
+<li><code>absorbent|absorbency, frequent|frequency, consistent|consistency</code>
+</ul>
+<td><ul>
+<li><code>ency$|noun|base|ent$|adj|base</code>
+<li><code>ency$|noun|base|ent$|noun|base</code>
+</ul>
+
+<tr><td>ent$ <td>adj <td>pertaining to, VERB + ing (see ant$) <td>differ|different, excellence|excellent, independency|independent, fluency|fluent <td><ul></ul>
+<tr><td>ent$ <td>noun <td>one who, that which (see ant$)<td>residence|resident, regency|regent, superintend|superintendent <td><ul></ul>
+
+<tr><td>eous$ <td>adj <td>&nbsp; <td>courteous <td><ul></ul>
+
+<tr><td>er$ <td>noun <td>one who (see or$)<td><ul>
+<li><code>work|worker, teach|teacher, employ|employer</code>
+<li><code>write|writer, pursue|pursuer</code>
+work|worker, write|writer, teach|teacher
+</ul>
+<td><ul>
+<li><code>er$|noun|base|$|verb|base</code>
+<li><code>er$|noun|base|e$|verb|base</code>
+</ul>
+
+<tr><td>ergy$ <td>noun <td>work <td>energy, synergy <td><ul></ul>
+<tr><td>ern$ <td>adj <td>direction <td>western, northern <td><ul></ul>
+<tr><td>ery$ <td>noun <td>&nbsp; <td><ul>
+<li><code>slave|slavery, machine|machinery
+<li><code>nun|nunnery</code>
+</code>
+</ul>
+<td><ul>
+<li><code>ery$|noun|base|e$|noun|base</code>
+</ul>
+
+<tr><td>esce$ <td>verb <td>to become, to change<td>convalescent|convalesce<td><ul></ul>
+<tr><td>ese$ <td>adj, noun <td>nationality, language <td>Chinese, Lebanese, Portuguese <td><ul></ul>
+<tr><td>esque$ <td>adj <td>in the style of <td>Pythonesque, Romanesque, picturesque <td><ul></ul>
+<tr><td>ess$ <td>noun <td>female <td>god|goddess, actor|actress, waiter|waitress, steward|stewardess, priest|priestess <td><ul></ul>
+<tr><td>esthesis$, esthesia$ <td>noun <td>sensation, feeling <td>synesthesia, kinesthesis <td><ul></ul>
+
+<tr><td>etic$ <td>adj <td>&nbsp; <td><ul>
+<li><code>hypothesis|hypothetic</code>
+<li><code>energetical|energetic, sympathetical|sympathetic, frenetic</code>
+</ul>
+<td><ul>
+<li><code>etic$|adj|base|esis$|noun|base</code>
+</ul>
+
+<tr><td>ette$ <td>noun <td>small ~<td>diskette, statuette, usherette <td><ul></ul>
+
+<tr><td>fare$ <td>noun <td>how things are going / coming along <td>welfare, fanfare, warfare <td><ul></ul>
+<tr><td>ful$ <td>adj <td>full of, having some or much <td>hand|handful, sorrow|sorrowful, forget|forgetful, hope|hopeful, use|useful, help|helpful<td><ul></ul>
+
+<tr><td>gate$ <td>noun <td>a scandal, often political (back-formed from the Watergate scandal) <td>Watergate, nipplegate <td><ul></ul>
+<tr><td>gnosis$ <td>noun <td>knowing <td>prognosis, diagnosis <td><ul></ul>
+<tr><td>gon$ <td>noun <td>angle <td>polygon, pentagon <td><ul></ul>
+
+<tr><td>graph$ <td>noun <td>&nbsp; <td><ul>
+<li><code>photograph|photography</code>
+</ul>
+<td><ul>
+<li><code>graph$|noun|base|graphy$|noun|base</code>
+</ul>
+
+<tr><td>gram$ <td>noun <td>&nbsp; <td><ul>
+<li><code>thermographic|thermogram</code>
+<li><code>thermograph|thermogram</code>
+<li><code>thermography|thermogram</code>
+</ul>
+<td><ul>
+<li><code>gram$|noun|base|graphic$|adj|base</code>
+<li><code>gram$|noun|base|graph$|noun|base</code>
+<li><code>gram$|noun|base|graphy$|noun|base</code>
+</ul>
+
+<tr><td>gry$ <td>noun <td>adjective form of only 2 or 3 nouns in the English language <td>angry, hungry <td><ul></ul>
+
+<tr><td>hedron$ <td>noun <td>seat, face <td>icosahedron, tetrahedron <td><ul></ul>
+<tr><td>holic$ <td>adj <td>love, addiction <td>alcoholic, workaholic <td><ul></ul>
+<tr><td>hood$ <td>noun <td>state/condition of, a group sharing characteristics <td>child|childhood, neighbor|neighborhood, brother|brotherhood, adult|adulthood, false|falsehood <td><ul></ul>
+
+<tr><td>ia$ <td>noun <td>abnormal state, a medical condition <td><ul>
+<li><code>insomnic|insomnia, manic|mania, apraxic|apraxia, dementic|dementia, dysarthric|dysarthria
+</code>
+</ul>
+<td><ul>
+<li><code>ia$|noun|base|iac$|noun|base</code>
+</ul>
+
+<tr><td>iable$ <td>adj <td>&nbsp; <td>sociable <td><ul></ul>
+
+<tr><td>ial$ <td>adj <td>&nbsp; <td><ul>
+<li><code>colony|colonial, </code>
+<li><code>specially|special</code>
+<li><code>filiality|filial, remediality|remedial</code>
+</ul>
+<td><ul>
+<li><code>ial$|adj|base|y$|noun|base</code>
+</ul>
+
+<tr><td>ian$ <td>adj <td>From, related to, or like <td>mammal|mammalian <td><ul></ul>
+<tr><td>ian$ <td>adj, noun <td>from, related to, or like <td><ul>
+<li><code>Algeria|Algerian</code>
+<li><code>Syria|Syrian</code>
+<li><code>Italy|Italian</code>
+<li><code>Brazil|Brazilian,Christ|Christian</code>
+</ul>
+<td><ul>
+<li><code>ian$|adj|base|ia$|noun|base</code>
+<li><code>ian$|noun|base|ia$|noun|base</code>
+</ul>
+
+<tr><td>ian$ <td>noun <td>one from, belonging to, relating to, or like <td>politics|politician, library|librarian, physic|physician, music|musician<td><ul></ul>
+
+<tr><td>iant$ <td>adj <td>&nbsp; <td><ul>
+<li><code>deviance|deviant, defiance|defiant</code>
+</ul>
+<td><ul>
+<li><code>iance$|noun|base|iant$|adj|base</code>
+</ul>
+
+<tr><td>iary$ <td>adj <td>&nbsp; <td>tertiary <td><ul></ul>
+<tr><td>iasis$ <td>noun <td>&nbsp; <td><ul>
+<li><code>trombicula|trombiculiasis</code>
+</ul>
+<td><ul>
+<li><code>a$|noun|base|iasis$|noun|base</code>
+</ul>
+
+<tr><td>iate$ <td>verb <td>&nbsp; <td>asphyxiate, deviate <td><ul></ul>
+<tr><td>ible$ <td>adj <td>capable, can do (same as -able) <td>incredible, terrible, visible <td><ul></ul>
+<tr><td>ibly$ <td>adv <td>&nbsp; <td>incredibly, responsibly, terribly <td><ul></ul>
+<tr><td>ic$ <td>noun <td>a thing <td><ul>
+<li><code>topic</code>
+topic
+</ul>
+<td><ul>
+<li><code></code>
+</ul>
+
+<tr><td>ic$ <td>adj <td>pertaining to <td><ul>
+<li><code>amnesia|amnesic, academia|academic</code>
+<li><code>alcohol|alcoholic</code>
+<li><code>elasticity|elastic, electronicity|electronic, neurotic|neuroticity, historicity|historic</code>
+<li><code>barbarism|barbaric</code>
+<li><code>demagogy|demagogic</code>
+</ul>
+<td><ul>
+<li><code>ia$|noun|base|ic$|adj|base</code>
+<li><code>ic$|adj|base|$|noun|base</code>
+<li><code>ic$|adj|base|icity$|noun|base</code>
+<li><code>ic$|adj|base|ism$|noun|base</code>
+<li><code>ic$|adj|base|y$|noun|base</code>
+</ul>
+
+<tr><td>ical$ <td>adj <td>&nbsp; <td><ul>
+<li><code>critic|critical, economic|economical, phonologic|phonological, historic|historical</code>
+<li><code>anatomy|anatomical</code>
+</ul>
+<td><ul>
+<li><code>ical$|adj|base|ic$|noun|base</code>
+<li><code>ical$|adj|base|y$|noun|base</code>
+</ul>
+
+<tr><td>ics$ <td>noun <td>the study of <td>Physics,Aerodynamics,Forensics, economics <td><ul></ul>
+<tr><td>id$ <td>adj <td>(categorical) property (aspect) of <td>hominid, tepid, candid, fervid (compare -al) <td><ul></ul>
+<tr><td>iency$ <td>noun <td>&nbsp; <td>expedieny <td><ul></ul>
+
+<tr><td>ient$ <td>adj <td>&nbsp; <td><ul>
+<li><code>deficiency|deficient, saliency|salient, sentiency|sentient, expediency|expedient</code>
+</ul>
+<td><ul>
+<li><code>ient$|adj|base|iency$|noun|base</code>
+</ul>
+
+<tr><td>ier$ <td>noun <td>&nbsp; <td>cashier, financier, gondolier <td><ul></ul>
+<tr><td>ify$, fy$ <td>verb <td>to become, make <td>argu|argufy, clear|clarify, ispec|specify, base|basify, vile|vilify <td><ul></ul>
+<tr><td>ile$ <td>adj <td>being <td>senility|senile, tactility|tactile, facility|facile, volatility|volatile <td><ul></ul>
+<tr><td>illion$ <td>noun <td>large numbers <td>million, billion <td><ul></ul>
+
+<tr><td>ious$ <td>adj <td>&nbsp; <td><ul>
+<li><code>mbition|ambitious, religion|religious</code>
+<li><code>glory|glorious</code>
+<li><code>deliciousness|delicious</code>
+<li><code>vivacity|vivacious</code>
+</ul>
+<td><ul>
+<li><code>ion$|noun|base|ious$|adj|base</code>
+<li><code>ious$|adj|base|y$|noun|base</code>
+</ul>
+
+<tr><td>ing$ <td>noun <td>noun from verb, in the process of <td>doing, acting <td><ul></ul>
+<tr><td>ing$ <td>noun <td>&nbsp; <td>bedding, stuffing, roofing<td><ul></ul>
+
+<tr><td>ion$ <td>noun <td>an act of, a state of, the result of<td>act|action, companion <td><ul></ul>
+<tr><td>ish$ <td>adj <td>adjective from noun; similar, sort of; approximately <td>girl|girlish, clear|clearish|foolish, slef|selfish, green|greenish, tall|tallish, fifty|fiftyish, ten|tennish <td><ul></ul>
+<tr><td>ish$ <td>adj, noun <td>nationality, language <td>Spanish, Turkish, English
+<td><ul></ul>
+
+<tr><td>ism$ <td>noun <td>doctrine, act, believe, practice, condition <td><ul>
+<li><code>capital|capitalism, Protestant|Protestantism,  alcohol|alcoholism, southern|southernism</code>
+<li><code>Buddhist|Buddhism, fatalist|fatalism, communist|communism</code>
+<li><code>baptise|baptism, criticise|criticism</code>
+<li><code>anachronistic|anachronism, atavistic|atavism</code>
+</ul>
+<td><ul>
+<li><code>ism$|noun|base|$|noun|base</code>
+<li><code>ism$|noun|base|ist$|noun|base</code>
+<li><code>ism$|noun|base|istic$|adj|base</code>
+</ul>
+
+<tr><td>ist$ <td>noun <td>person, one who, <td><ul>
+<li><code>art|artist, social|socialist, cell|cellist, violin|violinist</code>
+<li><code> race|racist, dental|dentist, piano|pianist</code>
+</ul>
+<td><ul>
+<li><code>ist$|noun|base|$|noun|base</code>
+</ul>
+
+<tr><td>ista$ <td>adept <td>&nbsp; <td>fashionista <td><ul></ul>
+<tr><td>ite$ <td>noun <td>member of a group <td>socialite, Carmelite <td><ul></ul>
+<tr><td>ite$ <td>adj <td>pertaining to <td>finity|finite <td><ul></ul>
+<tr><td>itis$ <td>noun <td>disease, inflammation <td>bronchitic|bronchitis, hepatitic|hepatitis, gingivitis <td><ul></ul>
+<tr><td>itive$ <td>adj <td>&nbsp; <td>sensitive <td><ul></ul>
+<tr><td>itude$ <td>noun <td>&nbsp; <td>attitude, gratitude, Beatitude <td><ul></ul>
+<tr><td>ity$ <td>noun <td>expressing state or condition, name of a quality<td><ul>
+<li><code>bnormal|abnormality, normal|normality, formal|formality, banal|banality</code>
+<li><code>adverse|adversity</code>
+<li><code>frivolous|frivolity</code>
+</ul>
+<td><ul>
+<li><code>ity$|noun|base|$|adj|base</code>
+<li><code>ity$|noun|base|e$|adj|base</code>
+<li><code>ity$|noun|base|ous$|adj|base</code>
+</ul>
+
+<tr><td>ium$ <td>noun <td>metallic element (exception: helium) <td>sodium, Calcium <td><ul></ul>
+
+<tr><td>ive$ <td>noun <td>an act of, a state of, the result of<td><ul>
+<li><code>mission|missive, explosion|explosive</code>
+mission|missive
+</ul>
+<td><ul>
+<li><code>ive$|noun|base|ion$|noun|base</code>
+</ul>
+
+<tr><td>ive$ <td>adj <td>make the noun an adjective <td>cursiveness|cursive, defense|defensive, aggression|aggressive, passivity|passive <td><ul></ul>
+
+<tr><td>ization$, isation$ <td>noun <td>&nbsp; <td><ul>
+<li><code>organize|organization, categorize|categorization</code>
+</ul>
+<td><ul>
+<li><code>ization$|noun|base|ize$|verb|base</code>
+</ul>
+
+<tr><td>ize$, ise$ <td>verb <td>to cause, to be, to become, to make <td><ul>
+<li><code>vocal|vocalize, terror|terrorize, material|materialize, material|materialise, idol|idolize, idol|idolise</code>
+<li><code>private|privatize</code>
+</ul>
+<td><ul>
+<li><code>ize$|verb|$|noun (TBD)</code>
+</ul>
+
+<tr><td>izzle$ <td>used for hip hop slang <td>&nbsp; <td>Americizzle <td><ul></ul>
+
+<tr><td>kinesis$ <td>noun <td>movement (ability thereof) <td>telekinesis <td><ul></ul>
+
+<tr><td>less$ <td>adj <td>lack of <td>seed|seedless, home|homeless, use|useless, care|careless, clue|clueless <td><ul></ul>
+<tr><td>let$ <td>noun <td>diminutive, or denoting a relation to some part of the body <td>ringlet, hamlet, anklet <td><ul></ul>
+<tr><td>like$ <td>adj <td>having the qualities of <td>childlike <td><ul></ul>
+<tr><td>ling$ <td>noun <td>smaller, younger, cuter or weaker version of the noun root OR sharing an identity or quality of the noun root (e.g. as a follower) <td>darling, duckling, earthling, sapling <td><ul></ul>
+
+<tr><td>ly$ <td>adj <td>-like, having the attributes of <td>brother|brotherly, state|stately, month|monthly <td><ul></ul>
+
+<tr><td>ly$ <td>adv <td>-like, having the attributes of <td><ul>
+<li><code>active|actively, helpful|helpfully, quick|quickly, clear|clearly</code>
+<li><code>invariable|invariably</code>
+</ul>
+<td><ul>
+<li><code>ly$|adv|base|$|adj|base</code>
+<li><code>ly$|adv|base|le$|adj|base</code>
+</ul>
+
+<tr><td>man$ <td>noun <td>person <td>fireman, statesman <td> <ul></ul>
+<tr><td>mancy$ <td>noun <td>divination by <td>crystallomancy, bibliomancy, necromancy <td><ul></ul> 
+<tr><td>mania$ <td>noun <td>an irrational but irresistible motive for a belief or action <td>kleptomania, megalomania, mythomania <td><ul></ul>
+
+<tr><td>ment$ <td>noun <td>a substance, abstract noun <td><ul>
+<li><code>treat|treatment, retire|retirement</code>
+<li><code>judge|judgment, move|movement, amaze|amazement</code>
+</ul>
+<td><ul>
+<li><code>ment$|noun|base|$|verb|base</code>
+</ul>
+
+<tr><td>meter$ <td>noun <td>measuring device <td><ul>
+<li><code>thermometry|thermometer</code>
+<li><code>barometer</code>
+</ul>
+<td><ul>
+<li><code>meter$|noun|base|metry$|noun|base</code>
+</ul>
+
+<tr><td>metry$ <td>noun <td>measure <td>symmetry, geometry, isometry <td><ul></ul>
+<tr><td>mony$ <td>noun <td>&nbsp; <td>testimony, ceremony <td><ul></ul>
+<tr><td>morphism$ <td>noun <td>form <td>isomorphism, homomorphism <td><ul></ul>
+<tr><td>most$ <td>adj <td>&nbsp; <td>utmost, innermost <td><ul></ul>
+
+<tr><td>ness$ <td>noun <td>abstract noun <td><ul>
+<li><code>one|oneness, clam|clamness, sad|sadness, kind|kindness, ruthless|ruthlessness, dark|darkness</code>
+</ul>
+<td><ul>
+<li><code>ness$|noun|base|$|adj|base</code>
+</ul>
+
+<tr><td>nik$ <td>noun <td>Slavic origin; corresponds to "-er" <td>otkaznik, beatnik <td><ul></ul>
+
+<tr><td>ocracy$ <td>noun <td>system of government <td>kakistocracy, democracy, androcracy <td><ul></ul>
+<tr><td>ogram$ <td>noun <td>writing, description <td>ideogram <td><ul></ul>
+<tr><td>ography$ <td>noun <td>study of <td>stenography, geography, photography <td><ul></ul>
+<tr><td>oid$ <td>adj <td>resembling <td>android, solenoid, hominoid <td><ul></ul>
+<tr><td>oid$ <td>noun <td>resembling <td>planetoid <td><ul></ul>
+<tr><td>ologist$ <td>noun <td>one who studies a scientific subject <td>archaeologist <td><ul></ul>
+<tr><td>ology$ <td>study, science <td>&nbsp; <td>biology, psychology, planetology <td><ul></ul>
+<tr><td>oma$ <td>noun <td>a tumor, a growth<td>fiber|fibroma <td><ul></ul>
+<tr><td>ome$ <td>noun <td>subject of an "-omics" <td>genome <td><ul></ul>
+<tr><td>omics$ <td>noun <td>study of rules <td>proteomics, economics <td><ul></ul>
+<tr><td>onomy$ <td>noun <td>knowledge of <td>astronomy <td><ul></ul>
+<tr><td>onym$ <td>noun <td>name, word <td>antonym, consonym, heteronym <td><ul></ul>
+<tr><td>opsy$ <td>noun <td>examination <td>autopsy, biopsy <td><ul></ul>
+
+<tr><td>or$ <td>noun <td>one who, person (see er$) <td><ul>
+<li><code>act|actor, govern|governor, edit|editor, conduct|conductor</code>
+<li><code>sense|sensor, fact|factor ?</code>
+</ul>
+<td><ul>
+<li><code>or$|noun|base|$|verb|base</code>
+<li><code>or$|noun|base|e$|verb|base</code>
+</ul>
+
+<tr><td>or$, -our$ <td>noun <td>&nbsp; <td>candor, fervour, color <td><ul></ul>
+<tr><td>ory$ <td>adj <td>pertaining to, verb + ing (see ary$) <td>auditor|auditory, sensor|sensory <td><ul></ul>
+<tr><td>ory$ <td>noun <td>a place where<td>dormitory, historic|history, repositor|repository <td><ul></ul>
+<tr><td>ose$ <td>adj <td>full of, like, given to; carbohydrates, protein derivatives <td>verbose; globose <td><ul></ul>
+
+<tr><td>osis$ <td>noun <td>process, action, formation, diseased condition <td><ul>
+<li><code>diagnose|diagnosis, osmose|osmosis, </code>
+<li><code>ichthyotic|ichthyosis, psychotic|psychosis, mitotic|mitosis</code>
+<li><code>ostosis</code>
+</ul>
+<td><ul>
+<li><code>osis$|noun|base|ose$|verb|base</code>
+<li><code>osis$|noun|base|otic$|adj|base</code>
+</ul>
+
+<tr><td>ous$ <td>adj <td>VERB + ing<td><ul>
+<li><code>porosity|porous</code>
+<li><code>cancer|cancerous</code>
+<li><code>analogy|analogous</code>
+<li><code>dolorousness|dolorous, disaster|disastrous, nerve|nervous</code>
+</ul>
+<td><ul>
+<li><code>osity$|noun|base|ous$|adj|base</code>
+<li><code>ous$|adj|base|$|noun|base</code>
+<li><code>ous$|adj|base|y$|noun|base</code>
+</ul>
+
+<tr><td>phagy$, phagia$ <td>noun <td>eating <td>monophagy <td><ul></ul>
+<tr><td>philia$ <td>noun <td>attraction <td>hemophilia <td><ul></ul>
+<tr><td>phobia$ <td>noun <td>fear <td>acrophobia, mysophobia <td><ul></ul>
+<tr><td>phone$ <td>noun, adj <td>sound, audio; speaker of a language <td>telephone, homophone; Anglophone <td><ul></ul>
+
+<tr><td>physeal$ <td>adj <td>&nbsp; <td><ul>
+<li><code>diaphyseal|diaphysis, physeal|physis</code>
+</ul>
+<td><ul>
+<li><code>physeal$|adj|base|physis$|noun|base</code>
+</ul>
+
+<tr><td>phyte$ <td>noun <td>plant, used in botany to create terms which categorise plants based on their life-history, growth-form or ecological preferences <td>therophyte, halophyte <td><ul></ul>
+<tr><td>polis$ <td>noun <td>referring to city or big area <td>Metropolis, Indianapolis <td><ul></ul>
+
+<tr><td>s$ <td>noun <td>a thing, a substance<td>patho|pathos <td><ul></ul>
+<tr><td>science$ <td>noun <td>knowing <td>omniscience, prescience, conscience <td><ul></ul>
+<tr><td>scope$ <td>noun <td>from Greek skopos, view; instrument for viewing and observing spaces <td>microscope, telescope, kaleidoscope, periscope <td><ul></ul>
+<tr><td>script$ <td>noun <td>written <td>manuscript, transcript <td><ul></ul>
+<tr><td>ship$ <td>noun <td>abstract noun, state of being <td>friendship, relationship, dictatorship <td><ul></ul>
+
+<tr><td>sion$ <td>noun <td>noun that has been altered from a process <td><ul>
+<li><code>provide|provision, decide|decision, persuade|persuasion, divide|division</code>
+<li><code>diffuse|diffusion, illuse|illusion</code>
+<li><code>divert|diversion</code>
+<li><code>obsess|obsession</code>
+</ul>
+<td><ul>
+<li><code>sion$|noun|base|de$|verb|base</code>
+<li><code>sion$|noun|base|se$|verb|base</code>
+<li><code>sion$|noun|base|t$|verb|base</code>
+<li><code>ssion$|noun|base|ss$|verb|base</code>
+</ul>
+
+<tr><td>sis$ <td>noun <td>an act of, a state of, the result of<td><ul>
+<li><code>aseptic|asepsis</code>
+<li><code>gene|genesis</code>
+</ul>
+<td><ul>
+<li><code>sis$|noun|base|tic$|adj|base</code>
+</ul>
+
+<tr><td>some$ <td>adj <td>&nbsp; <td>tiresome, awesome, fulsome <td><ul></ul>
+<tr><td>stan$ <td>noun <td>land, country <td>Afghanistan <td><ul></ul>
+<tr><td>ster$ <td>noun <td>person <td>youngster, gangster <td><ul></ul>
+<tr><td>t$ <td>adj <td>&nbsp; <td>burnt, spoilt <td><ul></ul>
+<tr><td>th$, eth$ <td>adj <td>ordinal number <td>tenth, millionth, twentieth <td><ul></ul>
+<tr><td>th$ <td>noun <td>forming a noun <td>growth, health, depth, strength <td><ul></ul>
+<tr><td>tion$ <td>noun <td>noun that has been altered from a process <td>evaporation, introduction <td><ul></ul>
+<tr><td>tom$, tome$ <td>noun <td>part or segment <td>dermatome <td><ul></ul>
+<tr><td>tropism$ <td>noun <td>to turn <td>phototropism <td><ul></ul>
+<tr><td>ty$ <td>noun <td>&nbsp; <td>certainty, loyalty <td><ul></ul>
+
+<tr><td>uary$ <td>noun <td>&nbsp; <td>sanctuary, mortuary <td><ul></ul>
+
+<tr><td>ular$ <td>adj <td>&nbsp; <td><ul>
+<li><code>table|tabular</code>
+<li><code>nebula|nebular</code>
+</ul>
+<td><ul>
+<li><code>ular$|adj|base|le$|noun|base</code>
+<li><code>ular$|adj|base|ula$|noun|base</code>
+</ul>
+
+<tr><td>ulent$ <td>adj <td>&nbsp; <td>turbulent, fraudulent <td><ul></ul>
+<tr><td>um$ <td>noun <td>a thing, a substance<td>album<td><ul></ul>
+<tr><td>uous$ <td>adj <td>&nbsp; <td>tempestuous, unctuous, sensuous <td><ul></ul>
+<tr><td>ure$ <td>noun <td>a thing, a substance, one that is related t<td>fail|failure, expose|exposure, natural|nature, temperature <td><ul></ul>
+<tr><td>us$ <td>noun <td>inflammation <td>ulcus <td><ul></ul>
+
+<tr><td>ville$ <td>noun <td>city, town from French <td>Nashville <td><ul></ul>
+<tr><td>vore$, vorous$ <td>noun, adj <td>to devour <td>carnivore, herbivore <td><ul></ul>
+
+<tr><td>ward$, wards$ <td>adj, adv <td>direction <td>southward, inward, upward <td><ul></ul>
+<tr><td>ware$ <td>noun <td>software <td>hardware, software, freeware <td><ul></ul>
+<tr><td>ways$ <td>adj <td>&nbsp; <td>sideways, longways <td><ul></ul>
+<tr><td>wise$ <td>adj <td>direction <td>clockwise, lengthwise <td><ul></ul>
+<tr><td>wright$ <td>noun <td>person who makes <td>playwright, wheelwright, shipwright <td><ul></ul>
+
+<tr><td>y$ <td>adj <td>having the quality of, inclined to<td><ul>
+<li><code>bush|bushy, mess|messy, chew|chewy</code>
+<li><code>bristle|bristly</code>
+<li><code>easily|easy</code>
+<li><code>run|runny</code>
+</ul>
+<td><ul>
+<li><code>y$|adj|base|$|noun|base</code>
+<li><code>y$|adj|base|e$|noun|base</code>
+<li><code>ily$|adv|base|y$|adj|base</code>
+</ul>
+
+<tr><td>y$ <td>noun <td>an act of, a state of, the result of<td><ul>
+<li><code>abundance|abundancy</code>
+<li><code>biologic|biology, jealous|jealousy, victor|victory</code>
+</ul>
+<td><ul>
+<li><code>y$|noun|base|e$|noun|base</code>
+</ul>
+
+<tr><td>y$ <td>verb <td>&nbsp; <td><ul>
+<li><code>clarify|clarification, apply|application, certify|certification</code>
+</ul>
+<td><ul>
+<li><code>y$|verb|base|ication$|noun|base</code>
+</ul>
+
+</table>
+
+</div>
+</div>
+</div>
+
+<footer class="bg-primary text-white padding-top-2 insertfooter">
+
+  <div class="lhc-grid-container">
+    <div class="lhc-grid-row">
+      <div class="lhc-desktop:lhc-grid-col-3 lhc-grid-col-6"> <a href="https://www.nlm.nih.gov/socialmedia/index.html">
+        <p class="lhc-text-white lhc-margin-bottom-1">Connect with NLM</p>
+        </a>
+        <ul class="lhc-social_media lhc-add-list-reset">
+          <li class="lhc-margin-right-05"><a title="External link: please review our privacy policy." href="https://www.facebook.com/nationallibraryofmedicine"><img class="lhc-bg-secondary" src="https://www.nlm.nih.gov/images/facebook.svg"  alt="Facebook"></a></li>
+          <li class="lhc-margin-right-05"><a title="External link: please review our privacy policy." href="https://www.linkedin.com/company/national-library-of-medicine-nlm/"><img class="lhc-bg-secondary" src="//www.nlm.nih.gov/images/linkedin.svg" alt="LinkedIn"></a></li>
+          <li class="lhc-margin-right-05"><a title="External link: please review our privacy policy." href="https://twitter.com/NLM_NIH"><img src="https://www.nlm.nih.gov/images/twitter.svg" class="lhc-padding-1 lhc-bg-secondary" alt="Twitter"></a></li>
+          <li class="lhc-margin-right-05"><a title="External link: please review our privacy policy." href="https://www.youtube.com/user/NLMNIH"><img src="//www.nlm.nih.gov/images/youtube.svg" class="lhc-bg-secondary" alt="You Tube"></a></li>
+        </ul>
+      </div>
+      <div class="lhc-desktop:lhc-grid-col-3 lhc-grid-col-6">
+        <p class="lhc-address_footer lhc-text-white"> National Library of Medicine <br>
+          <a href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323" class="lhc-text-white"> 8600 Rockville Pike <br>
+          Bethesda, MD 20894 </a></p>
+      </div>
+      <div class="lhc-desktop:lhc-grid-col-3 lhc-grid-col-6">
+        <p><a href="/web_policies.html" class="lhc-text-white"> Web Policies </a><br>
+          <a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="lhc-text-white"> FOIA </a><br>
+          <a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="lhc-text-white">HHS Vulnerability Disclosure</a> </p>
+      </div>
+      <div class="lhc-desktop:lhc-grid-col-3 lhc-grid-col-6">
+        <p><a class="lhc-supportLink lhc-text-white" href="//support.nlm.nih.gov?from="> NLM Support Center </a> <br>
+          <a href="/accessibility.html" class="lhc-text-white"> Accessibility </a><br>
+          <a href="/careers/careers.html" class="lhc-text-white"> Careers </a></p>
+      </div>
+    </div>
+    <div class="lhc-grid-row">
+      <div class="lhc-grid-col-12">
+        <p class="lhc-text-center lhc-text-white"> <a class="lhc-text-white" href="//www.nlm.nih.gov/">NLM</a> | <a class="lhc-text-white" href="https://www.nih.gov/">NIH</a> | <a class="lhc-text-white" href="https://www.hhs.gov/">HHS</a> | <a class="lhc-text-white" href="https://www.usa.gov/">USA.gov</a></p>
+      </div>
+    </div>
+  </div>
+
+     </footer>
+<script src="/assets/javascript/popper-1.14.7.min.js"></script>
+<script src="/assets/uswds-2.4.0/js/uswds.min.js"></script>  
+<script src="/assets/javascript/supportLink.js"></script>
+<script src="/assets/footer/1.1/lhc-Footer.js"></script>
+<script src="//www.nlm.nih.gov/core/nlm-notifyExternal/1.0/nlm-notifyExternal.min.js"></script>
+</body>
+</html>

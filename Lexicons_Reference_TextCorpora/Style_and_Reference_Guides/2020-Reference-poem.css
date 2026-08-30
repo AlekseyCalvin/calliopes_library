@@ -1,0 +1,337 @@
+.prosody-line {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  grid-template-rows: 17px 15px;
+  align-content: center;
+  font-size: 0.8rem;
+}
+
+.prosody-line .TEI-l {
+  width: 110%;
+  margin-right: 60px;
+}
+
+.prosody-line .buttons {
+  right: 20px;
+  position: absolute;
+}
+
+.prosody-line.indent {
+  display: grid;
+  grid-template-columns: 30px 570px 80px;
+  grid-template-rows: 17px 15px;
+}
+
+.wipe-stress {
+  cursor: pointer;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: start;
+}
+
+.prosody-shadowline {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.TEI-l {
+  align-self: end;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.buttons {
+  justify-self: end;
+  align-self: end;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#poem {
+  padding-top: 15px;
+  font-size: 1.28em;
+  float: left;
+  margin-left: 25px;
+  width: 90%;
+  overflow: auto;
+}
+#poem span.button {
+  word-spacing: 0;
+  letter-spacing: 0;
+}
+#poem #poemtitle {
+  margin: 10px 0 15px;
+  line-height: 1rem;
+}
+#poem #poemtitle h2 {
+  line-height: 1em;
+  font-size: 1.3rem;
+}
+#poem #poemtitle h4 {
+  font-size: 0.8rem;
+}
+#poem .button button {
+  width: 18px;
+}
+#poem span:hover {
+  background: #444;
+}
+span.prosody-shadowsyllable {
+  display: table-cell;
+  empty-cells: show;
+  text-align: center;
+  font-size: 13px;
+  color: #deb887;
+  vertical-align: bottom;
+  height: 18px;
+}
+span.prosody-syllable {
+  white-space: pre;
+  vertical-align: bottom;
+}
+span.prosody-marker {
+  visibility: visible;
+  white-space: pre;
+}
+span.prosody-footmarker {
+  color: #deb887;
+  font-weight: bold;
+  width: 1ex;
+}
+span.prosody-placeholder {
+  visibility: hidden;
+  white-space: pre;
+}
+span.prosody-checkstress {
+  display: table-cell;
+}
+span.prosody-checkfeet {
+  display: table-cell;
+}
+span.caesura:hover {
+  background: transparent;
+}
+.caesura {
+  color: #a5a;
+  font-weight: bold;
+  padding: 0 1ex 0 0;
+  vertical-align: bottom;
+  font-size: 13px;
+  empty-cells: show;
+  text-align: center;
+}
+.prosody-shadowline .caesura {
+  visibility: hidden;
+  height: 18px;
+}
+.prosody-note-button {
+  display: none;
+}
+.prosody-note {
+  display: none;
+  color: #ccc;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+p.prosody-note {
+  display: none;
+  color: #ddd;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+p.prosody-note-show {
+  font-size: 12px;
+  margin: 15px;
+}
+#poem #poemtitle {
+  margin: 10px 0 15px 0;
+}
+#poem #poemtitle h2 {
+  padding-bottom: 10px;
+  line-height: 1em;
+}
+#poem span.button {
+  word-spacing: 0;
+  letter-spacing: 0;
+}
+#poem span.button:hover {
+  background: none;
+}
+#poem .button button {
+  width: 18px;
+}
+.buttons {
+  float: right;
+  margin-top: -1em;
+}
+button {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+button img {
+  vertical-align: middle;
+}
+label {
+  vertical-align: bottom;
+  margin-left: -7px;
+}
+#meter-select {
+  margin: 10px;
+}
+#meter-select label {
+  margin: 5px 0;
+}
+#meter-select select {
+  margin: 5px 0;
+}
+#meter-select option {
+  padding: 2px 5px;
+}
+#meter-select button {
+  background: #444;
+  padding: 4px;
+  border: 2px solid #ddd;
+  margin: 10px 0;
+}
+#meter-select button:hover {
+  background: #858575;
+}
+.inner-util {
+  font-size: 1.2em;
+  background: #444;
+  width: 440px;
+  float: right;
+  height: 23px;
+  padding-top: 5px;
+  padding-left: 10px;
+  text-align: left;
+}
+.discrep {
+  color: #f0f055 !important;
+}
+small.date {
+  padding-left: 1.5em;
+  font-size: 12px;
+  vertical-align: middle;
+}
+#rhymebar {
+  height: 0;
+  background: #999;
+  float: left;
+  width: 7px;
+  cursor: pointer;
+  border-right: 1px solid #cfcfcf;
+}
+#rhymebar:hover {
+  background: #ddd;
+}
+#rhyme {
+  height: 0;
+  width: 25px;
+  float: left;
+  background: #444;
+}
+#rhyme .lrhyme {
+  height: 30px;
+  padding: 0 4px;
+}
+#rhyme .check {
+  padding: 0 3px !important;
+}
+#rhyme input {
+  background: #656565;
+  height: 16px;
+  width: 14px;
+  margin: 0;
+  padding: 0 2px;
+  border: 0;
+  color: #fff;
+  font-size: 11px;
+}
+#rhyme input:hover {
+  background: #888;
+}
+#rhyme input#rhymecheck {
+  padding: 0;
+  font-weight: bold;
+  cursor: pointer;
+  background: #999;
+  color: #222;
+}
+#rhyme input#rhymecheck:hover {
+  background: #ddd;
+}
+#rhyme input#rhymecheck.right {
+  background: #32cd32;
+}
+#rhyme input#rhymecheck.wrong {
+  background: #b22222;
+}
+#rhymeflag {
+  clear: both;
+  float: left;
+  width: 32px;
+  background: #999;
+  border-right: 1px solid #cfcfcf;
+  color: #444;
+  padding: 1px;
+  cursor: pointer;
+  font-size: 9px;
+}
+#rhymeflag:hover {
+  background: #fff;
+}
+#rhymeform p {
+  height: 16px;
+}
+#rhymeform p:first-child {
+  height: inherit;
+}
+.indent2 .TEI-l,
+.indent2 .prosody-shadowline {
+  padding-left: 2em;
+}
+
+/* Override some jQuery UI styles that aren't working. */
+.ui-dialog .ui-dialog-titlebar-close {
+  font-size: 0.8rem;
+  width: 100px !important;
+}
+.ui-button-icon-only .ui-icon {
+  left: 0 !important;
+  margin-left: -12px !important;
+}
+
+@media screen and (max-width: 767px) {
+  .prosody-line .buttons {
+    background: #000;
+    border: 2px solid rgb(70, 55, 45);
+    right: 4px;
+  }
+
+  .prosody-line .button button {
+    padding: 8px;
+    margin-right: 10px;
+  }
+
+  .prosody-line {
+    margin: 10px 0;
+  }
+
+  /* Remove the left sidebar thing */
+  #rhymebar,
+  #rhymeflag {
+    display: none;
+  }
+}

@@ -1,0 +1,1737 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.7C-SGI [en] (X11; I; IRIX 6.5 IP22) [Netscape]">
+   <title>English Stress</title>
+</head>
+<body background="p12c08.gif">
+
+<center><font size=+2>English Stress</font></center>
+
+<p><b>1. Historical landmarks</b>
+<p>Gill (1619). Cap. XXV-XXVI.
+<p>Steele (1775) distinguished three levels of stress.
+<p>Jespersen (1909/1954):
+<blockquote>Mr. William Archer, after a long list of seemingly arbitrary
+accentuations in the English language (<i>America To-Day</i>, p. 193),
+goes on to say: `But the larger our list of examples, the more capricious
+does our accentuation seem, the more evidently subject to mere accidents
+of fashion. There is scarcely a trace of consistent or rational principle
+in the matter.' It will be the object of the following pages to show that
+there <i>are</i> principles, and that the `capriciousness' is merely the
+natural consequences of the fact that there is not <i>one</i> single principle,
+but several principles working sometimes against each other. (p. 160)</blockquote>
+Kingdon (1958) distinguished a) "Romanic-type compounds" (derived Latinate
+words) b) "Greek-type compounds" (like lexical compounds) c) "English-type
+compounds" (lexical compounds).
+<p>Chomsky, Halle &amp; Lukoff (1956), (summary account in Chomsky and
+Miller 1963):
+<blockquote>These rules ... are ordered, and apply in a <i>cycle,</i> first
+to the smallest constituents (that is, lexical morphemes), then to the
+next larger ones, and so on, until the largest domain of phonetic processes
+is reached .... essentiallly the same rules apply both inside and outside
+the word. Thus ... a single cycle of transformational rules ... by repeated
+application, determines the phonetic structure of a complex form.</blockquote>
+a) A <i>substantive</i> rule that assigns stress in initial position in
+nouns (also stems) under very general circumstances. [Germanic stress].
+<br>b) A <i>nuclear stress </i>rule that makes the last main stress dominant,
+thus weakening all other stresses in the construction.
+<br>c) The <i>vowel reduction </i>rule.
+<br>d) A rule of <i>stress adjustment </i>that weakens all nonmain<b> </b>stresses
+in a word by one.
+<p><b>2. Chomsky &amp; Halle (1968)</b>, especially chs. 2-3. The fulfillment
+of their concerted effort to determine a complete set of rules for English
+phonology, dominated by stress assignment and its consequences.
+<p><b>2.1. Stress placement is sensitive to [syllable] weight</b>
+<p>p. 29 weak cluster - "a string consisting of a simple vocalic nucleus
+followed by no more than one consonant".
+<p>strong cluster - "a string consisting of either a vocalic nucleus followed
+by two or more consonants or a complex vocalic nucleus followed by any
+number of consonants." (i.e. light vs. heavy rimes).
+<p><b>2.2. Stress rules are sensitive to lexical categories</b>
+<p>(21) <i>Main Stress Rule</i>
+<p>V -> [1 stress] / X - C<font size=-2>0</font>]<font size=-2>NAV</font>
+<p>Rule (21) assigns primary stress to the final vowel of the word, e.g.
+<i>ev&aacute;de</i>,
+<i>supr&eacute;me</i>, <i>ex&iacute;st</i>, <i>abs&uacute;rd</i>, all of
+which end in a strong cluster. If a verb or adjective has a final weak
+cluster, the stress is placed on the penultimate syllable e.g. <i>r&eacute;lish</i>,
+<i>c&oacute;vet</i>,
+<i>dev&eacute;lop</i>, <i>st&oacute;lid</i>, <i>c&oacute;mmon</i>,
+<i>cland&eacute;stine</i>.
+<p><b>2.3. Sensitivity to the Latinate/Germanic distinction</b>
+<p><font face="Times">a) Germanic affixes don't affect stress placement,
+e.g. &eacute;arth, &eacute;arthly, un&eacute;arthly, un&eacute;arthliness.</font>
+<br><font face="Times">b) Latinate suffixes may affect stress placement,
+e.g. t&eacute;mpest, temp&eacute;stuous, tempestu&oacute;sity.</font>
+<br><font face="Times">c) Stress may shift onto Latinate prefixes, e.g.
+inv&eacute;st vs. </font>&iacute;<font face="Times">nverse, c&agrave;tat&oacute;nic
+vs. catastrophe.</font>
+<br><font face="Times">d) Stress never shifts onto Germanic prefixes, e.g.
+&ograve;ver[c&oacute;ok] - no forms like ov&eacute;ric [o<font size=-1>U</font></font><font face="Font220">v<img SRC="phon104.gif" height=14 width=3><img SRC="epsilon0.gif" height=8 width=8>rIk</font><font face="Times">]</font>
+<p><font face="Times">Segmentally homophonous Latinate and Germanic suffixes
+with different stress behaviours:</font>
+<br>&nbsp;
+<table NOSAVE >
+<tr NOSAVE>
+<td><u><font face="Times"></font></u></td>
+
+<td NOSAVE><i><font face="Times">Germanic</font></i></td>
+
+<td><i><font face="Times">Latinate</font></i></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>-a<font size=-1>I</font>z</td>
+
+<td><font face="Times">modern-ize</font></td>
+
+<td><font face="Times">reprise</font></td>
+
+<td><font face="Times">cf. repr&iacute;sal</font></td>
+</tr>
+
+<tr>
+<td>-<font size=-1>I</font>d</td>
+
+<td><font face="Times">wretch-ed, dogg-ed</font></td>
+
+<td><font face="Times">arid</font></td>
+
+<td><font face="Times">cf. ar&iacute;dity</font></td>
+</tr>
+
+<tr>
+<td>-<img SRC="schwa0.gif" height=9 width=8>n</td>
+
+<td><font face="Times">wid-en</font></td>
+
+<td><font face="Times">mod-ern</font></td>
+
+<td><font face="Times">cf. mod&eacute;rnity</font></td>
+</tr>
+
+<tr NOSAVE>
+<td>-<img SRC="schwa0.gif" height=9 width=8></td>
+
+<td><font face="Times">kill-er</font></td>
+
+<td NOSAVE><font face="Times">tut-or</font></td>
+
+<td><font face="Times">cf. tut&oacute;rial</font></td>
+</tr>
+
+<tr>
+<td>-<font size=-1>I</font><img SRC="phon77.gif" ALT="S" height=18 width=8></td>
+
+<td><font face="Times">boy-ish</font></td>
+
+<td><font face="Times">electr<u>&iacute;c</u>ian</font></td>
+
+<td>cf.&nbsp; el<font face="Times">&eacute;</font>ctric etc.</td>
+</tr>
+
+<tr>
+<td>-i</td>
+
+<td><font face="Times">heart-y</font></td>
+
+<td><font face="Times">pay<u>&eacute;e</u></font></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>-m<img SRC="schwa0.gif" height=9 width=8>nt</td>
+
+<td><font face="Times">contain-ment</font></td>
+
+<td><font face="Times">compliment</font></td>
+
+<td><font face="Times">cf. complim&eacute;ntary</font></td>
+</tr>
+</table>
+
+<p><b>2.4. Sensitivity to morpheme boundaries</b>
+<p>p&eacute;rson+al, not pers&oacute;nal SW+al
+<br>the&aacute;tric+al not theatr&iacute;cal WSW+al
+<br>anecd&oacute;t+al WWS+al
+<br>dial&eacute;ct+al WWS+al
+<p><font face="Times">Phonological operations restricted to specific morphological
+domains / environments:</font><b><font face="Times"></font></b>
+<table NOSAVE >
+<tr NOSAVE>
+<td><font face="Times">a)</font></td>
+
+<td><font face="Times">(Prefix)</font></td>
+
+<td><font face="Times">Stem</font></td>
+
+<td><font face="Times">(Suffix)</font></td>
+
+<td NOSAVE></td>
+
+<td><font face="Times">b)</font></td>
+
+<td NOSAVE><font face="Times">Prefixes</font></td>
+
+<td><font face="Times">Stem</font></td>
+
+<td><font face="Times">Suffixes</font></td>
+</tr>
+
+<tr NOSAVE>
+<td></td>
+
+<td><font face="Times">im-</font></td>
+
+<td><font face="Times">-press</font></td>
+
+<td><font face="Times">-ion</font></td>
+
+<td NOSAVE></td>
+
+<td></td>
+
+<td><font face="Times">over- [im-</font></td>
+
+<td><font face="Times">-press</font></td>
+
+<td><font face="Times">-ion] -able</font></td>
+</tr>
+
+<tr NOSAVE>
+<td></td>
+
+<td>Lat.</td>
+
+<td>Lat.</td>
+
+<td>Lat.</td>
+
+<td></td>
+
+<td></td>
+
+<td ALIGN=RIGHT NOSAVE>Lat.</td>
+
+<td ALIGN=CENTER NOSAVE>Lat.</td>
+
+<td>Lat.</td>
+</tr>
+
+<tr NOSAVE>
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>Germ.</td>
+
+<td></td>
+
+<td ALIGN=RIGHT NOSAVE>Germ.</td>
+</tr>
+</table>
+
+<table NOSAVE >
+<tr NOSAVE>
+<td NOSAVE><font face="Times">c)</font></td>
+
+<td><font face="Times">Un-</font></td>
+
+<td><font face="Times">earth</font></td>
+
+<td><font face="Times">-li -ness</font></td>
+</tr>
+
+<tr NOSAVE>
+<td></td>
+
+<td NOSAVE>Prefix</td>
+
+<td>Stem</td>
+
+<td NOSAVE>Suffixes</td>
+</tr>
+
+<tr>
+<td></td>
+
+<td>Germ.</td>
+
+<td>Germ.</td>
+
+<td>Germ.</td>
+</tr>
+</table>
+
+<p><b>2.5. Stress subordination</b>
+<p>p. 64 "The rules that determine stress contours are, for the most part,
+rules that assign primary stress in certain positions, at the same time
+weakening the stresses in all other positions".
+<p><b>2.5. Alternating stress rule (p.78) </b>(for secondary stresses)
+<p>V -> [1 stress] / - C<font size=-2>0</font> V C<font size=-2>0</font>
+V<font size=-2>1</font> C<font size=-2>0</font>]
+<p>hurricAn => hurricA<sup><font size=-2>1</font></sup>n [Main stress rule]
+<br>=> hu<sup><font size=-2>1</font></sup>rricA<sup><font size=-2>1</font></sup>n
+[Alternating stress rule]
+<br>=> hu<sup><font size=-2>1</font></sup>rricA<sup><font size=-2>2</font></sup>n
+[Stress subordination]
+<p><b>3. Liberman and Prince (1977)</b>
+<p>"certain features of prosodic systems like that of English, in particular
+the phenomenon of `stress subordination', are not to be referred primarily
+to the properties of individual segments (or syllables), but rather reflect
+a hierarchical rhythmic structuring that organizes the syllables, words,
+and syntactic phrases of a sentence."
+<p><b>Phrases</b>
+<br>&nbsp;
+<table NOSAVE >
+<tr NOSAVE>
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td ALIGN=CENTER COLSPAN="2" NOSAVE>/\</td>
+
+<td NOSAVE></td>
+</tr>
+
+<tr NOSAVE>
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td ALIGN=CENTER COLSPAN="2" NOSAVE>s</td>
+
+<td ALIGN=CENTER NOSAVE>\</td>
+
+<td></td>
+</tr>
+
+<tr NOSAVE>
+<td></td>
+
+<td ALIGN=CENTER NOSAVE>/\</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td ALIGN=RIGHT NOSAVE>/</td>
+
+<td>\</td>
+
+<td ALIGN=CENTER NOSAVE>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</td>
+
+<td></td>
+</tr>
+
+<tr NOSAVE>
+<td ALIGN=CENTER COLSPAN="2" NOSAVE>w</td>
+
+<td></td>
+
+<td></td>
+
+<td ALIGN=CENTER COLSPAN="2" NOSAVE>w</td>
+
+<td ALIGN=RIGHT NOSAVE>s</td>
+
+<td ALIGN=RIGHT NOSAVE>\</td>
+
+<td></td>
+</tr>
+
+<tr ALIGN=LEFT NOSAVE>
+<td ALIGN=RIGHT NOSAVE>/</td>
+
+<td ALIGN=LEFT NOSAVE>\</td>
+
+<td>\</td>
+
+<td NOSAVE></td>
+
+<td ALIGN=RIGHT NOSAVE>/</td>
+
+<td>\</td>
+
+<td ALIGN=RIGHT NOSAVE>/</td>
+
+<td>\</td>
+
+<td>\</td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td NOSAVE>s</td>
+
+<td>w</td>
+
+<td>s</td>
+
+<td></td>
+
+<td>s</td>
+
+<td>w</td>
+
+<td>s</td>
+
+<td>w</td>
+
+<td>w</td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td NOSAVE>dew -</td>
+
+<td>covered</td>
+
+<td NOSAVE>lawn</td>
+
+<td></td>
+
+<td>labor</td>
+
+<td>union</td>
+
+<td>finance</td>
+
+<td>committee</td>
+
+<td>president</td>
+</tr>
+</table>
+
+<p><b>Words</b>
+<br>&nbsp;
+<table NOSAVE >
+<tr NOSAVE>
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td ALIGN=CENTER NOSAVE>/\</td>
+
+<td></td>
+</tr>
+
+<tr ALIGN=RIGHT NOSAVE>
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td ALIGN=CENTER COLSPAN="2" NOSAVE>s</td>
+
+<td ALIGN=LEFT NOSAVE>\</td>
+</tr>
+
+<tr ALIGN=LEFT NOSAVE>
+<td ALIGN=CENTER COLSPAN="2" NOSAVE>/\</td>
+
+<td></td>
+
+<td ALIGN=CENTER COLSPAN="2" NOSAVE>/\</td>
+
+<td></td>
+
+<td ALIGN=CENTER COLSPAN="2" NOSAVE>/\</td>
+
+<td ALIGN=RIGHT NOSAVE>\</td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td>w</td>
+
+<td NOSAVE>s</td>
+
+<td></td>
+
+<td>s</td>
+
+<td>w</td>
+
+<td></td>
+
+<td>s</td>
+
+<td>w</td>
+
+<td>w</td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td>ca</td>
+
+<td NOSAVE>price</td>
+
+<td></td>
+
+<td>la</td>
+
+<td>bor</td>
+
+<td></td>
+
+<td>Pa</td>
+
+<td>me</td>
+
+<td>la</td>
+</tr>
+</table>
+
+<p>"only a stressed syllable may be the
+<i>strong</i> element of a metrical
+foot".
+<p><b>Digression on Iambic Reversal / Rhythm Rule / Stress Retraction</b>
+<p>SPE and Metrical Phonology both capture the <i>preservation of relative
+prominence under embedding</i>. But there are counter-cases,
+<br>e.g.:
+<p>e.g. <i>thirt&eacute;en</i> vs. <i>th&igrave;rteen m&eacute;n</i>, <i>&agrave;chrom&aacute;tic</i>
+vs. <i>&aacute;chrom&agrave;tic l&ecirc;ns</i>
+<p>Liberman and Prince: "we need an account of linguistic rhythm in terms
+of which the appropriate stress configurations are marked as `clashing',
+thus producing a pressure for change."
+<p>The Metrical Grid:
+<br>&nbsp;
+<table NOSAVE >
+<tr ALIGN=CENTER NOSAVE>
+<td NOSAVE></td>
+
+<td></td>
+
+<td>6</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td NOSAVE>*</td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td></td>
+
+<td NOSAVE><b>4</b></td>
+
+<td><b>5</b></td>
+
+<td>clash!</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td NOSAVE>*</td>
+
+<td>*</td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td NOSAVE>1</td>
+
+<td>2</td>
+
+<td>3</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>*</td>
+
+<td>*</td>
+
+<td>*</td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td>thir</td>
+
+<td NOSAVE>teen</td>
+
+<td>men</td>
+
+<td></td>
+
+<td></td>
+
+<td>Later:</td>
+
+<td>thir</td>
+
+<td>teen</td>
+
+<td>men</td>
+</tr>
+</table>
+
+<p>For more on the Rhythm rule, see Kager and Visch (1988), and papers
+by Grabe and Warren, Vogel et al. and Shattuck-Hufnagel in
+<br>Connell and Arvaniti (1995). According to these later studies, iambic
+reversal is not a phonological movement rule at all, bur arises from the
+interaction of lexical stress and phrase-final accent:
+<br>&nbsp;
+<table NOSAVE >
+<tr NOSAVE>
+<td NOSAVE></td>
+
+<td ALIGN=CENTER COLSPAN="6" NOSAVE><i>Separate words</i></td>
+
+<td></td>
+
+<td COLSPAN="4" NOSAVE>
+<center><i>Compound</i></center>
+</td>
+</tr>
+
+<tr VALIGN=BASELINE NOSAVE>
+<td>Phrasal accentuation:</td>
+
+<td></td>
+
+<td>H</td>
+
+<td NOSAVE>L</td>
+
+<td></td>
+
+<td>H</td>
+
+<td>L</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>H</td>
+
+<td>L</td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td></td>
+
+<td NOSAVE></td>
+
+<td></td>
+
+<td>|</td>
+
+<td></td>
+
+<td></td>
+
+<td>|</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td NOSAVE></td>
+
+<td>|</td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td ALIGN=LEFT NOSAVE>Lexical stress:</td>
+
+<td NOSAVE>*</td>
+
+<td></td>
+
+<td>|</td>
+
+<td></td>
+
+<td>*</td>
+
+<td>|</td>
+
+<td></td>
+
+<td>*</td>
+
+<td></td>
+
+<td>*</td>
+
+<td>|</td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td></td>
+
+<td NOSAVE>*</td>
+
+<td>*</td>
+
+<td>|</td>
+
+<td></td>
+
+<td>*</td>
+
+<td>|</td>
+
+<td></td>
+
+<td>*</td>
+
+<td>*</td>
+
+<td>*</td>
+
+<td>|</td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td></td>
+
+<td>thir</td>
+
+<td>teen</td>
+
+<td>]</td>
+
+<td></td>
+
+<td>men</td>
+
+<td>]</td>
+
+<td></td>
+
+<td>thir</td>
+
+<td>teen</td>
+
+<td>men</td>
+
+<td>]</td>
+</tr>
+</table>
+
+<p><b>4. Kiparsky (1979): </b>stress assignment is <i>cyclic.</i>
+<p>Liberman and Prince (1977) derive the stress of "sensationality" incorrectly:
+<br>&nbsp;
+<table NOSAVE >
+<tr NOSAVE>
+<td NOSAVE></td>
+
+<td></td>
+
+<td></td>
+
+<td>/\</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr NOSAVE>
+<td></td>
+
+<td></td>
+
+<td ALIGN=RIGHT NOSAVE>/</td>
+
+<td></td>
+
+<td ALIGN=CENTER NOSAVE>s</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr NOSAVE>
+<td></td>
+
+<td></td>
+
+<td ALIGN=CENTER NOSAVE>/</td>
+
+<td ALIGN=RIGHT NOSAVE></td>
+
+<td>/</td>
+
+<td>\</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr NOSAVE>
+<td></td>
+
+<td ALIGN=RIGHT NOSAVE></td>
+
+<td>/</td>
+
+<td>/</td>
+
+<td></td>
+
+<td ALIGN=CENTER COLSPAN="2" NOSAVE>s</td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr NOSAVE>
+<td></td>
+
+<td ALIGN=CENTER NOSAVE>&nbsp;/</td>
+
+<td ALIGN=RIGHT NOSAVE>/</td>
+
+<td></td>
+
+<td></td>
+
+<td ALIGN=CENTER COLSPAN="2" NOSAVE>/\</td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr NOSAVE>
+<td></td>
+
+<td>/</td>
+
+<td>w</td>
+
+<td></td>
+
+<td></td>
+
+<td ALIGN=CENTER NOSAVE>s</td>
+
+<td ALIGN=RIGHT NOSAVE>\</td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr ALIGN=RIGHT NOSAVE>
+<td NOSAVE>/</td>
+
+<td ALIGN=CENTER COLSPAN="2" NOSAVE>/\</td>
+
+<td></td>
+
+<td></td>
+
+<td>/\</td>
+
+<td></td>
+
+<td ALIGN=LEFT NOSAVE>\</td>
+
+<td></td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td>w</td>
+
+<td>s</td>
+
+<td NOSAVE>w</td>
+
+<td></td>
+
+<td>s</td>
+
+<td></td>
+
+<td>w</td>
+
+<td>w</td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>sen</td>
+
+<td>sa</td>
+
+<td>tion</td>
+
+<td>+</td>
+
+<td>al</td>
+
+<td>+</td>
+
+<td>i</td>
+
+<td>ty</td>
+
+<td></td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td></td>
+
+<td>2</td>
+
+<td>3</td>
+
+<td></td>
+
+<td NOSAVE>1</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>- according to Liberman and Prince's stress-marking algorithm</td>
+</tr>
+</table>
+
+<p>"Since no cyclic rules in [Liberman &amp; Prince 1977] are sensitive
+to metrical structure, one could equivalently stipulate that metrical structure
+is assigned only on the last cycle."
+<p>If assignment of metrical structure is cyclic (i.e. derivation respects
+structure built on earlier cycles) the (correct) derivation will be:
+<br>&nbsp;
+<table NOSAVE >
+<tr>
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>/\</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>/\</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td ALIGN=RIGHT NOSAVE>/</td>
+
+<td>s</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>w</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td NOSAVE>s</td>
+
+<td></td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td></td>
+
+<td></td>
+
+<td NOSAVE>/\</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>/</td>
+
+<td>/\</td>
+
+<td></td>
+
+<td NOSAVE></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>/\</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>/\</td>
+
+<td></td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td></td>
+
+<td ALIGN=RIGHT NOSAVE>/</td>
+
+<td COLSPAN="2" NOSAVE>s</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td ALIGN=RIGHT NOSAVE>/</td>
+
+<td COLSPAN="2" NOSAVE>s</td>
+
+<td ALIGN=LEFT NOSAVE>\</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td ALIGN=RIGHT NOSAVE>/</td>
+
+<td COLSPAN="2" NOSAVE>s</td>
+
+<td></td>
+
+<td COLSPAN="2" NOSAVE>s</td>
+
+<td ALIGN=LEFT NOSAVE>\</td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td></td>
+
+<td NOSAVE>/</td>
+
+<td COLSPAN="2" NOSAVE>/\</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>/</td>
+
+<td COLSPAN="2" NOSAVE>/\</td>
+
+<td>\</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>/</td>
+
+<td COLSPAN="2" NOSAVE>/\</td>
+
+<td></td>
+
+<td COLSPAN="2" NOSAVE>/\</td>
+
+<td>\</td>
+</tr>
+
+<tr ALIGN=CENTER NOSAVE>
+<td></td>
+
+<td NOSAVE>w</td>
+
+<td>s</td>
+
+<td>w</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>w</td>
+
+<td>s</td>
+
+<td>w</td>
+
+<td>w</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+
+<td>w</td>
+
+<td>s</td>
+
+<td>w</td>
+
+<td></td>
+
+<td>s</td>
+
+<td>w</td>
+
+<td>w</td>
+</tr>
+
+<tr>
+<td>[[[</td>
+
+<td>sen</td>
+
+<td>sa</td>
+
+<td>tion]</td>
+
+<td>+al]</td>
+
+<td>+ity]</td>
+
+<td></td>
+
+<td>=></td>
+
+<td></td>
+
+<td>[[</td>
+
+<td>sen</td>
+
+<td>sa</td>
+
+<td>tion</td>
+
+<td>+al]</td>
+
+<td>+ity]</td>
+
+<td></td>
+
+<td>=></td>
+
+<td></td>
+
+<td>[sen</td>
+
+<td>sa</td>
+
+<td>tion</td>
+
+<td>+</td>
+
+<td>a</td>
+
+<td>li</td>
+
+<td>ty]</td>
+</tr>
+</table>
+
+<p>"metrical structure assigned in earlier cycles is kept insofar as it
+is not redrawn by the reapplication of [foot construction]."
+<p><b>5. Hayes (1982)</b>: extrametricality
+<p>i) The final syllable is extrametrical in nouns and suffixed adjectives,
+e.g. <i>serendipi&lt;ty>, sensa&lt;tion>, perso&lt;nal>. </i>With this
+proviso, antepenultimate stress is eliminated. Word final syllables are
+stressed if heavy, otherwise stress is penultimate (modulo extrametricality).
+<p>ii) The final consonant is extrametrical in underived verbs and adjectives,
+e.g. <i>soli&lt;d>, supre&lt;me>.</i>
+<p><b>6. English stress parameters</b>
+<p>As work in metrical theory progressed and was extended to many languages,
+our conception of English stress assignment became embedded in, and was
+constrained by, a <i>parametric</i> view of options for metrical structure
+(Halle and Vergnaud 1987, Booij 1983), taking a lead from Chomskyan syntax.
+<p>1) Principles: Words consist of feet and feet consist of syllables.
+<p>2) Parameter: In English the <i>rightmost </i>foot is strongest (domain
+of main stress) e(r&aacute;se), i(r&aacute;te), mu(t&aacute;tion), (&egrave;cu)(m&eacute;ni)&lt;cal>,
+(&agrave;nti)(d&igrave;se)(st&agrave;blish)&lt;men>(t&aacute;ri)&lt;an>.
+Cf. Russian: leftmost - (&uacute;<img SRC="phon96.gif" height=18 width=7>a)(s&agrave;m).
+<p>3) Parameter: Bounded feet are <i>maximally binary</i>; ternary feet
+are dealt with by extrametricality, and can only ocur at the edges of words
+(or cycles). Thus: (H&agrave;ma)(m&egrave;lid)(&aacute;nthe)&lt;mum>. Cf.
+<i>unbounded </i>feet in Khalkha Mongolian (x<img SRC="phon104.gif" height=14 width=3>&ouml;tE<img SRC="epsilon0.gif" height=8 width=8>lb<img SRC="epsilon0.gif" height=8 width=8>r<img SRC="epsilon0.gif" height=8 width=8>)
+`leadership', French (originalit&eacute;).
+<p>4) Parameter: In words with an odd number of syllables (excepting extrametrical
+ones), left-over syllables occur at the <i>beginning</i>; e.g. a(g&eacute;nda),
+To(p&eacute;ka), a(r&iacute;se). In Maranungku they occur at the <i>end</i>
+e.g. (l&aacute;ng<img SRC="phon56.gif" height=19 width=7>ka)(r&agrave;te)t&igrave;.
+<p>5) Parameter: In English, non-tonic binary feet immediately
+<i>precede</i>
+the tonic foot. <i>Problem: (&agrave;bra)ca(d&aacute;bra).</i>
+<p>6) Parameter: The <i>leftmost</i> syllable in a foot is strongest e.g.
+(m&aacute;n), (m&aacute;nner), (m&aacute;na)&lt;ger>. Cf. Weri (k&ugrave;)(lip&uacute;),
+(ul&ugrave;)(am&iacute;t), (&aacute;)(kun&egrave;)(tep&aacute;l), in which
+the <i>rightmost</i> syllable is strongest.
+<p>7) Parameter: Feet are quantity-sensitive i.e. a heavy syllable must
+be the head of a foot. (Does not exclude possibility that light syllables
+could be syllable heads too) e.g. (f&ugrave;nda)(m&eacute;ntal), (sp&iacute;ral)
+but in(&eacute;rt).
+<p>8) Paramter: Secondary stresses are placed from right to left on the
+head of every foot other than the tonic foot. (Stress assignment is iterative.
+Cf. Spanish, Polish.) e.g. (h&agrave;ma)(m&egrave;li)(d&aacute;nthe)&lt;mum>.
+<p><b>7. The Abracadabra problem.</b>
+<p>(&agrave;bra)ca(d&aacute;bra), Kalamazoo, Luxipalilla, Hardecanute,
+okefenokee, Nebuchadnezzar, paraphernalia, Kilimanjaro: these words appear
+to require either a medial extrametrical syllable or a ternary foot.
+<p>Hammond's solution: secondary feet are built left to right. Following
+Hammond's suggestion, see also Halle and Kenstowicz (1991) section 7, McCarthy
+and Prince (1993) section 3.
+<p><b>8. Phrasal stress</b>
+<p>Roca and Johnson follow Chomsky and Halle (1968) in contrasting e.g.
+lexical <i>bl&aacute;ckb&igrave;rd</i> vs. phrasal <i>bl&agrave;ck b&iacute;rd</i>.
+But we cannot in general state that phrasal stress is right-headed. Noun-noun
+sequences are <i>usually</i> left-headed (e.g. d&oacute;g-ho&ugrave;se),
+but there are exceptions (e.g. l&ograve;bster rag&oacute;ut).
+<p><b>References</b>
+<p>Booij, G.E. (1983) Principles and parameters in prosodic phonology.
+<i>Linguistics</i>
+21, 249-280.
+<p>Chomsky, N.&amp; M. Halle (1968) <i>The Sound Pattern of English.</i>
+New York: Harper and Row. Reprinted in 1991 by MIT Press.
+<p>Chomsky, N., M. Halle and F. Lukoff (1956) On Accent and Juncture in
+English. In M. Halle, H.G. Lunt, H. McLean and C.H. van Schooneveld, eds.
+<i>For
+Roman Jakobson: Essays on the occasion of his sixtieth birthday.</i> The
+Hague: Mouton &amp; Co. 65-80.
+<p>Chomsky, N.&amp; G.A. Miller (1963) Introduction to the Formal Analysis
+of Natural Languages. In R.D. Luce, R.R. Bush and E. Galanter, eds. <i>Handbook
+of Mathematical Psychology</i> Volume II, New.York: John Wiley. 269-321.
+<p>Connell, B. and A. Arvaniti (1995) <i>Phonology and Phonetic Evidence:
+Papers in Laboratory Phonology IV.</i> Cambridge University Press.
+<p>Gil, A. (1619) <i>Logonomia Anglica.</i> [Scolar Press facsimile reprint,
+1967]. Or see <i>Alexander Gill's Logonomia Anglica (1619), Part II: Biographical
+and Bibliographical Introductions. </i>Notes by Bror Danielson and Arvid
+Gabrielson. Translation by Robin C. Alston. Stockholm Studies in English
+XXVII. Stockholm: Almqvist and Wiksell.
+<p>Halle, M.&amp; M. Kenstowicz (1991) The Free Element Condition and Cyclic
+versus Noncyclic Stress. <i>Linguistic Inquiry </i>22(1), 457-501.
+<p>Halle, M. and J.-R. Vergnaud (1987) <i>An Essay on Stress.</i> MIT Press.
+<p>Hayes, B (1981) <i>A Metrical Theory of Stress Rules.</i> IULC.
+<p>Jesperson, O. (1909/1954) <i>A Modern English Grammar on Historical
+Principles. Part I: Sounds and Spellings</i>. London: George Allen and
+Unwin.
+<p>Kager, R. &amp; E. Visch (1988), Metrical constituency and rhythmic
+adjustment. <i>Phonology</i> 5.1, 21-71.
+<p>Kingdon, R. (1958) <i>The Groundwork of English Stress.</i> London:
+Longman.
+<p>Kiparsky, P. (1979) Metrical Structure Assignment is Cyclic. <i>Linguistic
+Inquiry </i>10(3), 421-441.
+<p>Liberman, M. and A. Prince (1977) On Stress and Linguistic Rhythm. <i>Linguistic
+Inquiry</i> 8(2), 249-336.
+<p>McCarthy, J. and A. Prince (1993) Generalized Alignment. <i>Yearbook
+of Morphology 1993</i>. 79-153.
+<p>Steele, J. (1975) <i>An Essay towards Establishing the Melody and Measure
+of Speech.</i> [Scolar Press Facsimile edition, 1969].
+<center>
+<p><b>Homework</b></center>
+
+<p>Determine the stress of each syllable and the quality of each vowel
+in the following examples. (Refer to a pronouncing dictionary if you are
+not a native speaker of English.) Parse the words into prefixes, stems
+and suffixes. In each case, account for the alternations of stress and
+vowel quality in the prefix.
+<br>&nbsp;
+<table NOSAVE >
+<tr NOSAVE>
+<td NOSAVE>1</td>
+
+<td>a)</td>
+
+<td>acrobat</td>
+
+<td></td>
+
+<td>b)</td>
+
+<td>acrostic</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>2</td>
+
+<td>a)</td>
+
+<td>acuity</td>
+
+<td></td>
+
+<td>b)</td>
+
+<td>acupuncture</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>3</td>
+
+<td>a)</td>
+
+<td>adversity</td>
+
+<td></td>
+
+<td>b)</td>
+
+<td>adjective</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>4</td>
+
+<td>a)</td>
+
+<td>biochemistry</td>
+
+<td></td>
+
+<td>b)</td>
+
+<td>biological</td>
+
+<td></td>
+
+<td>c)</td>
+
+<td>biology</td>
+</tr>
+
+<tr>
+<td>5</td>
+
+<td>a)</td>
+
+<td>department</td>
+
+<td></td>
+
+<td>b)</td>
+
+<td>departmental</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>6</td>
+
+<td>a)</td>
+
+<td>extraterrestrial</td>
+
+<td></td>
+
+<td>b)</td>
+
+<td>extrapolate</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>7</td>
+
+<td>a)</td>
+
+<td>epiglottis</td>
+
+<td></td>
+
+<td>b)</td>
+
+<td>epitome</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>8</td>
+
+<td>a)</td>
+
+<td>hyperbole</td>
+
+<td></td>
+
+<td>b)</td>
+
+<td>hypertension</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>9</td>
+
+<td>a)</td>
+
+<td>catatonic</td>
+
+<td></td>
+
+<td>b)</td>
+
+<td>catastrophe</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>10</td>
+
+<td>a)</td>
+
+<td>metaphysics</td>
+
+<td></td>
+
+<td>b)</td>
+
+<td>metathesis</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr NOSAVE>
+<td>11</td>
+
+<td>a)</td>
+
+<td NOSAVE>paralytic</td>
+
+<td></td>
+
+<td>b)</td>
+
+<td>paralysis</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>12</td>
+
+<td>a)</td>
+
+<td>perihelion</td>
+
+<td></td>
+
+<td>b)</td>
+
+<td>perimeter</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>13</td>
+
+<td>a)</td>
+
+<td>supernatural</td>
+
+<td></td>
+
+<td>b)</td>
+
+<td>superlative</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>14</td>
+
+<td>a)</td>
+
+<td>academic</td>
+
+<td></td>
+
+<td>b)</td>
+
+<td>academy</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>15</td>
+
+<td>a)</td>
+
+<td>thermodynamics</td>
+
+<td></td>
+
+<td>b)</td>
+
+<td>thermometer</td>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+</tr>
+</table>
+
+</body>
+</html>

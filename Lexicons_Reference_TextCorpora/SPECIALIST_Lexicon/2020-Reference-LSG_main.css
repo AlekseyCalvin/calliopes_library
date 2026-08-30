@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* Front Page */
+@import url("https://www.nlm.nih.gov/home_assets/css/nlm_main.css");
+@import url("https://lhncbc.nlm.nih.gov/assets/stylesheets/LHC_main.css");
+
+.presentation {
+ padding-top: 1rem; 
+  margin: 0;
+}
+
+.info {
+	font-size: 90%;
+    padding: 0;
+  margin: 0;
+}
+
+.section {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    font-family: inherit;
+}

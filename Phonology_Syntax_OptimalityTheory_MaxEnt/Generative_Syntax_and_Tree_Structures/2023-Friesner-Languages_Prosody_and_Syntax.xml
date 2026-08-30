@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">languages</journal-id>
+      <journal-title-group>
+        <journal-title>Languages</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Languages</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Languages</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2226-471X</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/languages8020102</article-id>
+      <article-id pub-id-type="publisher-id">languages-08-00102</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Match Theory and the Asymmetry Problem: An Example from Stockholm Swedish</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0844-627X</contrib-id>
+          <name>
+            <surname>Ishihara</surname>
+            <given-names>Shinichiro</given-names>
+          </name>
+          <xref rid="c1-languages-08-00102" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Myrberg</surname>
+            <given-names>Sara</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Feldhausen</surname>
+            <given-names>Ingo</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>F&#xE9;ry</surname>
+            <given-names>Caroline</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>K&#xFC;gler</surname>
+            <given-names>Frank</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-languages-08-00102">Centre for Languages and Literature, Lund University, 22100 Lund, Sweden; <email>sara.myrberg@nordlund.lu.se</email></aff>
+      <author-notes>
+        <corresp id="c1-languages-08-00102"><label>*</label>Correspondence: <email>shinichiro.ishihara@ostas.lu.se</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>06</day>
+        <month>04</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>06</month>
+        <year>2023</year>
+      </pub-date>
+      <volume>8</volume>
+      <issue>2</issue>
+      <elocation-id>102</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>22</day>
+          <month>02</month>
+          <year>2021</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>07</day>
+          <month>03</month>
+          <year>2023</year>
+        </date>
+        <date date-type="accepted">
+          <day>15</day>
+          <month>03</month>
+          <year>2023</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2023 by the authors.</copyright-statement>
+        <copyright-year>2023</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>This article discusses what we call the Asymmetry Problem, a theoretical question of how asymmetric properties of prosodic phrasing should generally be accounted for within the framework of Match Theory. Unlike Alignment Theory, in which phrasing asymmetry can be derived by mapping constraints (e.g., <sc>Align</sc>-XP), Match Theory cannot derive any phrasing asymmetry from mapping (i.e., Match) constraints. Thus, Match Theory may seem to face empirical problems when data appear to call for an asymmetric ranking of mapping constraints. This article starts with the discussion of one such case in Stockholm Swedish, where asymmetric ranking of Alignment constraints has been proposed to account for the data. It will be argued that prosodic asymmetry arises from the directionality of prosodic heads (i.e., right- or left-headedness) rather than asymmetric syntax&#x2013;prosody mapping, and that asymmetry can be explained through the interaction of Match constraints with markedness constraints that determine the distribution of prosodic heads. Furthermore, it will be proposed that such an analysis reduces the need of Alignment-based mapping constraints and therefore follows the Minimal Interface Hypothesis, which assumes Match constraints as the sole syntax&#x2013;prosody mapping constraints. To support this line of analysis, it will be shown that the Asymmetry Problem in Japanese, for which it had previously been argued that both Match and Alignment constraints are needed, can also be accounted for under this hypothesis.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>match theory</kwd>
+        <kwd>alignment theory</kwd>
+        <kwd>the asymmetry problem</kwd>
+        <kwd>syntax&#x2013;prosody mapping</kwd>
+        <kwd>Stockholm Swedish</kwd>
+        <kwd>Japanese</kwd>
+        <kwd>intonational phrase</kwd>
+        <kwd>phonological phrase</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>Swedish Research Council</funding-source>
+          <award-id>2018-01539</award-id>
+          <award-id>2016-01536</award-id>
+        </award-group>
+        <funding-statement>This study was financially supported by the Swedish Research Council (2018-01539, PI: S.I. and 2016-01536, PI: S.M.).</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-languages-08-00102" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>This article discusses a problem in the syntax&#x2013;prosody interface that stems from one of the crucial differences between two theories within the Optimality Theoretic framework, <italic>Alignment Theory</italic> (<xref ref-type="bibr" rid="B29-languages-08-00102">Selkirk 1986</xref>; <xref ref-type="bibr" rid="B18-languages-08-00102">McCarthy and Prince 1993</xref>; <xref ref-type="bibr" rid="B30-languages-08-00102">Selkirk 1996</xref> inter alia) and <italic>Match Theory</italic> (<xref ref-type="bibr" rid="B31-languages-08-00102">Selkirk 2011</xref>), namely the (un)availability of asymmetric ranking of left- and right-edge mapping constraints. While Match Theory is arguably advantageous to Alignment Theory from a conceptual standpoint due to its restrictiveness (as a result of the lack of asymmetric ranking), Match Theory faces empirical problems when data appear to call for an asymmetric ranking. This article discusses one such case in Stockholm Swedish, where asymmetric ranking of Alignment constraints has been proposed to account for the data. Through this case study, we aim to address a question of how asymmetrical behaviors of prosodic phrasing can (and should) generally be explained within Match Theory. We call this question the <italic>Asymmetry Problem</italic>.</p>
+      <p><xref ref-type="bibr" rid="B20-languages-08-00102">Myrberg</xref> (<xref ref-type="bibr" rid="B20-languages-08-00102">2010</xref>) compared the prosodic phrasing patterns of the two sentence types in (1) and (2), which differ in the location of the embedded clause. In the sentence-initial embedding case in (1), the embedded clause occupies the sentence-initial position. In the sentence-final embedding case in (2), the embedded clause is a clausal complement of the main clause verb. The sentences in (2a) and (2b) differ in terms of the word order in the embedded clause. This difference correlates with two different prosodic structures, which we return to in <xref ref-type="sec" rid="sec2-languages-08-00102">Section 2</xref>.
+      <array><tbody><tr><td align="left" valign="top">1.</td><td colspan="12" align="left" valign="top">Sentence-initial embedding: Embedded clause in the preverbal position</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">[</td><td align="left" valign="top">[Om</td><td align="left" valign="top">zebrorna</td><td align="left" valign="top">kom</td><td align="left" valign="top">n&#xE4;rmare]<sub>CP</sub> </td><td align="left" valign="top">s&#xE5;</td><td align="left" valign="top">skulle</td><td align="left" valign="top">Ida</td><td align="left" valign="top">kunna</td><td align="left" valign="top">r&#xF6;ra</td><td align="left" valign="top">vid</td><td align="left" valign="top">dem]<sub>CP</sub></td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">If</td><td align="left" valign="top">zebras</td><td align="left" valign="top">came</td><td align="left" valign="top">closer</td><td align="left" valign="top">then</td><td align="left" valign="top">would</td><td align="left" valign="top">Ida</td><td align="left" valign="top">could</td><td align="left" valign="top">touch</td><td align="left" valign="top">at</td><td align="left" valign="top">them</td></tr><tr><td align="left" valign="top"> </td><td colspan="12" align="left" valign="top">&#x2018;If the zebras came closer, Ida would be able to touch them.&#x2019;</td></tr></tbody></array>
+      <array><tbody><tr><td align="left" valign="top">2.</td><td colspan="10" align="left" valign="top">Sentence-final embedding: Embedded clause inside VP.</td></tr><tr><td align="left" valign="top"> </td><td colspan="10" align="left" valign="top">a.</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">[&#xC5;klagaren</td><td align="left" valign="top">h&#xE4;vdade</td><td align="left" valign="top">[att </td><td align="left" valign="top">chauff&#xF6;ren</td><td align="left" valign="top"><bold>hade</bold></td><td align="left" valign="top"><bold>inte</bold></td><td align="left" valign="top">gjort</td><td align="left" valign="top">n&#xE5;got </td><td align="left" valign="top">fel</td><td align="left" valign="top">]<sub>CP</sub> ]<sub>CP</sub></td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">prosecutor.the</td><td align="left" valign="top">claimed</td><td align="left" valign="top">that</td><td align="left" valign="top">driver.the</td><td align="left" valign="top">had</td><td align="left" valign="top">not</td><td align="left" valign="top">done</td><td align="left" valign="top">anything </td><td colspan="2" align="left" valign="top">wrong</td></tr><tr><td align="left" valign="top"> </td><td colspan="10" align="left" valign="top">&#x2018;The prosecutor claimed that the driver had not done anything wrong.&#x2019;</td></tr><tr><td align="left" valign="top"> </td><td colspan="10" align="left" valign="top">b.</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">[&#xC5;klagaren</td><td align="left" valign="top">h&#xE4;vdade</td><td align="left" valign="top">[att</td><td align="left" valign="top">chauff&#xF6;ren</td><td align="left" valign="top"><bold>inte</bold></td><td align="left" valign="top"><bold>hade</bold></td><td align="left" valign="top">gjort </td><td align="left" valign="top">n&#xE5;got </td><td align="left" valign="top">fel</td><td align="left" valign="top">]<sub>CP</sub> ]<sub>CP</sub></td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">prosecutor.the</td><td align="left" valign="top">claimed</td><td align="left" valign="top">that </td><td align="left" valign="top">driver.the</td><td align="left" valign="top">not </td><td align="left" valign="top">had </td><td align="left" valign="top">done </td><td align="left" valign="top">anything </td><td colspan="2" align="left" valign="top">wrong </td></tr></tbody></array></p>
+      <p>According to <xref ref-type="bibr" rid="B20-languages-08-00102">Myrberg</xref> (<xref ref-type="bibr" rid="B20-languages-08-00102">2010</xref>), the syntactic structures with sentence-initial and sentence-final embedding, respectively, result in different phrasing options, which are schematized in (3) and (4). In (3) and (4), intonational phrase (henceforth &#x3B9;) boundaries are indicated by curly brackets with a subscripted &#x3B9;, as in { &#x2026; }<sub>&#x3B9;</sub>, and prosodic heads of &#x3B9; are indicated by &#xD7;. (See <xref ref-type="sec" rid="sec2-languages-08-00102">Section 2</xref> for a more detailed presentation of the data with sample pitch contours of the phrasing patterns). In (3a) and (4a), there are two &#x3B9;s that match the matrix and the embedded clauses, respectively. In (3b) and (4b), there is a single &#x3B9; that matches the matrix clause, with no embedded &#x3B9;. In (3c) and (4c), there are two &#x3B9;s that correspond to the matrix and the embedded clauses and an additional &#x3B9; that does not match any syntactic clause. The &#x3B9;s that do not correspond to any syntactic clause are underlined.</p>
+      <p>While the structure with sentence-initial embedding in (1) yields all three phrasing patterns in (3), including (3c), the structure with sentence-final embedding in (2) cannot result in the phrasing pattern in (4c).
+       <array><tbody><tr><td align="left" valign="top">3.</td><td colspan="14" align="left" valign="top">Sentence-initial embedding: Embedded clause in the preverbal position</td></tr><tr><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">Syntax:</td><td align="left" valign="top">[</td><td align="left" valign="top">[</td><td align="left" valign="top">. . .</td><td align="left" valign="top"> </td><td align="left" valign="top">]<sub>CP</sub></td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top"> </td><td align="left" valign="top">. . .</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top">]<sub>CP</sub></td></tr><tr><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">a.</td><td align="left" valign="top">{</td><td align="left" valign="top">{</td><td align="left" valign="top">. . .</td><td align="left" valign="top">&#xD7;</td><td align="left" valign="top">}<sub>&#x3B9;</sub></td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top"> </td><td align="left" valign="top">. . .</td><td align="left" valign="top">&#xD7;</td><td align="left" valign="top"> </td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top">}<sub>&#x3B9;</sub></td></tr><tr><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">b.</td><td align="left" valign="top">{</td><td align="left" valign="top"> </td><td align="left" valign="top">. . .</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top"> </td><td align="left" valign="top">. . .</td><td align="left" valign="top">&#xD7;</td><td align="left" valign="top"> </td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top">}<sub>&#x3B9;</sub></td></tr><tr><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">c.</td><td align="left" valign="top">{</td><td align="left" valign="top">{</td><td align="left" valign="top">. . .</td><td align="left" valign="top">&#xD7;</td><td align="left" valign="top">}<sub>&#x3B9;</sub></td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top" style="border-bottom:solid thin">{</td><td align="left" valign="top" style="border-bottom:solid thin">. . .</td><td align="left" valign="top" style="border-bottom:solid thin">&#xD7;</td><td align="left" valign="top" style="border-bottom:solid thin">}<sub>&#x3B9;</sub></td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top">}<sub>&#x3B9;</sub></td></tr><tr><td align="left" valign="top">4.</td><td colspan="14" align="left" valign="top">Sentence-final embedding: Embedded clause inside VP </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">Syntax</td><td align="left" valign="top">:</td><td align="left" valign="top">[</td><td align="left" valign="top"> </td><td align="left" valign="top">. . .</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top">[</td><td align="left" valign="top">. . .</td><td align="left" valign="top"> </td><td align="left" valign="top">]<sub>CP</sub></td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top">]<sub>CP</sub></td></tr><tr><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">a.</td><td align="left" valign="top">{</td><td align="left" valign="top"> </td><td align="left" valign="top">. . .</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top">{</td><td align="left" valign="top">. . .</td><td align="left" valign="top">&#xD7;</td><td align="left" valign="top">}<sub>&#x3B9;</sub></td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top">}<sub>&#x3B9;</sub></td></tr><tr><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">b.</td><td align="left" valign="top">{</td><td align="left" valign="top"> </td><td align="left" valign="top">. . .</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top"> </td><td align="left" valign="top">. . .</td><td align="left" valign="top">&#xD7;</td><td align="left" valign="top"> </td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top">}<sub>&#x3B9;</sub></td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">c.</td><td align="left" valign="top">*</td><td align="left" valign="top">{</td><td align="left" valign="top" style="border-bottom:solid thin">{</td><td align="left" valign="top" style="border-bottom:solid thin">. . .</td><td align="left" valign="top" style="border-bottom:solid thin">&#xD7;</td><td align="left" valign="top" style="border-bottom:solid thin">}<sub>&#x3B9;</sub></td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top">{</td><td align="left" valign="top">. . .</td><td align="left" valign="top">&#xD7;</td><td align="left" valign="top">}<sub>&#x3B9;</sub></td><td align="left" valign="top">&#xA0;&#xA0;</td><td align="left" valign="top">}<sub>&#x3B9;</sub></td></tr></tbody></array></p>
+      <p>Here, there is an apparent asymmetry between left and right edges in Stockholm Swedish: The right edges of &#x3B9; have a seemingly stronger correlation with syntax than left edges of &#x3B9;. Specifically, the phrasing pattern in (3c) is attested even though there is a left &#x3B9;-edge that does not correspond to a clause boundary (i.e., the left edge of the underlined &#x3B9;). However, the phrasing pattern in (4c) is not a possible output because there is a right &#x3B9;-edge that does not correspond to a clause boundary. Put differently, it is in some sense &#x201C;easier&#x201D; to insert an &#x3B9; with a left edge that has no correspondence in syntax than to insert an &#x3B9; with a right edge without syntactic correspondence.</p>
+      <p>How should we think of the fact that right edges have a seemingly stronger correlation with syntax than left edges? <xref ref-type="bibr" rid="B20-languages-08-00102">Myrberg&#x2019;s</xref> (<xref ref-type="bibr" rid="B20-languages-08-00102">2010</xref>) solution relied on the possibility to separate left- and right-edge alignment. This account correctly derived the empirical facts, although it relied on a complex interface between syntax and prosody, where left and right edges, as well as two levels of phrasing, were separately mapped and ranked in an OT-grammar. In contrast, Match constraints have difficulty in accounting for these kinds of cases with asymmetric behavior of left and right edges, as Match constraints always treat both edges symmetrically and hence never derive asymmetric outputs such as those illustrated in (3) and (4).</p>
+      <p>In this article, we propose an alternative solution where the asymmetrical phrasing behavior in Stockholm Swedish is accounted for through the interaction of Match constraints with markedness constraints that determine the location of prosodic heads. The latter have been independently proposed in the previous literature (e.g., <xref ref-type="bibr" rid="B7-languages-08-00102">F&#xE9;ry and Samek-Lodovici 2006</xref>). They differ from mapping constraints in that they put specific requirements on the well-formedness of a prosodic structure, independently of any reference to syntax. We refer to markedness constraints of this kind as <italic>prosodic well-formedness constraints</italic> (<xref ref-type="bibr" rid="B10-languages-08-00102">Ito and Mester 2019</xref>, among others). The use of these constraints implies that the Asymmetry Problem in Stockholm Swedish arises from the directionality of prosodic heads (i.e., right- or left-headedness) rather than asymmetric mapping of syntactic structure.</p>
+      <p>This account therefore raises the question of whether <italic>all</italic> asymmetries in syntax&#x2013;prosody mapping in fact originate in pressure from constraints that specify well-formedness of prosodic structure, rather than from the mapping of syntactic structure onto prosodic structure. In <xref ref-type="sec" rid="sec4-languages-08-00102">Section 4</xref>, we address this question and propose that this line of thought should be pursued in future research, under the name of the <italic>Minimal Interface Hypothesis (MIH)</italic>. The MIH states that no constraints other than Match make reference to both syntactic and prosodic structure, implying that previously proposed constraints such as <sc>Align</sc>-XP, <sc>Wrap</sc>-XP and <sc>Stress</sc>-XP will be abandoned. A crucial consequence of the MIH is that there exists no syntax&#x2013;prosody mapping constraint that triggers prosodic asymmetry.</p>
+      <p>In order to examine whether the MIH can be extended to other cases of prosodic asymmetry, we discuss the mapping of syntactic phrases (XPs) to phonological phrases (henceforth &#x3C6;) in Japanese. <xref ref-type="bibr" rid="B1-languages-08-00102">Bellik et al.</xref> (<xref ref-type="bibr" rid="B1-languages-08-00102">2022</xref>) point out that the previous Match-based analysis by <xref ref-type="bibr" rid="B8-languages-08-00102">Ishihara</xref> (<xref ref-type="bibr" rid="B8-languages-08-00102">2014</xref>) cannot account for the asymmetric mapping of left-branching and right-branching structures in Japanese, and accordingly, argue that both Match and Alignment constraints are needed to account for the data. We revisit the data and suggest an alternative analysis which does not rely on Alignment-based mapping constraints. It is shown that by adopting a model of the syntax&#x2013;prosody interface recently proposed by <xref ref-type="bibr" rid="B16-languages-08-00102">Kratzer and Selkirk</xref> (<xref ref-type="bibr" rid="B16-languages-08-00102">2020</xref>), the insight captured by the MIH can be maintained and that <sc>Align</sc>-XP can be eliminated.</p>
+      <p>The article is organized as follows. After this introduction, <xref ref-type="sec" rid="sec2-languages-08-00102">Section 2</xref> provides background information about Stockholm Swedish intonation (<xref ref-type="sec" rid="sec2dot1-languages-08-00102">Section 2.1</xref>) and describes the data that illustrate the asymmetric &#x3B9;-phrasing (<xref ref-type="sec" rid="sec2dot2-languages-08-00102">Section 2.2</xref>). <xref ref-type="sec" rid="sec3-languages-08-00102">Section 3</xref> presents the OT-account of the data. In <xref ref-type="sec" rid="sec4-languages-08-00102">Section 4</xref>, theoretical implications of the account are discussed. After the MIH is presented (<xref ref-type="sec" rid="sec4dot1-languages-08-00102">Section 4.1</xref>), the Asymmetry Problem in Japanese discussed by <xref ref-type="bibr" rid="B1-languages-08-00102">Bellik et al.</xref> (<xref ref-type="bibr" rid="B1-languages-08-00102">2022</xref>) is reviewed (<xref ref-type="sec" rid="sec4dot2-languages-08-00102">Section 4.2</xref>), which poses a challenge to the MIH. An alternative account that follows the MIH is proposed (<xref ref-type="sec" rid="sec4dot3-languages-08-00102">Section 4.3</xref>). <xref ref-type="sec" rid="sec5-languages-08-00102">Section 5</xref> briefly summarizes the article and presents the remaining questions for future research.</p>
+    </sec>
+    <sec id="sec2-languages-08-00102">
+      <title>2. Data</title>
+      <sec id="sec2dot1-languages-08-00102">
+        <title>2.1. Stockholm Swedish Intonation</title>
+        <p>In Stockholm Swedish, both left and right edges of &#x3B9;s are prosodically expressed (<xref ref-type="bibr" rid="B21-languages-08-00102">Myrberg 2013</xref>, <xref ref-type="bibr" rid="B22-languages-08-00102">2021</xref>). Because such simultaneous marking of left and right edges is relatively uncommon among the Germanic languages, this feature makes Stockholm Swedish an appropriate language for studying asymmetric distribution of prosodic left and right edges. </p>
+        <p>Specifically, Stockholm Swedish marks the right edge of &#x3B9; with a nuclear accent, which is also the head of the &#x3B9;, and a right-edge boundary tone, which is usually L%. The shape of the nuclear accent is illustrated in the column marked &#x201C;big accent&#x201D; in <xref ref-type="fig" rid="languages-08-00102-f001">Figure 1</xref>. Big accents have multiple functions, one of which is expressing nuclear accents (see <xref ref-type="bibr" rid="B22-languages-08-00102">Myrberg 2021</xref> for a detailed review). Note that there are two realizations of big accents, one for each of the two <italic>tone accents</italic> (tone accent 1 and 2 in <xref ref-type="fig" rid="languages-08-00102-f001">Figure 1</xref>) in Stockholm Swedish. The tone accents are essentially lexical and are only indirectly relevant at the level of &#x3B9;. They are, therefore, not further discussed in the current article (see <xref ref-type="bibr" rid="B26-languages-08-00102">Riad 2014</xref>, <xref ref-type="bibr" rid="B27-languages-08-00102">2018</xref>). </p>
+        <p>The left edge of a Stockholm Swedish intonation phrase is expressed with a big accent, like the right edge. Following <xref ref-type="bibr" rid="B20-languages-08-00102">Myrberg</xref> (<xref ref-type="bibr" rid="B20-languages-08-00102">2010</xref>, <xref ref-type="bibr" rid="B21-languages-08-00102">2013</xref>, <xref ref-type="bibr" rid="B22-languages-08-00102">2021</xref>) we refer to such left-edge marking big accents as <italic>initiality accents</italic>. While initiality accents have the same tonal representation as nuclear accents, they differ somewhat in terms of alignment, so that the (second) peak drifts rightward, usually all the way to the next associated tone on the tonal tier (<xref ref-type="bibr" rid="B28-languages-08-00102">Roll et al. 2009</xref>; <xref ref-type="bibr" rid="B21-languages-08-00102">Myrberg 2013</xref>, <xref ref-type="bibr" rid="B22-languages-08-00102">2021</xref>, <xref ref-type="bibr" rid="B23-languages-08-00102">2022</xref>).</p>
+        <p>Small accents appear on lexically stressed words and mark heads of maximal prosodic words (<xref ref-type="bibr" rid="B25-languages-08-00102">Riad 2012</xref>, <xref ref-type="bibr" rid="B26-languages-08-00102">2014</xref>; <xref ref-type="bibr" rid="B19-languages-08-00102">Myrberg and Riad 2015</xref>). They are not relevant to the current discussion and are not discussed in more detail here but appear in the figures below.</p>
+        <p>An &#x3B9; with an initiality accent at the left edge and a nuclear accent and L% boundary tone at the right edge is illustrated in (5) <xref ref-type="fig" rid="languages-08-00102-f002">Figure 2</xref>.
+        <array><tbody><tr><td align="left" valign="top">5.</td><td colspan="22" align="left" valign="top">&#x3B9; with initiality accent (<sup>2</sup><italic>bruna</italic>), nuclear accent (<sup>1</sup><italic>parken</italic>) and L%. Superscript 1 or 2 marks the tone accent at the stressed syllable. (Example from <xref ref-type="bibr" rid="B22-languages-08-00102">Myrberg 2021</xref>)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">{</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">x</td><td align="right" valign="top">L%</td><td align="left" valign="top">}<sub>&#x3B9;</sub></td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">(</td><td align="left" valign="top"> </td><td colspan="4" align="left" valign="top">H*LH<sup>initiality</sup></td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">)<sub>&#x3C6;</sub></td><td align="left" valign="top">(</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">L*H<sup>nuclear</sup></td><td align="left" valign="top"> </td><td align="left" valign="top">)<sub>&#x3C6;</sub></td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">(</td><td align="left" valign="top"> </td><td align="left" valign="top">x</td><td align="left" valign="top">)</td><td align="left" valign="top">(</td><td align="left" valign="top">H*L<sup>small</sup>)(</td><td align="left" valign="top"> </td><td align="left" valign="top">H*L<sup>small</sup></td><td align="left" valign="top">)</td><td align="left" valign="top">(</td><td align="left" valign="top">H*L<sup>small</sup></td><td align="left" valign="top">)</td><td align="left" valign="top">(</td><td align="left" valign="top">H*L<sup>small</sup></td><td align="left" valign="top">)</td><td align="left" valign="top">(</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">x</td><td align="left" valign="top"> </td><td align="left" valign="top">)<sub>&#x3C9;max</sub></td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">Den</td><td align="left" valign="top"><sup>2</sup>bruna</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"><sup>2</sup>haren</td><td align="left" valign="top">med</td><td align="left" valign="top"><sup>2</sup>m&#xE5;nga</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">s&#xF6;ta</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"><sup>2</sup>ungar</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">bor</td><td align="left" valign="top">[</td><td align="left" valign="top">i</td><td align="left" valign="top"><sup>2</sup>parken</td><td align="left" valign="top"> </td><td align="left" valign="top">]<sub>focus</sub></td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">the</td><td align="left" valign="top">brown</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">hare</td><td align="left" valign="top">with</td><td align="left" valign="top">many</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">cute</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">babies</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">lives</td><td align="left" valign="top"> </td><td align="left" valign="top">in</td><td align="left" valign="top">the.park</td><td align="left" valign="top"> </td><td align="left" valign="top"> </td></tr><tr><td colspan="23" align="left" valign="top">&#x2003;&#x2018;The brown hare with many cute babies lives in the park.&#x2019;</td></tr></tbody></array></p>
+      </sec>
+      <sec id="sec2dot2-languages-08-00102">
+        <title>2.2. Asymmetric &#x3B9;-Phrasing</title>
+        <p>Using big accents as cues for left and right edges in Stockholm Swedish, we can empirically establish the prosodic structures from (3a&#x2013;c) and (4a&#x2013;c) and study their respective correlation with syntactic structures such as those in (1) and (2). As shown above, the syntactic structures with sentence-initial and sentence-final embedding, respectively, result in the different phrasing options in (3) and (4).</p>
+        <p>An example sentence for the sentence-initial embedding structure was provided in (1). Since Swedish is a V2 language, the embedded conditional clause in (1) occupies the Spec-CP position, followed by the main clause finite verb (<italic>skulle</italic> &#x2018;would&#x2019;), which is followed by the rest of the main clause. Sentences with this syntactic structure display three different phrasing patterns, which are exemplified in <xref ref-type="fig" rid="languages-08-00102-f003">Figure 3</xref> (<xref ref-type="bibr" rid="B21-languages-08-00102">Myrberg 2013</xref>).</p>
+        <p>For the sentence-final embedding structures in (2a) and (2b), however, <xref ref-type="bibr" rid="B20-languages-08-00102">Myrberg</xref> (<xref ref-type="bibr" rid="B20-languages-08-00102">2010</xref>) showed that only two prosodic output structures are possible, as shown in (4) and <xref ref-type="fig" rid="languages-08-00102-f004">Figure 4</xref>. The two prosodic structures are conditioned by the word order in the embedded clause. Specifically, in the embedded clause in (2a), the negation (<italic>inte</italic> &#x2018;not&#x2019;) follows the finite verb (<italic>hade</italic> &#x2018;had&#x2019;). This word order is in fact prototypically used in main clauses but may appear in embedded clauses under certain conditions (<xref ref-type="bibr" rid="B32-languages-08-00102">Teleman et al. 1999</xref>; <xref ref-type="bibr" rid="B11-languages-08-00102">Julien 2008</xref>, <xref ref-type="bibr" rid="B12-languages-08-00102">2015</xref>, <xref ref-type="bibr" rid="B13-languages-08-00102">2020</xref>). Such embedded clauses generally receive an initiality accent, i.e., an &#x3B9; left-edge marker (<xref ref-type="bibr" rid="B28-languages-08-00102">Roll et al. 2009</xref>; <xref ref-type="bibr" rid="B20-languages-08-00102">Myrberg 2010</xref>). However, <xref ref-type="bibr" rid="B20-languages-08-00102">Myrberg</xref> (<xref ref-type="bibr" rid="B20-languages-08-00102">2010</xref>) found no nuclear accent to the right of this initiality accent, i.e., there was no nuclear accent on the main clause verb (<italic>h&#xE4;vade</italic> &#x2018;claimed&#x2019; in (2)).<xref ref-type="fn" rid="fn001-languages-08-00102">1</xref> The prosodic output structure should therefore be represented as in (4a), where the syntactic embedding is reflected in the prosodic structure. </p>
+        <p>In the embedded clause in (2b), on the contrary, the negation (<italic>inte</italic> &#x2018;not&#x2019;) precedes the finite verb (<italic>hade</italic> &#x2018;had&#x2019;), which is the prototypical word order for embedded clauses in Swedish. Embedded clauses with this word order do not receive any initiality accent, meaning that there is no &#x3B9; left-edge marker at the beginning of the embedded clause. Therefore, the entire sentence forms a single &#x3B9;, as shown in (4b).</p>
+        <p>As the reader might already have noticed, the syntactic structures are not entirely parallel in (1) versus (2). Two of these differences require further comment. </p>
+        <p>First, in (1), the preverbal position (Spec-CP) is occupied by an adjunct adverbial embedded clause. On the other hand, the material to the right of the embedded clause, which is the material that forms an &#x3B9; in (3c), consists of the subject + obligatory VP-complements after the verb. This is arguably a structure that bears some resemblance to a clause structure, and therefore, it does not seem too strange that this material can form an &#x3B9; on its own via <sc>MatchClause</sc> (<xref ref-type="bibr" rid="B31-languages-08-00102">Selkirk 2011</xref>) in (3c). In (2), on the other hand, the main clause subject occupies the preverbal position. The material to the left of the embedded clause, which is the material that may not form an &#x3B9; in (4c), consists of a subject + finite verb but not the entire VP. This is not a structure which bears similarity to a clause, so it might make sense from a syntactic point of view that this material cannot form an &#x3B9; on its own. This reasoning may appear to suggest that the syntactic difference could be the cause of the phrasing asymmetry in (3c) vs. (4c), rather than an asymmetry between prosodic edges per se.</p>
+        <p>However, some additional data suggest that the syntactic difference is not the (primary) cause of the phrasing asymmetry in (3) vs. (4). This is illustrated in (6) and <xref ref-type="fig" rid="languages-08-00102-f005">Figure 5</xref>, where the subject is in the preverbal position and consists of a noun modified by a relative clause. The length of the subject, possibly in combination with its syntactic complexity, forces it to form its own &#x3B9;, with a nuclear accent on the final word <italic>s&#xE4;kerhet</italic> &#x2018;safety&#x2019;. The remainder of the main clause consists of a finite verb, indirect object NP and an obligatory PP and is thus not reminiscent of a clause structure. Still, this material forms a full &#x3B9;, with an initiality accent on the finite verb <italic>varnar</italic> &#x2018;warns&#x2019;. What this illustrates is that an &#x3B9; left-edge marking initiality accent may indeed fall on a finite verb, and material that is not reminiscent of a full clause structure may form an &#x3B9; on its own. However, this is seemingly only possible to the right of an embedded clause and not to the left. 
+        <array><tbody><tr><td align="left" valign="top">6.</td><td align="left" valign="top">[</td><td colspan="2" align="left" valign="top">[<bold>De</bold></td><td align="left" valign="top">i</td><td colspan="3" align="left" valign="top">SJ:s</td><td colspan="2" align="left" valign="top">personal</td><td colspan="2" align="left" valign="top">som</td><td colspan="4" align="left" valign="top">oroar </td><td colspan="2" align="left" valign="top">sig </td><td colspan="3" align="left" valign="top">&#xF6;ver </td><td colspan="4" align="left" valign="top">passagerarnas </td><td colspan="7" align="left" valign="top"><bold>s&#xE4;kerhet</bold>]<sub>spec,CP</sub></td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">those</td><td align="left" valign="top">in</td><td colspan="3" align="left" valign="top">SJ&#x2019;s</td><td colspan="2" align="left" valign="top">staff</td><td colspan="2" align="left" valign="top">who</td><td colspan="4" align="left" valign="top">concern</td><td colspan="2" align="left" valign="top">REFL</td><td colspan="3" align="left" valign="top">about</td><td colspan="4" align="left" valign="top">passenger&#x2019;s</td><td colspan="7" align="left" valign="top">safety</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"><bold>varnar</bold></td><td colspan="5" align="left" valign="top">resen&#xE4;rerna</td><td colspan="2" align="left" valign="top">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;f&#xF6;r att</td><td colspan="2" align="left" valign="top">l&#xE4;mna </td><td colspan="4" align="left" valign="top">sitt </td><td colspan="2" align="left" valign="top">&#xA0;&#xA0;bagage </td><td colspan="4" align="left" valign="top"> o&#xF6;vervakat </td><td colspan="2" align="left" valign="top">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;i</td><td colspan="7" align="left" valign="top"><bold>hyllan</bold>.]<sub>CP</sub></td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">warn</td><td colspan="5" align="left" valign="top">travellers</td><td colspan="2" align="left" valign="top">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;to</td><td colspan="2" align="left" valign="top">leave</td><td colspan="4" align="left" valign="top">their</td><td colspan="2" align="left" valign="top">&#xA0;&#xA0;luggage</td><td colspan="4" align="left" valign="top"> unattended</td><td colspan="2" align="left" valign="top">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;on</td><td colspan="7" align="left" valign="top">the.shelf</td></tr><tr><td align="left" valign="top"> </td><td colspan="31" align="left" valign="top">&#x2018;Those in SJ&#x2019;s staff who are concerned about the passengers&#x2019; safety warn travellers not to leave their luggage unattended on the shelf.&#x2019;</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">{</td><td align="left" valign="top">{</td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td align="left" valign="top">&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;x</td><td colspan="3" align="right" valign="top">L%</td><td colspan="4" align="left" valign="top">}</td><td align="left" valign="top">{</td><td colspan="5" align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="2" align="left" valign="top">&#x2003;&#xA0;x</td><td align="right" valign="top">L%</td><td align="right" valign="top">}<sub>&#x3B9;</sub>}<sub>&#x3B9;</sub></td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">(</td><td align="left" valign="top"> </td><td colspan="3" align="left" valign="top">L*H<sup>initiality</sup>)<sub>&#x3C6;</sub> </td><td align="right" valign="top">(</td><td colspan="3" align="left" valign="top">H*LH<sup>nuclear</sup></td><td colspan="4" align="left" valign="top">)<sub>&#x3C6;</sub></td><td align="left" valign="top"> </td><td colspan="5" align="left" valign="top">(H*LH<sup>initiality</sup></td><td colspan="2" align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="2" align="left" valign="top">&#x2003;)<sub>&#x3C6;</sub></td><td align="left" valign="top">(&#x2003;</td><td align="left" valign="top">L*H<sup>nuclear</sup></td><td align="left" valign="top"> </td><td align="left" valign="top">)<sub>&#x3C6;</sub></td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">[</td><td align="left" valign="top">[</td><td colspan="3" align="left" valign="top"><bold>De</bold> i SJ:s &#x2026;</td><td align="left" valign="top"> </td><td colspan="3" align="left" valign="top"><bold>s&#xE4;kerhet</bold></td><td colspan="4" align="left" valign="top">]<sub>spec,CP</sub></td><td align="left" valign="top"> </td><td colspan="5" align="left" valign="top"><bold>varnar</bold></td><td colspan="2" align="left" valign="top">resen&#xE4;rerna</td><td colspan="2" align="left" valign="top">&#x2026;</td><td colspan="2" align="right" valign="top">i</td><td colspan="3" align="left" valign="top">&#xA0;&#x2003;<bold>hyllan</bold>.</td><td align="left" valign="top">]<sub>CP</sub></td><td align="left" valign="top"> </td></tr></tbody></array></p>
+        <p>The second difference worth commenting on is the length and complexity of the subject in the sentence-final embedding case. In the example sentences in (2), the subject is a one-word NP. It seems relevant to consider whether a longer or syntactically more complex subject in the main clause of (2) would trigger an &#x3B9; that corresponds to the material preceding the embedded clause, thus generating a prosodic structure such as that in (4c). </p>
+        <p>Two alternative phrasing options are shown in (7a) and (7b). In both options, the subject is a noun phrase with a relative clause modifier, which corresponds to an &#x3B9; in prosodic structure. Moreover, in both options, the &#x3B9; which contains the main clause subject ends at the right edge of the subject. Consequently, the nuclear accent falls on <italic>paragrafen</italic> &#x2018;paragraph&#x2019; in (7a) as well as (7b). Native language intuition suggests that it would not be possible for the main clause finite verb <italic>h&#xE4;vdade</italic> &#x2018;claimed&#x2019; to receive a nuclear accent marking a right &#x3B9; edge.<xref ref-type="fn" rid="fn002-languages-08-00102">2</xref></p>
+        <p>In (7a), the main clause finite verb <italic>h&#xE4;vdade</italic> &#x2018;claimed&#x2019; is extrametrical (in violation of <sc>EqualSisters</sc>, introduced in <xref ref-type="sec" rid="sec3-languages-08-00102">Section 3</xref>). In (7b), <italic>h&#xE4;vdade</italic> &#x2018;claimed&#x2019; is phrased together with the material to the right of the subject. Here, it receives an initiality accent in parallel with the verb <italic>varnar</italic> &#x2018;warn&#x2019; in (6).
+        <array><tbody><tr><td align="left" valign="top">7.</td><td colspan="22" align="left" valign="top">a. Sentence-final embedded clause with main clause word order (the finite verb preceding the negation): the main clause finite verb is extrametrical.</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">{</td><td colspan="2" align="left" valign="top">{</td><td colspan="2" align="left" valign="top"> </td><td colspan="5" align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="2" align="left" valign="top">x</td><td colspan="3" align="right" valign="top">L%</td><td colspan="2" align="left" valign="top">}</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">(</td><td colspan="2" align="left" valign="top">H*L*H<sup>initiality</sup></td><td colspan="2" align="left" valign="top"> </td><td align="right" valign="top"> </td><td align="left" valign="top">)<sub>&#x3C6;</sub></td><td colspan="3" align="left" valign="top">(</td><td colspan="2" align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="5" align="left" valign="top">L*H<sup>nuclear</sup></td><td colspan="2" align="left" valign="top">)<sub>&#x3C6;</sub></td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"><bold>&#xC5;klagaren</bold></td><td colspan="2" align="left" valign="top">f&#xF6;r </td><td colspan="5" align="left" valign="top">trafikbrott </td><td colspan="2" align="left" valign="top">som </td><td align="left" valign="top">faller </td><td align="left" valign="top">under </td><td colspan="2" align="left" valign="top">sjunde </td><td colspan="7" align="left" valign="top"><bold>paragrafen</bold>&#x2026;</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">the prosecutor </td><td colspan="2" align="left" valign="top">for </td><td colspan="5" align="left" valign="top">traffic crimes </td><td colspan="2" align="left" valign="top">that </td><td align="left" valign="top">fall </td><td align="left" valign="top">under </td><td colspan="2" align="left" valign="top">seventh </td><td colspan="7" align="left" valign="top">paragraph </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="3" align="left" valign="top">{</td><td align="left" valign="top"> </td><td colspan="3" align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="2" align="left" valign="top">x</td><td colspan="2" align="right" valign="top">L%</td><td align="left" valign="top">}<sub>&#x3B9;</sub></td><td colspan="2" align="left" valign="top">}<sub>&#x3B9;</sub></td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="2" align="left" valign="top">(L*H<sup>initiality</sup> </td><td align="left" valign="top">)<sub>&#x3C6;</sub></td><td align="left" valign="top">(</td><td colspan="3" align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="4" align="left" valign="top">L*H<sup>nuclear</sup> </td><td colspan="3" align="left" valign="top">)<sub>&#x3C6;</sub></td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">&#x2026;</td><td align="left" valign="top">h&#xE4;vdade</td><td colspan="2" align="left" valign="top">att </td><td colspan="3" align="left" valign="top"><bold>chauff&#xF6;ren</bold></td><td align="left" valign="top"> </td><td colspan="3" align="left" valign="top">hade </td><td align="left" valign="top">inte </td><td align="left" valign="top">gjort </td><td colspan="2" align="left" valign="top">n&#xE5;got </td><td colspan="4" align="left" valign="top"><bold>fel</bold>.</td><td colspan="3" align="left" valign="top"> </td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">claimed </td><td colspan="2" align="left" valign="top">that</td><td colspan="3" align="left" valign="top">driver </td><td align="left" valign="top"> </td><td colspan="3" align="left" valign="top">had </td><td align="left" valign="top">not </td><td align="left" valign="top">done </td><td colspan="2" align="left" valign="top">anything</td><td colspan="4" align="left" valign="top">wrong.</td><td colspan="3" align="left" valign="top"> </td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td colspan="22" align="left" valign="top">&#x2018;The prosecutor for traffic crime under the 7th paragraph claimed that the driver had done nothing wrong&#x2019;.</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td colspan="22" align="left" valign="top">b. Sentence-final embedded clause with embedded clause word order (the negation preceding the finite verb): main clause finite verb is phrased together with embedded clause.</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">{</td><td colspan="2" align="left" valign="top">{</td><td colspan="2" align="left" valign="top"> </td><td colspan="5" align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="2" align="left" valign="top">x</td><td colspan="3" align="right" valign="top">L%</td><td colspan="2" align="left" valign="top">}</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">(</td><td colspan="2" align="left" valign="top">H*L*H<sup>initiality</sup></td><td colspan="2" align="left" valign="top"> </td><td align="right" valign="top"> </td><td align="left" valign="top">)<sub>&#x3C6;</sub></td><td colspan="3" align="left" valign="top">(</td><td colspan="2" align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="5" align="left" valign="top">L*H<sup>nuclear</sup></td><td colspan="2" align="left" valign="top">)<sub>&#x3C6;</sub></td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"><bold>&#xC5;klagaren</bold></td><td colspan="2" align="left" valign="top">f&#xF6;r </td><td colspan="5" align="left" valign="top">trafikbrott </td><td colspan="2" align="left" valign="top">som </td><td align="left" valign="top">faller </td><td align="left" valign="top">under </td><td colspan="2" align="left" valign="top">sjunde </td><td colspan="7" align="left" valign="top"><bold>paragrafen</bold>&#x2026;</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">the prosecutor </td><td colspan="2" align="left" valign="top">for </td><td colspan="5" align="left" valign="top">traffic crimes </td><td colspan="2" align="left" valign="top">that </td><td align="left" valign="top">fall </td><td align="left" valign="top">under </td><td colspan="2" align="left" valign="top">seventh </td><td colspan="7" align="left" valign="top">paragraph </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">{</td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="3" align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="2" align="left" valign="top">x</td><td colspan="2" align="right" valign="top">L%</td><td align="left" valign="top">}<sub>&#x3B9;</sub></td><td colspan="2" align="left" valign="top">}<sub>&#x3B9;</sub></td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">(</td><td align="left" valign="top">L*H<sup>initiality</sup> </td><td colspan="2" align="left" valign="top">)<sub>&#x3C6;</sub></td><td colspan="2" align="left" valign="top">(</td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"> </td><td colspan="4" align="left" valign="top">L*H<sup>nuclear</sup> </td><td colspan="3" align="left" valign="top">)<sub>&#x3C6;</sub></td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">&#x2026;</td><td align="left" valign="top"><bold>h&#xE4;vdade</bold></td><td colspan="2" align="left" valign="top">att </td><td colspan="3" align="left" valign="top">chauff&#xF6;ren </td><td colspan="2" align="left" valign="top">inte </td><td colspan="3" align="left" valign="top">hade </td><td align="left" valign="top">gjort </td><td colspan="2" align="left" valign="top">n&#xE5;got </td><td colspan="4" align="left" valign="top"><bold>fel</bold>.</td><td colspan="3" align="left" valign="top"> </td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">claimed </td><td colspan="2" align="left" valign="top">that</td><td colspan="3" align="left" valign="top">driver </td><td colspan="2" align="left" valign="top">not </td><td colspan="3" align="left" valign="top">had </td><td align="left" valign="top">done </td><td colspan="2" align="left" valign="top">anything</td><td colspan="4" align="left" valign="top">wrong.</td><td colspan="3" align="left" valign="top"> </td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td colspan="22" align="left" valign="top">&#x2018;The prosecutor for traffic crime under the 7th paragraph claimed that the driver had done nothing wrong.&#x2019;</td><td align="left" valign="top"> </td></tr></tbody></array></p>
+        <p>From (6) and (7), we can draw the conclusion that longer constituents preceding the main clause finite verb can result in an &#x3B9;, but that this &#x3B9; may not include the main clause finite verb itself. Consequently, the main clause finite verb cannot receive a right &#x3B9;-edge marking nuclear accent. However, the main clause finite verb may be incorporated at the left edge of an &#x3B9;, thus receiving a left &#x3B9;-edge marking initiality accent. </p>
+      </sec>
+    </sec>
+    <sec id="sec3-languages-08-00102">
+      <title>3. Account</title>
+      <p>In this section, we lay out the details of the Optimality Theoretic account of the phrasing patterns in (3) and (4), using a combination of Match constraints (<xref ref-type="bibr" rid="B31-languages-08-00102">Selkirk 2011</xref>) and a number of previously proposed well-formedness constraints.</p>
+      <p>As for the Match constraints, we adopt <xref ref-type="bibr" rid="B31-languages-08-00102">Selkirk&#x2019;s</xref> (<xref ref-type="bibr" rid="B31-languages-08-00102">2011</xref>) assumption that the mapping constraints are formulated in a bidirectional manner, namely syntax-to-prosody (SP) mapping and prosody-to-syntax (PS) mapping, along the lines of Correspondence Theory (<xref ref-type="bibr" rid="B18-languages-08-00102">McCarthy and Prince 1993</xref>). This results in the two Match constraints on clause&#x2013;&#x3B9; correspondence in (8). (8a) states that every syntactic clause must have a corresponding &#x3B9;, whereas (8b) states that every &#x3B9; must have a corresponding syntactic clause.
+      <array><tbody><tr><td align="left" valign="top">8.</td><td align="left" valign="top">a.</td><td align="left" valign="top"><sc>MatchClause</sc>-SP (<sc>Match</sc>-SP, henceforth)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">The left and right edges of a clause in the input syntactic representation must </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">correspond to the left and right edges of an intonational phrase constituent &#x3B9; in the </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">output phonological representation.</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">b.</td><td align="left" valign="top"><sc>MatchClause</sc>-PS (<sc>Match</sc>-PS, henceforth)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">The left and right edges of an intonational phrase &#x3B9; in the output phonological </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">representation must correspond to the left and right edges of a clause in the input</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">syntactic representation.</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="right" valign="top">(<xref ref-type="bibr" rid="B31-languages-08-00102">Selkirk 2011, p. 451</xref>)</td></tr></tbody></array></p>
+      <p>Given that the Match constraints in (8) refer to both edges of prosodic constituents simultaneously, any asymmetry between left and right edges in the syntax&#x2013;prosody mapping has to be caused by some other constraint or constraints. The account proposed here relies on three independently motivated prosodic well-formedness constraints. We propose that the asymmetry between (3c) and (4c) is caused by two constraints which regulate the location and number of prosodic heads, (9) and (10), together with a constraint that regulates the balance between two sister constituents in a prosodic structure (11). All three constraints have been independently motivated in the previous literature. 
+      <array><tbody><tr><td align="left" valign="top">9.</td><td align="left" valign="top"><sc>Align-Head</sc>(&#x3B9;)-R (<xref ref-type="bibr" rid="B33-languages-08-00102">Truckenbrodt 1995, p. 119</xref>; <xref ref-type="bibr" rid="B6-languages-08-00102">F&#xE9;ry 2013, p. 696</xref>)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">Align the right boundary of every &#x3B9; with its head.</td></tr><tr><td align="left" valign="top">10.</td><td align="left" valign="top">*P-<sc>Head</sc>(&#x3B9;) (<xref ref-type="bibr" rid="B34-languages-08-00102">Truckenbrodt 1999, p. 228</xref>)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">Avoid &#x3B9;-heads.</td></tr><tr><td align="left" valign="top">11.</td><td align="left" valign="top"><sc>EqualSisters</sc> (<xref ref-type="bibr" rid="B21-languages-08-00102">Myrberg 2013, p. 75</xref>)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">Sister nodes in prosodic structure are instantiations of the same prosodic category.</td></tr></tbody></array></p>
+      <p>The <sc>Align-Head</sc>(&#x3B9;)-R in (9) requires that the right edge of each &#x3B9; be aligned with the head of that &#x3B9;. A violation is incurred when a head is nonrightmost in &#x3B9;, or when a right &#x3B9;-edge is not aligned with any &#x3B9;-head. The *P-<sc>Head</sc> in (10) is a <sc>*</sc>Structure (*<sc>Struc</sc>) constraint (<xref ref-type="bibr" rid="B24-languages-08-00102">Prince and Smolensky 2002, p. 25</xref>, footnote 13) and incurs a violation for each &#x3B9;-head. Lastly, the <sc>EqualSisters</sc> in (11) bans sister constituents of different prosodic types, e.g., in a case where a &#x3C9; and a &#x3C6; are dominated by an &#x3B9;, i.e., { &#x3C9; &#x3C6; }&#x3B9;. <xref ref-type="fig" rid="languages-08-00102-f006">Figure 6</xref> illustrates how <sc>EqualSisters</sc> evaluates the three phrasing patterns in (3) and (4). The Match-compliant candidate (a) violates <sc>EqualSisters</sc> because the embedded &#x3B9; will be a sister to a prosodic phrase &#x3C6; (not marked with parentheses in <xref ref-type="fig" rid="languages-08-00102-f006">Figure 6</xref> but cf. <xref ref-type="fig" rid="languages-08-00102-f003">Figure 3</xref>). On the other hand, (b), where the embedded &#x3B9; is demoted to &#x3C6;, and (c), where the sister to the embedded &#x3B9; is promoted to &#x3B9;, satisfy this constraint. As is shown, this constraint becomes relevant in the discussion of the asymmetry of un/availability of (3c) and (4c), as it is responsible for motivating (3c) over Match-compliant candidate (3a).</p>
+      <p>We propose that the grammar of Stockholm Swedish consists of two crucial rankings, which are shown in (12), also represented in the Hasse diagram in (13). The <sc>Align-Head</sc>(&#x3B9;)-R dominates all the other constraints, as in (16a). In addition, *<sc>P-Head</sc> is ranked higher than <sc>EqualSisters</sc>, as in (12b). This means that the two syntax&#x2013;prosody mapping constraints, <sc>Match</sc>-SP and <sc>Match</sc>-PS, may be ranked higher or lower with respect to *<sc>P-Head</sc> and <sc>EqualSisters</sc> (as long as (12b) is obeyed).
+      <array><tbody><tr><td align="left" valign="top">12.</td><td align="left" valign="top">a.</td><td align="left" valign="top"><sc>Align-Head</sc>(&#x3B9;)-R &gt;&gt; *P-<sc>Head</sc>(&#x3B9;), <sc>Match</sc>-SP, <sc>Match</sc>-PS, <sc>EqualSisters</sc></td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">b.</td><td align="left" valign="top">*<sc>P-Head</sc>(&#x3B9;) &gt;&gt; <sc>EqualSisters</sc></td></tr><tr><td align="left" valign="top">13.</td><td colspan="2" align="left" valign="top">(12) in Hasse diagram</td></tr><tr><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-i001.tif"/></td></tr></tbody></array></p>
+      <p>In essence, the effect of the three constraints in (9)&#x2013;(11) will be that &#x3B9;-promotion is blocked if it increases the number of &#x3B9;-heads. As mentioned above, <sc>EqualSisters</sc> in (11) prefers the prosodic promotion candidate in (3c)/(4c) over the Match-compliant candidate in (3a)/(4a). This constraint, however, is ranked lower than *<sc>P-Head</sc>, which means that prosodic promotion can only occur if it does not increase the number of &#x3B9;-heads.</p>
+      <p>Note that prosodic promotion of the material to the right of an embedded &#x3B9;, as in (3c), results in a prosodic structure with the same number of &#x3B9;-heads as the Match-compliant one in (3a). This is because the embedded &#x3B9; to the right (i.e., the one which results from prosodic promotion) shares its head with the superordinate &#x3B9;. Prosodic promotion of the material to the left of an embedded &#x3B9;, as in (4c), on the other hand, results in a prosodic structure that contains one more &#x3B9;-head than the Match-compliant structure in (4a). </p>
+      <p>The source of this difference is the right-headedness of the Swedish &#x3B9;. In (3a), the right edges of the bigger and smaller &#x3B9; are not aligned with each other. These edges therefore require two separate &#x3B9;-heads in order to satisfy the highest-ranked <sc>Align</sc>-<sc>Head</sc>(&#x3B9;)-R. In (4a), on the other hand, the right edges of the two &#x3B9;s are aligned. They therefore share one and the same head.</p>
+      <p>There are two embedded &#x3B9;s and their &#x3B9;-heads in the grammatical (3c), as well as in the ungrammatical (4c). Crucially, the head of the &#x3B9; motivated by prosodic promotion (i.e., the embedded &#x3B9; on the right) in (3c) is independently motivated by the Match constraints, because the superordinate &#x3B9; needs its head at the same location. This is not true for the head of the &#x3B9; motivated by prosodic promotion in (4c), which is to the left of the other embedded &#x3B9;. This difference makes it impossible for (4c) to surface as the best candidate in an OT-grammar with Match constraints and the three constraints in (9)&#x2013;(11). The difference between (3c) and (4c) is, then, due to the fact that &#x3B9;-heads are right-aligned in Stockholm Swedish.</p>
+      <p>In what follows, it is assumed that optional phrasing patterns can be obtained by variable ranking of constraints, following <xref ref-type="bibr" rid="B20-languages-08-00102">Myrberg</xref> (<xref ref-type="bibr" rid="B20-languages-08-00102">2010</xref>, <xref ref-type="bibr" rid="B21-languages-08-00102">2013</xref>). With the proposed ranking presented in (12) and (13), there are four possible outcomes, shown in (14). The crucial rankings that yield each outcome are also listed. Below, each of the outcomes in (14) will be illustrated one by one. As can be seen, only the last outcome (14d) makes the crucial difference between (1) and (2).<xref ref-type="fn" rid="fn003-languages-08-00102">3</xref>
+      <array><tbody><tr><td align="left" valign="top">14.</td><td colspan="2" align="left" valign="top">Four possible outcomes under (12)/(13) (and their crucial rankings):</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">a.</td><td align="left" valign="top">Strict Match compliance (3a) and (4a)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">(<sc>Match</sc>-SP &gt;&gt; *<sc>P-Head</sc>(&#x3B9;) and <sc>Match-PS</sc> &gt;&gt; <sc>EqualSisters</sc>);</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">b.</td><td align="left" valign="top">Prosodic demotion (3b) and (4b)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">(*<sc>P-Head</sc>(&#x3B9;) &gt;&gt; <sc>EqualSisters</sc> &gt;&gt; <sc>Match</sc>-SP);</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">c.</td><td align="left" valign="top">Divergent outcome 1 &#x2014; Prosodic demotion (3b) and Match compliance (4a)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">(*<sc>P-Head</sc>(&#x3B9;) &gt;&gt; <sc>Match</sc>-SP &gt;&gt; <sc>EqualSisters</sc>);</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">d.</td><td align="left" valign="top">Divergent outcome 2 &#x2014; Prosodic promotion (3c) and Match compliance (4a)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">(<sc>Match</sc>-SP &gt;&gt; *<sc>P-Head</sc>(&#x3B9;) and <sc>EqualSisters</sc> &gt;&gt; <sc>Match</sc>-PS).</td></tr></tbody></array></p>
+      <sec id="sec3dot1-languages-08-00102">
+        <title>3.1. Outcome 1 (14a): Match Compliance (3a) and (4a)</title>
+        <p>The first possible outcome is that the syntactic structures in (3) and (4) both result in a prosodic structure that complies with the SP-mapping constraint <sc>Match</sc>-SP, as in <xref ref-type="fig" rid="languages-08-00102-f007">Figure 7</xref>. This outcome is a result of <sc>Match</sc>-SP outranking *<sc>P-Head,</sc> as well as <sc>Match</sc>-PS outranking <sc>EqualSisters</sc> (there is another possible ranking that has the same outcome, see <xref ref-type="app" rid="app1-languages-08-00102">Appendix A</xref>, <xref ref-type="fig" rid="languages-08-00102-f0A1">Figure A1</xref>).</p>
+        <p>In <xref ref-type="fig" rid="languages-08-00102-f007">Figure 7</xref>, both Match constraints outrank *<sc>P-Head</sc> and <sc>EqualSisters</sc>. The expected outcome is that the &#x3B9;-phrasing mirrors the syntactic clause structure, i.e., (3a) and (4a). Prosodic demotion and promotion in (3b) and (3c), which would be necessary to satisfy *<sc>P-Head</sc> and <sc>EqualSisters</sc>, respectively, are excluded by the Match constraints.<xref ref-type="fn" rid="fn004-languages-08-00102">4</xref></p>
+        <p>In the tableaux here and below, candidate (d) is added to illustrate the effect of <sc>Align-Head</sc>(&#x3B9;)-R, which bans non-R-aligned &#x3B9;-heads, as well as headless &#x3B9;s. In candidate (3d), one &#x3B9;-head is shared by the two &#x3B9;s (which is preferred by *<sc>P-Head</sc> in comparison with candidate (3a)). Since this &#x3B9;-head is not R-aligned with respect to the outer, superordinate &#x3B9;, however, it is excluded by <sc>Align-Head</sc>(&#x3B9;)-R. Similarly, candidate (4d) is an example of headless &#x3B9;s (which is again preferred by *<sc>P-Head</sc>). Such &#x3B9;s are also excluded by <sc>Align-Head</sc>(&#x3B9;)-R.</p>
+      </sec>
+      <sec id="sec3dot2-languages-08-00102">
+        <title>3.2. Outcome 2 (14b): Prosodic Demotion (3b) and (4b)</title>
+        <p>The next possible outcome is prosodic demotion (3b) and (4b), in which the embedded clauses in (3) and (4) do not form corresponding embedded &#x3B9;s in their prosodic outputs. This outcome is a result of <sc>EqualSisters</sc> outranking <sc>Match</sc>-SP. One of the possible rankings with this outcome is given in <xref ref-type="fig" rid="languages-08-00102-f008">Figure 8</xref> (see <xref ref-type="app" rid="app1-languages-08-00102">Appendix A</xref> for another possible ranking). </p>
+        <p>The ranking in <xref ref-type="fig" rid="languages-08-00102-f008">Figure 8</xref> is basically identical to the one in <xref ref-type="fig" rid="languages-08-00102-f007">Figure 7</xref> above, except that the syntax-to-prosody mapping constraint, <sc>Match</sc>-SP, is ranked below <sc>EqualSisters</sc>. Note that <sc>EqualSisters</sc> plays no active role in (3), where the optimal candidate is chosen based on the number of heads (due to *<sc>P-Head</sc>), while it plays a decisive role in selecting the optimal candidate for (4). The outcome does not change even if the prosody-to-syntax mapping, <sc>Match</sc>-PS, is ranked lower (as shown in <xref ref-type="fig" rid="languages-08-00102-f0A2">Figure A2</xref> in <xref ref-type="app" rid="app1-languages-08-00102">Appendix A</xref>).</p>
+      </sec>
+      <sec id="sec3dot3-languages-08-00102">
+        <title>3.3. Outcome 3 (14c): Divergent Outcome 1&#x2014;Prosodic Demotion (3b) and Match Compliance (4a)</title>
+        <p>In the next two possible outcomes, different optimal candidates are chosen for (3) and (4). The first pattern is prosodic demotion for (3) and Match compliance for (4), as in <xref ref-type="fig" rid="languages-08-00102-f009">Figure 9</xref>. </p>
+        <p>In <xref ref-type="fig" rid="languages-08-00102-f009">Figure 9</xref>, <sc>Match</sc>-SP is ranked between *<sc>P-Head</sc> and <sc>EqualSisters</sc>, and the position of <sc>Match</sc>-PS plays no role (see <xref ref-type="app" rid="app1-languages-08-00102">Appendix A</xref> for another possible ranking with the same outcome). The ranking in <xref ref-type="fig" rid="languages-08-00102-f009">Figure 9</xref> differs from the ranking in <xref ref-type="fig" rid="languages-08-00102-f008">Figure 8</xref> only with respect to the order of the last two constraints: <sc>Match</sc>-SP outranks <sc>EqualSisters</sc>. This difference in ranking order has no influence on the result for (3), as the higher-ranked *<sc>P-Head</sc> readily selects the optimal candidate (3b). In contrast, the order of the last two constraints does affect the result for (4), as *<sc>P-Head</sc> cannot choose between the Match-compliant (4a) and prosodic demotion (4b). The winning candidate is therefore determined by <sc>Match</sc>-SP, which prefers recursive &#x3B9;-phrasing that mirrors the syntactic structure as in (4a). (See <xref ref-type="fig" rid="languages-08-00102-f0A3">Figure A3</xref> in <xref ref-type="app" rid="app1-languages-08-00102">Appendix A</xref> for another ranking that results in the same outcome).</p>
+      </sec>
+      <sec id="sec3dot4-languages-08-00102">
+        <title>3.4. Outcome 4 (14d): Divergent Outcome 2&#x2014;Prosodic Promotion (3c) and Match Compliance (4a)</title>
+        <p>The final, but important, outcome to be illustrated is the only case where the prosodic promotion candidate comes out as the optimal candidate. As shown in <xref ref-type="fig" rid="languages-08-00102-f010">Figure 10</xref>, prosodic promotion is available only for (3), as the Match-compliant output (4a) is selected for (4). </p>
+        <p>In <xref ref-type="fig" rid="languages-08-00102-f010">Figure 10</xref>, <sc>Match</sc>-SP outranks *<sc>P-Head,</sc> and <sc>EqualSisters</sc> outranks <sc>Match</sc>-PS. There is only one possible ranking for this outcome.<xref ref-type="fn" rid="fn005-languages-08-00102">5</xref>&#xA0;<sc>Match</sc>-SP disfavors prosodic demotion for both (3) and (4). In the case of (4), *<sc>P-Head</sc> chooses the Match-compliant candidate (4a) over prosodic promotion (4c), as the latter contains one more &#x3B9;-head than the former. In the case of (3), however, *<sc>P-Head</sc> cannot choose between the Match-compliant candidate in (3a) and prosodic promotion in (3c), as they both contain two &#x3B9;-heads each. Consequently, <sc>EqualSisters</sc> chooses the optimal candidate, namely prosodic promotion (3c) over Match-compliant (3a), because the embedded &#x3B9; in (3c) has a sister constituent of the same category as a result of prosodic promotion. Note that in (3), the addition of the extra embedded &#x3B9; does not increase the number of &#x3B9;-heads, as the second embedded &#x3B9; shares its head with the outer, superordinate &#x3B9;. Such &#x3B9;-head sharing is not available in (4c).</p>
+        <p>In summary, one single ranking (shown in <xref ref-type="fig" rid="languages-08-00102-f010">Figure 10</xref>) selects the prosodic promotion output (3c), whereas no ranking selects the corresponding candidate (4c). All other possible rankings choose either the Match-compliant candidate (3a)/(4a) or the prosodic demotion candidate (3b)/(4c).</p>
+      </sec>
+    </sec>
+    <sec id="sec4-languages-08-00102">
+      <title>4. Theoretical Implications</title>
+      <p>In the analysis proposed in <xref ref-type="sec" rid="sec3-languages-08-00102">Section 3</xref>, the syntax&#x2013;prosody mapping is expressed with the Match constraints in (8), while asymmetries between left and right prosodic edges are derived through the set of prosodic well-formedness constraints in (9)&#x2013;(11). In this analysis, the asymmetry between left and right edges originates mainly in the pressure for &#x3B9;-heads to appear rightmost in &#x3B9;, which is expressed by the Alignment constraint <sc>Align-Head</sc>(&#x3B9;)-R in (9), and the pressure to keep the number of &#x3B9;-heads at a minimum, which is expressed by the *<sc>Struc</sc> constraint *P-<sc>Head</sc>(&#x3B9;) in (10). Crucially, these constraints are not syntax&#x2013;prosody mapping constraints but prosodic well-formedness constraints, because they refer exclusively to prosodic edges and heads. In this section, we explore the possibility that <italic>all</italic> cases of asymmetrical prosodic phrasing can be accounted for within Match Theory via prosodic well-formedness constraints and its theoretical implications.</p>
+      <sec id="sec4dot1-languages-08-00102">
+        <title>4.1. The Minimal Interface Hypothesis (MIH)</title>
+        <p>If asymmetric phrasing can be explained by effects of prosodic well-formedness constraints instead of <sc>Align</sc>-XP, as proposed here, Alignment-based mapping constraints (such as <sc>Align</sc>-XP) can possibly be eliminated. In addition to that, there have been claims that other constraints referring to syntactic constituents, such as <sc>Wrap</sc>-XP and <sc>Stress</sc>-XP (<xref ref-type="bibr" rid="B34-languages-08-00102">Truckenbrodt 1999</xref>), can also be eliminated within Match Theory (<xref ref-type="bibr" rid="B31-languages-08-00102">Selkirk 2011</xref>; <xref ref-type="bibr" rid="B21-languages-08-00102">Myrberg 2013</xref>; <xref ref-type="bibr" rid="B8-languages-08-00102">Ishihara 2014</xref>). Elimination of all these syntax&#x2013;prosody mapping constraints (except Match constraints) would lead us to a highly parsimonious theory of mapping between syntactic and prosodic structure. In order to embody this theoretical possibility, we postulate the <italic>Minimal Interface Hypothesis</italic> (MIH), as in (15).
+        <array><tbody><tr><td align="left" valign="top">15.</td><td align="left" valign="top">The Minimal Interface Hypothesis (MIH)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">Match constraints are the sole constraints that refer to syntactic constituents (i.e., no</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">constraints such as <sc>Align</sc>-XP, <sc>Wrap</sc>-XP and <sc>Stress</sc>-XP).</td></tr></tbody></array></p>
+        <p>In fact, the previous literature does contain a number of claims in the direction of the MIH, especially with regard to two other mapping constraints that refer to syntactic constituents, namely <sc>Wrap</sc>-XP in (16) and <sc>Stress</sc>-XP in (17). 
+        <array><tbody><tr><td align="left" valign="top">16.</td><td align="left" valign="top"><sc>Wrap-XP</sc> (<xref ref-type="bibr" rid="B33-languages-08-00102">Truckenbrodt 1995</xref>, <xref ref-type="bibr" rid="B34-languages-08-00102">1999, p. 228</xref>)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">Each XP is contained in a phonological phrase.</td></tr><tr><td align="left" valign="top">17.</td><td align="left" valign="top"><sc>Stress</sc>-XP (<xref ref-type="bibr" rid="B35-languages-08-00102">Truckenbrodt 2007, p. 446</xref>)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">Each XP must contain a beat of stress on the level of the p-phrase.</td></tr></tbody></array></p>
+        <p>The<sc> Wrap-</sc>XP in (16) has played an essential role in accounts within Alignment Theory (<xref ref-type="bibr" rid="B34-languages-08-00102">Truckenbrodt 1999, p. 228</xref>). However, it has been shown to lose much of its relevance under approaches that use Match constraints, which are also more liberal toward prosodic recursion (see discussion in <xref ref-type="bibr" rid="B31-languages-08-00102">Selkirk 2011, pp. 462&#x2013;68</xref>; <xref ref-type="bibr" rid="B21-languages-08-00102">Myrberg 2013</xref>). Moreover, in a slightly different line of argument, <xref ref-type="bibr" rid="B8-languages-08-00102">Ishihara</xref> (<xref ref-type="bibr" rid="B8-languages-08-00102">2014, p. 79</xref>) claims that in Match-based accounts, the effect of <sc>Wrap</sc>-XP can be subsumed into a family of Match constraints, as <sc>MatchPhrase</sc>-<sc>Max</sc>.</p>
+        <p>Furthermore, <xref ref-type="bibr" rid="B31-languages-08-00102">Selkirk</xref> (<xref ref-type="bibr" rid="B31-languages-08-00102">2011</xref>, footnotes 3 and 41) argues that another constraint referring to XPs, <sc>Stress</sc>-XP (<xref ref-type="bibr" rid="B33-languages-08-00102">Truckenbrodt 1995</xref>, <xref ref-type="bibr" rid="B35-languages-08-00102">2007</xref>), is not needed under the Match-based approach to syntax&#x2013;prosody mapping.<xref ref-type="fn" rid="fn006-languages-08-00102">6</xref> Given these claims, together with our claim that the effects of <sc>Align</sc>-XP can be derived by prosodic well-formedness constraints, it seems reasonable to pursue a theory of syntax&#x2013;prosody mapping along the lines of the MIH.</p>
+        <p>The MIH, if correct, makes the theory of syntax&#x2013;prosody interface much more restrictive than before. Any empirical challenge that arises from adopting the MIH therefore deserves examination in future research. In the next section, we discuss the Asymmetry Problem in Japanese discussed by <xref ref-type="bibr" rid="B1-languages-08-00102">Bellik et al.</xref> (<xref ref-type="bibr" rid="B1-languages-08-00102">2022</xref>), which appears to pose a challenge to our approach with the MIH.</p>
+      </sec>
+      <sec id="sec4dot2-languages-08-00102">
+        <title>4.2. Asymmetry Problem in Japanese</title>
+        <p>Our approach can be contrasted with the argument made by <xref ref-type="bibr" rid="B1-languages-08-00102">Bellik et al.</xref> (<xref ref-type="bibr" rid="B1-languages-08-00102">2022</xref>), who discuss (among other issues related to Match Theory) the Asymmetry Problem based on Japanese data. <xref ref-type="bibr" rid="B1-languages-08-00102">Bellik et al.</xref> (<xref ref-type="bibr" rid="B1-languages-08-00102">2022</xref>) correctly point out that the Match-based analysis of Japanese &#x3C6;-phrasing by <xref ref-type="bibr" rid="B8-languages-08-00102">Ishihara</xref> (<xref ref-type="bibr" rid="B8-languages-08-00102">2014</xref>) cannot properly account for the Asymmetry Problem. To solve the problem, they argue that both Match and Alignment constraints are needed.</p>
+        <p>The phrasing asymmetry discussed by <xref ref-type="bibr" rid="B1-languages-08-00102">Bellik et al.</xref> (<xref ref-type="bibr" rid="B1-languages-08-00102">2022</xref>) is schematically illustrated in (18), together with actual examples in (19).<xref ref-type="fn" rid="fn007-languages-08-00102">7</xref> In the left-branching structure in (18a), the rhythmic effect (which is expressed by <sc>Binarity</sc> constraints and introduced later) suppresses the effect of the Match constraints, resulting in a prosodic structure which does not reflect the syntactic embedding. However, in the right-branching structure in (18b), the syntactic edges are mapped to an equal set of prosodic edges.<xref ref-type="fn" rid="fn008-languages-08-00102">8</xref>
+        <array><tbody><tr><td align="left" valign="top">18.</td><td colspan="8" align="left" valign="top">The Asymmetry Problem in Japanese: schematic illustration (<xref ref-type="bibr" rid="B1-languages-08-00102">Bellik et al. 2022, p. 457</xref>).</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">a.</td><td colspan="7" align="left" valign="top">Left-branching structure: Rephrasing due to binarity</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">[<sub>XP</sub> [<sub>XP</sub> [<sub>XP</sub> A B] C] D]</td><td colspan="5" align="left" valign="top">&#x2192;&#x2003;(<sub>&#x3C6;</sub> (<sub>&#x3C6;</sub> A B)(<sub>&#x3C6;</sub> C D))/*(<sub>&#x3C6;</sub> (<sub>&#x3C6;</sub> (<sub>&#x3C6;</sub> A B) C) D)</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">b.</td><td colspan="7" align="left" valign="top">Right-branching structure: No rephrasing</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">[<sub>XP</sub> A [<sub>XP</sub> B [<sub>XP</sub> C D]]]</td><td colspan="5" align="left" valign="top">&#x2192;&#x2003;(<sub>&#x3C6;</sub> A (<sub>&#x3C6;</sub> B (<sub>&#x3C6;</sub> C D)))/*(<sub>&#x3C6;</sub> (<sub>&#x3C6;</sub> A B)(<sub>&#x3C6;</sub> C D))</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top">19.</td><td colspan="8" align="left" valign="top">The Asymmetry Problem in Japanese: examples (<xref ref-type="bibr" rid="B1-languages-08-00102">Bellik et al. 2022, p. 459</xref>).</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">a.</td><td colspan="7" align="left" valign="top">Left-branching structure: Rephrasing due to binarity</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">[[[naomi-no</td><td align="left" valign="top">ane-no]</td><td colspan="2" align="left" valign="top">yunomi-no]</td><td align="left" valign="top">iro]</td><td align="left" valign="top">&#x2192;</td><td align="left" valign="top">(<sub>&#x3C6;</sub> (<sub>&#x3C6;</sub> naomi-no ane-no) (<sub>&#x3C6;</sub> yunomi-no iro))</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">Naomi-GEN</td><td align="left" valign="top">sister-GEN</td><td colspan="2" align="left" valign="top">teacup-GEN</td><td colspan="2" align="left" valign="top">color</td><td align="left" valign="top">*(<sub>&#x3C6;</sub> (<sub>&#x3C6;</sub> (<sub>&#x3C6;</sub> naomi-no ane-no) yunomi-no) iro)</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="7" align="left" valign="top">&#x2018;the color of the teacup of the sister of Naomi&#x2019;</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">b.</td><td colspan="7" align="left" valign="top">Right-branching structure: Match-compliant structure</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">[naomi-no </td><td align="left" valign="top">[marui</td><td align="left" valign="top">[omoi </td><td colspan="2" align="left" valign="top">yunomi]]]</td><td colspan="3" align="left" valign="top">&#xA0;&#x2192;&#xA0;(<sub>&#x3C6;</sub> naomi-no (<sub>&#x3C6;</sub> marui (<sub>&#x3C6;</sub> omoi yunomi)))</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">Naomi-GEN </td><td align="left" valign="top">round</td><td align="left" valign="top">heavy</td><td colspan="2" align="left" valign="top">teacup </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">*(<sub>&#x3C6;</sub> (<sub>&#x3C6;</sub> naomi-no marui) (<sub>&#x3C6;</sub> omoi yunomi))</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="7" align="left" valign="top">&#x2018;Naomi&#x2019;s round heavy teacup&#x2019;</td><td align="left" valign="top"> </td></tr></tbody></array></p>
+        <p>As pointed out by <xref ref-type="bibr" rid="B1-languages-08-00102">Bellik et al.</xref> (<xref ref-type="bibr" rid="B1-languages-08-00102">2022</xref>), neither Match constraints nor other relevant prosodic well-formedness constraints (<sc>BinMax</sc> and <sc>BinMin</sc>) used in <xref ref-type="bibr" rid="B8-languages-08-00102">Ishihara&#x2019;s</xref> (<xref ref-type="bibr" rid="B8-languages-08-00102">2014</xref>) analysis distinguish between left or right edges of &#x3C6;. As a result, Ishihara&#x2019;s analysis incorrectly predicts that not only the left-branching structure such as (18a)/(19a) but also the right-branching structure such as (18b)/(19b) undergo rephrasing that deviates from the Match-compliant prosodic pattern. As a solution to the Asymmetry Problem in Japanese, <xref ref-type="bibr" rid="B1-languages-08-00102">Bellik et al.</xref> (<xref ref-type="bibr" rid="B1-languages-08-00102">2022</xref>) argue that both <sc>MatchPhrase</sc> and <sc>Align-XP </sc>constraints are needed in the analysis of the syntax&#x2013;prosody mapping of Japanese.</p>
+        <p>While their proposed analysis correctly accounts for the empirical facts, it diverges from the more restrictive approach taken in this article, which adopts the MIH and makes use of only one set of mapping constraints. We believe that it is worth considering whether the effects of <sc>Align</sc>-XP in Bellik et al.&#x2019;s analysis can possibly be derived by prosodic well-formedness constraints, along the lines proposed in <xref ref-type="sec" rid="sec3-languages-08-00102">Section 3</xref>.</p>
+      </sec>
+      <sec id="sec4dot3-languages-08-00102">
+        <title>4.3. An Alternative Account to the Asymmetry Problem in Japanese</title>
+        <p>In what follows, we attempt to suggest an alternative account, although it is still of a preliminary nature and providing a full-fledged account of the Japanese example lies beyond the scope of the current article. The key point of the analysis is the similarity between the Asymmetry Problem in Stockholm Swedish and that in Japanese: both in Swedish and in Japanese, the prosodic edge that is associated with a prosodic head requires a stronger correlation with syntax than the other edge.</p>
+        <p>The Asymmetry Problem in Stockholm Swedish discussed in this article shows that right edges of &#x3B9;s (i.e., the edges associated with &#x3B9;-heads) have a stronger correlation with syntax than left edges. This stronger correlation is visible by the fact that it is easier to insert a prosodic left edge that has no corresponding edge in syntax (3c) than to insert a prosodic right edge without a corresponding syntactic edge (4c).</p>
+        <p>In the case of Japanese, it is left edges of &#x3C6; that are expected to have a stronger correlation with syntax, as the &#x3C6; in Japanese is prosodically left-headed. In fact, the data in (18)/(19) seem to suggest that this is the case, although the stronger correlation is realized in a different manner from the Swedish data. In the Japanese example, it appears that failing to reflect a syntactic left edge in prosody is a more serious violation than failing to reflect a right edge in prosody. What is happening in the left-branching structure in (18a), where the rephrasing takes place, can be described as ignoring the XP right edge between C and D, i.e., not mapping that XP right edge as a &#x3C6; right edge. Note that the corresponding rephrasing option is not available in the right-branching structure in (18b), i.e., the left edge between A and B cannot be ignored. Put differently, a syntactic left edge must be realized as a &#x3C6; left edge, while a syntactic right edge may or may not be realized as a &#x3C6; right edge in Japanese.</p>
+        <p>This is precisely what <sc>Align</sc>-XP in Bellik et al.&#x2019;s analysis (namely <sc>AlignLeft</sc>(XP, &#x3C6;)) empirically captures. However, this syntax&#x2013;prosody mapping constraint might arguably be concealing the real source of the asymmetry, namely the directionality of prosodic headedness. If our account of the Asymmetry Problem in Swedish is on the right track, and if it can be extended to the Asymmetry Problem in Japanese as well, the reason why Japanese XP left edges exhibit a stronger correlation to &#x3C6; left edges might be related to the fact that the &#x3C6; in Japanese is prosodically left-headed. As prosodic headedness is a property of prosodic constituents rather than syntactic constituents, it seems more appropriate to express headedness-related asymmetries as prosodic well-formedness constraints instead of syntax&#x2013;prosody mapping constraints. </p>
+        <p>In order to incorporate this insight into the account, a new model of the syntax&#x2013;prosody interface proposed by <xref ref-type="bibr" rid="B16-languages-08-00102">Kratzer and Selkirk</xref> (<xref ref-type="bibr" rid="B16-languages-08-00102">2020</xref>) is adopted. The model, which they call the MSO-PI-PO model, strictly separates influences of syntax on prosody, which are usually expressed as syntax&#x2013;prosody mapping constraints such as <sc>Align</sc>-XP and Match constraints<xref ref-type="fn" rid="fn009-languages-08-00102">9</xref> from purely phonological effects, which are usually expressed as prosodic well-formedness constraints. This separation is made possible by adopting a grammatical architecture similar to the serial OT model (<xref ref-type="bibr" rid="B15-languages-08-00102">Kiparsky 2000</xref>), which involves two independent computational processes, as illustrated in (20).
+        <array><tbody><tr><td align="left" valign="top">20.</td><td colspan="3" align="left" valign="top"><xref ref-type="bibr" rid="B16-languages-08-00102">Kratzer and Selkirk&#x2019;s</xref> (<xref ref-type="bibr" rid="B16-languages-08-00102">2020</xref>) MSO-PI-PO model.</td></tr><tr><td align="left" valign="top"> </td><td colspan="3" align="left" valign="top">Morpho-Syntactic Output Representation (MSO)</td></tr><tr><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td><td align="left" valign="top">&#x2193; Spellout (gives phonological expression to MSO)</td></tr><tr><td align="left" valign="top"> </td><td colspan="3" align="left" valign="top">Phonological Input Representation (PI)</td></tr><tr><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td><td align="left" valign="top">&#x2193; Phonology (determines optimal PO on basis of PI)</td></tr><tr><td align="left" valign="top"> </td><td colspan="3" align="left" valign="top">Phonological Output Representation (PO)</td></tr><tr><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</td><td align="left" valign="top">&#x2193;</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"/><td colspan="2" align="left" valign="top">Phonetic Interpretation</td></tr></tbody></array></p>
+        <p>The first process in (20) is Spellout, i.e. the mapping of the morpho-syntactic output (MSO) representation onto the phonological input (PI) representation, which is regulated by requirements from the syntax&#x2013;prosody mapping. The next process takes place within phonology proper, in which the phonological input (PI) representation is subject to the mapping process that results in the phonological output (PO) representation that optimally satisfies prosodic well-formedness conditions. The PO representation will then be interpreted phonetically for actual articulation.</p>
+        <p>In the model summarized in (20), the syntax&#x2013;prosody correspondence is accounted for exclusively by the Match constraints that regulate the Spellout process (i.e., MSO-to-PI). No reference to morpho-syntactic categories can be made in the PI-to-PO process. In that sense, it strictly follows the MIH proposed above. </p>
+        <p>If we adopt this MSO-PI-PO model, it is possible to capture the insight suggested here and explain the Japanese data in (19) without <sc>Align</sc>-XP. First, at the point of Spellout, syntactic structures are mapped to input phonological representation based on <sc>Match</sc> (S-P faithfulness) constraints in (8a). Unless other morpho-syntactic factors (such as focus and givenness) are involved,<xref ref-type="fn" rid="fn010-languages-08-00102">10</xref> syntactic XP boundaries are mapped to &#x3C6;&#x2019;s without any mismatch. (21) is the MSO-PI mapping of the left- and right-branching structures discussed in (18). For expository purposes, XPs and corresponding &#x3C6;s are indexed with numbers.
+        <array><tbody><tr><td align="left" valign="top">21.</td><td colspan="2" align="left" valign="top">MSO &#x2192; PI</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">a.</td><td align="left" valign="top">Left-branching structure:</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">[<sub>XP1</sub> [<sub>XP2</sub> [<sub>XP3</sub> A B] C] D] &#x2192; (<sub>&#x3C6;1</sub> (<sub>&#x3C6;2</sub> (<sub>&#x3C6;3</sub> A B) C) D)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">b.</td><td align="left" valign="top">Right-branching structure:</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">[<sub>XP1</sub> A [<sub>XP2</sub> B [<sub>XP3</sub> C D]]] &#x2192; (<sub>&#x3C6;1</sub> A (<sub>&#x3C6;2</sub> B (<sub>&#x3C6;3</sub> C D)))</td></tr></tbody></array></p>
+        <p>Note that the PI representations (i.e., the representation to the right of the arrows in (21)) no longer contain syntactic information. They instead contain information about prosodic constituents. With this PI representation as inputs, optimal phonological output representations (POs) will be chosen as a result of interactions of faithfulness and markedness constraints.</p>
+        <p>Markedness constraints (prosodic well-formedness constraints) include, among other things, constraints on prosodic heads, such as <sc>HeadProminence-in</sc>-&#x3C6; (<xref ref-type="bibr" rid="B16-languages-08-00102">Kratzer and Selkirk 2020, p. 24</xref>) in (22), which requires one and only one head per &#x3C6;, and head-alignment constraints (<xref ref-type="bibr" rid="B33-languages-08-00102">Truckenbrodt 1995</xref>, for Japanese; <xref ref-type="bibr" rid="B7-languages-08-00102">F&#xE9;ry and Samek-Lodovici 2006</xref>), which require any prosodic head to be either right- or left-aligned. In the case of Japanese, &#x3C6;-heads are left-aligned, which means that <sc>Align</sc>(&#x3C6;, Left, Head(&#x3C6;), Left), shown in (23), is active. Note that <sc>Align</sc>(&#x3C6;, Left, Head(&#x3C6;), Left) is a purely phonological (markedness) constraint, i.e., a prosodic well-formedness constraint, as it does not refer to any syntactic information.
+        <array><tbody><tr><td align="left" valign="top">22.</td><td align="left" valign="top"><sc>HeadProminence-in</sc>-&#x3C6; (<sc>HdProm-in</sc>-&#x3C6;) (<xref ref-type="bibr" rid="B16-languages-08-00102">Kratzer and Selkirk 2020, p. 24</xref>)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">Every &#x3C6; has exactly one prominent daughter, its head.</td></tr><tr><td align="left" valign="top">23.</td><td align="left" valign="top"><sc>Align</sc>(&#x3C6;, Left, Head(&#x3C6;), Left)&#x2014;<sc>Align</sc>-&#x3C6;-<sc>Left</sc> (adapted from F&#xE9;ry and Samek-Lodovici 2006)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">Align the left boundary of every &#x3C6; with its head(s).</td></tr></tbody></array></p>
+        <p>It is assumed here, for expository purposes, that (22) and (23) are undominated in Japanese. We therefore do not consider any candidate that violates these constraints. In addition to that, we assume, contrary to the original proposal by Kratzer and Selkirk, that PI representations contain default prosodic heads, as predicted from the constraints in (22) and (23), as in (24), where heads are marked with boldface. The leftmost (prosodic) word in each &#x3C6; in the PI is the head of that &#x3C6;. In the left-branching structure in (24a), A is the head of all three &#x3C6;s (&#x3C6;1, &#x3C6;2 and &#x3C6;3), while in the right-branching structure in (24b), A, B and C are the heads of &#x3C6;1, &#x3C6;2 and &#x3C6;3, respectively.
+        <array><tbody><tr><td align="left" valign="top">24.</td><td colspan="7" align="left" valign="top">PIs with prosodic heads:</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">a.</td><td colspan="6" align="left" valign="top">Left-branching structure:</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td colspan="2" align="left" valign="top">(<sub>&#x3C6;1</sub> (<sub>&#x3C6;2</sub> (<sub>&#x3C6;3</sub>&#xA0;<bold>A</bold><sub>1,2,3</sub></td><td align="left" valign="top">B)</td><td colspan="2" align="left" valign="top">C)</td><td align="left" valign="top">D)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">b.</td><td colspan="6" align="left" valign="top">Right-branching structure: No rephrasing</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">(<sub>&#x3C6;1</sub>&#xA0;<bold>A</bold><sub>1</sub></td><td align="left" valign="top">(<sub>&#x3C6;2</sub>&#xA0;<bold>B</bold><sub>2</sub></td><td colspan="2" align="left" valign="top">(<sub>&#x3C6;3</sub>&#xA0;<bold>C</bold><sub>3</sub> </td><td colspan="2" align="left" valign="top">D)))</td></tr></tbody></array></p>
+        <p>These phonological input representations then undergo the PI-to-PO mapping process, which results in a phonological output (PO) representation that optimally satisfies relevant markedness and faithfulness constraints. This process is illustrated in (25).
+        <array><tbody><tr><td align="left" valign="top">25.</td><td colspan="6" align="left" valign="top">PI &#x2192; PO (Phonetic outputs):</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">a.</td><td colspan="5" align="left" valign="top">Left-branching structure:</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">(<sub>&#x3C6;1</sub> (<sub>&#x3C6;2</sub> (<sub>&#x3C6;3</sub> A&#xA0;&#xA0;B&#xA0;)&#xA0;&#xA0;C&#xA0;)&#xA0;&#xA0;D&#xA0;)</td><td align="left" valign="top">&#x2192;</td><td align="left" valign="top">(<sub>&#x3C6;1</sub> (<sub>&#x3C6;3</sub> A&#xA0;&#xA0;B&#xA0;) (<sub>&#x3C6;4</sub> C&#xA0;&#xA0;D&#xA0;))</td><td colspan="2" align="left" valign="top">(Rephrasing due to binarity)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">b.</td><td colspan="5" align="left" valign="top">Right-branching structure: No rephrasing</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top"> </td><td align="left" valign="top">(<sub>&#x3C6;1</sub> A&#xA0;&#xA0;(<sub>&#x3C6;2</sub> B&#xA0;&#xA0;(<sub>&#x3C6;3</sub> C&#xA0;&#xA0;D&#xA0;)))</td><td align="left" valign="top">&#x2192;</td><td colspan="2" align="left" valign="top">(<sub>&#x3C6;1</sub> A&#xA0;&#xA0;(<sub>&#x3C6;2</sub> B&#xA0;&#xA0;(<sub>&#x3C6;3</sub> C&#xA0;&#xA0;D&#xA0;)))</td><td align="left" valign="top">&#xA0;&#xA0;&#xA0;(No effect of binarity)</td></tr></tbody></array></p>
+        <p>In the left-branching structure (25a), &#x3C6;2 in the phonological input (PI) is removed in the phonological output (PO), while in the right-branching structure (25b), &#x3C6;2 in the PI is maintained in the PO. In Bellik et al.&#x2019;s account, the removal of &#x3C6;2 is triggered by <sc>BinMax</sc>(&#x3C6;,&#x3C9;), as in (26).<xref ref-type="fn" rid="fn011-languages-08-00102">11</xref>
+        <array><tbody><tr><td align="left" valign="top">26.</td><td align="left" valign="top"><sc>BinMax</sc>(&#x3C6;,&#x3C9;) (<xref ref-type="bibr" rid="B1-languages-08-00102">Bellik et al. 2022, p. 463</xref>)</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">Assign one violation for every node of category &#x3C6; in the prosodic tree that dominates more than two nodes of category &#x3C9;.</td></tr></tbody></array></p>
+        <p>&#x3C6;1 and &#x3C6;2 in the input representations (24a)/(24b) violate <sc>BinMax</sc>(&#x3C6;,&#x3C9;), as they both contain more than two &#x3C9;s. Just like in the discussion of (18)/(19) (see note 8), however, it is assumed here that &#x3C6;1, the outermost &#x3C6;, is never affected by <sc>BinMax</sc>. The relevant fact that needs to be accounted for is that while &#x3C6;2 is removed in the PO in the left-branching structure (25a) in order to satisfy <sc>BinMax</sc>, &#x3C6;2 is kept in the PO in the right-branching structure in (25b), even though it violates <sc>BinMax</sc>.</p>
+        <p>With the assumption that the head-alignment constraint (<sc>Align</sc>-&#x3C6;-<sc>Left</sc> in (23)) is undominated, the difference between (25a) and (25b) can now be derived as a result of the ranking of <sc>BinMax</sc>(&#x3C6;, &#x3C9;) and the faithfulness constraints on prosodic heads in (27):
+        <array><tbody><tr><td align="left" valign="top">27.</td><td colspan="2" align="left" valign="top">Faithfulness constraints on prosodic heads:</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">a.</td><td align="left" valign="top"><sc>Max</sc>(&#x3C6;-head)&#x2014;do not delete any &#x3C6;-head</td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">b.</td><td align="left" valign="top"><sc>Dep</sc>(&#x3C6;-head)&#x2014;do not add any &#x3C6;-head</td></tr></tbody></array></p>
+        <p>The ranking to derive the asymmetry in Japanese is as follows:
+        <array><tbody><tr><td align="left" valign="top">28.</td><td align="left" valign="top"><sc>Max</sc>(&#x3C6;-head) &gt;&gt; <sc>BinMax</sc>(&#x3C6;,&#x3C9;) &gt;&gt; <sc>Dep</sc>(&#x3C6;-head)</td></tr></tbody></array></p>
+        <p>The result is shown in <xref ref-type="fig" rid="languages-08-00102-f011">Figure 11</xref>. Each &#x3C6; is indexed to show the correspondence between the &#x3C6;s in the input and &#x3C6;s in the output. The heads of &#x3C6;s are indicated by boldface and are coindexed with corresponding phrases. Prosodic heads are already indicated in the input by assuming that the head-prominence and head-alignment constraints in (22) and (23) are unboundedly ranked.</p>
+        <p>In the left-branching structure (top of <xref ref-type="fig" rid="languages-08-00102-f011">Figure 11</xref>), A is the prosodic head of all three &#x3C6;s (&#x3C6;1, &#x3C6;2 and &#x3C6;3). Candidate a maintains the input structure and hence violates <sc>BinMax</sc> twice, while it satisfies both faithfulness constraints. In candidate b, &#x3C6;2 is removed to avoid <sc>BinMax</sc> violation, and a new phrase, &#x3C6;4, is added instead.<xref ref-type="fn" rid="fn012-languages-08-00102">12</xref> As a result, this candidate violates <sc>BinMax</sc> only once, while it violates <sc>Dep</sc>(&#x3C6;-head), which is ranked lower than <sc>BinMax</sc>.</p>
+        <p>In the right-branching structure, by contrast, candidate b violates <sc>Max</sc>(&#x3C6;-head), because the head of &#x3C6;2 in the input (i.e., <bold>B</bold><sub>2</sub>) is no longer a prosodic head in the output. This violation causes candidate a, which is the matching output, to be chosen as the winning candidate.</p>
+        <p>This analysis captures the insight that the Asymmetry Problem should be reduced to the directionality of prosodic headedness. The MSO-PI-PO model provides an input prosodic structure that carries prosodic heads either on the left or right edges of each &#x3C6; (depending on the prosodic headedness of the language), and faithfulness constraints would prefer to maintain these prosodic heads in the PO representations. The effect originally expressed by <sc>Align</sc>-XP can therefore be replaced by these faithfulness constraints together with the Alignment constraints that expresses the prosodic headedness (<sc>Align-</sc>&#x3C6;<sc>-Left</sc> in (23) in the case of Japanese).</p>
+        <p>The reason why the standard (single-cycle) OT account requires <sc>Align</sc>-XP to explain the Japanese data is that the input representation is a syntactic structure, which, obviously, contains neither prosodic heads nor edges. With a syntactic structure as input, it is not possible to apply prosodic well-formedness constraints on prosodic heads, such as <sc>HeadProminence-in</sc>-&#x3C6; in (22) and <sc>Align</sc>(&#x3C6;, Left, Head(&#x3C6;), Left) in (23).</p>
+        <p>In the MSO-PI-PO model, by contrast, the syntax-to-prosody mapping takes place at Spellout, producing a Match-compliant prosodic structure as the phonological input (PI) representation. With a prosodic structure as input, prosodic head-related constraints can correctly derive an optimal output representation that maintain the head-associated prosodic edges in the phonological output (PO) representation, which allows us to maintain the insight that prosodic asymmetry is caused by prosodic headedness.</p>
+        <p>In Alignment-based analyses, the main effect of <sc>Align</sc>-XP is to (implicitly) associate a syntactic left/right edge in the input to a prosodic head (that is not visible, or existent, in a syntactic representation) that needs to be realized in the phonological output. This implies, however, that Alignment-based mapping constraints such as <sc>Align</sc>-XP are inherently &#x201C;contaminated&#x201D; by effects of prosodic headedness, which should ideally be formulated as prosodic well-formedness constraints that regulate the distribution of prosodic heads. In that sense, only Match constraints allow strict separation of syntax&#x2013;prosody mapping effects and prosodic well-formedness effects.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-languages-08-00102" sec-type="conclusions">
+      <title>5. Conclusions and Unresolved Questions</title>
+      <p>In this article, we discussed a theoretical question of how asymmetric behavior in prosodic phrasing should be explained within Match Theory. As opposed to traditional analyses where asymmetric phrasing is explained using Alignment-based syntax&#x2013;prosody mapping constraints such as <sc>Align</sc>-XP, we argued that prosodic asymmetry is rooted in prosodic headedness and hence should be derived by prosodic well-formedness constraints that govern the placement of prosodic heads, while the syntax&#x2013;prosody mapping should solely be stated by Match constraints, which never yield asymmetric mapping.</p>
+      <p>We started out with the Stockholm Swedish data, in which left-branching and right-branching clause embeddings yield different phrasing patterns, as illustrated in (3) and (4). It is shown that in Stockholm Swedish, a phrasing pattern where a prosodic head is added at the prosodic edge that is not motivated by syntax, as in (4c), is blocked. We proposed an analysis in which Match constraints interact with a set of markedness constraints to derive all the possible phrasing patterns while excluding unwanted ones. A crucial difference from the previous analysis by <xref ref-type="bibr" rid="B20-languages-08-00102">Myrberg</xref> (<xref ref-type="bibr" rid="B20-languages-08-00102">2010</xref>) is that our analysis no longer uses Alignment-based mapping constraints.</p>
+      <p>In order to generalize the idea that prosodic asymmetry should be attributed to prosodic well-formedness instead of the syntax&#x2013;prosody mapping, we proposed the Minimal Interface Hypothesis (MIH), in which Alignment-based mapping constraints (along with a few other constraints that refer to syntactic phrases) are eliminated. By excluding the possibility to use Alignment-based mapping constraints, any prosodic asymmetry has to be derived via some markedness constraints. We believe that this line of analysis will lead us to a better understanding of the interaction between syntax and prosody.</p>
+      <p>In relation to the MIH, we also revisited the Asymmetry Problem in Japanese, for which <xref ref-type="bibr" rid="B1-languages-08-00102">Bellik et al.</xref> (<xref ref-type="bibr" rid="B1-languages-08-00102">2022</xref>) claimed that both Match and Align constraints are needed. In order to support the MIH, we suggested that it is possible to eliminate <sc>Align</sc>-XP by adopting the MSO-PI-PO model proposed by <xref ref-type="bibr" rid="B16-languages-08-00102">Kratzer and Selkirk</xref> (<xref ref-type="bibr" rid="B16-languages-08-00102">2020</xref>). By allowing an intermediate representation (PI) to indicate the location of prosodic heads and boundaries predicted from syntax, the asymmetry can be derived from the prosodic headedness (left-headed in the case of Japanese &#x3C6;s).</p>
+      <p>There are a few remaining questions that need to be further investigated in future research. The first question concerns the choice of theoretical models. While the standard (single-cycle) OT model cannot account for the Asymmetry Problem in Japanese, as argued by <xref ref-type="bibr" rid="B1-languages-08-00102">Bellik et al.</xref> (<xref ref-type="bibr" rid="B1-languages-08-00102">2022</xref>), the MSO-PI-PO model allows an alternative analysis in which the MIH can be maintained. This model also allows strict separation of mapping effects and prosodic well-formedness effects and avoids the contamination of prosodic well-formedness effects inherently found in Alignment-based mapping constraints. At the same time, however, the model adds an intermediate phonological representation, namely the PI. The addition of an intermediate representation means a more complex grammatical architecture, which could potentially be considered a serious drawback. More studies are needed to examine the potential of this new model, as well as the necessity of the intermediate representation, PI.</p>
+      <p>A related question is whether the MSO-PI-PO model should also be extended to the Asymmetry Problem in Stockholm Swedish. The account for the Asymmetry Problem in Stockholm Swedish proposed in this article does not adopt the MSO-PI-PO model. While assuming the MIH, the constraints (that is, Match constraints and prosodic well-formedness constraints in (9)&#x2013;(11)) are computed altogether in a single process. As long as prosodic well-formedness constraints can account for the asymmetric properties of prosodic phrasing, as proposed here, the standard OT model can be maintained without assuming an intermediate representation. </p>
+      <p>The reason for adopting two different models for the Swedish and Japanese data originates from the difference in the nature of their asymmetric problems. In the case of the Swedish &#x3B9;, it is the addition of a prosodic boundary associated with a prosodic head that causes a problem, while in the case of the Japanese &#x3C6;, it is the deletion of a prosodic edge associated with a prosodic head.</p>
+      <p>Note that prosodic well-formedness constraints are a subtype of markedness constraints and hence only apply to output phonological representations. In the case of Swedish, it is relatively straightforward to postulate a prosodic well-formed constraint that accounts for prosodic asymmetry. Whenever there is an additional &#x3B9;-boundary and a prosodic head in the output representation that does not correspond to a syntactic edge, it can be explained as a violation of the relevant markedness constraint (*<sc>P-head</sc> in our account).</p>
+      <p>In contrast, it is not so straightforward to implement the idea that (a prosodic boundary associated with) a prosodic head in the input representation must not be deleted in the output, because in the standard OT model, the input representation is a syntactic structure which does not contain any prosodic heads. One possible solution that we proposed here is to introduce an intermediate representation (i.e., PI in the MSO-PI-PO model) that contains prosodic representations with prosodic heads.</p>
+      <p>Although our (preliminary) proposal involves two different explanations for Swedish and Japanese, they share the basic insight: what has been explained as violation of Alignment-based syntax&#x2013;prosody mapping constraints such as <sc>Align</sc>-XP is related to prosodic headedness. Prosodic asymmetry arises either when there is a prosodic head at a prosodic boundary that is not motivated by syntax, or when the output representation lacks a prosodic head where syntax motivates a prosodic boundary.</p>
+      <p>It should also be noted that by assuming the MIH, the current approach for the Swedish data captures one of the core insights of the MSO-PI-PO model, namely that the correspondence between syntactic and prosodic constituents are solely expressed by the Match constraints. At the same time, however, this account cannot be applied directly to the Japanese data, which do seem to require the MSO-PI-PO model. Additional investigation is necessary to conclude which approach is superior in terms of empirical coverage, as well as theoretical efficiency.</p>
+      <p>Lastly, although it is not directly relevant to the main discussion of this article, the validity of the MIH also needs to be examined in relation to <sc>Stress</sc>-XP in (17) (<xref ref-type="bibr" rid="B33-languages-08-00102">Truckenbrodt 1995</xref>), another constraint that refers to both syntactic and prosodic categories and has long been used in the literature on the syntax&#x2013;prosody interface. Note that <sc>Stress</sc>-XP also concerns the location of prosodic heads (to which phrasal stresses are assigned).</p>
+      <p>For example, <xref ref-type="bibr" rid="B4-languages-08-00102">B&#xFC;ring and Truckenbrodt</xref> (<xref ref-type="bibr" rid="B4-languages-08-00102">2021</xref>) argue that <sc>Stress</sc>-XP is essential in accounting for the English data originally discussed by <xref ref-type="bibr" rid="B2-languages-08-00102">Bresnan</xref> (<xref ref-type="bibr" rid="B2-languages-08-00102">1971</xref>, <xref ref-type="bibr" rid="B3-languages-08-00102">1972</xref>), which involve the interaction of the default stress rule (such as the Nuclear Stress Rule (<xref ref-type="bibr" rid="B5-languages-08-00102">Chomsky and Halle 1968</xref>)) and syntactic movements, exemplified in (29) and (30). (Words carrying the nuclear stress are indicated with bold face). 
+      <array><tbody><tr><td align="left" valign="top">29.</td><td align="left" valign="top">a. Helen has written some <bold>books</bold>.</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">b. What <bold>books</bold><sub>1</sub> has Helen written t<sub>1</sub>?</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top">30.</td><td align="left" valign="top">a. George has plans to <bold>leave</bold>.</td><td align="left" valign="top"> </td></tr><tr><td align="left" valign="top"> </td><td align="left" valign="top">b. George has <bold>plans</bold><sub>1</sub> to leave t<sub>1</sub>.</td><td align="left" valign="top">(<xref ref-type="bibr" rid="B4-languages-08-00102">B&#xFC;ring and Truckenbrodt 2021, pp. 791&#x2013;92</xref>)</td></tr></tbody></array></p>
+      <p>In these examples, syntactically dislocated phrases (<italic>what books</italic> and <italic>plans</italic>) appear to take away the main stress of the sentence from the right edge of an &#x3B9;. This phenomenon is particularly interesting because it raises a so far understudied question of how to treat syntactic movements and the cyclicity of stress assignment within an Optimality Theoretic analysis of the syntax&#x2013;prosody mapping. As it is far beyond the scope of this article to investigate whether the data can be accounted for without <sc>Stress</sc>-XP, this question needs to be addressed in future research.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>The article was written jointly by the two authors. S.I. initially developed the theoretical account of the Swedish data, which was later developed into the final version together with S.M. S.M. provided all the Swedish data. Ishihara developed the theoretical account of the Japanese data. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We would like to thank the three anonymous reviewers for their valuable comments, as well as the special issue editors Caroline F&#xE9;ry, Ingo Feldhausen and Frank K&#xFC;gler, for their comments, support and encouragement. Special thanks also go to Nick Kalivoda for comments on the earlier version of this work and discussion. A part of this study was presented at the 6th International Conference on Tone and Intonation (TIE 2018), held at the University of Gothenburg. We thank the participants for their comments. All remaining errors are ours.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <app-group>
+      <app id="app1-languages-08-00102">
+        <title>Appendix A</title>
+        <p>Possible ranking alternatives to those in <xref ref-type="fig" rid="languages-08-00102-f007">Figure 7</xref>, <xref ref-type="fig" rid="languages-08-00102-f008">Figure 8</xref> and <xref ref-type="fig" rid="languages-08-00102-f009">Figure 9</xref> are listed here. </p>
+        <sec id="secAdot1-languages-08-00102">
+          <title>Appendix A.1. Outcome 1 (18a): Match Compliance (3a) and (4a)</title>
+          <p><xref ref-type="fig" rid="languages-08-00102-f0A1">Figure A1</xref> is the alternative to <xref ref-type="fig" rid="languages-08-00102-f007">Figure 7</xref>, in which Match-compliant candidates (3a) and (4a) come out as optimal output. In this ranking, <sc>Match</sc>-PS is ranked between <sc>*P-Head</sc> and <sc>EqualSisters</sc>.</p>
+          <fig id="languages-08-00102-f0A1" position="float">
+            <label>Figure A1</label>
+            <caption>
+              <p>An example of outcome 1 (strict Match compliance (3a) &amp; (4a)): <sc>Align-Head</sc>(&#x3B9;)-R &gt;&gt; <sc>Match</sc>-SP &gt;&gt; *<sc>P-Head</sc>(&#x3B9;), <sc>Match</sc>-PS &gt;&gt; <sc>EqSis</sc>.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-g0A1.tif"/>
+          </fig>
+        </sec>
+        <sec id="secAdot2-languages-08-00102">
+          <title>Appendix A.2. Outcome 2 (18b): Prosodic Demotion (3b) and (4b)</title>
+          <p><xref ref-type="fig" rid="languages-08-00102-f0A2">Figure A2</xref> is the alternative to <xref ref-type="fig" rid="languages-08-00102-f008">Figure 8</xref>, in which prosodic demotion candidates (3b) and (4b) come out as optimal output. This ranking shows that the location of <sc>Match</sc>-PS does not affect the outcome.</p>
+          <fig id="languages-08-00102-f0A2" position="float">
+            <label>Figure A2</label>
+            <caption>
+              <p>An example of outcome 2 (prosodic promotion, (3b) &amp; (4b)): <sc>Align-Head</sc>(&#x3B9;)-R &gt;&gt; *<sc>P-Head</sc>(&#x3B9;) &gt;&gt; <sc>Match</sc>-PS, <sc>EqSis</sc> &gt;&gt; <sc>Match</sc>-SP.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-g0A2.tif"/>
+          </fig>
+        </sec>
+        <sec id="secAdot3-languages-08-00102">
+          <title>Appendix A.3. Outcome 3</title>
+          <p><xref ref-type="fig" rid="languages-08-00102-f0A3">Figure A3</xref> is the alternative to <xref ref-type="fig" rid="languages-08-00102-f009">Figure 9</xref>, in which the prosodic demotion candidate is chosen for the sentence-initial embedding structure (3b), while the Match-compliant candidate is chosen for the sentence-final embedding structure (4b) as optimal output. This ranking shows that the location of <sc>Match</sc>-PS does not affect the outcome.</p>
+          <fig id="languages-08-00102-f0A3" position="float">
+            <label>Figure A3</label>
+            <caption>
+              <p>An example of outcome 3 (prosodic demotion (3b) and Match compliance (4a)): <sc>Align-Head</sc>(&#x3B9;)-R &gt;&gt; *<sc>P-Head</sc>(&#x3B9;) &gt;&gt; <sc>Match</sc>-SP &gt;&gt; <sc>EqSis, Match</sc>-PS.</p>
+            </caption>
+            <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-g0A3.tif"/>
+          </fig>
+        </sec>
+      </app>
+    </app-group>
+    <fn-group>
+      <title>Notes</title>
+      <fn id="fn001-languages-08-00102">
+        <label>1</label>
+        <p>Native language intuition of the second author also suggests that a nuclear accent on the main verb <italic>h&#xE4;vdade</italic> &#x2018;claimed&#x2019; should not appear.</p>
+      </fn>
+      <fn id="fn002-languages-08-00102">
+        <label>2</label>
+        <p>This remains to be experimentally tested with a larger number of informants.</p>
+      </fn>
+      <fn id="fn003-languages-08-00102">
+        <label>3</label>
+        <p>In the tableaux below, the following abbreviations are used for the constraints: <sc>AlHd</sc>-R (<sc>Align-Head</sc>(&#x3B9;)-R), <sc>Ma</sc>-SP (<sc>Match</sc>-SP), <sc>Ma</sc>-PS (<sc>Match</sc>-PS), *<sc>PHd</sc> (*<sc>P-Head</sc>(&#x3B9;)) and <sc>EqSis</sc> (<sc>EqualSisters</sc>).</p>
+      </fn>
+      <fn id="fn004-languages-08-00102">
+        <label>4</label>
+        <p>The outcome does not change even if the prosody-to-syntax mapping, <sc>Match</sc>-PS, is ranked below *<sc>PHead</sc>, as long as it is ranked above <sc>EqualSisters</sc>, as in <xref ref-type="fig" rid="languages-08-00102-f0A1">Figure A1</xref> in <xref ref-type="app" rid="app1-languages-08-00102">Appendix A</xref>.</p>
+      </fn>
+      <fn id="fn005-languages-08-00102">
+        <label>5</label>
+        <p>This ranking is minimally different to the one deriving outcome 1, where <sc>Match</sc>-PS outranks <sc>EqualSisters</sc>.</p>
+      </fn>
+      <fn id="fn006-languages-08-00102">
+        <label>6</label>
+        <p>However, see <xref ref-type="sec" rid="sec5-languages-08-00102">Section 5</xref> for a remaining question regarding <sc>Stress</sc>-XP.</p>
+      </fn>
+      <fn id="fn007-languages-08-00102">
+        <label>7</label>
+        <p>The data are originally from <xref ref-type="bibr" rid="B17-languages-08-00102">Kubozono</xref> (<xref ref-type="bibr" rid="B17-languages-08-00102">1993</xref>). See also <xref ref-type="bibr" rid="B9-languages-08-00102">Ito and Mester</xref> (<xref ref-type="bibr" rid="B9-languages-08-00102">2012</xref>).</p>
+      </fn>
+      <fn id="fn008-languages-08-00102">
+        <label>8</label>
+        <p>Here, we ignore the main concern of <xref ref-type="bibr" rid="B8-languages-08-00102">Ishihara</xref> (<xref ref-type="bibr" rid="B8-languages-08-00102">2014</xref>), namely the presence of the outer &#x3C6;, which wraps the two embedded &#x3C6;s. This outer &#x3C6; is unexpected in the <sc>Match</sc>-based analysis proposed by <xref ref-type="bibr" rid="B31-languages-08-00102">Selkirk</xref> (<xref ref-type="bibr" rid="B31-languages-08-00102">2011</xref>) because a <sc>Binarity</sc> constraint outranks the <sc>Match</sc> constraint and is hence expected to suppress all prosodic recursion. <xref ref-type="bibr" rid="B8-languages-08-00102">Ishihara</xref> (<xref ref-type="bibr" rid="B8-languages-08-00102">2014</xref>) called this issue the Recursivity Problem. See <xref ref-type="bibr" rid="B8-languages-08-00102">Ishihara</xref> (<xref ref-type="bibr" rid="B8-languages-08-00102">2014</xref>) and <xref ref-type="bibr" rid="B1-languages-08-00102">Bellik et al.</xref> (<xref ref-type="bibr" rid="B1-languages-08-00102">2022</xref>) for a discussion.</p>
+      </fn>
+      <fn id="fn009-languages-08-00102">
+        <label>9</label>
+        <p>Influences of syntax on prosody also include (though not directly relevant for the current article) information-structural effects, which are usually expressed by constraints associated with the morphosyntactic marking of focus and givenness.</p>
+      </fn>
+      <fn id="fn010-languages-08-00102">
+        <label>10</label>
+        <p>See <xref ref-type="bibr" rid="B16-languages-08-00102">Kratzer and Selkirk</xref> (<xref ref-type="bibr" rid="B16-languages-08-00102">2020</xref>) for a discussion of information structural factors.</p>
+      </fn>
+      <fn id="fn011-languages-08-00102">
+        <label>11</label>
+        <p>In order to derive the rephrasing pattern in (18a)/(19a) properly, a couple more constraints, including <sc>BinMax</sc>(&#x3C6;, branches), need to be added (<xref ref-type="bibr" rid="B14-languages-08-00102">Kalivoda 2018</xref>), which are responsible for the addition of &#x3C6;4 in (25a). We are omitting them for the sake of exposition. See <xref ref-type="bibr" rid="B1-languages-08-00102">Bellik et al.</xref> (<xref ref-type="bibr" rid="B1-languages-08-00102">2022</xref>) to see the full account of the rhythmic effect in the Japanese data.</p>
+      </fn>
+      <fn id="fn012-languages-08-00102">
+        <label>12</label>
+        <p>The addition of &#x3C6;4 is motivated by <sc>BinMax</sc>(&#x3C6;, branches). See note 11.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bellik</surname>
+              <given-names>Jennifer</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>Junko</given-names>
+            </name>
+            <name>
+              <surname>Kalivoda</surname>
+              <given-names>Nick</given-names>
+            </name>
+            <name>
+              <surname>Mester</surname>
+              <given-names>Armin</given-names>
+            </name>
+          </person-group>
+          <article-title>Matching and alignment</article-title>
+          <source>Prosody and Prosodic Interfaces</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Kubozono</surname>
+              <given-names>Haruo</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>Junko</given-names>
+            </name>
+            <name>
+              <surname>Mester</surname>
+              <given-names>Armin</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Oxford University Press</publisher-name>
+          <publisher-loc>Oxford</publisher-loc>
+          <year>2022</year>
+          <fpage>457</fpage>
+          <lpage>80</lpage>
+          <pub-id pub-id-type="doi">10.1093/oso/9780198869740.003.0015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bresnan</surname>
+              <given-names>Joan</given-names>
+            </name>
+          </person-group>
+          <article-title>Sentence stress and syntactic transformations</article-title>
+          <source>Language</source>
+          <year>1971</year>
+          <volume>47</volume>
+          <fpage>257</fpage>
+          <lpage>81</lpage>
+          <pub-id pub-id-type="doi">10.2307/412081</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bresnan</surname>
+              <given-names>Joan</given-names>
+            </name>
+          </person-group>
+          <article-title>Stress and syntax: A reply</article-title>
+          <source>Language</source>
+          <year>1972</year>
+          <volume>48</volume>
+          <fpage>326</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="doi">10.2307/412138</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>B&#xFC;ring</surname>
+              <given-names>Daniel</given-names>
+            </name>
+            <name>
+              <surname>Truckenbrodt</surname>
+              <given-names>Hubert</given-names>
+            </name>
+          </person-group>
+          <article-title>Correspondence between XPs and Phonological Phrases</article-title>
+          <source>Linguistic Inquiry</source>
+          <year>2021</year>
+          <volume>52</volume>
+          <fpage>791</fpage>
+          <lpage>811</lpage>
+          <pub-id pub-id-type="doi">10.1162/ling_a_00391</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chomsky</surname>
+              <given-names>Noam</given-names>
+            </name>
+            <name>
+              <surname>Halle</surname>
+              <given-names>Morris</given-names>
+            </name>
+          </person-group>
+          <source>The Sound Pattern of English</source>
+          <publisher-name>Harper and Row</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <year>1968</year>
+        </element-citation>
+      </ref>
+      <ref id="B6-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>F&#xE9;ry</surname>
+              <given-names>Caroline</given-names>
+            </name>
+          </person-group>
+          <article-title>Focus as prosodic alignment</article-title>
+          <source>Natural Language &amp; Linguistic Theory</source>
+          <year>2013</year>
+          <volume>31</volume>
+          <fpage>683</fpage>
+          <lpage>734</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11049-013-9195-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>F&#xE9;ry</surname>
+              <given-names>Caroline</given-names>
+            </name>
+            <name>
+              <surname>Samek-Lodovici</surname>
+              <given-names>Vieri</given-names>
+            </name>
+          </person-group>
+          <article-title>Focus Projection and Prosodic Prominence in Nested Foci</article-title>
+          <source>Language</source>
+          <year>2006</year>
+          <volume>82</volume>
+          <fpage>131</fpage>
+          <lpage>50</lpage>
+          <pub-id pub-id-type="doi">10.1353/lan.2006.0031</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ishihara</surname>
+              <given-names>Shinichiro</given-names>
+            </name>
+          </person-group>
+          <article-title>Match Theory and the Recursivity Problem</article-title>
+          <source>Proceedings of FAJL 7: Formal Approaches to Japanese Linguistics</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Kawahara</surname>
+              <given-names>Shigeto</given-names>
+            </name>
+            <name>
+              <surname>Igarashi</surname>
+              <given-names>Mika</given-names>
+            </name>
+          </person-group>
+          <publisher-name>MITWPL</publisher-name>
+          <publisher-loc>Cambridge</publisher-loc>
+          <year>2014</year>
+          <fpage>69</fpage>
+          <lpage>88</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B9-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>It&#xF4;</surname>
+              <given-names>Junko</given-names>
+            </name>
+            <name>
+              <surname>Mester</surname>
+              <given-names>Armin</given-names>
+            </name>
+          </person-group>
+          <article-title>Recursive prosodic phrasing in Japanese</article-title>
+          <source>Prosody Matters: Essays in Honor of Elisabeth Selkirk</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Borowsky</surname>
+              <given-names>Toni</given-names>
+            </name>
+            <name>
+              <surname>Kawahara</surname>
+              <given-names>Shigeto</given-names>
+            </name>
+            <name>
+              <surname>Sugahara</surname>
+              <given-names>Mariko</given-names>
+            </name>
+            <name>
+              <surname>Shinya</surname>
+              <given-names>Takahito</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Equinox</publisher-name>
+          <publisher-loc>London</publisher-loc>
+          <year>2012</year>
+          <fpage>280</fpage>
+          <lpage>303</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B10-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ito</surname>
+              <given-names>Junko</given-names>
+            </name>
+            <name>
+              <surname>Mester</surname>
+              <given-names>Armin</given-names>
+            </name>
+          </person-group>
+          <article-title>Match Theory and prosodic well-formedness constraints</article-title>
+          <source>Prosodic Studies: Challenges and Prospects</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Hongming</given-names>
+            </name>
+            <name>
+              <surname>Quian</surname>
+              <given-names>Youyong</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>London</publisher-loc>
+          <year>2019</year>
+          <fpage>252</fpage>
+          <lpage>74</lpage>
+          <pub-id pub-id-type="doi">10.4324/9781351212878-10</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Julien</surname>
+              <given-names>Marit</given-names>
+            </name>
+          </person-group>
+          <article-title>S&#xE5; vanleg at det kan ikke avfeiast: Om V2 i innf&#xF8;ydde setningar [So frequent that it cannot be ignored: On V2 in embedded clauses]</article-title>
+          <source>Spr&#xE5;k i Oslo: Ny Forskning Omkring Talespr&#xE5;k</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Johannessen</surname>
+              <given-names>Janne Bondi</given-names>
+            </name>
+            <name>
+              <surname>Hagen</surname>
+              <given-names>Kristin</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Novus F&#xF6;rlag</publisher-name>
+          <publisher-loc>Oslo</publisher-loc>
+          <year>2008</year>
+        </element-citation>
+      </ref>
+      <ref id="B12-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Julien</surname>
+              <given-names>Marit</given-names>
+            </name>
+          </person-group>
+          <article-title>The force of V2 revisited</article-title>
+          <source>Journal of Comparative Germanic Linguistics</source>
+          <year>2015</year>
+          <volume>18</volume>
+          <fpage>139</fpage>
+          <lpage>81</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10828-015-9073-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Julien</surname>
+              <given-names>Marit</given-names>
+            </name>
+          </person-group>
+          <article-title>The assertion analysis of declarative Verb Second</article-title>
+          <source>Rethinking Verb Second</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Woods</surname>
+              <given-names>Rebecca</given-names>
+            </name>
+            <name>
+              <surname>Wolfe</surname>
+              <given-names>Sam</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Oxford University Press</publisher-name>
+          <publisher-loc>Oxford</publisher-loc>
+          <year>2020</year>
+          <fpage>265</fpage>
+          <lpage>80</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B14-languages-08-00102">
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kalivoda</surname>
+              <given-names>Nicholas</given-names>
+            </name>
+          </person-group>
+          <article-title>Syntax-Prosody Mismatches in Optimality Theory</article-title>
+          <source>Doctoral dissertation</source>
+          <publisher-name>University of California</publisher-name>
+          <publisher-loc>Santa Cruz, CA, USA</publisher-loc>
+          <year>2018</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://escholarship.org/uc/item/6wb134g5" ext-link-type="uri">https://escholarship.org/uc/item/6wb134g5</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2023-03-14">(accessed on 14 March 2023)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B15-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kiparsky</surname>
+              <given-names>Paul</given-names>
+            </name>
+          </person-group>
+          <article-title>Opacity and cyclicity</article-title>
+          <source>The Linguistic Review</source>
+          <year>2000</year>
+          <volume>17</volume>
+          <fpage>351</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="doi">10.1515/tlir.2000.17.2-4.351</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kratzer</surname>
+              <given-names>Angelica</given-names>
+            </name>
+            <name>
+              <surname>Selkirk</surname>
+              <given-names>Elisabeth</given-names>
+            </name>
+          </person-group>
+          <article-title>Deconstructing information structure</article-title>
+          <source>Glossa: A Journal of General Linguistics</source>
+          <year>2020</year>
+          <volume>5</volume>
+          <fpage>113</fpage>
+          <pub-id pub-id-type="doi">10.5334/gjgl.968</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kubozono</surname>
+              <given-names>Haruo</given-names>
+            </name>
+          </person-group>
+          <source>The Organization of Japanese Prosody</source>
+          <publisher-name>Kurosio Publishers</publisher-name>
+          <publisher-loc>Tokyo</publisher-loc>
+          <year>1993</year>
+        </element-citation>
+      </ref>
+      <ref id="B18-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCarthy</surname>
+              <given-names>John J.</given-names>
+            </name>
+            <name>
+              <surname>Prince</surname>
+              <given-names>Alan</given-names>
+            </name>
+          </person-group>
+          <article-title>Generalized alignment</article-title>
+          <source>Yearbook of Morphology</source>
+          <year>1993</year>
+          <volume>12</volume>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://scholarworks.umass.edu/linguist_faculty_pubs/12" ext-link-type="uri">https://scholarworks.umass.edu/linguist_faculty_pubs/12</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2023-03-14">(accessed on 14 March 2023)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B19-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Myrberg</surname>
+              <given-names>Sara</given-names>
+            </name>
+            <name>
+              <surname>Riad</surname>
+              <given-names>Tomas</given-names>
+            </name>
+          </person-group>
+          <article-title>The prosodic hierarchy of Swedish</article-title>
+          <source>Nordic Journal of Linguistics</source>
+          <year>2015</year>
+          <volume>38</volume>
+          <fpage>115</fpage>
+          <lpage>47</lpage>
+          <pub-id pub-id-type="doi">10.1017/S0332586515000177</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-languages-08-00102">
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Myrberg</surname>
+              <given-names>Sara</given-names>
+            </name>
+          </person-group>
+          <article-title>The Intonational Phonology of Stockholm Swedish</article-title>
+          <source>Doctoral dissertation</source>
+          <publisher-name>Stockholm University</publisher-name>
+          <publisher-loc>Stockholm, Sweden</publisher-loc>
+          <year>2010</year>
+        </element-citation>
+      </ref>
+      <ref id="B21-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Myrberg</surname>
+              <given-names>Sara</given-names>
+            </name>
+          </person-group>
+          <article-title>Sisterhood in prosodic branching</article-title>
+          <source>Phonology</source>
+          <year>2013</year>
+          <volume>30</volume>
+          <fpage>73</fpage>
+          <lpage>124</lpage>
+          <pub-id pub-id-type="doi">10.1017/S0952675713000043</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Myrberg</surname>
+              <given-names>Sara</given-names>
+            </name>
+          </person-group>
+          <article-title>Big accents in Stockholm Swedish: Nuclear accents, prenuclear accents, and initiality accents</article-title>
+          <source>Glossa: A Journal of General Linguistics</source>
+          <year>2021</year>
+          <volume>6</volume>
+          <fpage>81</fpage>
+          <pub-id pub-id-type="doi">10.5334/gjgl.1227</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Myrberg</surname>
+              <given-names>Sara</given-names>
+            </name>
+          </person-group>
+          <article-title>Two-peakedness in South Swedish and the Scandinavian tone-accent typology</article-title>
+          <source>Prosody and Prosodic Interfaces</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Kubozono</surname>
+              <given-names>Haruo</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>Junko</given-names>
+            </name>
+            <name>
+              <surname>Mester</surname>
+              <given-names>Armin</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Oxford University Press</publisher-name>
+          <publisher-loc>Oxford</publisher-loc>
+          <year>2022</year>
+          <fpage>95</fpage>
+          <lpage>124</lpage>
+          <pub-id pub-id-type="doi">10.1093/oso/9780198869740.003.0004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Prince</surname>
+              <given-names>Alan</given-names>
+            </name>
+            <name>
+              <surname>Smolensky</surname>
+              <given-names>Paul</given-names>
+            </name>
+          </person-group>
+          <source>Optimality Theory: Constraint Interaction in Generative Grammar</source>
+          <publisher-name>Rutgers University</publisher-name>
+          <publisher-loc>New Brunswick</publisher-loc>
+          <year>2002</year>
+          <pub-id pub-id-type="doi">10.7282/T34M92MV</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Riad</surname>
+              <given-names>Tomas</given-names>
+            </name>
+          </person-group>
+          <article-title>Culminativity, stress and tone accent in Central Swedish</article-title>
+          <source>Lingua</source>
+          <year>2012</year>
+          <volume>122</volume>
+          <fpage>1352</fpage>
+          <lpage>79</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.lingua.2012.07.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Riad</surname>
+              <given-names>Tomas</given-names>
+            </name>
+          </person-group>
+          <source>The Phonology of Swedish</source>
+          <publisher-name>Oxford University Press</publisher-name>
+          <publisher-loc>Oxford</publisher-loc>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="B27-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Riad</surname>
+              <given-names>Tomas</given-names>
+            </name>
+          </person-group>
+          <article-title>The phonological typology of North Germanic accent</article-title>
+          <source>Phonological Typology</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Hyman</surname>
+              <given-names>Larry M.</given-names>
+            </name>
+            <name>
+              <surname>Plank</surname>
+              <given-names>Frans</given-names>
+            </name>
+          </person-group>
+          <publisher-name>De Gruyter</publisher-name>
+          <publisher-loc>Berlin</publisher-loc>
+          <year>2018</year>
+          <fpage>341</fpage>
+          <lpage>88</lpage>
+          <pub-id pub-id-type="doi">10.1515/9783110451931-010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roll</surname>
+              <given-names>Mikael</given-names>
+            </name>
+            <name>
+              <surname>Horne</surname>
+              <given-names>Merle</given-names>
+            </name>
+            <name>
+              <surname>Lindgren</surname>
+              <given-names>Magnus</given-names>
+            </name>
+          </person-group>
+          <article-title>Left-edge boundary tone and main clause verb effects on syntactic processing in embedded clauses: An ERP study</article-title>
+          <source>Journal of Neurolinguistics</source>
+          <year>2009</year>
+          <volume>22</volume>
+          <fpage>55</fpage>
+          <lpage>73</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jneuroling.2008.06.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Selkirk</surname>
+              <given-names>Elisabeth</given-names>
+            </name>
+          </person-group>
+          <article-title>On derived domains in sentence phonology</article-title>
+          <source>Phonology Yearbook</source>
+          <year>1986</year>
+          <volume>3</volume>
+          <fpage>371</fpage>
+          <lpage>405</lpage>
+          <pub-id pub-id-type="doi">10.1017/S0952675700000695</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Selkirk</surname>
+              <given-names>Elisabeth</given-names>
+            </name>
+          </person-group>
+          <article-title>The prosodic structure of function words</article-title>
+          <source>Signal to Syntax: Bootstrapping from Speech to Grammar in Early Acquisition</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Morgan</surname>
+              <given-names>James L.</given-names>
+            </name>
+            <name>
+              <surname>Demuth</surname>
+              <given-names>Katherine</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Erlbaum</publisher-name>
+          <publisher-loc>Mahwah</publisher-loc>
+          <year>1996</year>
+          <fpage>187</fpage>
+          <lpage>214</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B31-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Selkirk</surname>
+              <given-names>Elisabeth</given-names>
+            </name>
+          </person-group>
+          <article-title>The syntax&#x2013;phonology interface</article-title>
+          <source>The Handbook of Phonological Theory</source>
+          <edition>2nd ed.</edition>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Goldsmith</surname>
+              <given-names>John A.</given-names>
+            </name>
+            <name>
+              <surname>Riggle</surname>
+              <given-names>Jason</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>Alan</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Blackwell</publisher-name>
+          <publisher-loc>Oxford</publisher-loc>
+          <year>2011</year>
+          <fpage>435</fpage>
+          <lpage>84</lpage>
+          <pub-id pub-id-type="doi">10.1002/9781444343069.ch14</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Teleman</surname>
+              <given-names>Ulf</given-names>
+            </name>
+            <name>
+              <surname>Hellberg</surname>
+              <given-names>Staffan</given-names>
+            </name>
+            <name>
+              <surname>Andersson</surname>
+              <given-names>Erik</given-names>
+            </name>
+          </person-group>
+          <source>Svenska Akademiens Grammatik</source>
+          <publisher-name>Svenska Akademien</publisher-name>
+          <publisher-loc>Stockholm</publisher-loc>
+          <year>1999</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://svenska.se/SAG.pdf" ext-link-type="uri">https://svenska.se/SAG.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2023-03-14">(accessed on 14 March 2023)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B33-languages-08-00102">
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Truckenbrodt</surname>
+              <given-names>Hubert</given-names>
+            </name>
+          </person-group>
+          <article-title>Phonological Phrases: Their Relation to Syntax, Focus, and Prominence</article-title>
+          <source>Doctoral dissertation</source>
+          <publisher-name>Massachusetts Institute of Technology</publisher-name>
+          <publisher-loc>Cambridge, MA, USA</publisher-loc>
+          <year>1995</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://dspace.mit.edu/handle/1721.1/11075" ext-link-type="uri">http://dspace.mit.edu/handle/1721.1/11075</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2023-03-14">(accessed on 14 March 2023)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B34-languages-08-00102">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Truckenbrodt</surname>
+              <given-names>Hubert</given-names>
+            </name>
+          </person-group>
+          <article-title>On the Relation between Syntactic Phrases and Phonological Phrases</article-title>
+          <source>Linguistic Inquiry</source>
+          <year>1999</year>
+          <volume>30</volume>
+          <fpage>219</fpage>
+          <lpage>55</lpage>
+          <pub-id pub-id-type="doi">10.1162/002438999554048</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-languages-08-00102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Truckenbrodt</surname>
+              <given-names>Hubert</given-names>
+            </name>
+          </person-group>
+          <article-title>The syntax-phonology interface</article-title>
+          <source>The Cambridge Handbook of Phonology</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Lacy</surname>
+              <given-names>Paul</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Cambridge University Press</publisher-name>
+          <publisher-loc>Cambridge</publisher-loc>
+          <year>2007</year>
+          <fpage>435</fpage>
+          <lpage>56</lpage>
+          <pub-id pub-id-type="doi">10.1017/CBO9780511486371.019</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="languages-08-00102-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Stockholm Swedish small and big accents. The gray area indicates the stressed syllable.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-g001.tif"/>
+      </fig>
+      <fig id="languages-08-00102-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Example of an &#x3B9;: gray dots indicate the initiality accent, which is aligned with the left edge of &#x3B9; (H*LH for tone accent 2, cf. <xref ref-type="fig" rid="languages-08-00102-f001">Figure 1</xref>), and black dots indicate &#x3B9;-heads (nuclear big accents), which are aligned with the right edge of &#x3B9; (L*H for tone accent 1, cf. <xref ref-type="fig" rid="languages-08-00102-f001">Figure 1</xref>). Vertical interrupted bars mark word boundaries and the position of associated tones. The associated tone appears in the vowel of the stressed syllable of the word. Note that the rightmost H in an initiality accent sometimes drifts rightward and merges with the H of the H*L accent on <italic>haren</italic> &#x2018;the hare&#x2019;. This behavior of initiality accents is well-observed in the previous literature but is not obligatory (<xref ref-type="bibr" rid="B28-languages-08-00102">Roll et al. 2009</xref>; <xref ref-type="bibr" rid="B22-languages-08-00102">Myrberg 2021</xref>, <xref ref-type="bibr" rid="B23-languages-08-00102">2022</xref>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-g002.tif"/>
+      </fig>
+      <fig id="languages-08-00102-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Sample F0 contours of (3a&#x2013;c): gray dots indicate initiality accents, which are aligned with the left edge of &#x3B9; (H*LH for tone accent 2, cf. <xref ref-type="fig" rid="languages-08-00102-f001">Figure 1</xref>), and black dots indicate &#x3B9;-heads (nuclear big accents), which are aligned with the right edge of &#x3B9; (H*LH for tone accent 2/L*H for tone accent 1, cf. <xref ref-type="fig" rid="languages-08-00102-f001">Figure 1</xref>). Vertical interrupted bars mark word boundaries and the position of associated tones. The associated tone appears in the vowel of the stressed syllable of the word. The top and middle panels display the sentence in (1), with prosodic contours shown in (3a) and (3b), respectively. The bottom panel displays a sentence with the same syntactic structure, <italic>Om hundar ska bli rumsrena s&#xE5; m&#xE5;ste deras &#xE4;gare l&#xE4;ra dem det</italic> &#x2018;For dogs to be house trained, their owners must teach it to them&#x2019;. This sentence has the prosodic structure shown in (3c).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-g003a.tif"/>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-g003b.tif"/>
+      </fig>
+      <fig id="languages-08-00102-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Sample F0 contours of (2a) and (2b), which correspond to (4a) and (4b), respectively: gray dots indicate initiality accents, which are aligned with the left edge of &#x3B9; (H*LH for tone accent 2, cf. <xref ref-type="fig" rid="languages-08-00102-f001">Figure 1</xref>), and black dots indicate &#x3B9;-heads (nuclear big accents), which are aligned with the right edge of &#x3B9; (H*LH for tone accent 2/L*H for tone accent 1, cf. <xref ref-type="fig" rid="languages-08-00102-f001">Figure 1</xref>). Vertical interrupted bars mark word boundaries and the position of associated tones. The associated tone appears in the vowel of the stressed syllable of the word.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-g004.tif"/>
+      </fig>
+      <fig id="languages-08-00102-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Sample F0 contour of (6): gray dots indicate initiality accents, which are aligned with the left edge of &#x3B9; (H*LH for tone accent 2, cf. <xref ref-type="fig" rid="languages-08-00102-f001">Figure 1</xref>), and black dots indicate &#x3B9;-heads (nuclear big accents), which are aligned with the right edge of &#x3B9; (H*LH for tone accent 2/L*H for tone accent 1, cf. <xref ref-type="fig" rid="languages-08-00102-f001">Figure 1</xref>). Note that there are two initiality big accents (on <italic>de</italic> &#x2018;those&#x2019; and <italic>varnar</italic> &#x2018;warns&#x2019;) and two nuclear accents (on <italic>s&#xE4;kerhet</italic> &#x2018;safety&#x2019; and <italic>hyllan</italic> &#x2018;the shelf&#x2019;). In addition, there is one big prenuclear accent (on <italic>oroar</italic>). It is worth noting that big prenuclear accents are not uncommon in Swedish; see discussion in <xref ref-type="bibr" rid="B22-languages-08-00102">Myrberg</xref> (<xref ref-type="bibr" rid="B22-languages-08-00102">2021</xref>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-g005.tif"/>
+      </fig>
+      <fig id="languages-08-00102-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p><sc>EqualSisters</sc> rejects Match-compliant candidates whenever sister nodes belong to different prosodic categories.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-g006.tif"/>
+      </fig>
+      <fig id="languages-08-00102-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>An example of outcome 1 (strict Match compliance (3a) and (4a)): <sc>Align-Head</sc>(&#x3B9;)-R &gt;&gt; <sc>Match</sc>-SP, <sc>Match</sc>-PS &gt;&gt; *<sc>P-Head</sc>(&#x3B9;) &gt;&gt; <sc>EqualSisters</sc>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-g007.tif"/>
+      </fig>
+      <fig id="languages-08-00102-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>An example of outcome 2 (prosodic promotion, (3b) and (4b)): <sc>Align-Head</sc>(&#x3B9;)-R &gt;&gt; <sc>Match</sc>-PS, *<sc>P-Head</sc>(&#x3B9;) &gt;&gt; <sc>EqualSisters </sc>&gt;&gt; <sc>Match</sc>-SP.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-g008.tif"/>
+      </fig>
+      <fig id="languages-08-00102-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>An example of outcome 3 (prosodic demotion (3b) and Match compliance (4a)): <sc>Align-Head</sc>(&#x3B9;)-R &gt;&gt; <sc>Match</sc>-PS, *<sc>P-Head</sc>(&#x3B9;) &gt;&gt; <sc>Match</sc>-SP &gt;&gt; <sc>EqualSisters</sc>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-g009.tif"/>
+      </fig>
+      <fig id="languages-08-00102-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>The ranking for outcome 4 (prosodic promotion (3c) and Match compliance (4a)): <sc>Align-Head(&#x3B9;)-R &gt;&gt; Match-SP &gt;&gt; *P-Head(&#x3B9;) &gt;&gt; Match-PS &gt;&gt; EqualSisters</sc>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-g010.tif"/>
+      </fig>
+      <fig id="languages-08-00102-f011" position="float">
+        <label>Figure 11</label>
+        <caption>
+          <p>Ranking for the asymmetry in Japanese: <sc>Max</sc>(&#x3C6;-head) &gt;&gt; <sc>BinMax</sc>(&#x3C6;,&#x3C9;) &gt;&gt; <sc>Dep</sc>(&#x3C6;-head).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="languages-08-00102-g011.tif"/>
+      </fig>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

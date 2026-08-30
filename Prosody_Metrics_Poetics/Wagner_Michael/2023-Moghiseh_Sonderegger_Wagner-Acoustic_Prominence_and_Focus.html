@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moghiseh, Sonderegger &amp; Wagner (2023) — The Iambic-Trochaic Law without Iambs or Trochees</title>
+<style>
+  :root{
+    --ink:#1c1c1c; --mut:#6b6b6b; --rule:#e0e0e0; --accent:#7a2e2e; --paper:#fdfcfa;
+    --code:#f2efe9; --hl:#f7f2e7;
+  }
+  *{box-sizing:border-box}
+  body{font:17px/1.65 Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);
+       max-width:46rem;margin:0 auto;padding:3rem 1.5rem 6rem;}
+  h1{font-size:1.7rem;line-height:1.3;margin:0 0 .4rem;font-weight:600}
+  h2{font-size:1.15rem;margin:2.6rem 0 .6rem;font-weight:600;letter-spacing:.02em;
+     text-transform:uppercase;color:var(--accent)}
+  h3{font-size:1rem;margin:1.4rem 0 .4rem;font-weight:600}
+  .cite{color:var(--mut);font-size:.95rem;margin-bottom:2rem}
+  p{margin:.55rem 0}
+  ul,ol{margin:.5rem 0 .9rem;padding-left:1.4rem}
+  li{margin:.25rem 0}
+  blockquote{border-left:3px solid var(--rule);margin:1.1rem 0;padding:.2rem 0 .2rem 1.1rem;
+             color:#333;font-style:italic}
+  .gist{background:var(--hl);border:1px solid var(--rule);border-radius:4px;
+        padding:1.1rem 1.3rem;margin:1.4rem 0}
+  .gist ul{margin:.3rem 0 0}
+  .gist strong{font-variant:small-caps;letter-spacing:.04em}
+  code{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:.85em;
+       background:var(--code);padding:.1em .35em;border-radius:3px}
+  .tag{display:inline-block;font:600 .7rem/1.6 ui-monospace,monospace;letter-spacing:.08em;
+       text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);
+       border-radius:999px;padding:0 .6rem;margin:0 .3rem .3rem 0}
+  hr{border:0;border-top:1px solid var(--rule);margin:2.5rem 0}
+  .foot{font-size:.85rem;color:var(--mut)}
+  a{color:var(--accent)}
+  .nav{font-size:.85rem;margin-bottom:2rem}
+  .nav a{margin-right:.8rem}
+</style>
+</head>
+<body>
+
+<nav class="nav"><a href="synthesis.html">← Consolidated synthesis</a></nav>
+
+<h1>The Iambic-Trochaic Law without Iambs or Trochees: Parsing speech for grouping and prominence</h1>
+<div class="cite">Esmail Moghiseh, Morgan Sonderegger &amp; Michael Wagner — McGill University manuscript (6 February 2023); companion to Wagner, <em>Psychological Review</em> 129(2), 268–288 (2022), <a href="https://doi.org/10.1037/rev0000302">10.1037/rev0000302</a></div>
+
+<div class="gist">
+<strong>The gist.</strong> Bolton's (1894) "Iambic-Trochaic Law" — louder = trochees, longer = iambs — has been treated as a psychoacoustic law of foot perception guiding speech parsing (Hayes 1995; Hay &amp; Diehl 2007). This paper argues the ITL is an <em>emergent artefact</em>: listeners actually parse the stream along two orthogonal dimensions — <strong>grouping</strong> (which syllable is first?) and <strong>prominence</strong> (which syllable is stressed?) — and <em>there are no consistent cues to foot type as such</em>. In three perception experiments (113 + 61 English listeners; real-word sequences like <em>outlook/lookout</em>, <em>setup/upset</em>, <em>set in/set up</em>, <em>turn over</em>), increased <em>duration</em> cued "final + stressed", increased <em>intensity</em> cued "initial + stressed"; the classic ITL foot pattern appeared <em>only under extreme cue manipulations</em> (Experiment 2: +12 dB or +160 ms) unlikely in natural speech. Task order mattered: asking <em>prominence first</em> amplified a general <strong>trochee bias</strong> — evidence for an asymmetric "prominent ⇒ initial" inference (Lahiri &amp; Plank 2010 cadences) rather than the lexical-statistics account. Statistical innovation: a single Bayesian multinomial model over the four-way percept (prominence × grouping), avoiding the chicken-and-egg of two separate binary models.
+</div>
+
+<h2>What the paper does</h2>
+<p>Stimuli: sequences of 12 repetitions of bisyllabic "words" built from morphemes that form all four word/order × stress combinations (out-look, set-up, set-in, turn-over), synthesised and normalised; one syllable per item manipulated in intensity (+9 dB) and/or duration (+120 ms). Tasks: (1) grouping-first Q then prominence Q; (2) prominence-first then grouping; (3) four-way forced choice. Analysis: exploratory heat maps + Bayesian mixed-effects multinomial logistic regression (brms/Stan, monotonic ordinal predictors), with post-hoc quantities P(X), P(XY), P(trochee), and conditional mutual-influence measures.</p>
+
+<h2>Key findings</h2>
+<ul>
+  <li><strong>Duration ⇒ final-and-stressed; intensity ⇒ initial-and-stressed.</strong> Both cues independently drive <em>both</em> decisions (prominence: Longer slope 0.14, Louder slope 0.18; grouping: Longer −0.16, Louder +0.15 — all pd = 1). The two dimensions are cued by the same two acoustic parameters, which is why the "foot decision" is systematically ambiguous.</li>
+  <li><strong>No reliable foot-type cues:</strong> reconstructed trochee/iam responses were near-invariant to cue manipulation (monochromatic heat maps); cue effects on foot choice <em>reverse</em> depending on the other decision — exactly as predicted if foot type is a derived conjunction, not a primitive.</li>
+  <li><strong>Extreme manipulations resurrect the ITL:</strong> Experiment 2 (+12 dB / +160 ms) produced the classic pattern (duration-only ⇒ iambs; intensity-only ⇒ trochees) — showing earlier ITL studies probed an edge case of the cue-attribution process.</li>
+  <li><strong>Ambiguous attribution is the norm:</strong> with exactly one syllable manipulated, the longer syllable was heard as prominent only ~64% of the time (louder ~65%) — listeners often "explain away" the cue as grouping information.</li>
+  <li><strong>Trochee bias and task order:</strong> prominence-first ordering raised P(trochee) by ~0.12–0.14 vs other tasks; both decisions influence each other more in that order — consistent with a one-directional "prominent ⇒ initial" inference, and with the Abercrombian foot (stretch from one prominence to the next) as a real perceptual unit.</li>
+  <li><strong>Underlying order matters for grouping only</strong> (first sound from noise = word-initial bias): SyllableOrder effect −0.37 on P(XY), none on prominence.</li>
+</ul>
+
+<h2>Interpretation &amp; caveats</h2>
+<p>The paper reframes Bolton's principle as a two-dimensional cue-attribution problem (Gestalt-based: proximity ⇒ grouping, figure-ground ⇒ prominence), with the "law" emerging only when cues exceed what grouping or prominence alone can explain. It also notes the same cue logic extends above the word (Wagner &amp; McAuliffe 2019: phrase-level prominence = correlated duration+intensity; phrasing = anti-correlated), and cautions that Hayes's foot typology is not implicated. Caveats: perception of synthesized sequences only; the multinomial IIA assumption; task-order effects remain partly unexplained; word/phrase status of items (set up as phrasal verb) made no difference.</p>
+
+<h2>Relevance to Calliope-TS</h2>
+<p>This is the keystone paper of the set for Calliope's design, because it is the theoretical-cum-empirical foundation for exactly the architecture the toolkit already implements — and it tells you precisely where not to over-engineer:</p>
+<ul>
+  <li><strong>Insight: do not model "foot type" as a primitive.</strong> Calliope's meter layer correctly treats iamb/trochee/anapest/etc. as <em>labels fitted to a derived conjunction</em> of grouping (the parse into units) and prominence (the stress contour) — this paper is the empirical licence for that decision, and a warning against letting any single acoustic cue (e.g. duration) directly vote for "iambic" in the fitter. The DP fitter's practice of deriving beats from the stress contour (then naming the meter) is exactly the "foot perception is derivative" architecture.</li>
+  <li><strong>Insight: cue anti-correlation is the core production fact.</strong> Intensity and duration <em>correlate</em> for prominence and <em>anti-correlate</em> for grouping. Calliope's key-stress weighting (right-edge evidence) is, in this frame, a <em>grouping</em> cue (final lengthening at unit edges) — and the tool's stress tiers are the <em>prominence</em> cues. Keeping these two evidence streams separate in the scorer (as the current scorer's rightEdgeRatio vs cleanRatio do) is principled, not accidental.</li>
+  <li><strong>Insight: prominence and grouping can (and do) disagree — resolve probabilistically.</strong> The paper's "diagonals of uncertainty" are the norm; Calliope's stanza-consensus and near-tie machinery already embody the right response: when prominence-based and grouping-based readings conflict, keep the alternatives ranked with margins rather than forcing a categorical choice — and prefer the stanza context to settle it (the prominence-first trochee-bias finding suggests context/prominence salience genuinely shifts parsing).</li>
+  <li><strong>Insight: the "trochee bias" maps to English metrical defaults.</strong> The prominent⇒initial inference is the perceptual correlate of English's trochaic lexical default and of the toolkit's iambic-pentameter priors: both are biases toward initial prominence within the unit. Calliope's small iambic prior (0.02) and its trochaic/iambic arbitration are, on this view, modelling real perceptual priors, not mere corpus statistics.</li>
+  <li><strong>Insight: duration dominance in meter.</strong> Since duration is the cue that most directly carries both grouping-finality and prominence, and the ITL emerges from duration extremes, the toolkit's heavy reliance on duration-adjacent evidence (weight, lengthening, final lengthening at unit edges) is empirically grounded — and the paper explains why duration-based "iambic" intuitions are so sticky in verse.</li>
+  <li><strong>Methodological transfer:</strong> the four-way percept + multinomial model is a template for evaluating Calliope's own outputs — instead of asking "did it get the meter right?", decompose into "did it get the stress contour right (prominence)?" and "did it get the grouping/foot-boundaries right?" — a finer-grained regression diagnostic than meter-label accuracy.</li>
+</ul>
+
+<h2>Key named insights</h2>
+<ol>
+  <li><strong>Two-dimensional parsing:</strong> listeners recover grouping and prominence, not feet; foot type is a derived conjunction with no dedicated cues.</li>
+  <li><strong>The ITL is an edge case:</strong> Bolton's pattern appears only under cue manipulations far beyond natural speech — earlier "laws" probed the exceptional.</li>
+  <li><strong>Prominent ⇒ initial:</strong> the trochee bias is a directional inference (prominence licenses word-initiality), amplified when prominence is made salient first — with a long pedigree (Abercrombian feet, cadences).</li>
+  <li><strong>Correlate for prominence, anti-correlate for grouping:</strong> the production-side cue grammar that makes the whole system work at word and phrase levels alike.</li>
+</ol>
+
+<hr>
+<p class="foot"><strong>Citation:</strong> Moghiseh, E., Sonderegger, M., &amp; Wagner, M. (2023). The Iambic-Trochaic Law without Iambs or Trochees: Parsing speech for grouping and prominence. Unpublished manuscript, McGill University. Companion: Wagner, M. (2022). Two-dimensional parsing of the acoustic stream explains the Iambic–Trochaic Law. <em>Psychological Review</em>, 129(2), 268–288. <a href="https://doi.org/10.1037/rev0000302">https://doi.org/10.1037/rev0000302</a></p>
+<p class="foot"><strong>Key references inside:</strong> Bolton (1894); Hayes (1995); Hay &amp; Diehl (2007); Iversen et al. (2008); Bhatara et al. (2013); Crowhurst (2016, 2019); Wagner (2022); Wagner &amp; McAuliffe (2019); Wagner, Clayards et al. (2021); Cutler &amp; Carter (1987); Cutler &amp; Norris (1988); Povel &amp; Okkerman (1981); Lahiri &amp; Plank (2010); Abercrombie (1964); Woodrow (1909); van Ooijen (1996). OSF: <a href="https://osf.io/bsfvu/">osf.io/bsfvu</a>.</p>
+
+</body>
+</html>
